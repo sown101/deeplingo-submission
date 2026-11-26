@@ -1,0 +1,3798 @@
+{
+ "format": "deeplingo-grammar-bank-v1",
+ "catalogue_source": "deeplingo",
+ "authorship": "ai_draft",
+ "language": "en",
+ "level": "B1",
+ "support_language": "vi",
+ "version": 1,
+ "topics": [
+  {
+   "key": "perfect_tenses",
+   "title": "Các thì hoàn thành"
+  },
+  {
+   "key": "conditionals_passive",
+   "title": "Câu điều kiện và câu bị động"
+  },
+  {
+   "key": "reporting",
+   "title": "Câu tường thuật và câu hỏi gián tiếp"
+  },
+  {
+   "key": "clauses_modals",
+   "title": "Mệnh đề quan hệ và động từ khuyết thiếu"
+  },
+  {
+   "key": "verb_patterns",
+   "title": "Mẫu động từ và cấu trúc thường gặp"
+  }
+ ],
+ "points": [
+  {
+   "key": "en.b1.present_perfect_vs_past_simple",
+   "title": "Hiện tại hoàn thành hay quá khứ đơn",
+   "topic_key": "perfect_tenses",
+   "questions": [
+    {
+     "id": "en.b1.present_perfect_vs_past_simple.01",
+     "prompt": "I ___ my keys yesterday, but I found them this morning.",
+     "options": [
+      {
+       "id": "a",
+       "text": "lost"
+      },
+      {
+       "id": "b",
+       "text": "have lost"
+      },
+      {
+       "id": "c",
+       "text": "was losing"
+      },
+      {
+       "id": "d",
+       "text": "have been losing"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Có mốc quá khứ (yesterday) nên dùng quá khứ đơn: lost (Hôm qua tôi làm mất chìa khóa, sáng nay tôi tìm thấy)."
+    },
+    {
+     "id": "en.b1.present_perfect_vs_past_simple.02",
+     "prompt": "She ___ in London since 2020.",
+     "options": [
+      {
+       "id": "a",
+       "text": "lived"
+      },
+      {
+       "id": "b",
+       "text": "is living"
+      },
+      {
+       "id": "c",
+       "text": "lives"
+      },
+      {
+       "id": "d",
+       "text": "has lived"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "since + mốc thời gian đi với hiện tại hoàn thành: has lived (Cô ấy sống ở London từ năm 2020)."
+    },
+    {
+     "id": "en.b1.present_perfect_vs_past_simple.03",
+     "prompt": "We ___ to the cinema last night.",
+     "options": [
+      {
+       "id": "a",
+       "text": "have gone"
+      },
+      {
+       "id": "b",
+       "text": "have been going"
+      },
+      {
+       "id": "c",
+       "text": "went"
+      },
+      {
+       "id": "d",
+       "text": "go"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "last night là mốc quá khứ nên dùng quá khứ đơn: went (Tối qua chúng tôi đi xem phim)."
+    },
+    {
+     "id": "en.b1.present_perfect_vs_past_simple.04",
+     "prompt": "___ you ever tried Vietnamese coffee?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Did"
+      },
+      {
+       "id": "b",
+       "text": "Have"
+      },
+      {
+       "id": "c",
+       "text": "Do"
+      },
+      {
+       "id": "d",
+       "text": "Are"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Hỏi kinh nghiệm với ever dùng Have + chủ ngữ + V3 (Bạn đã bao giờ thử cà phê Việt Nam chưa?)."
+    },
+    {
+     "id": "en.b1.present_perfect_vs_past_simple.05",
+     "prompt": "He ___ his homework an hour ago.",
+     "options": [
+      {
+       "id": "a",
+       "text": "finished"
+      },
+      {
+       "id": "b",
+       "text": "has finished"
+      },
+      {
+       "id": "c",
+       "text": "finishes"
+      },
+      {
+       "id": "d",
+       "text": "has been finish"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "an hour ago là mốc quá khứ: finished (Anh ấy làm xong bài tập cách đây một tiếng)."
+    },
+    {
+     "id": "en.b1.present_perfect_vs_past_simple.06",
+     "prompt": "I ___ this book for two weeks, and I still haven't finished it.",
+     "options": [
+      {
+       "id": "a",
+       "text": "had"
+      },
+      {
+       "id": "b",
+       "text": "am having"
+      },
+      {
+       "id": "c",
+       "text": "have"
+      },
+      {
+       "id": "d",
+       "text": "have had"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "for two weeks tính đến hiện tại nên dùng have had (Tôi giữ cuốn sách này hai tuần rồi mà vẫn chưa đọc xong)."
+    },
+    {
+     "id": "en.b1.present_perfect_vs_past_simple.07",
+     "prompt": "When ___ you move to this city?",
+     "options": [
+      {
+       "id": "a",
+       "text": "have"
+      },
+      {
+       "id": "b",
+       "text": "do"
+      },
+      {
+       "id": "c",
+       "text": "did"
+      },
+      {
+       "id": "d",
+       "text": "are"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Hỏi When về thời điểm quá khứ dùng did: When did you move...? (Bạn chuyển đến thành phố này khi nào?)."
+    },
+    {
+     "id": "en.b1.present_perfect_vs_past_simple.08",
+     "prompt": "I haven't finished my report ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ago"
+      },
+      {
+       "id": "b",
+       "text": "yet"
+      },
+      {
+       "id": "c",
+       "text": "last week"
+      },
+      {
+       "id": "d",
+       "text": "yesterday"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "yet đi với hiện tại hoàn thành phủ định (Tôi chưa làm xong báo cáo)."
+    }
+   ],
+   "lesson": {
+    "summary": "Quá khứ đơn nói việc đã kết thúc ở thời điểm xác định. Hiện tại hoàn thành nối quá khứ với hiện tại hoặc nói trải nghiệm, không nêu thời điểm.",
+    "rules": [
+     "Có mốc quá khứ rõ (yesterday, last night, an hour ago, when...?): dùng quá khứ đơn.",
+     "Không nêu thời điểm, hoặc việc còn liên quan hiện tại: have/has + V3.",
+     "Từ hay đi với hiện tại hoàn thành: ever, never, just, already, yet, since, for.",
+     "Hỏi When...? luôn đi với quá khứ đơn."
+    ],
+    "examples": [
+     {
+      "text": "I lost my keys yesterday.",
+      "meaning": "Hôm qua tôi làm mất chìa khóa."
+     },
+     {
+      "text": "She has lived in London since 2020.",
+      "meaning": "Cô ấy sống ở London từ năm 2020."
+     },
+     {
+      "text": "I haven't finished my report yet.",
+      "meaning": "Tôi chưa làm xong báo cáo."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "He has finished an hour ago.",
+      "right": "He finished an hour ago.",
+      "why": "Có mốc quá khứ (an hour ago) thì dùng quá khứ đơn."
+     },
+     {
+      "wrong": "When have you moved here?",
+      "right": "When did you move here?",
+      "why": "When đi với quá khứ đơn."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.present_perfect_continuous",
+   "title": "Hiện tại hoàn thành tiếp diễn",
+   "topic_key": "perfect_tenses",
+   "questions": [
+    {
+     "id": "en.b1.present_perfect_continuous.01",
+     "prompt": "How long ___ learning English?",
+     "options": [
+      {
+       "id": "a",
+       "text": "you have been"
+      },
+      {
+       "id": "b",
+       "text": "have you been"
+      },
+      {
+       "id": "c",
+       "text": "are you"
+      },
+      {
+       "id": "d",
+       "text": "did you been"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Câu hỏi: How long + have + chủ ngữ + been + V-ing (Bạn học tiếng Anh được bao lâu rồi?)."
+    },
+    {
+     "id": "en.b1.present_perfect_continuous.02",
+     "prompt": "She's been waiting ___ 9 o'clock.",
+     "options": [
+      {
+       "id": "a",
+       "text": "since"
+      },
+      {
+       "id": "b",
+       "text": "for"
+      },
+      {
+       "id": "c",
+       "text": "at"
+      },
+      {
+       "id": "d",
+       "text": "from"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "since + mốc thời gian (9 o'clock) (Cô ấy chờ từ chín giờ)."
+    },
+    {
+     "id": "en.b1.present_perfect_continuous.03",
+     "prompt": "They have been waiting ___ two hours.",
+     "options": [
+      {
+       "id": "a",
+       "text": "since"
+      },
+      {
+       "id": "b",
+       "text": "from"
+      },
+      {
+       "id": "c",
+       "text": "during"
+      },
+      {
+       "id": "d",
+       "text": "for"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "for + khoảng thời gian (two hours) (Họ đã chờ hai tiếng)."
+    },
+    {
+     "id": "en.b1.present_perfect_continuous.04",
+     "prompt": "It ___ all day. The streets are wet.",
+     "options": [
+      {
+       "id": "a",
+       "text": "is raining"
+      },
+      {
+       "id": "b",
+       "text": "rained"
+      },
+      {
+       "id": "c",
+       "text": "has been raining"
+      },
+      {
+       "id": "d",
+       "text": "has rain"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Việc kéo dài để lại kết quả: has been raining (Trời mưa cả ngày, đường ướt hết)."
+    },
+    {
+     "id": "en.b1.present_perfect_continuous.05",
+     "prompt": "I ___ to call you all week.",
+     "options": [
+      {
+       "id": "a",
+       "text": "have trying"
+      },
+      {
+       "id": "b",
+       "text": "have been trying"
+      },
+      {
+       "id": "c",
+       "text": "am been trying"
+      },
+      {
+       "id": "d",
+       "text": "been trying"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "have been + V-ing: have been trying (Cả tuần nay tôi cố gọi cho bạn)."
+    },
+    {
+     "id": "en.b1.present_perfect_continuous.06",
+     "prompt": "Why are your hands dirty? ___ you been gardening?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Have"
+      },
+      {
+       "id": "b",
+       "text": "Did"
+      },
+      {
+       "id": "c",
+       "text": "Are"
+      },
+      {
+       "id": "d",
+       "text": "Do"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Câu hỏi hiện tại hoàn thành tiếp diễn bắt đầu bằng Have (Sao tay bạn bẩn thế? Bạn làm vườn à?)."
+    },
+    {
+     "id": "en.b1.present_perfect_continuous.07",
+     "prompt": "He has been ___ the guitar since he was ten.",
+     "options": [
+      {
+       "id": "a",
+       "text": "play"
+      },
+      {
+       "id": "b",
+       "text": "played"
+      },
+      {
+       "id": "c",
+       "text": "to play"
+      },
+      {
+       "id": "d",
+       "text": "playing"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Sau been dùng V-ing: playing (Anh ấy chơi guitar từ năm mười tuổi)."
+    },
+    {
+     "id": "en.b1.present_perfect_continuous.08",
+     "prompt": "She hasn't been ___ well recently.",
+     "options": [
+      {
+       "id": "a",
+       "text": "feel"
+      },
+      {
+       "id": "b",
+       "text": "felt"
+      },
+      {
+       "id": "c",
+       "text": "feeling"
+      },
+      {
+       "id": "d",
+       "text": "to feel"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Sau been dùng V-ing: feeling (Dạo này cô ấy không được khỏe)."
+    }
+   ],
+   "lesson": {
+    "summary": "Have/has been + V-ing nhấn mạnh việc kéo dài từ quá khứ đến nay, thường có for hoặc since, hoặc để giải thích kết quả nhìn thấy được.",
+    "rules": [
+     "Cấu trúc: have/has been + V-ing.",
+     "for + khoảng thời gian, since + mốc thời gian.",
+     "Câu hỏi: How long have you been learning English?",
+     "Hợp với việc để lại dấu vết: It has been raining. (đường ướt)"
+    ],
+    "examples": [
+     {
+      "text": "How long have you been learning English?",
+      "meaning": "Bạn học tiếng Anh được bao lâu rồi?"
+     },
+     {
+      "text": "She has been waiting since nine o'clock.",
+      "meaning": "Cô ấy đã chờ từ chín giờ."
+     },
+     {
+      "text": "It has been raining all day.",
+      "meaning": "Trời mưa suốt cả ngày."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "She has been waiting for nine o'clock.",
+      "right": "She has been waiting since nine o'clock.",
+      "why": "Mốc thời gian đi với since."
+     },
+     {
+      "wrong": "It has been rain.",
+      "right": "It has been raining.",
+      "why": "Sau been dùng V-ing."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.past_perfect",
+   "title": "Quá khứ hoàn thành",
+   "topic_key": "perfect_tenses",
+   "questions": [
+    {
+     "id": "en.b1.past_perfect.01",
+     "prompt": "When I arrived, the film ___ already started.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has"
+      },
+      {
+       "id": "b",
+       "text": "was"
+      },
+      {
+       "id": "c",
+       "text": "had"
+      },
+      {
+       "id": "d",
+       "text": "did"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Việc xảy ra trước khi tôi đến dùng had + V3 (Khi tôi đến thì phim đã bắt đầu rồi)."
+    },
+    {
+     "id": "en.b1.past_perfect.02",
+     "prompt": "She was upset because she ___ her wallet.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has lost"
+      },
+      {
+       "id": "b",
+       "text": "had lost"
+      },
+      {
+       "id": "c",
+       "text": "was lost"
+      },
+      {
+       "id": "d",
+       "text": "loses"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Việc mất ví xảy ra trước lúc buồn: had lost (Cô ấy buồn vì đã làm mất ví)."
+    },
+    {
+     "id": "en.b1.past_perfect.03",
+     "prompt": "I ___ never seen snow before I went to Canada.",
+     "options": [
+      {
+       "id": "a",
+       "text": "had"
+      },
+      {
+       "id": "b",
+       "text": "have"
+      },
+      {
+       "id": "c",
+       "text": "did"
+      },
+      {
+       "id": "d",
+       "text": "was"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "had never seen: chưa từng thấy trước một mốc quá khứ (Tôi chưa từng thấy tuyết trước khi đến Canada)."
+    },
+    {
+     "id": "en.b1.past_perfect.04",
+     "prompt": "After he ___ dinner, he watched TV.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has eaten"
+      },
+      {
+       "id": "b",
+       "text": "eats"
+      },
+      {
+       "id": "c",
+       "text": "is eating"
+      },
+      {
+       "id": "d",
+       "text": "had eaten"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Việc ăn xong trước khi xem tivi: had eaten (Sau khi ăn tối, anh ấy xem tivi)."
+    },
+    {
+     "id": "en.b1.past_perfect.05",
+     "prompt": "By the time we got to the station, the train ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has left"
+      },
+      {
+       "id": "b",
+       "text": "leaves"
+      },
+      {
+       "id": "c",
+       "text": "had left"
+      },
+      {
+       "id": "d",
+       "text": "is leaving"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "by the time + quá khứ đơn: việc trước dùng had left (Khi chúng tôi đến ga thì tàu đã rời đi)."
+    },
+    {
+     "id": "en.b1.past_perfect.06",
+     "prompt": "He told me he ___ the book before.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has read"
+      },
+      {
+       "id": "b",
+       "text": "had read"
+      },
+      {
+       "id": "c",
+       "text": "reads"
+      },
+      {
+       "id": "d",
+       "text": "was reading"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Câu tường thuật, việc đọc xảy ra trước: had read (Anh ấy nói anh ấy đã đọc cuốn sách rồi)."
+    },
+    {
+     "id": "en.b1.past_perfect.07",
+     "prompt": "___ you finished your homework before dinner?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Had"
+      },
+      {
+       "id": "b",
+       "text": "Have"
+      },
+      {
+       "id": "c",
+       "text": "Are"
+      },
+      {
+       "id": "d",
+       "text": "Do"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Hỏi việc xảy ra trước một mốc quá khứ: Had you finished...? (Bạn đã làm xong bài tập trước bữa tối chưa?)."
+    },
+    {
+     "id": "en.b1.past_perfect.08",
+     "prompt": "They hadn't ___ the news until I told them.",
+     "options": [
+      {
+       "id": "a",
+       "text": "hear"
+      },
+      {
+       "id": "b",
+       "text": "hearing"
+      },
+      {
+       "id": "c",
+       "text": "hears"
+      },
+      {
+       "id": "d",
+       "text": "heard"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Sau hadn't dùng V3: heard (Họ chưa nghe tin cho đến khi tôi kể)."
+    }
+   ],
+   "lesson": {
+    "summary": "Quá khứ hoàn thành nói việc xảy ra trước một việc khác trong quá khứ.",
+    "rules": [
+     "Cấu trúc: had + V3.",
+     "Việc xảy ra trước dùng had + V3, việc sau dùng quá khứ đơn: When I arrived, the film had started.",
+     "Hay đi với already, before, after, by the time, until."
+    ],
+    "examples": [
+     {
+      "text": "When I arrived, the film had already started.",
+      "meaning": "Khi tôi đến thì phim đã bắt đầu rồi."
+     },
+     {
+      "text": "I had never seen snow before I went to Canada.",
+      "meaning": "Tôi chưa từng thấy tuyết trước khi đến Canada."
+     },
+     {
+      "text": "He told me he had read the book.",
+      "meaning": "Anh ấy nói anh ấy đã đọc cuốn sách."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "When I arrived, the film has started.",
+      "right": "When I arrived, the film had started.",
+      "why": "Việc xảy ra trước một mốc quá khứ dùng had + V3."
+     },
+     {
+      "wrong": "She had went home.",
+      "right": "She had gone home.",
+      "why": "Sau had dùng V3."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.zero_first_conditional",
+   "title": "Câu điều kiện loại 0 và loại 1",
+   "topic_key": "conditionals_passive",
+   "questions": [
+    {
+     "id": "en.b1.zero_first_conditional.01",
+     "prompt": "If it rains tomorrow, we ___ at home.",
+     "options": [
+      {
+       "id": "a",
+       "text": "would stay"
+      },
+      {
+       "id": "b",
+       "text": "stayed"
+      },
+      {
+       "id": "c",
+       "text": "staying"
+      },
+      {
+       "id": "d",
+       "text": "will stay"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Loại 1: if + hiện tại đơn, will + nguyên mẫu (Nếu mai trời mưa, chúng tôi sẽ ở nhà)."
+    },
+    {
+     "id": "en.b1.zero_first_conditional.02",
+     "prompt": "If you ___ hard, you will pass the exam.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will study"
+      },
+      {
+       "id": "b",
+       "text": "would study"
+      },
+      {
+       "id": "c",
+       "text": "study"
+      },
+      {
+       "id": "d",
+       "text": "studied"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Mệnh đề if dùng hiện tại đơn: study (Nếu bạn học chăm, bạn sẽ đỗ)."
+    },
+    {
+     "id": "en.b1.zero_first_conditional.03",
+     "prompt": "I'll call you if I ___ time.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will have"
+      },
+      {
+       "id": "b",
+       "text": "have"
+      },
+      {
+       "id": "c",
+       "text": "would have"
+      },
+      {
+       "id": "d",
+       "text": "had"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Mệnh đề if dùng hiện tại đơn: have (Nếu có thời gian tôi sẽ gọi bạn)."
+    },
+    {
+     "id": "en.b1.zero_first_conditional.04",
+     "prompt": "If you heat ice, it ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "melts"
+      },
+      {
+       "id": "b",
+       "text": "melted"
+      },
+      {
+       "id": "c",
+       "text": "would melt"
+      },
+      {
+       "id": "d",
+       "text": "melting"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Sự thật chung (loại 0): hiện tại đơn ở cả hai vế (Nếu đun nóng đá thì nó tan)."
+    },
+    {
+     "id": "en.b1.zero_first_conditional.05",
+     "prompt": "What will you do if you ___ the job?",
+     "options": [
+      {
+       "id": "a",
+       "text": "won't get"
+      },
+      {
+       "id": "b",
+       "text": "didn't get"
+      },
+      {
+       "id": "c",
+       "text": "aren't getting"
+      },
+      {
+       "id": "d",
+       "text": "don't get"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Mệnh đề if dùng hiện tại đơn phủ định: don't get (Nếu không được nhận việc bạn sẽ làm gì?)."
+    },
+    {
+     "id": "en.b1.zero_first_conditional.06",
+     "prompt": "Unless you hurry, you ___ the bus.",
+     "options": [
+      {
+       "id": "a",
+       "text": "would miss"
+      },
+      {
+       "id": "b",
+       "text": "missed"
+      },
+      {
+       "id": "c",
+       "text": "will miss"
+      },
+      {
+       "id": "d",
+       "text": "miss"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "unless + hiện tại đơn, will + nguyên mẫu (Nếu bạn không nhanh, bạn sẽ lỡ xe buýt)."
+    },
+    {
+     "id": "en.b1.zero_first_conditional.07",
+     "prompt": "If she ___ late again, the boss will be angry.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will be"
+      },
+      {
+       "id": "b",
+       "text": "is"
+      },
+      {
+       "id": "c",
+       "text": "would be"
+      },
+      {
+       "id": "d",
+       "text": "was"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Mệnh đề if dùng hiện tại đơn: is (Nếu cô ấy lại đến muộn, sếp sẽ giận)."
+    },
+    {
+     "id": "en.b1.zero_first_conditional.08",
+     "prompt": "We ___ a picnic if the weather is good.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will have"
+      },
+      {
+       "id": "b",
+       "text": "would have"
+      },
+      {
+       "id": "c",
+       "text": "had"
+      },
+      {
+       "id": "d",
+       "text": "having"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Kết quả có khả năng ở tương lai: will have (Nếu thời tiết đẹp, chúng tôi sẽ đi dã ngoại)."
+    }
+   ],
+   "lesson": {
+    "summary": "Loại 0 nói sự thật chung. Loại 1 nói khả năng có thật ở tương lai: if + hiện tại đơn, will + nguyên mẫu.",
+    "rules": [
+     "Loại 0: if + hiện tại đơn, hiện tại đơn: If you heat ice, it melts.",
+     "Loại 1: if + hiện tại đơn, will + nguyên mẫu: If it rains, we will stay at home.",
+     "Không dùng will trong mệnh đề if: If I have time, I will call you.",
+     "unless = if ... not: Unless you hurry, you will miss the bus."
+    ],
+    "examples": [
+     {
+      "text": "If it rains tomorrow, we will stay at home.",
+      "meaning": "Nếu mai trời mưa, chúng tôi sẽ ở nhà."
+     },
+     {
+      "text": "If you heat ice, it melts.",
+      "meaning": "Nếu đun nóng đá, nó tan."
+     },
+     {
+      "text": "Unless you hurry, you will miss the bus.",
+      "meaning": "Nếu không nhanh lên, bạn sẽ lỡ xe buýt."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "If it will rain, we will stay.",
+      "right": "If it rains, we will stay.",
+      "why": "Không dùng will sau if."
+     },
+     {
+      "wrong": "If I would have time, I will call.",
+      "right": "If I have time, I will call.",
+      "why": "Mệnh đề if dùng hiện tại đơn."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.second_conditional",
+   "title": "Câu điều kiện loại 2",
+   "topic_key": "conditionals_passive",
+   "questions": [
+    {
+     "id": "en.b1.second_conditional.01",
+     "prompt": "If I ___ a million dollars, I would travel the world.",
+     "options": [
+      {
+       "id": "a",
+       "text": "had"
+      },
+      {
+       "id": "b",
+       "text": "have"
+      },
+      {
+       "id": "c",
+       "text": "would have"
+      },
+      {
+       "id": "d",
+       "text": "will have"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Giả định không có thật: if + quá khứ đơn (Nếu có một triệu đô, tôi sẽ đi khắp thế giới)."
+    },
+    {
+     "id": "en.b1.second_conditional.02",
+     "prompt": "If she ___ more time, she would learn Chinese.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has"
+      },
+      {
+       "id": "b",
+       "text": "will have"
+      },
+      {
+       "id": "c",
+       "text": "would have"
+      },
+      {
+       "id": "d",
+       "text": "had"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Mệnh đề if loại 2 dùng quá khứ đơn: had (Nếu có thêm thời gian, cô ấy sẽ học tiếng Trung)."
+    },
+    {
+     "id": "en.b1.second_conditional.03",
+     "prompt": "If I were you, I ___ that job.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will take"
+      },
+      {
+       "id": "b",
+       "text": "took"
+      },
+      {
+       "id": "c",
+       "text": "would take"
+      },
+      {
+       "id": "d",
+       "text": "would took"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Lời khuyên giả định: would + nguyên mẫu (Nếu là bạn, tôi sẽ nhận việc đó)."
+    },
+    {
+     "id": "en.b1.second_conditional.04",
+     "prompt": "What would you do if you ___ lost?",
+     "options": [
+      {
+       "id": "a",
+       "text": "get"
+      },
+      {
+       "id": "b",
+       "text": "got"
+      },
+      {
+       "id": "c",
+       "text": "will get"
+      },
+      {
+       "id": "d",
+       "text": "would get"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Mệnh đề if dùng quá khứ đơn: got (Bạn sẽ làm gì nếu bị lạc?)."
+    },
+    {
+     "id": "en.b1.second_conditional.05",
+     "prompt": "If he ___ taller, he would play basketball.",
+     "options": [
+      {
+       "id": "a",
+       "text": "were"
+      },
+      {
+       "id": "b",
+       "text": "is"
+      },
+      {
+       "id": "c",
+       "text": "will be"
+      },
+      {
+       "id": "d",
+       "text": "would be"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Giả định với be dùng were (Nếu cao hơn, anh ấy sẽ chơi bóng rổ)."
+    },
+    {
+     "id": "en.b1.second_conditional.06",
+     "prompt": "She ___ be happier if she moved to the coast.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will"
+      },
+      {
+       "id": "b",
+       "text": "does"
+      },
+      {
+       "id": "c",
+       "text": "has"
+      },
+      {
+       "id": "d",
+       "text": "would"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Kết quả giả định dùng would (Nếu chuyển ra bờ biển, cô ấy sẽ hạnh phúc hơn)."
+    },
+    {
+     "id": "en.b1.second_conditional.07",
+     "prompt": "If we ___ a car, we would drive to the beach.",
+     "options": [
+      {
+       "id": "a",
+       "text": "own"
+      },
+      {
+       "id": "b",
+       "text": "will own"
+      },
+      {
+       "id": "c",
+       "text": "owned"
+      },
+      {
+       "id": "d",
+       "text": "would own"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "if + quá khứ đơn: owned (Nếu có xe, chúng tôi sẽ lái ra biển)."
+    },
+    {
+     "id": "en.b1.second_conditional.08",
+     "prompt": "Would you tell him if you ___ the truth?",
+     "options": [
+      {
+       "id": "a",
+       "text": "know"
+      },
+      {
+       "id": "b",
+       "text": "knew"
+      },
+      {
+       "id": "c",
+       "text": "will know"
+      },
+      {
+       "id": "d",
+       "text": "would know"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Mệnh đề if dùng quá khứ đơn: knew (Bạn có nói với anh ấy nếu bạn biết sự thật không?)."
+    }
+   ],
+   "lesson": {
+    "summary": "Loại 2 nói điều không có thật hoặc khó xảy ra ở hiện tại: if + quá khứ đơn, would + nguyên mẫu.",
+    "rules": [
+     "Cấu trúc: if + quá khứ đơn, would + nguyên mẫu.",
+     "Với be, dùng were cho mọi ngôi: If I were you...",
+     "Dùng để khuyên: If I were you, I would take that job.",
+     "Quá khứ đơn ở đây không nói về quá khứ mà là giả định."
+    ],
+    "examples": [
+     {
+      "text": "If I had a million dollars, I would travel the world.",
+      "meaning": "Nếu có một triệu đô, tôi sẽ đi khắp thế giới."
+     },
+     {
+      "text": "If I were you, I would take that job.",
+      "meaning": "Nếu là bạn, tôi sẽ nhận việc đó."
+     },
+     {
+      "text": "What would you do if you got lost?",
+      "meaning": "Bạn sẽ làm gì nếu bị lạc?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "If I would have money, I would travel.",
+      "right": "If I had money, I would travel.",
+      "why": "Mệnh đề if dùng quá khứ đơn."
+     },
+     {
+      "wrong": "If he is taller, he would play.",
+      "right": "If he were taller, he would play.",
+      "why": "Giả định dùng were."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.passive_present_past",
+   "title": "Câu bị động: hiện tại, quá khứ và tương lai",
+   "topic_key": "conditionals_passive",
+   "questions": [
+    {
+     "id": "en.b1.passive_present_past.01",
+     "prompt": "English ___ all over the world.",
+     "options": [
+      {
+       "id": "a",
+       "text": "speaks"
+      },
+      {
+       "id": "b",
+       "text": "is spoken"
+      },
+      {
+       "id": "c",
+       "text": "is speak"
+      },
+      {
+       "id": "d",
+       "text": "are spoken"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Hiện tại bị động: is + V3 (Tiếng Anh được nói khắp thế giới)."
+    },
+    {
+     "id": "en.b1.passive_present_past.02",
+     "prompt": "The window ___ by the children yesterday.",
+     "options": [
+      {
+       "id": "a",
+       "text": "was broken"
+      },
+      {
+       "id": "b",
+       "text": "broke"
+      },
+      {
+       "id": "c",
+       "text": "is broken"
+      },
+      {
+       "id": "d",
+       "text": "were broken"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Quá khứ bị động số ít: was + V3 (Cửa sổ bị bọn trẻ làm vỡ hôm qua)."
+    },
+    {
+     "id": "en.b1.passive_present_past.03",
+     "prompt": "These cars ___ in Japan.",
+     "options": [
+      {
+       "id": "a",
+       "text": "make"
+      },
+      {
+       "id": "b",
+       "text": "is made"
+      },
+      {
+       "id": "c",
+       "text": "are make"
+      },
+      {
+       "id": "d",
+       "text": "are made"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "cars số nhiều, hiện tại bị động: are made (Những chiếc xe này được sản xuất ở Nhật)."
+    },
+    {
+     "id": "en.b1.passive_present_past.04",
+     "prompt": "The thief ___ by the police last night.",
+     "options": [
+      {
+       "id": "a",
+       "text": "caught"
+      },
+      {
+       "id": "b",
+       "text": "is caught"
+      },
+      {
+       "id": "c",
+       "text": "was caught"
+      },
+      {
+       "id": "d",
+       "text": "has catch"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Quá khứ bị động: was caught (Đêm qua tên trộm bị cảnh sát bắt)."
+    },
+    {
+     "id": "en.b1.passive_present_past.05",
+     "prompt": "A new bridge ___ here next year.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will build"
+      },
+      {
+       "id": "b",
+       "text": "will be built"
+      },
+      {
+       "id": "c",
+       "text": "is built"
+      },
+      {
+       "id": "d",
+       "text": "builds"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Tương lai bị động: will be + V3 (Năm sau sẽ xây một cây cầu mới ở đây)."
+    },
+    {
+     "id": "en.b1.passive_present_past.06",
+     "prompt": "My phone ___ yesterday.",
+     "options": [
+      {
+       "id": "a",
+       "text": "was stolen"
+      },
+      {
+       "id": "b",
+       "text": "stole"
+      },
+      {
+       "id": "c",
+       "text": "is stolen"
+      },
+      {
+       "id": "d",
+       "text": "were stolen"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Quá khứ bị động: was stolen (Hôm qua điện thoại của tôi bị trộm)."
+    },
+    {
+     "id": "en.b1.passive_present_past.07",
+     "prompt": "Rice ___ in many parts of Vietnam.",
+     "options": [
+      {
+       "id": "a",
+       "text": "is grew"
+      },
+      {
+       "id": "b",
+       "text": "are grown"
+      },
+      {
+       "id": "c",
+       "text": "grow"
+      },
+      {
+       "id": "d",
+       "text": "is grown"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Hiện tại bị động: is grown (Lúa được trồng ở nhiều vùng của Việt Nam)."
+    },
+    {
+     "id": "en.b1.passive_present_past.08",
+     "prompt": "The letters ___ yet.",
+     "options": [
+      {
+       "id": "a",
+       "text": "haven't sent"
+      },
+      {
+       "id": "b",
+       "text": "hasn't been sent"
+      },
+      {
+       "id": "c",
+       "text": "haven't been sent"
+      },
+      {
+       "id": "d",
+       "text": "didn't been sent"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Hiện tại hoàn thành bị động số nhiều: haven't been sent (Những lá thư vẫn chưa được gửi)."
+    }
+   ],
+   "lesson": {
+    "summary": "Câu bị động nhấn vào đối tượng chịu tác động: be + V3. Chia be theo thì.",
+    "rules": [
+     "Hiện tại: am/is/are + V3: English is spoken all over the world.",
+     "Quá khứ: was/were + V3: The window was broken.",
+     "Tương lai: will be + V3: A bridge will be built.",
+     "Hiện tại hoàn thành: have/has been + V3: The letters haven't been sent.",
+     "by + người thực hiện, chỉ dùng khi cần: by the police."
+    ],
+    "examples": [
+     {
+      "text": "English is spoken all over the world.",
+      "meaning": "Tiếng Anh được nói khắp thế giới."
+     },
+     {
+      "text": "The thief was caught by the police.",
+      "meaning": "Tên trộm bị cảnh sát bắt."
+     },
+     {
+      "text": "A new bridge will be built next year.",
+      "meaning": "Năm sau sẽ xây một cây cầu mới."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "The window broke by the children.",
+      "right": "The window was broken by the children.",
+      "why": "Bị động cần be + V3."
+     },
+     {
+      "wrong": "Cars are make in Japan.",
+      "right": "Cars are made in Japan.",
+      "why": "Sau are dùng V3."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.reported_statements",
+   "title": "Câu tường thuật: câu kể",
+   "topic_key": "reporting",
+   "questions": [
+    {
+     "id": "en.b1.reported_statements.01",
+     "prompt": "Last week she said she ___ tired.",
+     "options": [
+      {
+       "id": "a",
+       "text": "is"
+      },
+      {
+       "id": "b",
+       "text": "will be"
+      },
+      {
+       "id": "c",
+       "text": "was"
+      },
+      {
+       "id": "d",
+       "text": "am"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Tường thuật lùi thì: am → was (Tuần trước cô ấy nói cô ấy mệt)."
+    },
+    {
+     "id": "en.b1.reported_statements.02",
+     "prompt": "He told me yesterday that he ___ my idea.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will like"
+      },
+      {
+       "id": "b",
+       "text": "liked"
+      },
+      {
+       "id": "c",
+       "text": "has liked"
+      },
+      {
+       "id": "d",
+       "text": "is liking"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Lùi thì: like → liked (Hôm qua anh ấy nói anh ấy thích ý tưởng của tôi)."
+    },
+    {
+     "id": "en.b1.reported_statements.03",
+     "prompt": "'I'll call you,' she said. → She said she ___ call me.",
+     "options": [
+      {
+       "id": "a",
+       "text": "would"
+      },
+      {
+       "id": "b",
+       "text": "would to"
+      },
+      {
+       "id": "c",
+       "text": "woulds"
+      },
+      {
+       "id": "d",
+       "text": "is"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "will → would khi tường thuật (Cô ấy nói cô ấy sẽ gọi cho tôi)."
+    },
+    {
+     "id": "en.b1.reported_statements.04",
+     "prompt": "He said, 'I have finished.' → He said he ___ finished.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has"
+      },
+      {
+       "id": "b",
+       "text": "have"
+      },
+      {
+       "id": "c",
+       "text": "was"
+      },
+      {
+       "id": "d",
+       "text": "had"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Hiện tại hoàn thành → quá khứ hoàn thành: had finished (Anh ấy nói anh ấy đã xong)."
+    },
+    {
+     "id": "en.b1.reported_statements.05",
+     "prompt": "'We are going to Hue,' they said. → They said they ___ going to Hue.",
+     "options": [
+      {
+       "id": "a",
+       "text": "are"
+      },
+      {
+       "id": "b",
+       "text": "was"
+      },
+      {
+       "id": "c",
+       "text": "were"
+      },
+      {
+       "id": "d",
+       "text": "is"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "are going → were going khi tường thuật (Họ nói họ sẽ đi Huế)."
+    },
+    {
+     "id": "en.b1.reported_statements.06",
+     "prompt": "She ___ me that she was busy.",
+     "options": [
+      {
+       "id": "a",
+       "text": "said"
+      },
+      {
+       "id": "b",
+       "text": "told"
+      },
+      {
+       "id": "c",
+       "text": "says"
+      },
+      {
+       "id": "d",
+       "text": "tell"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "told đi với người nghe: told me (Cô ấy bảo tôi là cô ấy bận)."
+    },
+    {
+     "id": "en.b1.reported_statements.07",
+     "prompt": "'Don't be late,' the teacher said. → The teacher told us ___ late.",
+     "options": [
+      {
+       "id": "a",
+       "text": "not to be"
+      },
+      {
+       "id": "b",
+       "text": "don't be"
+      },
+      {
+       "id": "c",
+       "text": "to not being"
+      },
+      {
+       "id": "d",
+       "text": "not be"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Mệnh lệnh phủ định: told + người + not to + V (Cô giáo bảo chúng tôi đừng đến muộn)."
+    },
+    {
+     "id": "en.b1.reported_statements.08",
+     "prompt": "He asked me ___ I wanted tea.",
+     "options": [
+      {
+       "id": "a",
+       "text": "that"
+      },
+      {
+       "id": "b",
+       "text": "what"
+      },
+      {
+       "id": "c",
+       "text": "do"
+      },
+      {
+       "id": "d",
+       "text": "if"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Câu hỏi có/không được tường thuật bằng if/whether (Anh ấy hỏi tôi có muốn uống trà không)."
+    }
+   ],
+   "lesson": {
+    "summary": "Khi kể lại lời người khác, lùi thì một bậc và đổi đại từ, trạng từ cho hợp ngữ cảnh.",
+    "rules": [
+     "Hiện tại đơn → quá khứ đơn: 'I am tired' → She said she was tired.",
+     "Hiện tại hoàn thành → quá khứ hoàn thành: 'I have finished' → He said he had finished.",
+     "will → would: 'I'll call' → She said she would call.",
+     "Dùng told + người nghe: She told me that... Không nói said me.",
+     "Mệnh lệnh: told + người + (not) to + V: told us not to be late."
+    ],
+    "examples": [
+     {
+      "text": "She said she was tired.",
+      "meaning": "Cô ấy nói cô ấy mệt."
+     },
+     {
+      "text": "He said he had finished.",
+      "meaning": "Anh ấy nói anh ấy đã xong."
+     },
+     {
+      "text": "The teacher told us not to be late.",
+      "meaning": "Cô giáo bảo chúng tôi đừng đến muộn."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "She said me that she was busy.",
+      "right": "She told me that she was busy.",
+      "why": "said không đi trực tiếp với người nghe, dùng told."
+     },
+     {
+      "wrong": "He said he has finished.",
+      "right": "He said he had finished.",
+      "why": "Lùi thì: has finished → had finished."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.indirect_questions",
+   "title": "Câu hỏi gián tiếp",
+   "topic_key": "reporting",
+   "questions": [
+    {
+     "id": "en.b1.indirect_questions.01",
+     "prompt": "Could you tell me where ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "is the station"
+      },
+      {
+       "id": "b",
+       "text": "does the station"
+      },
+      {
+       "id": "c",
+       "text": "the station does"
+      },
+      {
+       "id": "d",
+       "text": "the station is"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Câu hỏi gián tiếp giữ trật tự câu kể: where the station is (Bạn chỉ giúp tôi ga ở đâu được không?)."
+    },
+    {
+     "id": "en.b1.indirect_questions.02",
+     "prompt": "I don't know what time ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "does it start"
+      },
+      {
+       "id": "b",
+       "text": "starts it"
+      },
+      {
+       "id": "c",
+       "text": "it starts"
+      },
+      {
+       "id": "d",
+       "text": "it does start"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Không đảo trợ động từ: what time it starts (Tôi không biết mấy giờ bắt đầu)."
+    },
+    {
+     "id": "en.b1.indirect_questions.03",
+     "prompt": "She asked me where I ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "did live"
+      },
+      {
+       "id": "b",
+       "text": "lived"
+      },
+      {
+       "id": "c",
+       "text": "did I live"
+      },
+      {
+       "id": "d",
+       "text": "do I live"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Tường thuật câu hỏi, lùi thì: lived (Cô ấy hỏi tôi sống ở đâu)."
+    },
+    {
+     "id": "en.b1.indirect_questions.04",
+     "prompt": "Do you know if he ___ tomorrow?",
+     "options": [
+      {
+       "id": "a",
+       "text": "is coming"
+      },
+      {
+       "id": "b",
+       "text": "does come"
+      },
+      {
+       "id": "c",
+       "text": "is he coming"
+      },
+      {
+       "id": "d",
+       "text": "comes he"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "if + trật tự câu kể: if he is coming (Bạn có biết ngày mai anh ấy có đến không?)."
+    },
+    {
+     "id": "en.b1.indirect_questions.05",
+     "prompt": "He asked me how old ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "was I"
+      },
+      {
+       "id": "b",
+       "text": "did I be"
+      },
+      {
+       "id": "c",
+       "text": "I did"
+      },
+      {
+       "id": "d",
+       "text": "I was"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Trật tự câu kể và lùi thì: how old I was (Anh ấy hỏi tôi bao nhiêu tuổi)."
+    },
+    {
+     "id": "en.b1.indirect_questions.06",
+     "prompt": "Can you tell me how much ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "does this cost"
+      },
+      {
+       "id": "b",
+       "text": "costs this"
+      },
+      {
+       "id": "c",
+       "text": "this costs"
+      },
+      {
+       "id": "d",
+       "text": "this does cost"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Không dùng does: how much this costs (Bạn cho tôi biết cái này giá bao nhiêu được không?)."
+    },
+    {
+     "id": "en.b1.indirect_questions.07",
+     "prompt": "I wonder whether she ___ the news.",
+     "options": [
+      {
+       "id": "a",
+       "text": "does know"
+      },
+      {
+       "id": "b",
+       "text": "knows"
+      },
+      {
+       "id": "c",
+       "text": "know"
+      },
+      {
+       "id": "d",
+       "text": "knowing"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "whether + chủ ngữ + động từ chia: she knows (Tôi tự hỏi liệu cô ấy có biết tin không)."
+    },
+    {
+     "id": "en.b1.indirect_questions.08",
+     "prompt": "They asked us what we ___ for dinner.",
+     "options": [
+      {
+       "id": "a",
+       "text": "wanted"
+      },
+      {
+       "id": "b",
+       "text": "did want"
+      },
+      {
+       "id": "c",
+       "text": "do want"
+      },
+      {
+       "id": "d",
+       "text": "wanting"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Tường thuật, lùi thì: wanted (Họ hỏi chúng tôi muốn ăn gì cho bữa tối)."
+    }
+   ],
+   "lesson": {
+    "summary": "Trong câu hỏi gián tiếp, trật tự từ như câu kể: chủ ngữ đứng trước động từ, không dùng do/does/did.",
+    "rules": [
+     "Mở đầu bằng: Could you tell me..., Do you know..., I wonder...",
+     "Sau từ để hỏi dùng trật tự câu kể: where the station is, what time it starts.",
+     "Câu hỏi có/không dùng if hoặc whether: Do you know if he is coming?",
+     "Khi tường thuật câu hỏi, lùi thì: She asked me where I lived."
+    ],
+    "examples": [
+     {
+      "text": "Could you tell me where the station is?",
+      "meaning": "Bạn chỉ giúp tôi ga ở đâu được không?"
+     },
+     {
+      "text": "I don't know what time it starts.",
+      "meaning": "Tôi không biết mấy giờ bắt đầu."
+     },
+     {
+      "text": "She asked me where I lived.",
+      "meaning": "Cô ấy hỏi tôi sống ở đâu."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "Could you tell me where is the station?",
+      "right": "Could you tell me where the station is?",
+      "why": "Giữ trật tự câu kể."
+     },
+     {
+      "wrong": "I don't know what time does it start.",
+      "right": "I don't know what time it starts.",
+      "why": "Không dùng does trong câu hỏi gián tiếp."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.relative_clauses",
+   "title": "Mệnh đề quan hệ: who, which, that, whose, where",
+   "topic_key": "clauses_modals",
+   "questions": [
+    {
+     "id": "en.b1.relative_clauses.01",
+     "prompt": "The woman ___ lives next door is a doctor.",
+     "options": [
+      {
+       "id": "a",
+       "text": "who"
+      },
+      {
+       "id": "b",
+       "text": "which"
+      },
+      {
+       "id": "c",
+       "text": "whose"
+      },
+      {
+       "id": "d",
+       "text": "where"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Chỉ người làm chủ ngữ: who (Người phụ nữ sống cạnh nhà là bác sĩ)."
+    },
+    {
+     "id": "en.b1.relative_clauses.02",
+     "prompt": "This is the book ___ I told you about.",
+     "options": [
+      {
+       "id": "a",
+       "text": "who"
+      },
+      {
+       "id": "b",
+       "text": "where"
+      },
+      {
+       "id": "c",
+       "text": "whose"
+      },
+      {
+       "id": "d",
+       "text": "that"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Chỉ vật: that (có thể dùng which) (Đây là cuốn sách tôi đã kể bạn nghe)."
+    },
+    {
+     "id": "en.b1.relative_clauses.03",
+     "prompt": "That's the girl ___ bike was stolen.",
+     "options": [
+      {
+       "id": "a",
+       "text": "who"
+      },
+      {
+       "id": "b",
+       "text": "which"
+      },
+      {
+       "id": "c",
+       "text": "whose"
+      },
+      {
+       "id": "d",
+       "text": "that"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Chỉ sở hữu: whose bike (Đó là cô bé bị mất xe đạp)."
+    },
+    {
+     "id": "en.b1.relative_clauses.04",
+     "prompt": "The restaurant ___ we had dinner was excellent.",
+     "options": [
+      {
+       "id": "a",
+       "text": "who"
+      },
+      {
+       "id": "b",
+       "text": "where"
+      },
+      {
+       "id": "c",
+       "text": "whose"
+      },
+      {
+       "id": "d",
+       "text": "what"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Chỉ nơi chốn: where (Nhà hàng chúng tôi ăn tối rất tuyệt)."
+    },
+    {
+     "id": "en.b1.relative_clauses.05",
+     "prompt": "Is this the phone ___ you lost?",
+     "options": [
+      {
+       "id": "a",
+       "text": "that"
+      },
+      {
+       "id": "b",
+       "text": "who"
+      },
+      {
+       "id": "c",
+       "text": "where"
+      },
+      {
+       "id": "d",
+       "text": "whose"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Chỉ vật: that (Đây có phải điện thoại bạn làm mất không?)."
+    },
+    {
+     "id": "en.b1.relative_clauses.06",
+     "prompt": "The man ___ helped me was very kind.",
+     "options": [
+      {
+       "id": "a",
+       "text": "whose"
+      },
+      {
+       "id": "b",
+       "text": "where"
+      },
+      {
+       "id": "c",
+       "text": "which"
+      },
+      {
+       "id": "d",
+       "text": "who"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Chỉ người: who (Người đàn ông giúp tôi rất tốt bụng)."
+    },
+    {
+     "id": "en.b1.relative_clauses.07",
+     "prompt": "I like people ___ are honest.",
+     "options": [
+      {
+       "id": "a",
+       "text": "whose"
+      },
+      {
+       "id": "b",
+       "text": "which"
+      },
+      {
+       "id": "c",
+       "text": "who"
+      },
+      {
+       "id": "d",
+       "text": "where"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Chỉ người làm chủ ngữ: who (Tôi thích những người trung thực)."
+    },
+    {
+     "id": "en.b1.relative_clauses.08",
+     "prompt": "He showed me a photo ___ was taken in 1990.",
+     "options": [
+      {
+       "id": "a",
+       "text": "who"
+      },
+      {
+       "id": "b",
+       "text": "which"
+      },
+      {
+       "id": "c",
+       "text": "where"
+      },
+      {
+       "id": "d",
+       "text": "whose"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Chỉ vật làm chủ ngữ: which (Anh ấy cho tôi xem một bức ảnh chụp năm 1990)."
+    }
+   ],
+   "lesson": {
+    "summary": "Mệnh đề quan hệ bổ nghĩa cho danh từ đứng trước nó.",
+    "rules": [
+     "who: chỉ người (có thể dùng that): the woman who lives next door.",
+     "which: chỉ vật (có thể dùng that): a photo which was taken in 1990.",
+     "whose: chỉ sở hữu: the girl whose bike was stolen.",
+     "where: chỉ nơi chốn: the restaurant where we had dinner."
+    ],
+    "examples": [
+     {
+      "text": "The woman who lives next door is a doctor.",
+      "meaning": "Người phụ nữ sống cạnh nhà là bác sĩ."
+     },
+     {
+      "text": "That's the girl whose bike was stolen.",
+      "meaning": "Đó là cô bé bị mất xe đạp."
+     },
+     {
+      "text": "The restaurant where we had dinner was excellent.",
+      "meaning": "Nhà hàng chúng tôi ăn tối rất tuyệt."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "The man which helped me",
+      "right": "The man who helped me",
+      "why": "Chỉ người dùng who."
+     },
+     {
+      "wrong": "The girl who bike was stolen",
+      "right": "The girl whose bike was stolen",
+      "why": "Sở hữu dùng whose."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.modals_of_deduction",
+   "title": "Suy đoán với must, might và can't",
+   "topic_key": "clauses_modals",
+   "questions": [
+    {
+     "id": "en.b1.modals_of_deduction.01",
+     "prompt": "The lights are on. They ___ be at home.",
+     "options": [
+      {
+       "id": "a",
+       "text": "can't"
+      },
+      {
+       "id": "b",
+       "text": "must"
+      },
+      {
+       "id": "c",
+       "text": "mustn't"
+      },
+      {
+       "id": "d",
+       "text": "shouldn't"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Có bằng chứng nên gần như chắc chắn: must be (Đèn sáng. Chắc họ ở nhà)."
+    },
+    {
+     "id": "en.b1.modals_of_deduction.02",
+     "prompt": "He's just run ten kilometres. He ___ be tired.",
+     "options": [
+      {
+       "id": "a",
+       "text": "must"
+      },
+      {
+       "id": "b",
+       "text": "can't"
+      },
+      {
+       "id": "c",
+       "text": "couldn't to"
+      },
+      {
+       "id": "d",
+       "text": "mustn't"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Suy đoán chắc chắn: must be (Anh ấy vừa chạy mười cây số, chắc anh ấy mệt)."
+    },
+    {
+     "id": "en.b1.modals_of_deduction.03",
+     "prompt": "That ___ be Tom. He's in Paris this week.",
+     "options": [
+      {
+       "id": "a",
+       "text": "must"
+      },
+      {
+       "id": "b",
+       "text": "might to"
+      },
+      {
+       "id": "c",
+       "text": "shouldn't"
+      },
+      {
+       "id": "d",
+       "text": "can't"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Gần như chắc chắn không phải: can't be (Không thể là Tom, tuần này anh ấy ở Paris)."
+    },
+    {
+     "id": "en.b1.modals_of_deduction.04",
+     "prompt": "I'm not sure, but she ___ be at the library.",
+     "options": [
+      {
+       "id": "a",
+       "text": "must"
+      },
+      {
+       "id": "b",
+       "text": "can't"
+      },
+      {
+       "id": "c",
+       "text": "might"
+      },
+      {
+       "id": "d",
+       "text": "has to"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Không chắc: might be (Tôi không chắc, nhưng có thể cô ấy ở thư viện)."
+    },
+    {
+     "id": "en.b1.modals_of_deduction.05",
+     "prompt": "It ___ rain later, so take an umbrella.",
+     "options": [
+      {
+       "id": "a",
+       "text": "must to"
+      },
+      {
+       "id": "b",
+       "text": "might"
+      },
+      {
+       "id": "c",
+       "text": "can't"
+      },
+      {
+       "id": "d",
+       "text": "mustn't"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Khả năng, không chắc: might rain (Lát nữa có thể mưa, hãy mang ô)."
+    },
+    {
+     "id": "en.b1.modals_of_deduction.06",
+     "prompt": "He has lived in Hanoi for ten years. He ___ know the city well.",
+     "options": [
+      {
+       "id": "a",
+       "text": "must"
+      },
+      {
+       "id": "b",
+       "text": "can't"
+      },
+      {
+       "id": "c",
+       "text": "mustn't"
+      },
+      {
+       "id": "d",
+       "text": "might not to"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Suy luận hợp lý: must know (Anh ấy sống ở Hà Nội mười năm rồi, chắc anh ấy rành thành phố)."
+    },
+    {
+     "id": "en.b1.modals_of_deduction.07",
+     "prompt": "You ___ be serious! It costs a million dong?",
+     "options": [
+      {
+       "id": "a",
+       "text": "must"
+      },
+      {
+       "id": "b",
+       "text": "might to"
+      },
+      {
+       "id": "c",
+       "text": "have to"
+      },
+      {
+       "id": "d",
+       "text": "can't"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Không thể tin nổi: can't be serious (Bạn đùa chắc! Nó giá một triệu đồng à?)."
+    },
+    {
+     "id": "en.b1.modals_of_deduction.08",
+     "prompt": "They ___ have left already. Their car isn't here.",
+     "options": [
+      {
+       "id": "a",
+       "text": "can't"
+      },
+      {
+       "id": "b",
+       "text": "might to"
+      },
+      {
+       "id": "c",
+       "text": "must"
+      },
+      {
+       "id": "d",
+       "text": "should to"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Suy đoán về quá khứ: must have + V3 (Chắc họ đã đi rồi. Xe của họ không có ở đây)."
+    }
+   ],
+   "lesson": {
+    "summary": "Dùng must khi gần như chắc chắn, might khi không chắc, can't khi gần như chắc chắn là không.",
+    "rules": [
+     "must + nguyên mẫu: gần như chắc chắn là đúng: He must be tired.",
+     "might / may / could + nguyên mẫu: có thể, không chắc.",
+     "can't + nguyên mẫu: gần như chắc chắn không đúng: That can't be Tom.",
+     "Về quá khứ: must/might/can't + have + V3: They must have left."
+    ],
+    "examples": [
+     {
+      "text": "He has run ten kilometres. He must be tired.",
+      "meaning": "Anh ấy vừa chạy mười cây số. Chắc anh ấy mệt."
+     },
+     {
+      "text": "That can't be Tom. He's in Paris.",
+      "meaning": "Không thể là Tom. Anh ấy đang ở Paris."
+     },
+     {
+      "text": "It might rain later.",
+      "meaning": "Lát nữa có thể mưa."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "He must to be tired.",
+      "right": "He must be tired.",
+      "why": "must không đi với to."
+     },
+     {
+      "wrong": "They must left.",
+      "right": "They must have left.",
+      "why": "Suy đoán về quá khứ dùng must have + V3."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.used_to",
+   "title": "Used to và be used to",
+   "topic_key": "verb_patterns",
+   "questions": [
+    {
+     "id": "en.b1.used_to.01",
+     "prompt": "I ___ play football every weekend when I was a child.",
+     "options": [
+      {
+       "id": "a",
+       "text": "use to"
+      },
+      {
+       "id": "b",
+       "text": "am used to"
+      },
+      {
+       "id": "c",
+       "text": "used to"
+      },
+      {
+       "id": "d",
+       "text": "was used to"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Thói quen trong quá khứ: used to + nguyên mẫu (Hồi nhỏ tôi chơi bóng mỗi cuối tuần)."
+    },
+    {
+     "id": "en.b1.used_to.02",
+     "prompt": "She didn't ___ like coffee, but now she loves it.",
+     "options": [
+      {
+       "id": "a",
+       "text": "used to"
+      },
+      {
+       "id": "b",
+       "text": "use to"
+      },
+      {
+       "id": "c",
+       "text": "using to"
+      },
+      {
+       "id": "d",
+       "text": "used"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Phủ định dùng didn't use to (Trước kia cô ấy không thích cà phê, giờ thì mê)."
+    },
+    {
+     "id": "en.b1.used_to.03",
+     "prompt": "Did you ___ live in Hue?",
+     "options": [
+      {
+       "id": "a",
+       "text": "use to"
+      },
+      {
+       "id": "b",
+       "text": "used to"
+      },
+      {
+       "id": "c",
+       "text": "using to"
+      },
+      {
+       "id": "d",
+       "text": "be used to"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Câu hỏi dùng Did ... use to (Trước đây bạn từng sống ở Huế à?)."
+    },
+    {
+     "id": "en.b1.used_to.04",
+     "prompt": "We ___ to the beach every summer.",
+     "options": [
+      {
+       "id": "a",
+       "text": "used to going"
+      },
+      {
+       "id": "b",
+       "text": "use to go"
+      },
+      {
+       "id": "c",
+       "text": "are used to go"
+      },
+      {
+       "id": "d",
+       "text": "used to go"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "used to + nguyên mẫu: used to go (Mỗi mùa hè chúng tôi thường đi biển)."
+    },
+    {
+     "id": "en.b1.used_to.05",
+     "prompt": "I'm ___ getting up early now.",
+     "options": [
+      {
+       "id": "a",
+       "text": "use to"
+      },
+      {
+       "id": "b",
+       "text": "used"
+      },
+      {
+       "id": "c",
+       "text": "used to"
+      },
+      {
+       "id": "d",
+       "text": "using to"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "be used to + V-ing: đã quen (Giờ tôi đã quen dậy sớm)."
+    },
+    {
+     "id": "en.b1.used_to.06",
+     "prompt": "He ___ smoke, but he gave up last year.",
+     "options": [
+      {
+       "id": "a",
+       "text": "is used to"
+      },
+      {
+       "id": "b",
+       "text": "used to"
+      },
+      {
+       "id": "c",
+       "text": "get used to"
+      },
+      {
+       "id": "d",
+       "text": "uses to"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Thói quen cũ nay đã bỏ: used to (Anh ấy từng hút thuốc nhưng năm ngoái đã bỏ)."
+    },
+    {
+     "id": "en.b1.used_to.07",
+     "prompt": "There ___ be a cinema here, but now it's a shop.",
+     "options": [
+      {
+       "id": "a",
+       "text": "used to"
+      },
+      {
+       "id": "b",
+       "text": "was used to"
+      },
+      {
+       "id": "c",
+       "text": "uses to"
+      },
+      {
+       "id": "d",
+       "text": "is used to"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Tình trạng trong quá khứ: used to be (Ở đây từng có rạp chiếu phim, giờ là cửa hàng)."
+    },
+    {
+     "id": "en.b1.used_to.08",
+     "prompt": "I can't get used ___ the noise.",
+     "options": [
+      {
+       "id": "a",
+       "text": "for"
+      },
+      {
+       "id": "b",
+       "text": "with"
+      },
+      {
+       "id": "c",
+       "text": "at"
+      },
+      {
+       "id": "d",
+       "text": "to"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "get used to + danh từ/V-ing (Tôi không quen được với tiếng ồn)."
+    }
+   ],
+   "lesson": {
+    "summary": "Used to + nguyên mẫu nói thói quen hoặc tình trạng trong quá khứ nay không còn. Be/get used to + V-ing nói đã quen với việc gì.",
+    "rules": [
+     "used to + V: I used to play football every weekend.",
+     "Phủ định và câu hỏi dùng use to (did không có -d): I didn't use to like coffee. Did you use to live in Hue?",
+     "be used to + V-ing/danh từ: đã quen: I'm used to getting up early.",
+     "get used to: đang dần quen: I can't get used to the noise."
+    ],
+    "examples": [
+     {
+      "text": "I used to play football every weekend.",
+      "meaning": "Trước đây tôi chơi bóng mỗi cuối tuần."
+     },
+     {
+      "text": "I'm used to getting up early now.",
+      "meaning": "Giờ tôi quen dậy sớm rồi."
+     },
+     {
+      "text": "I can't get used to the noise.",
+      "meaning": "Tôi không quen được với tiếng ồn."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "I didn't used to like it.",
+      "right": "I didn't use to like it.",
+      "why": "Sau did/didn't dùng use to."
+     },
+     {
+      "wrong": "I'm used to get up early.",
+      "right": "I'm used to getting up early.",
+      "why": "be used to đi với V-ing."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.gerund_infinitive",
+   "title": "Động từ + V-ing hay to + nguyên mẫu",
+   "topic_key": "verb_patterns",
+   "questions": [
+    {
+     "id": "en.b1.gerund_infinitive.01",
+     "prompt": "I enjoy ___ to music.",
+     "options": [
+      {
+       "id": "a",
+       "text": "to listen"
+      },
+      {
+       "id": "b",
+       "text": "listen"
+      },
+      {
+       "id": "c",
+       "text": "listened"
+      },
+      {
+       "id": "d",
+       "text": "listening"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "enjoy + V-ing (Tôi thích nghe nhạc)."
+    },
+    {
+     "id": "en.b1.gerund_infinitive.02",
+     "prompt": "She decided ___ a new job.",
+     "options": [
+      {
+       "id": "a",
+       "text": "finding"
+      },
+      {
+       "id": "b",
+       "text": "find"
+      },
+      {
+       "id": "c",
+       "text": "to find"
+      },
+      {
+       "id": "d",
+       "text": "found"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "decide + to + nguyên mẫu (Cô ấy quyết định tìm việc mới)."
+    },
+    {
+     "id": "en.b1.gerund_infinitive.03",
+     "prompt": "He avoided ___ the question.",
+     "options": [
+      {
+       "id": "a",
+       "text": "to answer"
+      },
+      {
+       "id": "b",
+       "text": "answering"
+      },
+      {
+       "id": "c",
+       "text": "answer"
+      },
+      {
+       "id": "d",
+       "text": "answered"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "avoid + V-ing (Anh ấy tránh trả lời câu hỏi)."
+    },
+    {
+     "id": "en.b1.gerund_infinitive.04",
+     "prompt": "We hope ___ you soon.",
+     "options": [
+      {
+       "id": "a",
+       "text": "to see"
+      },
+      {
+       "id": "b",
+       "text": "seeing"
+      },
+      {
+       "id": "c",
+       "text": "see"
+      },
+      {
+       "id": "d",
+       "text": "saw"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "hope + to + nguyên mẫu (Chúng tôi hy vọng sớm gặp bạn)."
+    },
+    {
+     "id": "en.b1.gerund_infinitive.05",
+     "prompt": "Would you mind ___ the door?",
+     "options": [
+      {
+       "id": "a",
+       "text": "to close"
+      },
+      {
+       "id": "b",
+       "text": "close"
+      },
+      {
+       "id": "c",
+       "text": "closed"
+      },
+      {
+       "id": "d",
+       "text": "closing"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "mind + V-ing (Bạn làm ơn đóng cửa giúp được không?)."
+    },
+    {
+     "id": "en.b1.gerund_infinitive.06",
+     "prompt": "They agreed ___ on Friday.",
+     "options": [
+      {
+       "id": "a",
+       "text": "meeting"
+      },
+      {
+       "id": "b",
+       "text": "meet"
+      },
+      {
+       "id": "c",
+       "text": "to meet"
+      },
+      {
+       "id": "d",
+       "text": "met"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "agree + to + nguyên mẫu (Họ đồng ý gặp nhau vào thứ Sáu)."
+    },
+    {
+     "id": "en.b1.gerund_infinitive.07",
+     "prompt": "I'm looking forward to ___ you.",
+     "options": [
+      {
+       "id": "a",
+       "text": "see"
+      },
+      {
+       "id": "b",
+       "text": "seeing"
+      },
+      {
+       "id": "c",
+       "text": "to see"
+      },
+      {
+       "id": "d",
+       "text": "saw"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Sau look forward to (to là giới từ) dùng V-ing (Tôi mong được gặp bạn)."
+    },
+    {
+     "id": "en.b1.gerund_infinitive.08",
+     "prompt": "He finished ___ the report at midnight.",
+     "options": [
+      {
+       "id": "a",
+       "text": "writing"
+      },
+      {
+       "id": "b",
+       "text": "to write"
+      },
+      {
+       "id": "c",
+       "text": "write"
+      },
+      {
+       "id": "d",
+       "text": "wrote"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "finish + V-ing (Anh ấy viết xong báo cáo lúc nửa đêm)."
+    }
+   ],
+   "lesson": {
+    "summary": "Mỗi động từ đòi một mẫu theo sau: V-ing hoặc to + nguyên mẫu. Phải học theo nhóm.",
+    "rules": [
+     "+ V-ing: enjoy, avoid, finish, mind, suggest, look forward to (to là giới từ).",
+     "+ to + V: decide, hope, agree, want, plan, promise.",
+     "Sau giới từ dùng V-ing: interested in learning, look forward to seeing."
+    ],
+    "examples": [
+     {
+      "text": "I enjoy listening to music.",
+      "meaning": "Tôi thích nghe nhạc."
+     },
+     {
+      "text": "She decided to find a new job.",
+      "meaning": "Cô ấy quyết định tìm việc mới."
+     },
+     {
+      "text": "I'm looking forward to seeing you.",
+      "meaning": "Tôi mong được gặp bạn."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "I enjoy to listen to music.",
+      "right": "I enjoy listening to music.",
+      "why": "enjoy đi với V-ing."
+     },
+     {
+      "wrong": "She decided finding a job.",
+      "right": "She decided to find a job.",
+      "why": "decide đi với to + nguyên mẫu."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.question_tags",
+   "title": "Câu hỏi đuôi",
+   "topic_key": "verb_patterns",
+   "questions": [
+    {
+     "id": "en.b1.question_tags.01",
+     "prompt": "You're a teacher, ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "aren't you"
+      },
+      {
+       "id": "b",
+       "text": "are you"
+      },
+      {
+       "id": "c",
+       "text": "don't you"
+      },
+      {
+       "id": "d",
+       "text": "isn't you"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Khẳng định → đuôi phủ định với be: aren't you (Bạn là giáo viên, đúng không?)."
+    },
+    {
+     "id": "en.b1.question_tags.02",
+     "prompt": "She doesn't like fish, ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "doesn't she"
+      },
+      {
+       "id": "b",
+       "text": "is she"
+      },
+      {
+       "id": "c",
+       "text": "does her"
+      },
+      {
+       "id": "d",
+       "text": "does she"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Phủ định → đuôi khẳng định: does she (Cô ấy không thích cá, phải không?)."
+    },
+    {
+     "id": "en.b1.question_tags.03",
+     "prompt": "They went home, ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "did they"
+      },
+      {
+       "id": "b",
+       "text": "weren't they"
+      },
+      {
+       "id": "c",
+       "text": "didn't they"
+      },
+      {
+       "id": "d",
+       "text": "don't they"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Quá khứ đơn khẳng định → didn't they (Họ về nhà rồi, đúng không?)."
+    },
+    {
+     "id": "en.b1.question_tags.04",
+     "prompt": "He can swim, ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "can he"
+      },
+      {
+       "id": "b",
+       "text": "can't he"
+      },
+      {
+       "id": "c",
+       "text": "isn't he"
+      },
+      {
+       "id": "d",
+       "text": "doesn't he"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Dùng lại can: can't he (Anh ấy biết bơi, đúng không?)."
+    },
+    {
+     "id": "en.b1.question_tags.05",
+     "prompt": "It's cold today, ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "isn't it"
+      },
+      {
+       "id": "b",
+       "text": "is it"
+      },
+      {
+       "id": "c",
+       "text": "doesn't it"
+      },
+      {
+       "id": "d",
+       "text": "isn't that"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "It's = it is → isn't it (Hôm nay lạnh nhỉ?)."
+    },
+    {
+     "id": "en.b1.question_tags.06",
+     "prompt": "You haven't seen my keys, ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "haven't you"
+      },
+      {
+       "id": "b",
+       "text": "did you"
+      },
+      {
+       "id": "c",
+       "text": "do you"
+      },
+      {
+       "id": "d",
+       "text": "have you"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Phủ định → đuôi khẳng định: have you (Bạn chưa thấy chìa khóa của tôi, phải không?)."
+    },
+    {
+     "id": "en.b1.question_tags.07",
+     "prompt": "Let's go out, ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "will we"
+      },
+      {
+       "id": "b",
+       "text": "don't we"
+      },
+      {
+       "id": "c",
+       "text": "shall we"
+      },
+      {
+       "id": "d",
+       "text": "shan't we"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Let's → shall we (Mình đi chơi nhé?)."
+    },
+    {
+     "id": "en.b1.question_tags.08",
+     "prompt": "We should call him, ___?",
+     "options": [
+      {
+       "id": "a",
+       "text": "should we"
+      },
+      {
+       "id": "b",
+       "text": "shouldn't we"
+      },
+      {
+       "id": "c",
+       "text": "don't we"
+      },
+      {
+       "id": "d",
+       "text": "aren't we"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "should khẳng định → shouldn't we (Chúng ta nên gọi anh ấy, đúng không?)."
+    }
+   ],
+   "lesson": {
+    "summary": "Câu hỏi đuôi là một cụm ngắn ở cuối câu để xác nhận. Câu khẳng định đi với đuôi phủ định và ngược lại.",
+    "rules": [
+     "Khẳng định → đuôi phủ định: You're a teacher, aren't you?",
+     "Phủ định → đuôi khẳng định: She doesn't like fish, does she?",
+     "Đuôi dùng trợ động từ của câu chính; câu thường dùng do/does/did.",
+     "Let's → shall we?"
+    ],
+    "examples": [
+     {
+      "text": "You're a teacher, aren't you?",
+      "meaning": "Bạn là giáo viên, đúng không?"
+     },
+     {
+      "text": "She doesn't like fish, does she?",
+      "meaning": "Cô ấy không thích cá, phải không?"
+     },
+     {
+      "text": "Let's go out, shall we?",
+      "meaning": "Mình đi chơi nhé?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "You're a teacher, are you?",
+      "right": "You're a teacher, aren't you?",
+      "why": "Câu khẳng định cần đuôi phủ định."
+     },
+     {
+      "wrong": "They went home, did they?",
+      "right": "They went home, didn't they?",
+      "why": "Câu khẳng định cần đuôi phủ định."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.too_enough_so_such",
+   "title": "Too, enough, so và such",
+   "topic_key": "verb_patterns",
+   "questions": [
+    {
+     "id": "en.b1.too_enough_so_such.01",
+     "prompt": "The soup is ___ hot to eat.",
+     "options": [
+      {
+       "id": "a",
+       "text": "enough"
+      },
+      {
+       "id": "b",
+       "text": "too"
+      },
+      {
+       "id": "c",
+       "text": "so"
+      },
+      {
+       "id": "d",
+       "text": "very"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "too + tính từ + to V: quá nóng để ăn (Món súp nóng quá không ăn được)."
+    },
+    {
+     "id": "en.b1.too_enough_so_such.02",
+     "prompt": "She isn't old ___ to drive.",
+     "options": [
+      {
+       "id": "a",
+       "text": "enough"
+      },
+      {
+       "id": "b",
+       "text": "too"
+      },
+      {
+       "id": "c",
+       "text": "so"
+      },
+      {
+       "id": "d",
+       "text": "very"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "tính từ + enough: old enough (Cô bé chưa đủ tuổi để lái xe)."
+    },
+    {
+     "id": "en.b1.too_enough_so_such.03",
+     "prompt": "It was ___ a good film that we watched it twice.",
+     "options": [
+      {
+       "id": "a",
+       "text": "so"
+      },
+      {
+       "id": "b",
+       "text": "too"
+      },
+      {
+       "id": "c",
+       "text": "very"
+      },
+      {
+       "id": "d",
+       "text": "such"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "such + a + tính từ + danh từ (Đó là bộ phim hay đến mức chúng tôi xem hai lần)."
+    },
+    {
+     "id": "en.b1.too_enough_so_such.04",
+     "prompt": "The film was ___ good that we watched it twice.",
+     "options": [
+      {
+       "id": "a",
+       "text": "such"
+      },
+      {
+       "id": "b",
+       "text": "too"
+      },
+      {
+       "id": "c",
+       "text": "so"
+      },
+      {
+       "id": "d",
+       "text": "enough"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "so + tính từ (không có danh từ): so good (Bộ phim hay đến mức chúng tôi xem hai lần)."
+    },
+    {
+     "id": "en.b1.too_enough_so_such.05",
+     "prompt": "He doesn't have ___ money to buy a car.",
+     "options": [
+      {
+       "id": "a",
+       "text": "too"
+      },
+      {
+       "id": "b",
+       "text": "enough"
+      },
+      {
+       "id": "c",
+       "text": "so"
+      },
+      {
+       "id": "d",
+       "text": "very"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "enough đứng trước danh từ: enough money (Anh ấy không đủ tiền mua ô tô)."
+    },
+    {
+     "id": "en.b1.too_enough_so_such.06",
+     "prompt": "It's ___ cold to go swimming today.",
+     "options": [
+      {
+       "id": "a",
+       "text": "too"
+      },
+      {
+       "id": "b",
+       "text": "enough"
+      },
+      {
+       "id": "c",
+       "text": "so"
+      },
+      {
+       "id": "d",
+       "text": "such"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "too cold to go swimming: lạnh quá không đi bơi được (Hôm nay lạnh quá không đi bơi được)."
+    },
+    {
+     "id": "en.b1.too_enough_so_such.07",
+     "prompt": "We had ___ a nice time that we didn't want to leave.",
+     "options": [
+      {
+       "id": "a",
+       "text": "so"
+      },
+      {
+       "id": "b",
+       "text": "too"
+      },
+      {
+       "id": "c",
+       "text": "enough"
+      },
+      {
+       "id": "d",
+       "text": "such"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "such + a + tính từ + danh từ (Chúng tôi vui đến mức không muốn về)."
+    },
+    {
+     "id": "en.b1.too_enough_so_such.08",
+     "prompt": "The bag is big ___ for all my books.",
+     "options": [
+      {
+       "id": "a",
+       "text": "too"
+      },
+      {
+       "id": "b",
+       "text": "so"
+      },
+      {
+       "id": "c",
+       "text": "enough"
+      },
+      {
+       "id": "d",
+       "text": "such"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "tính từ + enough: big enough (Cái túi đủ lớn để đựng hết sách của tôi)."
+    }
+   ],
+   "lesson": {
+    "summary": "Too nghĩa là quá mức đến mức không thể; enough là đủ; so và such nhấn mạnh mức độ.",
+    "rules": [
+     "too + tính từ: quá (kết quả không tốt): too hot to eat.",
+     "tính từ + enough: đủ; enough + danh từ: enough money.",
+     "so + tính từ/trạng từ: so good.",
+     "such + (a/an) + (tính từ) + danh từ: such a good film."
+    ],
+    "examples": [
+     {
+      "text": "The soup is too hot to eat.",
+      "meaning": "Món súp nóng quá không ăn được."
+     },
+     {
+      "text": "She isn't old enough to drive.",
+      "meaning": "Cô bé chưa đủ tuổi lái xe."
+     },
+     {
+      "text": "It was such a good film that we watched it twice.",
+      "meaning": "Phim hay đến mức chúng tôi xem hai lần."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "The soup is enough hot.",
+      "right": "The soup is hot enough.",
+      "why": "enough đứng sau tính từ."
+     },
+     {
+      "wrong": "It was so a good film.",
+      "right": "It was such a good film.",
+      "why": "such đi với a/an + danh từ."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.future_time_clauses",
+   "title": "Mệnh đề thời gian về tương lai",
+   "topic_key": "clauses_modals",
+   "questions": [
+    {
+     "id": "en.b1.future_time_clauses.01",
+     "prompt": "I'll call you when I ___ home.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will get"
+      },
+      {
+       "id": "b",
+       "text": "got"
+      },
+      {
+       "id": "c",
+       "text": "get"
+      },
+      {
+       "id": "d",
+       "text": "getting"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Mệnh đề when về tương lai dùng hiện tại đơn: get (Tôi sẽ gọi cho bạn khi về đến nhà)."
+    },
+    {
+     "id": "en.b1.future_time_clauses.02",
+     "prompt": "We'll start as soon as everyone ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will arrive"
+      },
+      {
+       "id": "b",
+       "text": "arrives"
+      },
+      {
+       "id": "c",
+       "text": "arrived"
+      },
+      {
+       "id": "d",
+       "text": "arriving"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "as soon as + hiện tại đơn: arrives (Chúng ta bắt đầu ngay khi mọi người đến)."
+    },
+    {
+     "id": "en.b1.future_time_clauses.03",
+     "prompt": "Call me before you ___ the house.",
+     "options": [
+      {
+       "id": "a",
+       "text": "leave"
+      },
+      {
+       "id": "b",
+       "text": "will leave"
+      },
+      {
+       "id": "c",
+       "text": "left"
+      },
+      {
+       "id": "d",
+       "text": "leaving"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "before + hiện tại đơn: leave (Gọi cho tôi trước khi bạn rời nhà)."
+    },
+    {
+     "id": "en.b1.future_time_clauses.04",
+     "prompt": "She'll cook dinner after she ___ back.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will come"
+      },
+      {
+       "id": "b",
+       "text": "came"
+      },
+      {
+       "id": "c",
+       "text": "coming"
+      },
+      {
+       "id": "d",
+       "text": "comes"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "after + hiện tại đơn: comes (Cô ấy sẽ nấu bữa tối sau khi về)."
+    },
+    {
+     "id": "en.b1.future_time_clauses.05",
+     "prompt": "I'll wait here until you ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will return"
+      },
+      {
+       "id": "b",
+       "text": "returned"
+      },
+      {
+       "id": "c",
+       "text": "return"
+      },
+      {
+       "id": "d",
+       "text": "returning"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "until + hiện tại đơn: return (Tôi sẽ chờ ở đây đến khi bạn quay lại)."
+    },
+    {
+     "id": "en.b1.future_time_clauses.06",
+     "prompt": "When he ___ tomorrow, I'll tell him.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will arrive"
+      },
+      {
+       "id": "b",
+       "text": "arrives"
+      },
+      {
+       "id": "c",
+       "text": "arrived"
+      },
+      {
+       "id": "d",
+       "text": "arriving"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "when + hiện tại đơn: arrives (Mai khi anh ấy đến, tôi sẽ nói với anh ấy)."
+    },
+    {
+     "id": "en.b1.future_time_clauses.07",
+     "prompt": "I won't go out until I ___ my homework.",
+     "options": [
+      {
+       "id": "a",
+       "text": "finish"
+      },
+      {
+       "id": "b",
+       "text": "will finish"
+      },
+      {
+       "id": "c",
+       "text": "finished"
+      },
+      {
+       "id": "d",
+       "text": "finishing"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "until + hiện tại đơn: finish (Tôi sẽ không ra ngoài cho đến khi làm xong bài tập)."
+    },
+    {
+     "id": "en.b1.future_time_clauses.08",
+     "prompt": "While you ___ the dishes, I'll make coffee.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will wash"
+      },
+      {
+       "id": "b",
+       "text": "washed"
+      },
+      {
+       "id": "c",
+       "text": "washes"
+      },
+      {
+       "id": "d",
+       "text": "are washing"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "while + hiện tại tiếp diễn: are washing (Trong lúc bạn rửa bát, tôi sẽ pha cà phê)."
+    }
+   ],
+   "lesson": {
+    "summary": "Sau when, as soon as, before, after, until, while khi nói về tương lai, dùng hiện tại đơn (hoặc tiếp diễn), không dùng will.",
+    "rules": [
+     "Mệnh đề chính dùng will, mệnh đề thời gian dùng hiện tại: I'll call you when I get home.",
+     "Áp dụng cho when, as soon as, before, after, until, while.",
+     "while + hiện tại tiếp diễn cho việc đang diễn ra cùng lúc."
+    ],
+    "examples": [
+     {
+      "text": "I'll call you when I get home.",
+      "meaning": "Tôi sẽ gọi cho bạn khi về đến nhà."
+     },
+     {
+      "text": "We'll start as soon as everyone arrives.",
+      "meaning": "Chúng ta sẽ bắt đầu ngay khi mọi người đến."
+     },
+     {
+      "text": "I'll wait here until you return.",
+      "meaning": "Tôi sẽ chờ ở đây đến khi bạn quay lại."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "I'll call you when I will get home.",
+      "right": "I'll call you when I get home.",
+      "why": "Không dùng will sau when."
+     },
+     {
+      "wrong": "I won't go out until I will finish.",
+      "right": "I won't go out until I finish.",
+      "why": "Không dùng will sau until."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.b1.phrasal_verbs",
+   "title": "Cụm động từ thông dụng",
+   "topic_key": "verb_patterns",
+   "questions": [
+    {
+     "id": "en.b1.phrasal_verbs.01",
+     "prompt": "Please turn ___ the light. It's dark.",
+     "options": [
+      {
+       "id": "a",
+       "text": "up"
+      },
+      {
+       "id": "b",
+       "text": "of"
+      },
+      {
+       "id": "c",
+       "text": "at"
+      },
+      {
+       "id": "d",
+       "text": "on"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "turn on = bật (Làm ơn bật đèn, trời tối)."
+    },
+    {
+     "id": "en.b1.phrasal_verbs.02",
+     "prompt": "He gave ___ smoking last year.",
+     "options": [
+      {
+       "id": "a",
+       "text": "out"
+      },
+      {
+       "id": "b",
+       "text": "off"
+      },
+      {
+       "id": "c",
+       "text": "up"
+      },
+      {
+       "id": "d",
+       "text": "away"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "give up = từ bỏ (Năm ngoái anh ấy bỏ thuốc lá)."
+    },
+    {
+     "id": "en.b1.phrasal_verbs.03",
+     "prompt": "I'm looking ___ my keys. Have you seen them?",
+     "options": [
+      {
+       "id": "a",
+       "text": "after"
+      },
+      {
+       "id": "b",
+       "text": "for"
+      },
+      {
+       "id": "c",
+       "text": "away"
+      },
+      {
+       "id": "d",
+       "text": "out"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "look for = tìm (Tôi đang tìm chìa khóa, bạn thấy chúng không?)."
+    },
+    {
+     "id": "en.b1.phrasal_verbs.04",
+     "prompt": "Could you pick me ___ at the station?",
+     "options": [
+      {
+       "id": "a",
+       "text": "up"
+      },
+      {
+       "id": "b",
+       "text": "on"
+      },
+      {
+       "id": "c",
+       "text": "off"
+      },
+      {
+       "id": "d",
+       "text": "in"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "pick up = đón (Bạn đón tôi ở ga được không?)."
+    },
+    {
+     "id": "en.b1.phrasal_verbs.05",
+     "prompt": "She turned ___ the invitation because she was busy.",
+     "options": [
+      {
+       "id": "a",
+       "text": "up"
+      },
+      {
+       "id": "b",
+       "text": "on"
+      },
+      {
+       "id": "c",
+       "text": "in"
+      },
+      {
+       "id": "d",
+       "text": "down"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "turn down = từ chối (Cô ấy từ chối lời mời vì bận)."
+    },
+    {
+     "id": "en.b1.phrasal_verbs.06",
+     "prompt": "I need to fill ___ this form.",
+     "options": [
+      {
+       "id": "a",
+       "text": "on"
+      },
+      {
+       "id": "b",
+       "text": "at"
+      },
+      {
+       "id": "c",
+       "text": "in"
+      },
+      {
+       "id": "d",
+       "text": "of"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "fill in = điền (Tôi cần điền vào mẫu này)."
+    },
+    {
+     "id": "en.b1.phrasal_verbs.07",
+     "prompt": "The plane takes ___ at nine.",
+     "options": [
+      {
+       "id": "a",
+       "text": "out"
+      },
+      {
+       "id": "b",
+       "text": "off"
+      },
+      {
+       "id": "c",
+       "text": "away"
+      },
+      {
+       "id": "d",
+       "text": "down"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "take off = cất cánh (Máy bay cất cánh lúc chín giờ)."
+    },
+    {
+     "id": "en.b1.phrasal_verbs.08",
+     "prompt": "Hurry up! We have to get ___ the bus.",
+     "options": [
+      {
+       "id": "a",
+       "text": "on"
+      },
+      {
+       "id": "b",
+       "text": "in"
+      },
+      {
+       "id": "c",
+       "text": "up"
+      },
+      {
+       "id": "d",
+       "text": "at"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "get on = lên (xe buýt) (Nhanh lên! Chúng ta phải lên xe buýt)."
+    }
+   ],
+   "lesson": {
+    "summary": "Cụm động từ là động từ + tiểu từ, nghĩa thường khác nghĩa từng từ. Phải học cả cụm.",
+    "rules": [
+     "turn on/off: bật/tắt. give up: bỏ. take off: cất cánh. fill in: điền.",
+     "look for: tìm. look after: chăm sóc. pick up: đón.",
+     "Cụm có tân ngữ có thể tách: turn the light on / turn on the light; đại từ luôn nằm giữa: turn it on."
+    ],
+    "examples": [
+     {
+      "text": "Please turn on the light.",
+      "meaning": "Làm ơn bật đèn."
+     },
+     {
+      "text": "He gave up smoking last year.",
+      "meaning": "Năm ngoái anh ấy bỏ thuốc."
+     },
+     {
+      "text": "Could you pick me up at the station?",
+      "meaning": "Bạn đón tôi ở ga được không?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "I'm looking at my keys. (đang tìm)",
+      "right": "I'm looking for my keys.",
+      "why": "look at là nhìn, look for là tìm."
+     },
+     {
+      "wrong": "Turn on it.",
+      "right": "Turn it on.",
+      "why": "Đại từ đứng giữa cụm tách được."
+     }
+    ]
+   }
+  }
+ ],
+ "approval": {
+  "reviewer": "owner",
+  "approved_on": "2026-11-02",
+  "content_sha256": "749314a6d9ded65fd49ed7705cdf5000d41b058e201687949e7610491cd2fe2f",
+  "sample_question_ids": [
+   "en.b1.present_perfect_vs_past_simple.01",
+   "en.b1.present_perfect_continuous.01",
+   "en.b1.past_perfect.01",
+   "en.b1.zero_first_conditional.01",
+   "en.b1.second_conditional.01",
+   "en.b1.passive_present_past.01",
+   "en.b1.reported_statements.01",
+   "en.b1.indirect_questions.01",
+   "en.b1.relative_clauses.01",
+   "en.b1.modals_of_deduction.01",
+   "en.b1.used_to.01",
+   "en.b1.gerund_infinitive.01",
+   "en.b1.question_tags.01",
+   "en.b1.too_enough_so_such.01",
+   "en.b1.future_time_clauses.01",
+   "en.b1.phrasal_verbs.01"
+  ]
+ }
+}

@@ -1,0 +1,2373 @@
+{
+ "format": "deeplingo-grammar-bank-v1",
+ "catalogue_source": "deeplingo",
+ "authorship": "ai_draft",
+ "language": "zh",
+ "level": "HSK5",
+ "support_language": "vi",
+ "version": 1,
+ "topics": [
+  {
+   "key": "cause_condition",
+   "title": "Nguyên nhân và điều kiện"
+  },
+  {
+   "key": "purpose_judgement",
+   "title": "Mục đích, nhận định và lựa chọn"
+  },
+  {
+   "key": "frames",
+   "title": "Khung câu và cấu trúc giới từ"
+  }
+ ],
+ "points": [
+  {
+   "key": "zh.hsk5.zhisuoyi",
+   "title": "之所以…是因为…: sở dĩ…là vì…",
+   "topic_key": "cause_condition",
+   "questions": [
+    {
+     "id": "zh.hsk5.zhisuoyi.01",
+     "prompt": "他___迟到，是因为路上堵车。",
+     "options": [
+      {
+       "id": "a",
+       "text": "之所以"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "之所以 + kết quả，是因为 + lý do (Sở dĩ anh ấy đến muộn là vì kẹt xe)."
+    },
+    {
+     "id": "zh.hsk5.zhisuoyi.02",
+     "prompt": "我之所以喜欢这座城市，___因为这里很安静。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "是"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "之所以…，是因为… (Sở dĩ tôi thích thành phố này là vì ở đây yên tĩnh)."
+    },
+    {
+     "id": "zh.hsk5.zhisuoyi.03",
+     "prompt": "他之所以成功，是因为一直___努力。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "坚持"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "坚持努力 = kiên trì cố gắng (Sở dĩ anh ấy thành công là vì luôn kiên trì)."
+    },
+    {
+     "id": "zh.hsk5.zhisuoyi.04",
+     "prompt": "她之所以___这么高兴，是因为拿到了奖学金。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "会"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "之所以会… (Sở dĩ cô ấy vui như vậy là vì nhận được học bổng)."
+    },
+    {
+     "id": "zh.hsk5.zhisuoyi.05",
+     "prompt": "他之所以不同意，___因为价格太高。",
+     "options": [
+      {
+       "id": "a",
+       "text": "是"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "之所以…，是因为… (Sở dĩ anh ấy không đồng ý là vì giá quá cao)."
+    },
+    {
+     "id": "zh.hsk5.zhisuoyi.06",
+     "prompt": "这个地方___受欢迎，是因为风景很美。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "之所以"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "之所以受欢迎 (Sở dĩ nơi này được yêu thích là vì phong cảnh đẹp)."
+    },
+    {
+     "id": "zh.hsk5.zhisuoyi.07",
+     "prompt": "她之所以___做这件事，是因为责任感。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "愿意"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "之所以愿意 (Sở dĩ cô ấy chịu làm việc này là vì tinh thần trách nhiệm)."
+    },
+    {
+     "id": "zh.hsk5.zhisuoyi.08",
+     "prompt": "他之所以每天锻炼，___为了保持健康。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "是"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "之所以…，是为了… (Sở dĩ anh ấy tập mỗi ngày là để giữ sức khỏe)."
+    }
+   ],
+   "lesson": {
+    "summary": "之所以 nêu kết quả đã biết, 是因为 nêu nguyên nhân: nhấn mạnh lý do.",
+    "rules": [
+     "之所以 + kết quả，是因为 + nguyên nhân: 他之所以迟到，是因为路上堵车。",
+     "Có thể rút gọn 是: 之所以…，因为…",
+     "Không dùng 所以 trong cùng một câu với 之所以."
+    ],
+    "examples": [
+     {
+      "text": "他之所以迟到，是因为路上堵车。",
+      "meaning": "Sở dĩ anh ấy đến muộn là vì đường kẹt xe."
+     },
+     {
+      "text": "这个地方之所以受欢迎，是因为风景很美。",
+      "meaning": "Sở dĩ nơi này được yêu thích là vì phong cảnh đẹp."
+     },
+     {
+      "text": "他之所以每天锻炼，是为了保持健康。",
+      "meaning": "Sở dĩ anh ấy tập mỗi ngày là để giữ sức khỏe."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "他之所以迟到，所以路上堵车。",
+      "right": "他之所以迟到，是因为路上堵车。",
+      "why": "之所以 đi với 是因为, không đi với 所以."
+     },
+     {
+      "wrong": "他因为迟到，之所以路上堵车。",
+      "right": "他之所以迟到，是因为路上堵车。",
+      "why": "Kết quả đứng sau 之所以, nguyên nhân sau 是因为."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk5.youyu_yincier",
+   "title": "由于…因此…: do…cho nên…",
+   "topic_key": "cause_condition",
+   "questions": [
+    {
+     "id": "zh.hsk5.youyu_yincier.01",
+     "prompt": "___天气不好，航班取消了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "由于"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "由于 + nguyên nhân (Do thời tiết xấu, chuyến bay bị hủy)."
+    },
+    {
+     "id": "zh.hsk5.youyu_yincier.02",
+     "prompt": "由于交通堵塞，___他迟到了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因此"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "因此 = vì vậy (Do kẹt xe nên anh ấy đến muộn)."
+    },
+    {
+     "id": "zh.hsk5.youyu_yincier.03",
+     "prompt": "由于工作忙，他___很少回家。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "因此"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "因此 đứng sau chủ ngữ (Do bận việc nên anh ấy ít về nhà)."
+    },
+    {
+     "id": "zh.hsk5.youyu_yincier.04",
+     "prompt": "他努力学习，___取得了好成绩。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "因此"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "因此 mở vế kết quả (Anh ấy chăm học nên đạt kết quả tốt)."
+    },
+    {
+     "id": "zh.hsk5.youyu_yincier.05",
+     "prompt": "___大雪，学校停课了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "由于"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "由于 + danh từ (Do tuyết lớn, trường nghỉ học)."
+    },
+    {
+     "id": "zh.hsk5.youyu_yincier.06",
+     "prompt": "由于资金不足，项目___被迫停止。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "对"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "被迫 = bị buộc (Do thiếu vốn, dự án buộc phải dừng)."
+    },
+    {
+     "id": "zh.hsk5.youyu_yincier.07",
+     "prompt": "他经验丰富，___大家都信任他。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "因此"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "因此 (Anh ấy giàu kinh nghiệm nên mọi người đều tin tưởng)."
+    },
+    {
+     "id": "zh.hsk5.youyu_yincier.08",
+     "prompt": "___他的努力，公司的业绩提高了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "由于"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "由于 (Nhờ sự nỗ lực của anh ấy, thành tích công ty đã tăng)."
+    }
+   ],
+   "lesson": {
+    "summary": "由于 nêu nguyên nhân (trang trọng); 因此 mở vế kết quả.",
+    "rules": [
+     "由于 + nguyên nhân，(S) + 因此/所以 + kết quả.",
+     "由于 có thể đứng đầu câu: 由于大雪，学校停课了。",
+     "因此 có thể đứng sau chủ ngữ: 他因此很少回家。"
+    ],
+    "examples": [
+     {
+      "text": "由于天气不好，航班取消了。",
+      "meaning": "Do thời tiết xấu, chuyến bay bị hủy."
+     },
+     {
+      "text": "他努力学习，因此取得了好成绩。",
+      "meaning": "Anh ấy chăm học nên đạt kết quả tốt."
+     },
+     {
+      "text": "由于资金不足，项目被迫停止。",
+      "meaning": "Do thiếu vốn, dự án buộc phải dừng."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "由于天气不好，因为航班取消了。",
+      "right": "由于天气不好，航班取消了。",
+      "why": "Không dùng 因为 sau 由于 trong cùng câu."
+     },
+     {
+      "wrong": "他经验丰富，由此大家都信任他。",
+      "right": "他经验丰富，因此大家都信任他。",
+      "why": "Chuyển sang kết quả dùng 因此."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk5.yidan_jiu",
+   "title": "一旦…就…: một khi…thì…",
+   "topic_key": "cause_condition",
+   "questions": [
+    {
+     "id": "zh.hsk5.yidan_jiu.01",
+     "prompt": "一旦发现问题，___要马上报告。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "就"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "一旦…就… (Một khi phát hiện vấn đề phải báo cáo ngay)."
+    },
+    {
+     "id": "zh.hsk5.yidan_jiu.02",
+     "prompt": "___决定了，就不要后悔。",
+     "options": [
+      {
+       "id": "a",
+       "text": "即使"
+      },
+      {
+       "id": "b",
+       "text": "一旦"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "一旦 + giả định (Một khi đã quyết định thì đừng hối hận)."
+    },
+    {
+     "id": "zh.hsk5.yidan_jiu.03",
+     "prompt": "一旦错过这个机会，你___不会再有了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "就"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "一旦…就… (Một khi bỏ lỡ cơ hội này thì không còn nữa)."
+    },
+    {
+     "id": "zh.hsk5.yidan_jiu.04",
+     "prompt": "一旦下雨，比赛___取消。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "就"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "一旦…就… (Một khi mưa thì trận đấu sẽ bị hủy)."
+    },
+    {
+     "id": "zh.hsk5.yidan_jiu.05",
+     "prompt": "___养成习惯，就很难改变。",
+     "options": [
+      {
+       "id": "a",
+       "text": "即使"
+      },
+      {
+       "id": "b",
+       "text": "虽然"
+      },
+      {
+       "id": "c",
+       "text": "一旦"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "一旦养成习惯 (Một khi đã thành thói quen thì rất khó đổi)."
+    },
+    {
+     "id": "zh.hsk5.yidan_jiu.06",
+     "prompt": "一旦出了问题，后果___不堪设想。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "就"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "一旦…就… (Một khi xảy ra vấn đề, hậu quả khó lường)."
+    },
+    {
+     "id": "zh.hsk5.yidan_jiu.07",
+     "prompt": "一旦___，就没有回头路了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "开始"
+      },
+      {
+       "id": "b",
+       "text": "开始的"
+      },
+      {
+       "id": "c",
+       "text": "很开始"
+      },
+      {
+       "id": "d",
+       "text": "被开始"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "一旦开始 (Một khi đã bắt đầu thì không còn đường lui)."
+    },
+    {
+     "id": "zh.hsk5.yidan_jiu.08",
+     "prompt": "一旦你答应了他，___得做到。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "就"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "一旦…就… (Một khi bạn đã hứa với anh ấy thì phải làm được)."
+    }
+   ],
+   "lesson": {
+    "summary": "一旦 nêu một giả định có thể xảy ra, vế sau (thường có 就) nêu hậu quả hoặc cách xử lý.",
+    "rules": [
+     "一旦 + giả định，就 + hậu quả: 一旦发现问题，就要马上报告。",
+     "Thường dùng cho điều quan trọng, khó thay đổi.",
+     "Vế sau hay có 就, 会, 很难."
+    ],
+    "examples": [
+     {
+      "text": "一旦发现问题，就要马上报告。",
+      "meaning": "Một khi phát hiện vấn đề phải báo cáo ngay."
+     },
+     {
+      "text": "一旦养成习惯，就很难改变。",
+      "meaning": "Một khi đã thành thói quen thì rất khó thay đổi."
+     },
+     {
+      "text": "一旦出了问题，后果就不堪设想。",
+      "meaning": "Một khi xảy ra vấn đề, hậu quả khó lường."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "即使发现问题，就要马上报告。",
+      "right": "一旦发现问题，就要马上报告。",
+      "why": "一旦 đi với 就."
+     },
+     {
+      "wrong": "一旦发现问题，才要马上报告。",
+      "right": "一旦发现问题，就要马上报告。",
+      "why": "Vế sau dùng 就, không dùng 才."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk5.chufei",
+   "title": "除非…才/否则…",
+   "topic_key": "cause_condition",
+   "questions": [
+    {
+     "id": "zh.hsk5.chufei.01",
+     "prompt": "除非你道歉，他___原谅你。",
+     "options": [
+      {
+       "id": "a",
+       "text": "就"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "才"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "除非…才… (Trừ khi bạn xin lỗi, anh ấy mới tha thứ)."
+    },
+    {
+     "id": "zh.hsk5.chufei.02",
+     "prompt": "___你亲自去，否则他不会同意。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "除非"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "除非…否则… (Trừ khi bạn đích thân đi, nếu không anh ấy sẽ không đồng ý)."
+    },
+    {
+     "id": "zh.hsk5.chufei.03",
+     "prompt": "除非你同意，___我就不去。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因此"
+      },
+      {
+       "id": "b",
+       "text": "否则"
+      },
+      {
+       "id": "c",
+       "text": "而且"
+      },
+      {
+       "id": "d",
+       "text": "所以"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "除非…否则… (Trừ khi bạn đồng ý, nếu không tôi sẽ không đi)."
+    },
+    {
+     "id": "zh.hsk5.chufei.04",
+     "prompt": "除非努力，___不可能成功。",
+     "options": [
+      {
+       "id": "a",
+       "text": "否则"
+      },
+      {
+       "id": "b",
+       "text": "因此"
+      },
+      {
+       "id": "c",
+       "text": "而且"
+      },
+      {
+       "id": "d",
+       "text": "所以"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "除非努力，否则不可能成功 (Trừ khi cố gắng, nếu không không thể thành công)."
+    },
+    {
+     "id": "zh.hsk5.chufei.05",
+     "prompt": "除非他自己愿意，___谁也不能勉强他。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因此"
+      },
+      {
+       "id": "b",
+       "text": "而且"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "否则"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "除非…否则… (Trừ khi tự anh ấy muốn, nếu không không ai ép được)."
+    },
+    {
+     "id": "zh.hsk5.chufei.06",
+     "prompt": "除非你亲自去，他___会同意。",
+     "options": [
+      {
+       "id": "a",
+       "text": "就"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "才"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "除非…才… (Trừ khi bạn đích thân đi, anh ấy mới đồng ý)."
+    },
+    {
+     "id": "zh.hsk5.chufei.07",
+     "prompt": "除非警察来了，他们___肯离开。",
+     "options": [
+      {
+       "id": "a",
+       "text": "就"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "除非…才… (Trừ khi cảnh sát đến, họ mới chịu đi)."
+    },
+    {
+     "id": "zh.hsk5.chufei.08",
+     "prompt": "除非明天不下雨，我们___去爬山。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "就"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "除非…才… (Chỉ khi mai không mưa, chúng ta mới đi leo núi)."
+    }
+   ],
+   "lesson": {
+    "summary": "除非 nêu điều kiện duy nhất; vế sau dùng 才 (chỉ khi) hoặc 否则 (nếu không thì).",
+    "rules": [
+     "除非 A，才 B: chỉ khi A mới B: 除非你道歉，他才原谅你。",
+     "除非 A，否则 B: trừ khi A, nếu không thì B: 除非你同意，否则我就不去。",
+     "Dùng 才 để nhấn điều kiện cần."
+    ],
+    "examples": [
+     {
+      "text": "除非你道歉，他才原谅你。",
+      "meaning": "Trừ khi bạn xin lỗi, anh ấy mới tha thứ."
+     },
+     {
+      "text": "除非你亲自去，否则他不会同意。",
+      "meaning": "Trừ khi bạn đích thân đi, nếu không anh ấy sẽ không đồng ý."
+     },
+     {
+      "text": "除非明天不下雨，我们才去爬山。",
+      "meaning": "Chỉ khi mai không mưa, chúng ta mới đi leo núi."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "除非你道歉，他就原谅你。",
+      "right": "除非你道歉，他才原谅你。",
+      "why": "除非 đi với 才."
+     },
+     {
+      "wrong": "除非你同意，所以我就不去。",
+      "right": "除非你同意，否则我就不去。",
+      "why": "Hậu quả dùng 否则."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk5.hekuang",
+   "title": "何况: huống chi",
+   "topic_key": "purpose_judgement",
+   "questions": [
+    {
+     "id": "zh.hsk5.hekuang.01",
+     "prompt": "这么简单的题，大人都不会，___孩子呢？",
+     "options": [
+      {
+       "id": "a",
+       "text": "何况"
+      },
+      {
+       "id": "b",
+       "text": "而且"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "因为"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "何况 = huống chi (Câu đơn giản thế người lớn cũng không biết, huống chi trẻ con)."
+    },
+    {
+     "id": "zh.hsk5.hekuang.02",
+     "prompt": "他连父母的话都不听，___别人的呢？",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "何况"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "何况 (Anh ấy còn không nghe lời bố mẹ, huống chi lời người khác)."
+    },
+    {
+     "id": "zh.hsk5.hekuang.03",
+     "prompt": "天气这么冷，___还下着雨。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "何况"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "何况 (Trời đã lạnh thế này, huống chi còn mưa)."
+    },
+    {
+     "id": "zh.hsk5.hekuang.04",
+     "prompt": "时间不够，___我们还没准备好。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "何况"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "何况 (Thời gian không đủ, huống chi chúng tôi chưa chuẩn bị xong)."
+    },
+    {
+     "id": "zh.hsk5.hekuang.05",
+     "prompt": "他离得很近，都没听见，___我这么远。",
+     "options": [
+      {
+       "id": "a",
+       "text": "何况"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "何况 (Anh ấy ở gần còn không nghe thấy, huống chi tôi ở xa thế này)."
+    },
+    {
+     "id": "zh.hsk5.hekuang.06",
+     "prompt": "这么难的事我都能做到，___这点小事。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "何况"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "何况 (Việc khó thế tôi còn làm được, huống chi việc nhỏ này)."
+    },
+    {
+     "id": "zh.hsk5.hekuang.07",
+     "prompt": "平时都很忙，___现在是春节。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "何况"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "何况 (Ngày thường đã bận, huống chi bây giờ là Tết)."
+    },
+    {
+     "id": "zh.hsk5.hekuang.08",
+     "prompt": "连老师都不知道，___学生呢？",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "何况"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "因为"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "何况 (Ngay cả thầy cô còn không biết, huống chi học sinh)."
+    }
+   ],
+   "lesson": {
+    "summary": "何况 dùng để đưa ra trường hợp nặng hơn hoặc rõ hơn, thường đi sau một ví dụ nhẹ hơn: ngay cả A cũng…, huống chi B.",
+    "rules": [
+     "A 都…，何况 B (+ 呢): 这么简单的题大人都不会，何况孩子呢？",
+     "何况 đứng đầu vế sau, có thể đi với 还.",
+     "Khác với 而且: 何况 nhấn lập luận mạnh hơn."
+    ],
+    "examples": [
+     {
+      "text": "这么简单的题，大人都不会，何况孩子呢？",
+      "meaning": "Câu đơn giản thế người lớn còn không biết, huống chi trẻ con."
+     },
+     {
+      "text": "天气这么冷，何况还下着雨。",
+      "meaning": "Trời đã lạnh thế này, huống chi còn đang mưa."
+     },
+     {
+      "text": "连老师都不知道，何况学生呢？",
+      "meaning": "Ngay cả thầy cô còn không biết, huống chi học sinh."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "大人都不会，所以孩子呢？",
+      "right": "大人都不会，何况孩子呢？",
+      "why": "Lập luận tăng tiến dùng 何况."
+     },
+     {
+      "wrong": "这么冷，因为还下着雨。",
+      "right": "这么冷，何况还下着雨。",
+      "why": "Thêm lý do nặng hơn dùng 何况."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk5.yibian_yimian",
+   "title": "以便, 以免, 免得: để tiện, kẻo",
+   "topic_key": "purpose_judgement",
+   "questions": [
+    {
+     "id": "zh.hsk5.yibian_yimian.01",
+     "prompt": "请把地址写清楚，___我们寄给你。",
+     "options": [
+      {
+       "id": "a",
+       "text": "以免"
+      },
+      {
+       "id": "b",
+       "text": "以便"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "以便 = để tiện (Làm ơn viết rõ địa chỉ để chúng tôi gửi cho bạn)."
+    },
+    {
+     "id": "zh.hsk5.yibian_yimian.02",
+     "prompt": "出门要带伞，___被雨淋。",
+     "options": [
+      {
+       "id": "a",
+       "text": "以免"
+      },
+      {
+       "id": "b",
+       "text": "以便"
+      },
+      {
+       "id": "c",
+       "text": "而且"
+      },
+      {
+       "id": "d",
+       "text": "所以"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "以免 = kẻo (Ra ngoài nhớ mang ô kẻo bị mưa)."
+    },
+    {
+     "id": "zh.hsk5.yibian_yimian.03",
+     "prompt": "你早点儿休息，___明天没精神。",
+     "options": [
+      {
+       "id": "a",
+       "text": "以便"
+      },
+      {
+       "id": "b",
+       "text": "而且"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "免得"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "免得 = kẻo (Bạn nghỉ sớm đi kẻo mai không còn tỉnh táo)."
+    },
+    {
+     "id": "zh.hsk5.yibian_yimian.04",
+     "prompt": "我留下了电话号码，___你随时联系我。",
+     "options": [
+      {
+       "id": "a",
+       "text": "以免"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "以便"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "以便 (Tôi để lại số điện thoại để bạn liên lạc bất cứ lúc nào)."
+    },
+    {
+     "id": "zh.hsk5.yibian_yimian.05",
+     "prompt": "把窗户关好，___小偷进来。",
+     "options": [
+      {
+       "id": "a",
+       "text": "以便"
+      },
+      {
+       "id": "b",
+       "text": "以免"
+      },
+      {
+       "id": "c",
+       "text": "而且"
+      },
+      {
+       "id": "d",
+       "text": "所以"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "以免 (Đóng cửa sổ cẩn thận kẻo kẻ trộm vào)."
+    },
+    {
+     "id": "zh.hsk5.yibian_yimian.06",
+     "prompt": "多检查几遍，___出错。",
+     "options": [
+      {
+       "id": "a",
+       "text": "以免"
+      },
+      {
+       "id": "b",
+       "text": "以便"
+      },
+      {
+       "id": "c",
+       "text": "而且"
+      },
+      {
+       "id": "d",
+       "text": "所以"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "以免 (Kiểm tra thêm vài lần kẻo sai)."
+    },
+    {
+     "id": "zh.hsk5.yibian_yimian.07",
+     "prompt": "他提前出发，___能准时到达。",
+     "options": [
+      {
+       "id": "a",
+       "text": "以免"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "以便"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "以便 (Anh ấy xuất phát sớm để đến đúng giờ)."
+    },
+    {
+     "id": "zh.hsk5.yibian_yimian.08",
+     "prompt": "告诉他一声，___他担心。",
+     "options": [
+      {
+       "id": "a",
+       "text": "以便"
+      },
+      {
+       "id": "b",
+       "text": "而且"
+      },
+      {
+       "id": "c",
+       "text": "免得"
+      },
+      {
+       "id": "d",
+       "text": "所以"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "免得 (Báo cho anh ấy một tiếng kẻo anh ấy lo)."
+    }
+   ],
+   "lesson": {
+    "summary": "以便 nêu mục đích tích cực; 以免 và 免得 nêu mục đích tránh điều không tốt.",
+    "rules": [
+     "以便 + mục đích: 请把地址写清楚，以便我们寄给你。",
+     "以免 / 免得 + điều không muốn: 出门要带伞，以免被雨淋。",
+     "以免 hơi trang trọng; 免得 là khẩu ngữ."
+    ],
+    "examples": [
+     {
+      "text": "请把地址写清楚，以便我们寄给你。",
+      "meaning": "Làm ơn viết rõ địa chỉ để chúng tôi gửi cho bạn."
+     },
+     {
+      "text": "出门要带伞，以免被雨淋。",
+      "meaning": "Ra ngoài nhớ mang ô kẻo bị mưa."
+     },
+     {
+      "text": "告诉他一声，免得他担心。",
+      "meaning": "Báo cho anh ấy một tiếng kẻo anh ấy lo."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "出门要带伞，以便被雨淋。",
+      "right": "出门要带伞，以免被雨淋。",
+      "why": "Tránh điều xấu dùng 以免."
+     },
+     {
+      "wrong": "请写清楚地址，以免我们寄给你。",
+      "right": "请写清楚地址，以便我们寄给你。",
+      "why": "Mục đích tích cực dùng 以便."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk5.nanmian_weibi",
+   "title": "难免, 未必, 毕竟",
+   "topic_key": "purpose_judgement",
+   "questions": [
+    {
+     "id": "zh.hsk5.nanmian_weibi.01",
+     "prompt": "刚开始学汉语，___会犯错误。",
+     "options": [
+      {
+       "id": "a",
+       "text": "未必"
+      },
+      {
+       "id": "b",
+       "text": "毕竟"
+      },
+      {
+       "id": "c",
+       "text": "难免"
+      },
+      {
+       "id": "d",
+       "text": "竟然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "难免 = khó tránh (Mới học tiếng Hán khó tránh phạm lỗi)."
+    },
+    {
+     "id": "zh.hsk5.nanmian_weibi.02",
+     "prompt": "贵的东西___就是好的。",
+     "options": [
+      {
+       "id": "a",
+       "text": "难免"
+      },
+      {
+       "id": "b",
+       "text": "未必"
+      },
+      {
+       "id": "c",
+       "text": "毕竟"
+      },
+      {
+       "id": "d",
+       "text": "竟然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "未必 = chưa chắc (Đồ đắt chưa chắc đã tốt)."
+    },
+    {
+     "id": "zh.hsk5.nanmian_weibi.03",
+     "prompt": "他___是个孩子，别批评他太严。",
+     "options": [
+      {
+       "id": "a",
+       "text": "毕竟"
+      },
+      {
+       "id": "b",
+       "text": "难免"
+      },
+      {
+       "id": "c",
+       "text": "未必"
+      },
+      {
+       "id": "d",
+       "text": "竟然"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "毕竟 = suy cho cùng (Suy cho cùng nó vẫn là trẻ con, đừng chê nghiêm quá)."
+    },
+    {
+     "id": "zh.hsk5.nanmian_weibi.04",
+     "prompt": "第一次做饭，难免___有些紧张。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "会"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "难免会 (Lần đầu nấu ăn khó tránh hồi hộp)."
+    },
+    {
+     "id": "zh.hsk5.nanmian_weibi.05",
+     "prompt": "他说的话___可信。",
+     "options": [
+      {
+       "id": "a",
+       "text": "难免"
+      },
+      {
+       "id": "b",
+       "text": "毕竟"
+      },
+      {
+       "id": "c",
+       "text": "未必"
+      },
+      {
+       "id": "d",
+       "text": "竟然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "未必可信 = chưa chắc đáng tin (Lời anh ấy nói chưa chắc đáng tin)."
+    },
+    {
+     "id": "zh.hsk5.nanmian_weibi.06",
+     "prompt": "这么多人，难免___有意见不同。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "会"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "难免会有 (Nhiều người như vậy khó tránh có ý kiến khác nhau)."
+    },
+    {
+     "id": "zh.hsk5.nanmian_weibi.07",
+     "prompt": "他___年轻，经验不足也可以理解。",
+     "options": [
+      {
+       "id": "a",
+       "text": "毕竟"
+      },
+      {
+       "id": "b",
+       "text": "难免"
+      },
+      {
+       "id": "c",
+       "text": "未必"
+      },
+      {
+       "id": "d",
+       "text": "竟然"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "毕竟 (Suy cho cùng anh ấy còn trẻ, thiếu kinh nghiệm cũng dễ hiểu)."
+    },
+    {
+     "id": "zh.hsk5.nanmian_weibi.08",
+     "prompt": "你别太相信他，他的话___是真的。",
+     "options": [
+      {
+       "id": "a",
+       "text": "难免"
+      },
+      {
+       "id": "b",
+       "text": "毕竟"
+      },
+      {
+       "id": "c",
+       "text": "竟然"
+      },
+      {
+       "id": "d",
+       "text": "未必"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "未必是真的 = chưa chắc là thật (Đừng tin anh ấy quá, lời anh ấy chưa chắc là thật)."
+    }
+   ],
+   "lesson": {
+    "summary": "难免 nói điều khó tránh; 未必 nói chưa chắc; 毕竟 nhấn lý do cuối cùng.",
+    "rules": [
+     "难免 + (会) + V: 刚开始学汉语，难免会犯错误。",
+     "未必 + tính từ/động từ: 贵的东西未必就是好的。",
+     "毕竟: dù sao, suy cho cùng: 他毕竟是个孩子，别批评他太严。"
+    ],
+    "examples": [
+     {
+      "text": "刚开始学汉语，难免会犯错误。",
+      "meaning": "Mới học tiếng Hán khó tránh phạm lỗi."
+     },
+     {
+      "text": "贵的东西未必就是好的。",
+      "meaning": "Đồ đắt chưa chắc đã là đồ tốt."
+     },
+     {
+      "text": "他毕竟是个孩子，别批评他太严。",
+      "meaning": "Suy cho cùng nó vẫn là trẻ con, đừng chê nó quá nghiêm."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "贵的东西难免就是好的。",
+      "right": "贵的东西未必就是好的。",
+      "why": "Chưa chắc dùng 未必."
+     },
+     {
+      "wrong": "刚开始学汉语，未必会犯错误。",
+      "right": "刚开始学汉语，难免会犯错误。",
+      "why": "Điều khó tránh dùng 难免."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk5.bushi_jiushi_yaome",
+   "title": "不是…就是…, 要么…要么…, 既…又…",
+   "topic_key": "purpose_judgement",
+   "questions": [
+    {
+     "id": "zh.hsk5.bushi_jiushi_yaome.01",
+     "prompt": "他每天___看书，就是写作业。",
+     "options": [
+      {
+       "id": "a",
+       "text": "既"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "不是"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "不是…就是… (Mỗi ngày anh ấy không đọc sách thì làm bài tập)."
+    },
+    {
+     "id": "zh.hsk5.bushi_jiushi_yaome.02",
+     "prompt": "周末我们___去爬山，要么去海边。",
+     "options": [
+      {
+       "id": "a",
+       "text": "既"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "要么"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "要么…要么… (Cuối tuần chúng tôi hoặc đi leo núi hoặc ra biển)."
+    },
+    {
+     "id": "zh.hsk5.bushi_jiushi_yaome.03",
+     "prompt": "这个孩子既聪明，___懂事。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "又"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "既…又… (Đứa trẻ này vừa thông minh vừa hiểu chuyện)."
+    },
+    {
+     "id": "zh.hsk5.bushi_jiushi_yaome.04",
+     "prompt": "天气不是下雨，___是刮风。",
+     "options": [
+      {
+       "id": "a",
+       "text": "就"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "不是…就是… (Thời tiết không mưa thì gió)."
+    },
+    {
+     "id": "zh.hsk5.bushi_jiushi_yaome.05",
+     "prompt": "要么你来我家，___我去你家。",
+     "options": [
+      {
+       "id": "a",
+       "text": "既"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "要么"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "要么…要么… (Hoặc bạn đến nhà tôi, hoặc tôi đến nhà bạn)."
+    },
+    {
+     "id": "zh.hsk5.bushi_jiushi_yaome.06",
+     "prompt": "他___会唱歌，又会跳舞。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "既"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "既…又… (Anh ấy vừa biết hát vừa biết nhảy)."
+    },
+    {
+     "id": "zh.hsk5.bushi_jiushi_yaome.07",
+     "prompt": "我们___坐火车去，要么坐飞机去。",
+     "options": [
+      {
+       "id": "a",
+       "text": "既"
+      },
+      {
+       "id": "b",
+       "text": "要么"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "要么…要么… (Chúng ta hoặc đi tàu hoặc đi máy bay)."
+    },
+    {
+     "id": "zh.hsk5.bushi_jiushi_yaome.08",
+     "prompt": "这件衣服既便宜，___好看。",
+     "options": [
+      {
+       "id": "a",
+       "text": "又"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "既…又… (Cái áo này vừa rẻ vừa đẹp)."
+    }
+   ],
+   "lesson": {
+    "summary": "Các khung câu liệt kê: không A thì B, hoặc A hoặc B, vừa A vừa B.",
+    "rules": [
+     "不是 A 就是 B: không A thì B: 他每天不是看书，就是写作业。",
+     "要么 A 要么 B: hoặc A hoặc B (lựa chọn): 周末我们要么去爬山，要么去海边。",
+     "既 A 又 B: vừa A vừa B: 他既会唱歌，又会跳舞。"
+    ],
+    "examples": [
+     {
+      "text": "他每天不是看书，就是写作业。",
+      "meaning": "Mỗi ngày anh ấy không đọc sách thì làm bài tập."
+     },
+     {
+      "text": "周末我们要么去爬山，要么去海边。",
+      "meaning": "Cuối tuần chúng tôi hoặc đi leo núi hoặc ra biển."
+     },
+     {
+      "text": "这个孩子既聪明，又懂事。",
+      "meaning": "Đứa trẻ này vừa thông minh vừa hiểu chuyện."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "周末我们不是去爬山，要么去海边。",
+      "right": "周末我们要么去爬山，要么去海边。",
+      "why": "Cặp 要么…要么… không trộn với 不是."
+     },
+     {
+      "wrong": "他既会唱歌，也会跳舞。",
+      "right": "他既会唱歌，又会跳舞。",
+      "why": "既 đi với 又."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk5.suizhe_tongguo",
+   "title": "随着, 通过, 在…下",
+   "topic_key": "frames",
+   "questions": [
+    {
+     "id": "zh.hsk5.suizhe_tongguo.01",
+     "prompt": "___科技的发展，我们的生活越来越方便。",
+     "options": [
+      {
+       "id": "a",
+       "text": "随着"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "随着…的发展 (Cùng với sự phát triển công nghệ, cuộc sống ngày càng tiện lợi)."
+    },
+    {
+     "id": "zh.hsk5.suizhe_tongguo.02",
+     "prompt": "___努力，他终于考上了大学。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "通过"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "通过努力 = nhờ nỗ lực (Nhờ nỗ lực, cuối cùng anh ấy đã đỗ đại học)."
+    },
+    {
+     "id": "zh.hsk5.suizhe_tongguo.03",
+     "prompt": "在老师的帮助___，我进步很快。",
+     "options": [
+      {
+       "id": "a",
+       "text": "上"
+      },
+      {
+       "id": "b",
+       "text": "里"
+      },
+      {
+       "id": "c",
+       "text": "下"
+      },
+      {
+       "id": "d",
+       "text": "中"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "在…的帮助下 (Dưới sự giúp đỡ của thầy cô, tôi tiến bộ rất nhanh)."
+    },
+    {
+     "id": "zh.hsk5.suizhe_tongguo.04",
+     "prompt": "___这次旅行，我认识了很多朋友。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "通过"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "通过这次旅行 (Qua chuyến du lịch này, tôi quen được nhiều bạn)."
+    },
+    {
+     "id": "zh.hsk5.suizhe_tongguo.05",
+     "prompt": "随着年龄的增长，他___成熟了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "越来越"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "随着…越来越… (Cùng với tuổi tác, anh ấy ngày càng trưởng thành)."
+    },
+    {
+     "id": "zh.hsk5.suizhe_tongguo.06",
+     "prompt": "在大家的支持___，我们完成了任务。",
+     "options": [
+      {
+       "id": "a",
+       "text": "上"
+      },
+      {
+       "id": "b",
+       "text": "里"
+      },
+      {
+       "id": "c",
+       "text": "中"
+      },
+      {
+       "id": "d",
+       "text": "下"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "在…的支持下 (Dưới sự ủng hộ của mọi người, chúng tôi đã hoàn thành nhiệm vụ)."
+    },
+    {
+     "id": "zh.hsk5.suizhe_tongguo.07",
+     "prompt": "___时间的推移，一切都会改变。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "随着"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "随着时间的推移 (Theo thời gian, mọi thứ sẽ đổi thay)."
+    },
+    {
+     "id": "zh.hsk5.suizhe_tongguo.08",
+     "prompt": "他___自学，掌握了三门外语。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "通过"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "通过自学 (Nhờ tự học, anh ấy thành thạo ba ngoại ngữ)."
+    }
+   ],
+   "lesson": {
+    "summary": "随着 nói sự thay đổi kèm theo; 通过 nói phương tiện, con đường; 在…下 nói điều kiện, hoàn cảnh.",
+    "rules": [
+     "随着 + sự phát triển, S + 越来越…: 随着科技的发展，我们的生活越来越方便。",
+     "通过 + phương thức, S + kết quả: 通过努力，他终于考上了大学。",
+     "在 + (…的)+ danh từ + 下: 在老师的帮助下，我进步很快。"
+    ],
+    "examples": [
+     {
+      "text": "随着科技的发展，我们的生活越来越方便。",
+      "meaning": "Cùng với sự phát triển công nghệ, cuộc sống ngày càng tiện lợi."
+     },
+     {
+      "text": "通过努力，他终于考上了大学。",
+      "meaning": "Nhờ nỗ lực, cuối cùng anh ấy đã đỗ đại học."
+     },
+     {
+      "text": "在老师的帮助下，我进步很快。",
+      "meaning": "Dưới sự giúp đỡ của thầy cô, tôi tiến bộ rất nhanh."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "在老师的帮助中，我进步很快。",
+      "right": "在老师的帮助下，我进步很快。",
+      "why": "Cấu trúc cố định là 在…下."
+     },
+     {
+      "wrong": "通过时间的推移，一切都会改变。",
+      "right": "随着时间的推移，一切都会改变。",
+      "why": "Thay đổi theo thời gian dùng 随着."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk5.ba_dangzuo_yingxiang",
+   "title": "把…当作, 被称为, 对…有好处/影响",
+   "topic_key": "frames",
+   "questions": [
+    {
+     "id": "zh.hsk5.ba_dangzuo_yingxiang.01",
+     "prompt": "他把朋友___自己的家人。",
+     "options": [
+      {
+       "id": "a",
+       "text": "当地"
+      },
+      {
+       "id": "b",
+       "text": "当作"
+      },
+      {
+       "id": "c",
+       "text": "当时"
+      },
+      {
+       "id": "d",
+       "text": "当心"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "把…当作… = coi…như… (Anh ấy coi bạn như người nhà)."
+    },
+    {
+     "id": "zh.hsk5.ba_dangzuo_yingxiang.02",
+     "prompt": "这座城市被___“春城”。",
+     "options": [
+      {
+       "id": "a",
+       "text": "称为"
+      },
+      {
+       "id": "b",
+       "text": "当作"
+      },
+      {
+       "id": "c",
+       "text": "看见"
+      },
+      {
+       "id": "d",
+       "text": "听见"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "被称为 = được gọi là (Thành phố này được gọi là “thành phố mùa xuân”)."
+    },
+    {
+     "id": "zh.hsk5.ba_dangzuo_yingxiang.03",
+     "prompt": "多运动对身体___好处。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "有"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "对…有好处 = có lợi cho… (Vận động nhiều có lợi cho cơ thể)."
+    },
+    {
+     "id": "zh.hsk5.ba_dangzuo_yingxiang.04",
+     "prompt": "吸烟对健康___害处。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "有"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "对…有害处 = có hại cho… (Hút thuốc có hại cho sức khỏe)."
+    },
+    {
+     "id": "zh.hsk5.ba_dangzuo_yingxiang.05",
+     "prompt": "他把工作___在第一位。",
+     "options": [
+      {
+       "id": "a",
+       "text": "看"
+      },
+      {
+       "id": "b",
+       "text": "放"
+      },
+      {
+       "id": "c",
+       "text": "听"
+      },
+      {
+       "id": "d",
+       "text": "说"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "把…放在第一位 = đặt…lên hàng đầu (Anh ấy đặt công việc lên hàng đầu)."
+    },
+    {
+     "id": "zh.hsk5.ba_dangzuo_yingxiang.06",
+     "prompt": "我们把这个问题看___一个机会。",
+     "options": [
+      {
+       "id": "a",
+       "text": "作"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "把…看作… = coi…là… (Chúng ta coi vấn đề này là một cơ hội)."
+    },
+    {
+     "id": "zh.hsk5.ba_dangzuo_yingxiang.07",
+     "prompt": "他常常把别人的帮助___理所当然。",
+     "options": [
+      {
+       "id": "a",
+       "text": "当地"
+      },
+      {
+       "id": "b",
+       "text": "当时"
+      },
+      {
+       "id": "c",
+       "text": "当心"
+      },
+      {
+       "id": "d",
+       "text": "当作"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "把…当作理所当然 = coi là lẽ đương nhiên (Anh ấy thường coi sự giúp đỡ của người khác là đương nhiên)."
+    },
+    {
+     "id": "zh.hsk5.ba_dangzuo_yingxiang.08",
+     "prompt": "把时间___在学习上，是值得的。",
+     "options": [
+      {
+       "id": "a",
+       "text": "看"
+      },
+      {
+       "id": "b",
+       "text": "听"
+      },
+      {
+       "id": "c",
+       "text": "用"
+      },
+      {
+       "id": "d",
+       "text": "说"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "把时间用在… = dành thời gian cho… (Dành thời gian cho việc học là đáng giá)."
+    }
+   ],
+   "lesson": {
+    "summary": "Các khung câu nhận định: coi A là B, được gọi là, có lợi hoặc có hại cho.",
+    "rules": [
+     "把 A 当作/看作 B: 他把朋友当作自己的家人。",
+     "A 被称为 B: 这座城市被称为“春城”。",
+     "对 + O + 有好处/有害处/有影响: 多运动对身体有好处。",
+     "把 + O + 放在/用在 + nơi/việc: 把工作放在第一位。"
+    ],
+    "examples": [
+     {
+      "text": "他把朋友当作自己的家人。",
+      "meaning": "Anh ấy coi bạn như người nhà."
+     },
+     {
+      "text": "这座城市被称为“春城”。",
+      "meaning": "Thành phố này được gọi là “thành phố mùa xuân”."
+     },
+     {
+      "text": "多运动对身体有好处。",
+      "meaning": "Vận động nhiều có lợi cho cơ thể."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "多运动对身体被好处。",
+      "right": "多运动对身体有好处。",
+      "why": "Có lợi dùng 有好处."
+     },
+     {
+      "wrong": "他把工作在第一位。",
+      "right": "他把工作放在第一位。",
+      "why": "Sau 把 cần động từ như 放."
+     }
+    ]
+   }
+  }
+ ],
+ "approval": {
+  "reviewer": "owner",
+  "approved_on": "2026-11-02",
+  "content_sha256": "62a75c73725e0a0d5438ba9958b993fe43ff0acfde4d99100c9e087e9abe93f8",
+  "sample_question_ids": [
+   "zh.hsk5.zhisuoyi.01",
+   "zh.hsk5.youyu_yincier.01",
+   "zh.hsk5.yidan_jiu.01",
+   "zh.hsk5.chufei.01",
+   "zh.hsk5.hekuang.01",
+   "zh.hsk5.yibian_yimian.01",
+   "zh.hsk5.nanmian_weibi.01",
+   "zh.hsk5.bushi_jiushi_yaome.01",
+   "zh.hsk5.suizhe_tongguo.01",
+   "zh.hsk5.ba_dangzuo_yingxiang.01"
+  ]
+ }
+}

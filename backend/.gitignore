@@ -1,0 +1,11 @@
+# Private, durable qualification journals/logs/manifests. Never source artifacts.
+/.qualification_runs/
+
+# Race gate run manifests (scripts/learning/race_quick_review_skip.py)
+it-a25-*.json
+# Quick review live gate run manifests (scripts/learning/gate_quick_review_next.py)
+it-tg-*.json
+# M2.3a ledger PostgreSQL harness manifests and results (scripts/platform/verify_ledger_pg_m2_3a.py)
+it-m23a-*.json
+# M2.3c failure-code PostgreSQL dev check results
+it-m23c-*.json

@@ -1,0 +1,2382 @@
+{
+ "format": "deeplingo-grammar-bank-v1",
+ "catalogue_source": "deeplingo",
+ "authorship": "ai_draft",
+ "language": "zh",
+ "level": "HSK2",
+ "support_language": "vi",
+ "version": 1,
+ "topics": [
+  {
+   "key": "aspect",
+   "title": "Trợ từ động thái và tiến trình"
+  },
+  {
+   "key": "comparison_degree",
+   "title": "So sánh và bổ ngữ trạng thái"
+  },
+  {
+   "key": "modal_conj",
+   "title": "Động từ năng nguyện và liên từ"
+  },
+  {
+   "key": "prep_sequence",
+   "title": "Giới từ và trình tự"
+  }
+ ],
+ "points": [
+  {
+   "key": "zh.hsk2.le_completion",
+   "title": "Trợ từ 了: hoàn thành và thay đổi",
+   "topic_key": "aspect",
+   "questions": [
+    {
+     "id": "zh.hsk2.le_completion.01",
+     "prompt": "昨天我买___一件衣服。",
+     "options": [
+      {
+       "id": "a",
+       "text": "了"
+      },
+      {
+       "id": "b",
+       "text": "的"
+      },
+      {
+       "id": "c",
+       "text": "着"
+      },
+      {
+       "id": "d",
+       "text": "吗"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "了 đứng sau động từ để nói việc đã xong: 买了一件衣服 (Hôm qua tôi đã mua một cái áo)."
+    },
+    {
+     "id": "zh.hsk2.le_completion.02",
+     "prompt": "天黑___，我们回家吧。",
+     "options": [
+      {
+       "id": "a",
+       "text": "的"
+      },
+      {
+       "id": "b",
+       "text": "着"
+      },
+      {
+       "id": "c",
+       "text": "吗"
+      },
+      {
+       "id": "d",
+       "text": "了"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "了 cuối câu chỉ sự thay đổi: 天黑了 (Trời tối rồi, chúng ta về nhà thôi)."
+    },
+    {
+     "id": "zh.hsk2.le_completion.03",
+     "prompt": "我昨天___去学校。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不"
+      },
+      {
+       "id": "b",
+       "text": "别"
+      },
+      {
+       "id": "c",
+       "text": "没"
+      },
+      {
+       "id": "d",
+       "text": "无"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Phủ định việc đã qua dùng 没: 没去学校 (Hôm qua tôi không đi học)."
+    },
+    {
+     "id": "zh.hsk2.le_completion.04",
+     "prompt": "他三十岁___。",
+     "options": [
+      {
+       "id": "a",
+       "text": "着"
+      },
+      {
+       "id": "b",
+       "text": "了"
+      },
+      {
+       "id": "c",
+       "text": "的"
+      },
+      {
+       "id": "d",
+       "text": "过"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "了 cuối câu chỉ sự thay đổi về tuổi: 三十岁了 (Anh ấy ba mươi tuổi rồi)."
+    },
+    {
+     "id": "zh.hsk2.le_completion.05",
+     "prompt": "我吃___早饭就去上班。",
+     "options": [
+      {
+       "id": "a",
+       "text": "了"
+      },
+      {
+       "id": "b",
+       "text": "着"
+      },
+      {
+       "id": "c",
+       "text": "的"
+      },
+      {
+       "id": "d",
+       "text": "吗"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "了 sau động từ chỉ việc đã xong rồi mới làm việc tiếp: 吃了早饭就去 (Ăn sáng xong tôi đi làm)."
+    },
+    {
+     "id": "zh.hsk2.le_completion.06",
+     "prompt": "我们已经毕业___。",
+     "options": [
+      {
+       "id": "a",
+       "text": "着"
+      },
+      {
+       "id": "b",
+       "text": "的"
+      },
+      {
+       "id": "c",
+       "text": "吗"
+      },
+      {
+       "id": "d",
+       "text": "了"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "了 cuối câu: 毕业了 (Chúng tôi đã tốt nghiệp rồi)."
+    },
+    {
+     "id": "zh.hsk2.le_completion.07",
+     "prompt": "他昨天___来上课，因为生病了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不"
+      },
+      {
+       "id": "b",
+       "text": "别"
+      },
+      {
+       "id": "c",
+       "text": "没"
+      },
+      {
+       "id": "d",
+       "text": "无"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Việc đã qua dùng 没: 没来上课 (Hôm qua anh ấy không đến lớp vì ốm)."
+    },
+    {
+     "id": "zh.hsk2.le_completion.08",
+     "prompt": "我今天早上喝___一杯咖啡。",
+     "options": [
+      {
+       "id": "a",
+       "text": "着"
+      },
+      {
+       "id": "b",
+       "text": "了"
+      },
+      {
+       "id": "c",
+       "text": "的"
+      },
+      {
+       "id": "d",
+       "text": "吗"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "了 sau động từ: 喝了一杯咖啡 (Sáng nay tôi đã uống một cốc cà phê)."
+    }
+   ],
+   "lesson": {
+    "summary": "了 đứng sau động từ để nói việc đã xong, hoặc đứng cuối câu để nói tình huống đã thay đổi.",
+    "rules": [
+     "Hoàn thành: động từ + 了 + tân ngữ: 我买了一件衣服。",
+     "Thay đổi: cuối câu + 了: 天黑了。他三十岁了。",
+     "Phủ định việc đã qua dùng 没(有), không dùng 不, và bỏ 了: 我昨天没去学校。"
+    ],
+    "examples": [
+     {
+      "text": "我昨天买了一件衣服。",
+      "meaning": "Hôm qua tôi đã mua một cái áo."
+     },
+     {
+      "text": "天黑了，我们回家吧。",
+      "meaning": "Trời tối rồi, chúng ta về nhà thôi."
+     },
+     {
+      "text": "他昨天没来上课。",
+      "meaning": "Hôm qua anh ấy không đến lớp."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "我昨天不去学校。",
+      "right": "我昨天没去学校。",
+      "why": "Việc đã qua phủ định bằng 没, không dùng 不."
+     },
+     {
+      "wrong": "我没去了学校。",
+      "right": "我没去学校。",
+      "why": "Có 没 thì bỏ 了."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk2.guo_experience",
+   "title": "Trợ từ 过: kinh nghiệm",
+   "topic_key": "aspect",
+   "questions": [
+    {
+     "id": "zh.hsk2.guo_experience.01",
+     "prompt": "我从来没去___北京。",
+     "options": [
+      {
+       "id": "a",
+       "text": "了"
+      },
+      {
+       "id": "b",
+       "text": "过"
+      },
+      {
+       "id": "c",
+       "text": "着"
+      },
+      {
+       "id": "d",
+       "text": "的"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "没...过 nói chưa từng: 没去过 (Tôi chưa từng đến Bắc Kinh)."
+    },
+    {
+     "id": "zh.hsk2.guo_experience.02",
+     "prompt": "你以前吃___中国菜吗？",
+     "options": [
+      {
+       "id": "a",
+       "text": "过"
+      },
+      {
+       "id": "b",
+       "text": "着"
+      },
+      {
+       "id": "c",
+       "text": "的"
+      },
+      {
+       "id": "d",
+       "text": "呢"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "过 hỏi về kinh nghiệm: 吃过 (Trước đây bạn từng ăn món Trung Quốc chưa?)."
+    },
+    {
+     "id": "zh.hsk2.guo_experience.03",
+     "prompt": "他从来没吃___这个。",
+     "options": [
+      {
+       "id": "a",
+       "text": "着"
+      },
+      {
+       "id": "b",
+       "text": "的"
+      },
+      {
+       "id": "c",
+       "text": "呢"
+      },
+      {
+       "id": "d",
+       "text": "过"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "从来没 + động từ + 过 (Anh ấy chưa bao giờ ăn món này)."
+    },
+    {
+     "id": "zh.hsk2.guo_experience.04",
+     "prompt": "我___去过上海。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不"
+      },
+      {
+       "id": "b",
+       "text": "别"
+      },
+      {
+       "id": "c",
+       "text": "没"
+      },
+      {
+       "id": "d",
+       "text": "无"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Phủ định kinh nghiệm dùng 没: 没去过 (Tôi chưa từng đến Thượng Hải)."
+    },
+    {
+     "id": "zh.hsk2.guo_experience.05",
+     "prompt": "你以前学___汉语吗？",
+     "options": [
+      {
+       "id": "a",
+       "text": "着"
+      },
+      {
+       "id": "b",
+       "text": "过"
+      },
+      {
+       "id": "c",
+       "text": "的"
+      },
+      {
+       "id": "d",
+       "text": "呢"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "学过 = từng học (Trước đây bạn từng học tiếng Hán chưa?)."
+    },
+    {
+     "id": "zh.hsk2.guo_experience.06",
+     "prompt": "我们见___一次面。",
+     "options": [
+      {
+       "id": "a",
+       "text": "过"
+      },
+      {
+       "id": "b",
+       "text": "着"
+      },
+      {
+       "id": "c",
+       "text": "的"
+      },
+      {
+       "id": "d",
+       "text": "吗"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "见过一次面 = đã từng gặp một lần (Chúng tôi từng gặp nhau một lần)."
+    },
+    {
+     "id": "zh.hsk2.guo_experience.07",
+     "prompt": "她来___中国三次。",
+     "options": [
+      {
+       "id": "a",
+       "text": "着"
+      },
+      {
+       "id": "b",
+       "text": "的"
+      },
+      {
+       "id": "c",
+       "text": "吗"
+      },
+      {
+       "id": "d",
+       "text": "过"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "来过中国三次 (Cô ấy đã đến Trung Quốc ba lần)."
+    },
+    {
+     "id": "zh.hsk2.guo_experience.08",
+     "prompt": "我去___那家饭馆，很好吃。",
+     "options": [
+      {
+       "id": "a",
+       "text": "着"
+      },
+      {
+       "id": "b",
+       "text": "的"
+      },
+      {
+       "id": "c",
+       "text": "过"
+      },
+      {
+       "id": "d",
+       "text": "吗"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "去过 = từng đến (Tôi từng đến quán đó, rất ngon)."
+    }
+   ],
+   "lesson": {
+    "summary": "过 đứng sau động từ để nói từng làm việc gì trong quá khứ (kinh nghiệm).",
+    "rules": [
+     "Khẳng định: động từ + 过: 我去过北京。",
+     "Phủ định: 没(有) + động từ + 过: 我没去过上海。 从来没...过: chưa bao giờ.",
+     "Câu hỏi: 你吃过中国菜吗？ / 你吃过中国菜没有？"
+    ],
+    "examples": [
+     {
+      "text": "我去过北京，那里很漂亮。",
+      "meaning": "Tôi từng đến Bắc Kinh, ở đó rất đẹp."
+     },
+     {
+      "text": "他从来没吃过这个。",
+      "meaning": "Anh ấy chưa bao giờ ăn món này."
+     },
+     {
+      "text": "你以前学过汉语吗？",
+      "meaning": "Trước đây bạn từng học tiếng Hán chưa?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "我不去过上海。",
+      "right": "我没去过上海。",
+      "why": "Phủ định kinh nghiệm dùng 没, không dùng 不."
+     },
+     {
+      "wrong": "我去过了北京。",
+      "right": "我去过北京。",
+      "why": "过 không đi cùng 了 theo cách này."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk2.zai_progressive",
+   "title": "在 và 正在: đang làm",
+   "topic_key": "aspect",
+   "questions": [
+    {
+     "id": "zh.hsk2.zai_progressive.01",
+     "prompt": "我___吃饭，你等一会儿。",
+     "options": [
+      {
+       "id": "a",
+       "text": "是"
+      },
+      {
+       "id": "b",
+       "text": "有"
+      },
+      {
+       "id": "c",
+       "text": "在"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "在 + động từ chỉ việc đang diễn ra: 在吃饭 (Tôi đang ăn cơm, bạn đợi một lát)."
+    },
+    {
+     "id": "zh.hsk2.zai_progressive.02",
+     "prompt": "他们___看电视呢。",
+     "options": [
+      {
+       "id": "a",
+       "text": "曾经"
+      },
+      {
+       "id": "b",
+       "text": "正在"
+      },
+      {
+       "id": "c",
+       "text": "已经"
+      },
+      {
+       "id": "d",
+       "text": "刚才"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "正在 + động từ + 呢 (Họ đang xem tivi)."
+    },
+    {
+     "id": "zh.hsk2.zai_progressive.03",
+     "prompt": "你___做什么呢？",
+     "options": [
+      {
+       "id": "a",
+       "text": "在"
+      },
+      {
+       "id": "b",
+       "text": "是"
+      },
+      {
+       "id": "c",
+       "text": "有"
+      },
+      {
+       "id": "d",
+       "text": "被"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "在做什么呢 = đang làm gì thế (Bạn đang làm gì thế?)."
+    },
+    {
+     "id": "zh.hsk2.zai_progressive.04",
+     "prompt": "妈妈在做饭，我也___看书。",
+     "options": [
+      {
+       "id": "a",
+       "text": "是"
+      },
+      {
+       "id": "b",
+       "text": "有"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "在"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "也在看书 = cũng đang đọc sách (Mẹ đang nấu cơm, tôi cũng đang đọc sách)."
+    },
+    {
+     "id": "zh.hsk2.zai_progressive.05",
+     "prompt": "现在是晚上八点，他还___工作。",
+     "options": [
+      {
+       "id": "a",
+       "text": "是"
+      },
+      {
+       "id": "b",
+       "text": "有"
+      },
+      {
+       "id": "c",
+       "text": "在"
+      },
+      {
+       "id": "d",
+       "text": "被"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "还在工作 = vẫn đang làm việc (Bây giờ tám giờ tối, anh ấy vẫn đang làm việc)."
+    },
+    {
+     "id": "zh.hsk2.zai_progressive.06",
+     "prompt": "别说话，孩子们___睡觉呢。",
+     "options": [
+      {
+       "id": "a",
+       "text": "是"
+      },
+      {
+       "id": "b",
+       "text": "在"
+      },
+      {
+       "id": "c",
+       "text": "有"
+      },
+      {
+       "id": "d",
+       "text": "被"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "在睡觉呢 = đang ngủ (Đừng nói chuyện, bọn trẻ đang ngủ)."
+    },
+    {
+     "id": "zh.hsk2.zai_progressive.07",
+     "prompt": "我给你打电话的时候，你___做什么？",
+     "options": [
+      {
+       "id": "a",
+       "text": "在"
+      },
+      {
+       "id": "b",
+       "text": "是"
+      },
+      {
+       "id": "c",
+       "text": "有"
+      },
+      {
+       "id": "d",
+       "text": "被"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "在做什么 = đang làm gì (Lúc tôi gọi điện, bạn đang làm gì?)."
+    },
+    {
+     "id": "zh.hsk2.zai_progressive.08",
+     "prompt": "他不___听音乐，他在看书。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "在"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "不在 + động từ: không đang làm (Anh ấy không đang nghe nhạc, anh ấy đang đọc sách)."
+    }
+   ],
+   "lesson": {
+    "summary": "在 hoặc 正在 đặt trước động từ để nói việc đang diễn ra; cuối câu có thể thêm 呢.",
+    "rules": [
+     "S + 在/正在 + động từ (+ 呢): 我在吃饭。他们正在看电视呢。",
+     "Phủ định: 没(有)在 + động từ, hoặc 不在: 他不在听音乐。",
+     "Câu hỏi: 你在做什么呢？"
+    ],
+    "examples": [
+     {
+      "text": "我在吃饭，你等一会儿。",
+      "meaning": "Tôi đang ăn cơm, bạn đợi một lát."
+     },
+     {
+      "text": "他们正在看电视呢。",
+      "meaning": "Họ đang xem tivi."
+     },
+     {
+      "text": "你在做什么呢？",
+      "meaning": "Bạn đang làm gì thế?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "我是吃饭。",
+      "right": "我在吃饭。",
+      "why": "Đang làm dùng 在, không dùng 是."
+     },
+     {
+      "wrong": "他们已经看电视呢。",
+      "right": "他们正在看电视呢。",
+      "why": "呢 đi với việc đang diễn ra: 在/正在."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk2.yao_le_soon",
+   "title": "要…了, 快要…了: sắp",
+   "topic_key": "aspect",
+   "questions": [
+    {
+     "id": "zh.hsk2.yao_le_soon.01",
+     "prompt": "火车要开___。",
+     "options": [
+      {
+       "id": "a",
+       "text": "过"
+      },
+      {
+       "id": "b",
+       "text": "着"
+      },
+      {
+       "id": "c",
+       "text": "的"
+      },
+      {
+       "id": "d",
+       "text": "了"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "要...了 = sắp: 要开了 (Tàu sắp chạy rồi)."
+    },
+    {
+     "id": "zh.hsk2.yao_le_soon.02",
+     "prompt": "快___八点了，我们走吧。",
+     "options": [
+      {
+       "id": "a",
+       "text": "会"
+      },
+      {
+       "id": "b",
+       "text": "能"
+      },
+      {
+       "id": "c",
+       "text": "要"
+      },
+      {
+       "id": "d",
+       "text": "可以"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "快要...了 = sắp: 快要八点了 (Sắp tám giờ rồi, chúng ta đi thôi)."
+    },
+    {
+     "id": "zh.hsk2.yao_le_soon.03",
+     "prompt": "天要黑___。",
+     "options": [
+      {
+       "id": "a",
+       "text": "过"
+      },
+      {
+       "id": "b",
+       "text": "了"
+      },
+      {
+       "id": "c",
+       "text": "着"
+      },
+      {
+       "id": "d",
+       "text": "的"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "要...了 = sắp: 天要黑了 (Trời sắp tối rồi)."
+    },
+    {
+     "id": "zh.hsk2.yao_le_soon.04",
+     "prompt": "他明天就___回国了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "要"
+      },
+      {
+       "id": "b",
+       "text": "在"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "就要...了 = sắp: 就要回国了 (Ngày mai anh ấy sắp về nước)."
+    },
+    {
+     "id": "zh.hsk2.yao_le_soon.05",
+     "prompt": "春节快___了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "去"
+      },
+      {
+       "id": "b",
+       "text": "走"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "到"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "快到了 = sắp đến (Tết sắp đến rồi)."
+    },
+    {
+     "id": "zh.hsk2.yao_le_soon.06",
+     "prompt": "他今年就要大学毕业___。",
+     "options": [
+      {
+       "id": "a",
+       "text": "过"
+      },
+      {
+       "id": "b",
+       "text": "着"
+      },
+      {
+       "id": "c",
+       "text": "了"
+      },
+      {
+       "id": "d",
+       "text": "吗"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "就要...了 = sắp: 毕业了 (Năm nay anh ấy sắp tốt nghiệp đại học)."
+    },
+    {
+     "id": "zh.hsk2.yao_le_soon.07",
+     "prompt": "飞机马上___起飞了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "在"
+      },
+      {
+       "id": "b",
+       "text": "要"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "马上要...了 = sắp: 要起飞了 (Máy bay sắp cất cánh)."
+    },
+    {
+     "id": "zh.hsk2.yao_le_soon.08",
+     "prompt": "电影就___开始了，快进去吧。",
+     "options": [
+      {
+       "id": "a",
+       "text": "要"
+      },
+      {
+       "id": "b",
+       "text": "在"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "就要开始了 = sắp bắt đầu (Phim sắp bắt đầu rồi, vào nhanh đi)."
+    }
+   ],
+   "lesson": {
+    "summary": "要…了 hoặc 快要…了 nói việc sắp xảy ra.",
+    "rules": [
+     "要 + động từ + 了: 火车要开了。",
+     "快要/就要 + động từ + 了: 春节快到了。他明天就要回国了。",
+     "Không dùng với thời điểm quá xa hoặc không rõ."
+    ],
+    "examples": [
+     {
+      "text": "火车要开了。",
+      "meaning": "Tàu sắp chạy rồi."
+     },
+     {
+      "text": "春节快到了。",
+      "meaning": "Tết sắp đến rồi."
+     },
+     {
+      "text": "他明天就要回国了。",
+      "meaning": "Ngày mai anh ấy sắp về nước rồi."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "火车要开。",
+      "right": "火车要开了。",
+      "why": "Nói việc sắp xảy ra cần 了 ở cuối."
+     },
+     {
+      "wrong": "春节快去了。",
+      "right": "春节快到了。",
+      "why": "Dùng 到 cho thời điểm sắp tới."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk2.bi_comparison",
+   "title": "So sánh với 比",
+   "topic_key": "comparison_degree",
+   "questions": [
+    {
+     "id": "zh.hsk2.bi_comparison.01",
+     "prompt": "我哥哥___我高。",
+     "options": [
+      {
+       "id": "a",
+       "text": "比"
+      },
+      {
+       "id": "b",
+       "text": "和"
+      },
+      {
+       "id": "c",
+       "text": "跟"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "A 比 B + tính từ: 比我高 (Anh tôi cao hơn tôi)."
+    },
+    {
+     "id": "zh.hsk2.bi_comparison.02",
+     "prompt": "今天___昨天冷。",
+     "options": [
+      {
+       "id": "a",
+       "text": "和"
+      },
+      {
+       "id": "b",
+       "text": "跟"
+      },
+      {
+       "id": "c",
+       "text": "对"
+      },
+      {
+       "id": "d",
+       "text": "比"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "比 để so sánh: 今天比昨天冷 (Hôm nay lạnh hơn hôm qua)."
+    },
+    {
+     "id": "zh.hsk2.bi_comparison.03",
+     "prompt": "他跑得___我快。",
+     "options": [
+      {
+       "id": "a",
+       "text": "和"
+      },
+      {
+       "id": "b",
+       "text": "跟"
+      },
+      {
+       "id": "c",
+       "text": "比"
+      },
+      {
+       "id": "d",
+       "text": "对"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "跑得比我快 = chạy nhanh hơn tôi."
+    },
+    {
+     "id": "zh.hsk2.bi_comparison.04",
+     "prompt": "这个比那个___贵。",
+     "options": [
+      {
+       "id": "a",
+       "text": "很"
+      },
+      {
+       "id": "b",
+       "text": "更"
+      },
+      {
+       "id": "c",
+       "text": "太"
+      },
+      {
+       "id": "d",
+       "text": "非常"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Trong câu 比 dùng 更, không dùng 很/太: 比那个更贵 (Cái này đắt hơn cái kia)."
+    },
+    {
+     "id": "zh.hsk2.bi_comparison.05",
+     "prompt": "他不___我高。",
+     "options": [
+      {
+       "id": "a",
+       "text": "比"
+      },
+      {
+       "id": "b",
+       "text": "和"
+      },
+      {
+       "id": "c",
+       "text": "跟"
+      },
+      {
+       "id": "d",
+       "text": "对"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "不比 = không hơn: 他不比我高 (Anh ấy không cao hơn tôi)."
+    },
+    {
+     "id": "zh.hsk2.bi_comparison.06",
+     "prompt": "弟弟比我小两___。",
+     "options": [
+      {
+       "id": "a",
+       "text": "个"
+      },
+      {
+       "id": "b",
+       "text": "次"
+      },
+      {
+       "id": "c",
+       "text": "本"
+      },
+      {
+       "id": "d",
+       "text": "岁"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "小两岁 = nhỏ hơn hai tuổi (Em trai nhỏ hơn tôi hai tuổi)."
+    },
+    {
+     "id": "zh.hsk2.bi_comparison.07",
+     "prompt": "我没有他___高。",
+     "options": [
+      {
+       "id": "a",
+       "text": "比"
+      },
+      {
+       "id": "b",
+       "text": "和"
+      },
+      {
+       "id": "c",
+       "text": "那么"
+      },
+      {
+       "id": "d",
+       "text": "更"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "没有 + B + 那么 + tính từ = không bằng (Tôi không cao bằng anh ấy)."
+    },
+    {
+     "id": "zh.hsk2.bi_comparison.08",
+     "prompt": "这件衣服比那件贵___了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "很"
+      },
+      {
+       "id": "b",
+       "text": "多"
+      },
+      {
+       "id": "c",
+       "text": "太"
+      },
+      {
+       "id": "d",
+       "text": "非常"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "tính từ + 多了 = hơn nhiều: 贵多了 (Cái áo này đắt hơn cái kia nhiều)."
+    }
+   ],
+   "lesson": {
+    "summary": "比 dùng để so sánh hai vật: A 比 B + tính từ. 没有 dùng để nói không bằng.",
+    "rules": [
+     "A + 比 + B + tính từ: 我哥哥比我高。",
+     "Thêm mức độ: 比 + B + 更/还 + tính từ; tính từ + 多了/一点儿/两岁.",
+     "Không dùng 很 hay 太 trước tính từ trong câu 比: 比那个更贵, không phải 比那个很贵.",
+     "A + 没有 + B + (那么) + tính từ: 我没有他那么高。"
+    ],
+    "examples": [
+     {
+      "text": "今天比昨天冷。",
+      "meaning": "Hôm nay lạnh hơn hôm qua."
+     },
+     {
+      "text": "这件衣服比那件贵多了。",
+      "meaning": "Cái áo này đắt hơn cái kia nhiều."
+     },
+     {
+      "text": "我没有他那么高。",
+      "meaning": "Tôi không cao bằng anh ấy."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "这个比那个很贵。",
+      "right": "这个比那个更贵。",
+      "why": "Không dùng 很 trong câu 比."
+     },
+     {
+      "wrong": "我哥哥和我高。",
+      "right": "我哥哥比我高。",
+      "why": "So sánh hơn dùng 比."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk2.de_complement",
+   "title": "Bổ ngữ trạng thái với 得",
+   "topic_key": "comparison_degree",
+   "questions": [
+    {
+     "id": "zh.hsk2.de_complement.01",
+     "prompt": "他说汉语说___很好。",
+     "options": [
+      {
+       "id": "a",
+       "text": "的"
+      },
+      {
+       "id": "b",
+       "text": "得"
+      },
+      {
+       "id": "c",
+       "text": "地"
+      },
+      {
+       "id": "d",
+       "text": "了"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Bổ ngữ trạng thái dùng 得: 说得很好 (Anh ấy nói tiếng Hán rất giỏi)."
+    },
+    {
+     "id": "zh.hsk2.de_complement.02",
+     "prompt": "她唱歌唱___真好听。",
+     "options": [
+      {
+       "id": "a",
+       "text": "得"
+      },
+      {
+       "id": "b",
+       "text": "的"
+      },
+      {
+       "id": "c",
+       "text": "地"
+      },
+      {
+       "id": "d",
+       "text": "了"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "唱得真好听 (Cô ấy hát thật hay)."
+    },
+    {
+     "id": "zh.hsk2.de_complement.03",
+     "prompt": "他跑___很快。",
+     "options": [
+      {
+       "id": "a",
+       "text": "的"
+      },
+      {
+       "id": "b",
+       "text": "地"
+      },
+      {
+       "id": "c",
+       "text": "了"
+      },
+      {
+       "id": "d",
+       "text": "得"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "跑得很快 (Anh ấy chạy rất nhanh)."
+    },
+    {
+     "id": "zh.hsk2.de_complement.04",
+     "prompt": "你字写___很漂亮。",
+     "options": [
+      {
+       "id": "a",
+       "text": "的"
+      },
+      {
+       "id": "b",
+       "text": "地"
+      },
+      {
+       "id": "c",
+       "text": "得"
+      },
+      {
+       "id": "d",
+       "text": "了"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "写得很漂亮 (Bạn viết chữ rất đẹp)."
+    },
+    {
+     "id": "zh.hsk2.de_complement.05",
+     "prompt": "我昨天睡___很晚。",
+     "options": [
+      {
+       "id": "a",
+       "text": "的"
+      },
+      {
+       "id": "b",
+       "text": "得"
+      },
+      {
+       "id": "c",
+       "text": "地"
+      },
+      {
+       "id": "d",
+       "text": "了"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "睡得很晚 (Hôm qua tôi ngủ rất muộn)."
+    },
+    {
+     "id": "zh.hsk2.de_complement.06",
+     "prompt": "他做饭做___怎么样？",
+     "options": [
+      {
+       "id": "a",
+       "text": "得"
+      },
+      {
+       "id": "b",
+       "text": "的"
+      },
+      {
+       "id": "c",
+       "text": "地"
+      },
+      {
+       "id": "d",
+       "text": "了"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "做得怎么样 = làm thế nào (Anh ấy nấu ăn thế nào?)."
+    },
+    {
+     "id": "zh.hsk2.de_complement.07",
+     "prompt": "她跳舞跳得___好。",
+     "options": [
+      {
+       "id": "a",
+       "text": "没"
+      },
+      {
+       "id": "b",
+       "text": "别"
+      },
+      {
+       "id": "c",
+       "text": "无"
+      },
+      {
+       "id": "d",
+       "text": "不"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Phủ định bổ ngữ trạng thái dùng 不: 跳得不好 (Cô ấy nhảy không giỏi)."
+    },
+    {
+     "id": "zh.hsk2.de_complement.08",
+     "prompt": "他起___很早。",
+     "options": [
+      {
+       "id": "a",
+       "text": "的"
+      },
+      {
+       "id": "b",
+       "text": "地"
+      },
+      {
+       "id": "c",
+       "text": "得"
+      },
+      {
+       "id": "d",
+       "text": "了"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "起得很早 (Anh ấy dậy rất sớm)."
+    }
+   ],
+   "lesson": {
+    "summary": "Động từ + 得 + tính từ nói việc làm đó như thế nào.",
+    "rules": [
+     "Động từ + 得 + (很) + tính từ: 他跑得很快。",
+     "Nếu có tân ngữ, lặp động từ: 他说汉语说得很好。 / 汉语他说得很好。",
+     "Phủ định đặt 不 trước tính từ: 她跳得不好。",
+     "Chú ý phân biệt: 得 (bổ ngữ), 的 (định ngữ), 地 (trạng ngữ)."
+    ],
+    "examples": [
+     {
+      "text": "他说汉语说得很好。",
+      "meaning": "Anh ấy nói tiếng Hán rất giỏi."
+     },
+     {
+      "text": "她唱歌唱得真好听。",
+      "meaning": "Cô ấy hát thật hay."
+     },
+     {
+      "text": "他起得很早。",
+      "meaning": "Anh ấy dậy rất sớm."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "他跑的很快。",
+      "right": "他跑得很快。",
+      "why": "Bổ ngữ trạng thái dùng 得."
+     },
+     {
+      "wrong": "她跳得没好。",
+      "right": "她跳得不好。",
+      "why": "Phủ định dùng 不."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk2.modal_verbs",
+   "title": "能, 会, 可以: khả năng và cho phép",
+   "topic_key": "modal_conj",
+   "questions": [
+    {
+     "id": "zh.hsk2.modal_verbs.01",
+     "prompt": "这里___照相吗？",
+     "options": [
+      {
+       "id": "a",
+       "text": "会"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "可以"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Hỏi được phép: 可以照相吗 (Ở đây chụp ảnh được không?)."
+    },
+    {
+     "id": "zh.hsk2.modal_verbs.02",
+     "prompt": "我不___骑马，没学过。",
+     "options": [
+      {
+       "id": "a",
+       "text": "可以"
+      },
+      {
+       "id": "b",
+       "text": "会"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "会 = biết (kỹ năng đã học): 不会骑马 (Tôi không biết cưỡi ngựa, chưa học)."
+    },
+    {
+     "id": "zh.hsk2.modal_verbs.03",
+     "prompt": "我感冒了，今天不___去上课。",
+     "options": [
+      {
+       "id": "a",
+       "text": "能"
+      },
+      {
+       "id": "b",
+       "text": "会"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "能 chỉ điều kiện: 不能去上课 (Tôi bị cảm, hôm nay không đi học được)."
+    },
+    {
+     "id": "zh.hsk2.modal_verbs.04",
+     "prompt": "你___用我的电脑。",
+     "options": [
+      {
+       "id": "a",
+       "text": "会"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "可以"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "可以 = được phép: 你可以用我的电脑 (Bạn có thể dùng máy tính của tôi)."
+    },
+    {
+     "id": "zh.hsk2.modal_verbs.05",
+     "prompt": "她___说三种语言。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "会"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "会 chỉ kỹ năng: 会说三种语言 (Cô ấy biết nói ba thứ tiếng)."
+    },
+    {
+     "id": "zh.hsk2.modal_verbs.06",
+     "prompt": "图书馆里不___大声说话。",
+     "options": [
+      {
+       "id": "a",
+       "text": "会"
+      },
+      {
+       "id": "b",
+       "text": "能"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "不能 = không được: 不能大声说话 (Trong thư viện không được nói to)."
+    },
+    {
+     "id": "zh.hsk2.modal_verbs.07",
+     "prompt": "你___帮我一下吗？",
+     "options": [
+      {
+       "id": "a",
+       "text": "能"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "你能帮我一下吗 = bạn giúp tôi một chút được không?"
+    },
+    {
+     "id": "zh.hsk2.modal_verbs.08",
+     "prompt": "他___做中国菜，做得很好。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "会"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "会做中国菜 = biết nấu món Trung (Anh ấy biết nấu món Trung, nấu rất ngon)."
+    }
+   ],
+   "lesson": {
+    "summary": "会 chỉ kỹ năng đã học; 能 chỉ khả năng hoặc điều kiện cho phép; 可以 chỉ sự cho phép.",
+    "rules": [
+     "会 + động từ: biết làm (đã học): 我不会骑马，没学过。",
+     "能 + động từ: có thể (điều kiện cho phép): 我感冒了，今天不能去上课。",
+     "可以 + động từ: được phép: 这里可以照相吗？",
+     "Phủ định cấm: 不能 / 不可以: 图书馆里不能大声说话。"
+    ],
+    "examples": [
+     {
+      "text": "这里可以照相吗？",
+      "meaning": "Ở đây chụp ảnh được không?"
+     },
+     {
+      "text": "我不会骑马，没学过。",
+      "meaning": "Tôi không biết cưỡi ngựa, chưa học."
+     },
+     {
+      "text": "我感冒了，今天不能去上课。",
+      "meaning": "Tôi bị cảm, hôm nay không đi học được."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "图书馆里不会大声说话。",
+      "right": "图书馆里不能大声说话。",
+      "why": "Điều cấm dùng 不能."
+     },
+     {
+      "wrong": "我感冒了，不会去上课。",
+      "right": "我感冒了，不能去上课。",
+      "why": "Bị cản trở bởi điều kiện dùng 不能."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk2.conjunctions",
+   "title": "Liên từ: 因为…所以, 但是, 还是, 或者",
+   "topic_key": "modal_conj",
+   "questions": [
+    {
+     "id": "zh.hsk2.conjunctions.01",
+     "prompt": "我很累，___我想早点睡觉。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "但是"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "所以"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "所以 dẫn kết quả: 所以我想早点睡觉 (Tôi mệt nên muốn đi ngủ sớm)."
+    },
+    {
+     "id": "zh.hsk2.conjunctions.02",
+     "prompt": "___天气不好，我们没去公园。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "但是"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "因为 dẫn nguyên nhân (Vì thời tiết xấu nên chúng tôi không đi công viên)."
+    },
+    {
+     "id": "zh.hsk2.conjunctions.03",
+     "prompt": "这个菜很好吃，___很贵。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "但是"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "但是 dẫn ý đối lập (Món này ngon nhưng đắt)."
+    },
+    {
+     "id": "zh.hsk2.conjunctions.04",
+     "prompt": "你喝茶___咖啡？",
+     "options": [
+      {
+       "id": "a",
+       "text": "还是"
+      },
+      {
+       "id": "b",
+       "text": "或者"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "但是"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Câu hỏi lựa chọn dùng 还是 (Bạn uống trà hay cà phê?)."
+    },
+    {
+     "id": "zh.hsk2.conjunctions.05",
+     "prompt": "我周末想看电影___去逛街。",
+     "options": [
+      {
+       "id": "a",
+       "text": "还是"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Câu trần thuật dùng 或者 (Cuối tuần tôi muốn xem phim hoặc đi dạo phố)."
+    },
+    {
+     "id": "zh.hsk2.conjunctions.06",
+     "prompt": "他很聪明，___不努力。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "可是"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "可是 dẫn ý đối lập (Anh ấy thông minh nhưng không chịu cố gắng)."
+    },
+    {
+     "id": "zh.hsk2.conjunctions.07",
+     "prompt": "因为下雨，___我们不去了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "但是"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "可是"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "因为…所以… (Vì mưa nên chúng tôi không đi nữa)."
+    },
+    {
+     "id": "zh.hsk2.conjunctions.08",
+     "prompt": "我喜欢苹果，___他喜欢香蕉。",
+     "options": [
+      {
+       "id": "a",
+       "text": "可是"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "可是 dẫn ý tương phản (Tôi thích táo, còn anh ấy thích chuối)."
+    }
+   ],
+   "lesson": {
+    "summary": "Các liên từ nối ý nguyên nhân, kết quả, đối lập và lựa chọn.",
+    "rules": [
+     "因为…所以…: 因为下雨，所以我们不去了。",
+     "但是/可是: đối lập: 这个菜很好吃，但是很贵。",
+     "还是: lựa chọn trong câu hỏi: 你喝茶还是咖啡？",
+     "或者: lựa chọn trong câu trần thuật: 我周末想看电影或者去逛街。"
+    ],
+    "examples": [
+     {
+      "text": "因为天气不好，所以我们没去公园。",
+      "meaning": "Vì thời tiết xấu nên chúng tôi không đi công viên."
+     },
+     {
+      "text": "这个菜很好吃，但是很贵。",
+      "meaning": "Món này ngon nhưng đắt."
+     },
+     {
+      "text": "你喝茶还是咖啡？",
+      "meaning": "Bạn uống trà hay cà phê?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "你喝茶或者咖啡？",
+      "right": "你喝茶还是咖啡？",
+      "why": "Câu hỏi lựa chọn dùng 还是."
+     },
+     {
+      "wrong": "我想看电影还是去逛街。",
+      "right": "我想看电影或者去逛街。",
+      "why": "Câu trần thuật dùng 或者."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk2.prepositions",
+   "title": "Giới từ: 离, 从, 给, 跟, 对, 在",
+   "topic_key": "prep_sequence",
+   "questions": [
+    {
+     "id": "zh.hsk2.prepositions.01",
+     "prompt": "我家___学校很近。",
+     "options": [
+      {
+       "id": "a",
+       "text": "离"
+      },
+      {
+       "id": "b",
+       "text": "从"
+      },
+      {
+       "id": "c",
+       "text": "到"
+      },
+      {
+       "id": "d",
+       "text": "在"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "离 chỉ khoảng cách: 离学校很近 (Nhà tôi gần trường)."
+    },
+    {
+     "id": "zh.hsk2.prepositions.02",
+     "prompt": "我___八点工作到五点。",
+     "options": [
+      {
+       "id": "a",
+       "text": "离"
+      },
+      {
+       "id": "b",
+       "text": "对"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "从"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "从…到… (Tôi làm từ tám giờ đến năm giờ)."
+    },
+    {
+     "id": "zh.hsk2.prepositions.03",
+     "prompt": "他___我打电话。",
+     "options": [
+      {
+       "id": "a",
+       "text": "离"
+      },
+      {
+       "id": "b",
+       "text": "从"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "在"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "给我打电话 = gọi điện cho tôi."
+    },
+    {
+     "id": "zh.hsk2.prepositions.04",
+     "prompt": "我___朋友一起去。",
+     "options": [
+      {
+       "id": "a",
+       "text": "离"
+      },
+      {
+       "id": "b",
+       "text": "跟"
+      },
+      {
+       "id": "c",
+       "text": "从"
+      },
+      {
+       "id": "d",
+       "text": "对"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "跟…一起 = cùng với (Tôi đi cùng bạn)."
+    },
+    {
+     "id": "zh.hsk2.prepositions.05",
+     "prompt": "她___我笑了笑。",
+     "options": [
+      {
+       "id": "a",
+       "text": "对"
+      },
+      {
+       "id": "b",
+       "text": "离"
+      },
+      {
+       "id": "c",
+       "text": "从"
+      },
+      {
+       "id": "d",
+       "text": "在"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "对我笑了笑 = cười với tôi."
+    },
+    {
+     "id": "zh.hsk2.prepositions.06",
+     "prompt": "我___北京来。",
+     "options": [
+      {
+       "id": "a",
+       "text": "离"
+      },
+      {
+       "id": "b",
+       "text": "给"
+      },
+      {
+       "id": "c",
+       "text": "对"
+      },
+      {
+       "id": "d",
+       "text": "从"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "从北京来 = đến từ Bắc Kinh."
+    },
+    {
+     "id": "zh.hsk2.prepositions.07",
+     "prompt": "我们___教室里上课。",
+     "options": [
+      {
+       "id": "a",
+       "text": "离"
+      },
+      {
+       "id": "b",
+       "text": "给"
+      },
+      {
+       "id": "c",
+       "text": "在"
+      },
+      {
+       "id": "d",
+       "text": "对"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "在教室里 = ở trong phòng học."
+    },
+    {
+     "id": "zh.hsk2.prepositions.08",
+     "prompt": "这儿___火车站有多远？",
+     "options": [
+      {
+       "id": "a",
+       "text": "从"
+      },
+      {
+       "id": "b",
+       "text": "离"
+      },
+      {
+       "id": "c",
+       "text": "对"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "离 hỏi khoảng cách: 离火车站有多远 (Chỗ này cách ga bao xa?)."
+    }
+   ],
+   "lesson": {
+    "summary": "Giới từ đứng trước danh từ và đứng trước động từ để chỉ khoảng cách, điểm xuất phát, người nhận, bạn đồng hành và đối tượng.",
+    "rules": [
+     "离: khoảng cách: 我家离学校很近。",
+     "从…到…: từ…đến…: 我从八点工作到五点。",
+     "给: cho/đối với người nhận: 他给我打电话。",
+     "跟…一起: cùng với: 我跟朋友一起去。 对: hướng về: 她对我笑了笑。 在: ở: 在教室里上课。"
+    ],
+    "examples": [
+     {
+      "text": "我家离学校很近。",
+      "meaning": "Nhà tôi gần trường."
+     },
+     {
+      "text": "他给我打电话。",
+      "meaning": "Anh ấy gọi điện cho tôi."
+     },
+     {
+      "text": "我跟朋友一起去。",
+      "meaning": "Tôi đi cùng bạn."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "我家从学校很近。",
+      "right": "我家离学校很近。",
+      "why": "Chỉ khoảng cách dùng 离."
+     },
+     {
+      "wrong": "他对我打电话。",
+      "right": "他给我打电话。",
+      "why": "Gọi điện cho ai dùng 给."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk2.sequence_and_degree",
+   "title": "Trình tự và mức độ: 先…再, 一边…一边, 又…又, 已经, 还没",
+   "topic_key": "prep_sequence",
+   "questions": [
+    {
+     "id": "zh.hsk2.sequence_and_degree.01",
+     "prompt": "我们___吃饭，再去看电影。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "先"
+      },
+      {
+       "id": "c",
+       "text": "就"
+      },
+      {
+       "id": "d",
+       "text": "也"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "先…再… = trước…sau… (Chúng ta ăn cơm trước, rồi đi xem phim)."
+    },
+    {
+     "id": "zh.hsk2.sequence_and_degree.02",
+     "prompt": "他一边走路，___听音乐。",
+     "options": [
+      {
+       "id": "a",
+       "text": "一边"
+      },
+      {
+       "id": "b",
+       "text": "一直"
+      },
+      {
+       "id": "c",
+       "text": "一起"
+      },
+      {
+       "id": "d",
+       "text": "一点"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "一边…一边… = vừa…vừa… (Anh ấy vừa đi vừa nghe nhạc)."
+    },
+    {
+     "id": "zh.hsk2.sequence_and_degree.03",
+     "prompt": "这个房间又大，___漂亮。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "就"
+      },
+      {
+       "id": "c",
+       "text": "再"
+      },
+      {
+       "id": "d",
+       "text": "又"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "又…又… = vừa…vừa… (Căn phòng này vừa rộng vừa đẹp)."
+    },
+    {
+     "id": "zh.hsk2.sequence_and_degree.04",
+     "prompt": "你吃饭了吗？——我还___吃。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不"
+      },
+      {
+       "id": "b",
+       "text": "别"
+      },
+      {
+       "id": "c",
+       "text": "没"
+      },
+      {
+       "id": "d",
+       "text": "无"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "还没 + động từ = chưa làm (Bạn ăn cơm chưa? Tôi chưa ăn)."
+    },
+    {
+     "id": "zh.hsk2.sequence_and_degree.05",
+     "prompt": "作业我___做完了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "还"
+      },
+      {
+       "id": "b",
+       "text": "已经"
+      },
+      {
+       "id": "c",
+       "text": "没"
+      },
+      {
+       "id": "d",
+       "text": "别"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "已经…了 = đã…rồi (Bài tập tôi đã làm xong rồi)."
+    },
+    {
+     "id": "zh.hsk2.sequence_and_degree.06",
+     "prompt": "你___回家？——我六点回家。",
+     "options": [
+      {
+       "id": "a",
+       "text": "什么时候"
+      },
+      {
+       "id": "b",
+       "text": "什么"
+      },
+      {
+       "id": "c",
+       "text": "谁"
+      },
+      {
+       "id": "d",
+       "text": "怎么"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "什么时候 hỏi thời gian (Khi nào bạn về nhà? Sáu giờ tôi về)."
+    },
+    {
+     "id": "zh.hsk2.sequence_and_degree.07",
+     "prompt": "我喜欢运动，___喜欢游泳。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "特别"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "特别喜欢 = đặc biệt thích (Tôi thích vận động, đặc biệt thích bơi)."
+    },
+    {
+     "id": "zh.hsk2.sequence_and_degree.08",
+     "prompt": "他说得太快了，请你说___一点儿。",
+     "options": [
+      {
+       "id": "a",
+       "text": "快"
+      },
+      {
+       "id": "b",
+       "text": "高"
+      },
+      {
+       "id": "c",
+       "text": "慢"
+      },
+      {
+       "id": "d",
+       "text": "早"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "说慢一点儿 = nói chậm một chút (Anh nói nhanh quá, xin nói chậm một chút)."
+    }
+   ],
+   "lesson": {
+    "summary": "Một số cấu trúc nói thứ tự việc, việc làm đồng thời, hai tính chất cùng lúc, và việc đã hoặc chưa xảy ra.",
+    "rules": [
+     "先…再…: trước…sau…: 我们先吃饭，再去看电影。",
+     "一边…一边…: vừa…vừa…: 他一边走路，一边听音乐。",
+     "又…又…: vừa…vừa (tính chất): 这个房间又大又漂亮。",
+     "已经…了: đã…rồi. 还没(有)…: chưa…: 我还没吃。"
+    ],
+    "examples": [
+     {
+      "text": "我们先吃饭，再去看电影。",
+      "meaning": "Chúng ta ăn cơm trước rồi đi xem phim."
+     },
+     {
+      "text": "这个房间又大又漂亮。",
+      "meaning": "Căn phòng này vừa rộng vừa đẹp."
+     },
+     {
+      "text": "你吃饭了吗？我还没吃。",
+      "meaning": "Bạn ăn cơm chưa? Tôi chưa ăn."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "我还不吃。",
+      "right": "我还没吃。",
+      "why": "Chưa làm việc gì dùng 没 (还没)."
+     },
+     {
+      "wrong": "他一边走路，一直听音乐。",
+      "right": "他一边走路，一边听音乐。",
+      "why": "Việc đồng thời dùng 一边…一边…"
+     }
+    ]
+   }
+  }
+ ],
+ "approval": {
+  "reviewer": "owner",
+  "approved_on": "2026-11-02",
+  "content_sha256": "6f9bc0bc07d919d1010099d1f1531054d081a080e510e65bc0e41b34e28e0567",
+  "sample_question_ids": [
+   "zh.hsk2.le_completion.01",
+   "zh.hsk2.guo_experience.01",
+   "zh.hsk2.zai_progressive.01",
+   "zh.hsk2.yao_le_soon.01",
+   "zh.hsk2.bi_comparison.01",
+   "zh.hsk2.de_complement.01",
+   "zh.hsk2.modal_verbs.01",
+   "zh.hsk2.conjunctions.01",
+   "zh.hsk2.prepositions.01",
+   "zh.hsk2.sequence_and_degree.01"
+  ]
+ }
+}

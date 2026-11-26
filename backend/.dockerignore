@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+venv
+.venv
+__pycache__
+*.pyc
+*.log
+.pytest_cache
+.qualification_runs
+docs
+test
+tests
+supabase

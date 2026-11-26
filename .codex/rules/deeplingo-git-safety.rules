@@ -1,0 +1,69 @@
+# Codex execpolicy rules: block destructive git commands for DeepLingo.
+# Install as ~/.codex/rules/deeplingo-git-safety.rules (user layer, always loaded)
+# or as D:\DeepLingo\.codex\rules\deeplingo-git-safety.rules (loads only when the project .codex/ layer is trusted).
+# Matching is by argument prefix, so a flag placed later in the command (git push origin main --force) is NOT matched.
+
+prefix_rule(
+    pattern = ["git", "reset", "--hard"],
+    decision = "forbidden",
+    justification = "Hard reset discards uncommitted work. Ask the owner, or use git stash.",
+    match = [
+        "git reset --hard",
+        "git reset --hard HEAD~1",
+    ],
+    not_match = [
+        "git reset --soft HEAD~1",
+        "git reset HEAD file.txt",
+    ],
+)
+
+prefix_rule(
+    pattern = ["git", "clean"],
+    decision = "forbidden",
+    justification = "git clean deletes untracked files. Ask the owner first.",
+    match = [
+        "git clean -fd",
+        "git clean -n",
+    ],
+    not_match = [
+        "git status",
+    ],
+)
+
+prefix_rule(
+    pattern = ["git", "checkout", "--"],
+    decision = "forbidden",
+    justification = "Discards local changes to the path. Ask the owner, or use git stash.",
+    match = [
+        "git checkout -- src/app.ts",
+    ],
+    not_match = [
+        "git checkout main",
+    ],
+)
+
+prefix_rule(
+    pattern = ["git", "checkout", "."],
+    decision = "forbidden",
+    justification = "Discards all local changes. Ask the owner, or use git stash.",
+    match = [
+        "git checkout .",
+    ],
+    not_match = [
+        "git checkout main",
+    ],
+)
+
+prefix_rule(
+    pattern = ["git", "push", ["--force", "-f", "--force-with-lease"]],
+    decision = "forbidden",
+    justification = "Forced push rewrites shared history. Ask the owner.",
+    match = [
+        "git push --force",
+        "git push -f origin main",
+        "git push --force-with-lease origin main",
+    ],
+    not_match = [
+        "git push origin main",
+    ],
+)

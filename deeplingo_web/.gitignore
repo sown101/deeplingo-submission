@@ -1,0 +1,21 @@
+node_modules
+dist
+*.local
+.env
+.DS_Store
+
+# CI / E2E artifacts
+test-results/
+playwright-report/
+*.log
+e2e-failure.png
+review-leg-proof.png
+review-leg-failure.png
+tsconfig.tsbuildinfo
+review-partial.png
+
+# Firebase CLI deploy cache
+.firebase/
+
+# Local release evidence (build record, gate evidence, candidate report)
+release/

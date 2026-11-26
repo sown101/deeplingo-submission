@@ -1,0 +1,93 @@
+/* Moved from the old styles.css; kept first so the rules below still win where both apply. */
+
+/* Home (mockup layout): greeting, review hero, continue watching, practice row. */
+.home-date {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--label-3);
+}
+
+/* Home.dc.html and Nav.dc.html geometry, scoped to this route. */
+.home-design { --surface:var(--card); --surface-subtle:var(--fill); --text:var(--label); --muted:var(--label-3); --primary:var(--blue-strong); --primary-text:var(--on-blue); --border:var(--separator); background:var(--bg); color:var(--label); font-family:var(--font-sans); }
+.home-design .content { max-width:1760px; margin:0 auto; padding:108px clamp(var(--space-3), 6vw, 128px) 136px; }
+.home-design .home-screen { display:flex; flex-direction:column; gap:var(--space-2); }
+.home-design .home-screen h1, .home-design .home-screen h2, .home-design .home-screen p { margin:0; }
+.home-design .home-head { display:flex; align-items:flex-end; justify-content:space-between; gap:var(--space-2); margin-bottom:var(--space-1); }
+.home-design .home-head-text { display:flex; flex-direction:column; gap:var(--space-half); min-width:0; }
+.home-design .home-date { font:500 12px/16px var(--font-sans); letter-spacing:.02em; color:var(--label-3); text-transform:uppercase; }
+.home-design .home-head h1 { font:700 34px/41px var(--font-display); letter-spacing:.01em; }
+.home-design .home-dashboard { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--space-2); margin:0; padding:0; list-style:none; }
+.home-design .home-dashboard > li { min-width:0; }
+.home-design .home-featured, .home-design .home-context, .home-design .home-suggestions-heading { grid-column:1 / -1; }
+.home-design .home-featured { position:relative; flex-direction:row; align-items:center; justify-content:space-between; }
+.home-design .home-featured-row { display:flex; flex:1; align-items:center; gap:var(--space-2); min-width:0; }
+.home-design .home-hero-mascot { display:block; flex:none; width:var(--mascot-card); height:var(--mascot-card); object-fit:contain; }
+.home-design .home-card-text { display:flex; flex-direction:column; gap:var(--space-half); min-width:0; }
+.home-design .home-card-text > strong { font:600 17px/22px var(--font-sans); overflow-wrap:anywhere; }
+.home-design .home-card-text > .dl-card__title { overflow-wrap:anywhere; }
+.home-design .home-resume { flex:none; }
+.home-design .home-dismiss { position:absolute; right:var(--space-half); top:var(--space-half); display:grid; place-items:center; width:var(--touch-min); height:var(--touch-min); padding:0; border:0; border-radius:var(--radius-pill); background:transparent; color:var(--label-3); cursor:pointer; }
+.home-design .home-dismiss svg { width:20px; height:20px; }
+.home-design .home-dismiss:hover { background:var(--fill); color:var(--label); }
+.home-design .home-featured > .home-dismiss { top:0; right:0; }
+.home-design .home-featured > .home-dismiss svg { width:16px; height:16px; }
+.home-design .home-card-heading { display:flex; align-items:baseline; justify-content:space-between; gap:var(--space-2); }
+.home-design .home-card-heading h2 { font:600 20px/25px var(--font-display); }
+.home-design .home-card-heading > span, .home-design .home-card-heading > a { position:relative; font:400 13px/18px var(--font-sans); color:var(--label-3); text-decoration:none; }
+.home-design .home-card-heading > a::after { content:""; position:absolute; inset:-13px 0; }
+.home-design .home-thumbnail { display:grid; place-items:center; flex:none; width:calc(var(--space-6) * 2 + var(--space-2)); height:calc(var(--space-6) + var(--space-3)); border-radius:var(--radius-sm); background:var(--blue-tint); color:var(--blue); }
+.home-design .home-thumbnail svg { width:24px; height:24px; }
+.home-design .home-error { display:flex; flex-direction:column; align-items:flex-start; gap:var(--space-2); padding:var(--space-2); border-radius:var(--radius-lg); background:var(--danger-tint); color:var(--danger-text); font:400 16px/22px var(--font-sans); }
+.home-design .home-error .dl-btn { background:var(--card); color:var(--danger-text); }
+.home-design .home-secondary-state { font:400 13px/18px var(--font-sans); color:var(--label-3); }
+.home-design .home-loading { display:flex; flex-direction:column; gap:var(--space-2); }
+.home-design .home-skeleton { min-height:155px; border-radius:var(--radius-lg); background:var(--fill); animation:home-pulse 1.6s ease-in-out infinite alternate; }
+.home-design .home-skeleton-chart { min-height:var(--space-6); border-radius:var(--radius-sm); }
+.home-design .home-loading-avatar { border-radius:var(--radius-pill); }
+.home-design .home-loading-copy { flex:1; min-width:0; display:flex; flex-direction:column; gap:var(--space-1); }
+.home-design .home-loading-copy > div { height:var(--space-2); width:45%; }
+.home-design .home-loading-copy > div:nth-child(2) { height:var(--space-3); width:80%; }
+.home-design .home-loading-copy > div:nth-child(3) { width:30%; }
+.home-design .home-loading-button { width:120px; height:var(--button-lg); border-radius:var(--radius-pill); }
+.home-design .home-loading-evidence > div:first-child { width:40%; height:var(--space-3); }
+.home-design .home-loading-evidence > div:nth-child(2) { height:var(--space-6); }
+.home-design .home-loading-evidence > div:last-child { width:75%; height:var(--space-2); }
+.home-design .home-loading-heading { width:40%; height:var(--space-3); }
+.home-design .home-loading-suggestions { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--space-2); }
+.home-design .home-loading-suggestion { flex-direction:row; align-items:center; gap:var(--space-2); }
+@keyframes home-pulse { to { opacity:.45; } }
+
+
+@media (max-width:1199px) {
+ .home-design .content { padding:100px var(--space-3) 136px; }
+}
+@media (max-width:699px) {
+ .home-design .content { padding:var(--space-8) var(--space-2) 184px; }
+ .home-design .home-dashboard { grid-template-columns:minmax(0,1fr); }
+ .home-design .home-featured { flex-direction:column; align-items:stretch; }
+ .home-design .home-resume { width:100%; }
+ .home-design .home-loading-button { width:100%; }
+ .home-design .home-loading-suggestions { grid-template-columns:minmax(0,1fr); }
+ .home-design .home-loading-suggestion:not(:first-child) { display:none; }
+}
+@media (prefers-reduced-motion:reduce) { .home-design .home-skeleton { animation:none; } }
+
+.home-design .home-activity-card { display:grid; grid-template-columns:minmax(0,1fr) 1px minmax(240px,300px); gap:var(--space-3); align-items:stretch; padding:20px 24px; }
+.home-design .home-activity { display:flex; flex-direction:column; gap:12px; min-width:0; }
+.home-design .home-activity__map { display:block; min-width:0; color:inherit; text-decoration:none; border-radius:var(--radius-sm); }
+.home-design .home-activity__map:focus-visible { outline:2px solid var(--blue-strong); outline-offset:4px; }
+.home-design .home-activity__foot { display:flex; align-items:center; justify-content:space-between; gap:8px 16px; flex-wrap:wrap; }
+.home-design .home-activity__divider { background:color-mix(in srgb, var(--separator) 55%, transparent); }
+.home-design .home-due { display:flex; flex-direction:column; justify-content:space-between; gap:12px; min-width:0; }
+.home-design .home-due__head { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.home-design .home-due__head > span { display:flex; flex-direction:column; gap:2px; }
+.home-design .home-due__head b { font:600 16px/21px var(--font-sans); }
+.home-design .home-due__head small { font:400 12px/16px var(--font-sans); color:var(--label-3); }
+.home-design .home-due-action { text-decoration:none; flex:none; }
+@media (max-width:899px) {
+ .home-design .home-activity-card { grid-template-columns:minmax(0,1fr); gap:16px; padding:16px; }
+ .home-design .home-activity__divider { height:1px; }
+}
+.home-design .home-cards { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px 16px; margin:0; padding:0; list-style:none; }
+.home-design .home-cards li { display:flex; align-items:baseline; justify-content:space-between; gap:8px; font:400 14px/20px var(--font-sans); color:var(--label-2); }
+.home-design .home-cards b { font:700 20px/24px var(--font-display); color:var(--label); font-variant-numeric:tabular-nums; }

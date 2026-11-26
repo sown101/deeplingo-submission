@@ -1,0 +1,625 @@
+# DRAFT (2026-11-07): drafted by the AI, awaiting the owner's sample review.
+# Coverage frame: HSK 3.0 grammar syllabus, GF 0025-2021 (Ministry of Education of the PRC; item
+# numbers via ivankra/hsk30). Explanations and examples are written by DeepLingo. Word senses
+# are CC-CEDICT senses; word levels are GF 0025-2021.
+format = "deeplingo-curriculum-v1"
+language = "zh"
+framework = "HSK"
+level = "HSK6"
+version = 1
+title = "Tiếng Trung HSK6: Cao cấp"
+
+# --- Grammar -------------------------------------------------------------------------------
+
+[[grammar]]
+key = "zh.hsk6.suffixes"
+title = "Hậu tố -化, -性, -式, -型"
+pattern = "danh từ/tính từ + 化/性/式/型"
+forms = ["化", "性", "式", "型"]
+explanation = "Các hậu tố tạo từ mới: -化 là \"hóa\" (现代化, 国际化), -性 là \"tính\" (重要性), -式 là kiểu (中式), -型 là loại hình (新型)."
+examples = [
+  { text = "这座城市越来越国际化了。", translation = "Thành phố này ngày càng quốc tế hóa." },
+  { text = "大家都明白这件事的重要性。", translation = "Mọi người đều hiểu tầm quan trọng của việc này." },
+]
+source = "gf0025-2021"
+source_ref = "360"
+
+[[grammar]]
+key = "zh.hsk6.ben_ci"
+title = "本, 此: này (văn viết)"
+pattern = "本 + danh từ (本公司) / 此 + danh từ (此事)"
+forms = ["本", "此"]
+explanation = "本 chỉ chính đơn vị của người nói: 本店 (cửa hàng chúng tôi), 本人 (bản thân tôi). 此 là \"này\" trong văn viết: 此外, 因此, 此时."
+examples = [
+  { text = "本店今天停业一天。", translation = "Cửa hàng chúng tôi hôm nay nghỉ một ngày." },
+  { text = "此事以后再说。", translation = "Việc này để sau hẵng bàn." },
+]
+source = "gf0025-2021"
+source_ref = "361"
+
+[[grammar]]
+key = "zh.hsk6.yitong"
+title = "一同, 一齐, 尽: cùng nhau, đồng loạt"
+pattern = "一同/一齐 + động từ / 尽 + động từ"
+forms = ["一同", "一齐", "尽", "净"]
+explanation = "一同 là cùng nhau (trang trọng hơn 一起); 一齐 là đồng loạt cùng lúc; 尽, 净 là toàn, chỉ toàn."
+examples = [
+  { text = "欢迎您和家人一同参加。", translation = "Hoan nghênh quý vị cùng gia đình tham dự." },
+  { text = "大家一齐鼓掌。", translation = "Mọi người đồng loạt vỗ tay." },
+]
+source = "gf0025-2021"
+source_ref = "365"
+
+[[grammar]]
+key = "zh.hsk6.yishi_zaowan"
+title = "一时, 早晚: nhất thời, sớm muộn"
+pattern = "一时 + động từ / 早晚 + động từ"
+forms = ["一时", "早晚", "时时"]
+explanation = "一时 là nhất thời, trong lúc này (一时想不起来: nhất thời không nhớ ra); 早晚 là sớm muộn gì cũng."
+examples = [
+  { text = "我一时想不起他的名字。", translation = "Nhất thời tôi không nhớ ra tên anh ấy." },
+  { text = "这件事他早晚会知道的。", translation = "Việc này sớm muộn gì anh ấy cũng biết." },
+]
+source = "gf0025-2021"
+source_ref = "366"
+
+[[grammar]]
+key = "zh.hsk6.bian"
+title = "便: liền, thì (văn viết của 就)"
+pattern = "… 便 + động từ"
+forms = ["便"]
+explanation = "便 dùng như 就 trong văn viết: 一到家便睡了 (vừa về đến nhà liền ngủ)."
+examples = [
+  { text = "他一到家便睡着了。", translation = "Anh ấy vừa về đến nhà liền ngủ thiếp đi." },
+  { text = "有问题便来找我。", translation = "Có vấn đề gì thì cứ đến tìm tôi." },
+]
+source = "gf0025-2021"
+source_ref = "367"
+
+[[grammar]]
+key = "zh.hsk6.manner_adverbs"
+title = "不禁, 特意, 亲眼: không kìm được, cố ý, tận mắt"
+pattern = "不禁/特意/特地/亲眼/赶忙 + động từ"
+forms = ["不禁", "特意", "特地", "亲眼", "赶忙"]
+explanation = "不禁 là không kìm được mà; 特意, 特地 là cố ý, riêng để; 亲眼 là tận mắt; 赶忙 là vội vàng."
+examples = [
+  { text = "看到这张照片，她不禁笑了。", translation = "Nhìn bức ảnh này, cô ấy không nhịn được cười." },
+  { text = "他特意从上海赶来看我。", translation = "Anh ấy cất công từ Thượng Hải đến thăm tôi." },
+]
+source = "gf0025-2021"
+source_ref = "368"
+
+[[grammar]]
+key = "zh.hsk6.fangfu"
+title = "仿佛: dường như, tựa như"
+pattern = "仿佛 + câu / 仿佛……一样/似的"
+forms = ["仿佛"]
+explanation = "仿佛 là dường như, tựa như, mang sắc thái văn chương: 仿佛回到了童年 (như được trở về tuổi thơ)."
+examples = [
+  { text = "走在老街上，我仿佛回到了童年。", translation = "Đi trên phố cổ, tôi như được trở về tuổi thơ." },
+  { text = "他仿佛什么都没听见。", translation = "Anh ấy dường như chẳng nghe thấy gì." },
+]
+source = "gf0025-2021"
+source_ref = "369"
+
+[[grammar]]
+key = "zh.hsk6.pian_qiahao"
+title = "偏, 恰好, 刚好: cứ nhất định, vừa đúng"
+pattern = "偏(偏) + động từ / 恰好/刚好 + …"
+forms = ["偏", "偏偏", "恰好", "刚好", "才"]
+explanation = "偏 là cứ nhất quyết làm ngược lại, hoặc ngược với mong muốn: 我让他别去，他偏要去. 恰好, 刚好 là vừa đúng lúc, vừa khớp."
+examples = [
+  { text = "我叫他别去，他偏要去。", translation = "Tôi bảo đừng đi, anh ấy cứ nhất định đi." },
+  { text = "我到车站的时候，车恰好开走了。", translation = "Lúc tôi đến bến thì xe vừa đúng lúc chạy mất." },
+]
+source = "gf0025-2021"
+source_ref = "370"
+
+[[grammar]]
+key = "zh.hsk6.yu_at"
+title = "于: ở, vào, với (văn viết)"
+pattern = "động từ + 于 + thời gian/nơi chốn/đối tượng"
+forms = ["于"]
+explanation = "于 là giới từ văn viết, tương đương 在, 对, 从…: 生于1990年 (sinh năm 1990), 有利于健康 (có lợi cho sức khỏe)."
+examples = [
+  { text = "他出生于1990年。", translation = "Anh ấy sinh năm 1990." },
+  { text = "多运动有利于健康。", translation = "Vận động nhiều có lợi cho sức khỏe." },
+]
+source = "gf0025-2021"
+source_ref = "371"
+
+[[grammar]]
+key = "zh.hsk6.yanzhe"
+title = "沿(着): men theo, dọc theo"
+pattern = "沿(着) + con đường/dòng sông + động từ"
+forms = ["沿着", "沿"]
+explanation = "沿着 nghĩa là đi theo, dọc theo một tuyến: 沿着河边走 (đi dọc bờ sông)."
+examples = [
+  { text = "我们沿着河边散步。", translation = "Chúng tôi đi dạo dọc bờ sông." },
+  { text = "沿这条路一直走就到了。", translation = "Cứ đi theo con đường này là đến." },
+]
+source = "gf0025-2021"
+source_ref = "372"
+
+[[grammar]]
+key = "zh.hsk6.yu_with"
+title = "与, 同: với, cùng (văn viết)"
+pattern = "A + 与/同 + B + động từ"
+forms = ["与", "同"]
+explanation = "与, 同 làm giới từ nghĩa là với, cùng (văn viết của 跟, 和): 与朋友讨论 (bàn với bạn)."
+examples = [
+  { text = "这个问题我想与大家讨论一下。", translation = "Vấn đề này tôi muốn bàn với mọi người một chút." },
+  { text = "他同我一起长大。", translation = "Anh ấy lớn lên cùng tôi." },
+]
+source = "gf0025-2021"
+source_ref = "373"
+
+[[grammar]]
+key = "zh.hsk6.zhiyu"
+title = "至于: còn về"
+pattern = "…。至于 + chủ đề khác，…"
+forms = ["至于"]
+explanation = "至于 chuyển sang một chủ đề liên quan nhưng khác: 至于费用，我们以后再谈 (còn về chi phí thì bàn sau)."
+examples = [
+  { text = "我同意去，至于什么时候去，你来定吧。", translation = "Tôi đồng ý đi, còn về việc khi nào đi thì bạn quyết nhé." },
+  { text = "至于费用问题，我们以后再谈。", translation = "Còn về chi phí, chúng ta bàn sau." },
+]
+source = "gf0025-2021"
+source_ref = "374"
+
+[[grammar]]
+key = "zh.hsk6.yin"
+title = "因: vì, do (văn viết)"
+pattern = "因 + nguyên nhân + 而/động từ"
+forms = ["因"]
+explanation = "因 là giới từ văn viết chỉ nguyên nhân, hay gặp trong thông báo: 因天气原因，航班取消."
+examples = [
+  { text = "因天气原因，航班取消了。", translation = "Do thời tiết, chuyến bay đã bị hủy." },
+  { text = "他因病请假了。", translation = "Anh ấy xin nghỉ vì ốm." },
+]
+source = "gf0025-2021"
+source_ref = "375"
+
+[[grammar]]
+key = "zh.hsk6.ju"
+title = "据: theo (nguồn tin)"
+pattern = "据 + nguồn/据说/据了解，…"
+forms = ["据", "据说", "据了解"]
+explanation = "据 nêu nguồn của thông tin: 据报道 (theo đưa tin), 据说 (nghe nói)."
+examples = [
+  { text = "据报道，明天将有大雨。", translation = "Theo đưa tin, ngày mai sẽ có mưa lớn." },
+  { text = "据说这家饭馆很有名。", translation = "Nghe nói nhà hàng này rất nổi tiếng." },
+]
+source = "gf0025-2021"
+source_ref = "377"
+
+[[grammar]]
+key = "zh.hsk6.buliao_ruo"
+title = "不料, 若: không ngờ, nếu"
+pattern = "…，不料 + điều bất ngờ / 若 + điều kiện，…"
+forms = ["不料", "若"]
+explanation = "不料 là không ngờ (văn viết); 若 là nếu (văn viết của 如果): 若有问题，请联系我们."
+examples = [
+  { text = "本想出去走走，不料下起了大雨。", translation = "Định ra ngoài đi dạo, không ngờ trời đổ mưa to." },
+  { text = "若有问题，请随时联系我们。", translation = "Nếu có vấn đề, xin liên hệ với chúng tôi bất cứ lúc nào." },
+]
+source = "gf0025-2021"
+source_ref = "379"
+
+[[grammar]]
+key = "zh.hsk6.suo"
+title = "所: trợ từ 所 + động từ"
+pattern = "(chủ ngữ +) 所 + động từ + (的 + danh từ)"
+forms = ["所"]
+explanation = "所 đứng trước động từ để tạo cụm danh từ trang trọng: 我所知道的 (những gì tôi biết), 为…所 + động từ là bị động văn viết."
+examples = [
+  { text = "这就是我所知道的一切。", translation = "Đây là tất cả những gì tôi biết." },
+  { text = "他的话为大家所接受。", translation = "Lời anh ấy được mọi người chấp nhận." },
+]
+source = "gf0025-2021"
+source_ref = "380"
+
+[[grammar]]
+key = "zh.hsk6.mood_particles_6"
+title = "Trợ từ ngữ khí: 罢了, 嘛, 啦"
+pattern = "câu + 罢了 / 嘛 / 啦"
+forms = ["罢了", "嘛", "啦"]
+explanation = "罢了 là chỉ … mà thôi (giảm nhẹ); 嘛 nhấn mạnh điều hiển nhiên (có gì đâu, vốn là thế mà); 啦 là 了 + 啊, thể hiện cảm xúc."
+examples = [
+  { text = "我只是开个玩笑罢了。", translation = "Tôi chỉ đùa thôi mà." },
+  { text = "有问题就问嘛。", translation = "Có vấn đề thì cứ hỏi thôi mà." },
+]
+source = "gf0025-2021"
+source_ref = "381"
+
+[[grammar]]
+key = "zh.hsk6.buzenme"
+title = "不怎么: không … lắm"
+pattern = "不怎么 + động từ/tính từ"
+forms = ["不怎么", "不怎么样"]
+explanation = "不怎么 làm nhẹ phủ định: 不怎么喜欢 (không thích lắm). 不怎么样 là chẳng ra sao."
+examples = [
+  { text = "我不怎么喜欢吃甜的。", translation = "Tôi không thích ăn đồ ngọt lắm." },
+  { text = "那部电影不怎么样。", translation = "Bộ phim đó chẳng ra sao." },
+]
+source = "gf0025-2021"
+source_ref = "387"
+
+[[grammar]]
+key = "zh.hsk6.haoburongyi"
+title = "好（不）容易: mãi mới, vất vả lắm mới"
+pattern = "好不容易/好容易 + 才 + động từ"
+forms = ["好不容易", "好容易"]
+explanation = "Cả 好容易 và 好不容易 đều nghĩa là vất vả lắm mới, thường đi với 才."
+examples = [
+  { text = "我好不容易才找到这家店。", translation = "Tôi vất vả lắm mới tìm được cửa hàng này." },
+  { text = "好容易等到周末，又要加班。", translation = "Mãi mới đến cuối tuần, lại phải làm thêm." },
+]
+source = "gf0025-2021"
+source_ref = "389"
+
+[[grammar]]
+key = "zh.hsk6.jiushishuo"
+title = "就是说: nghĩa là, tức là"
+pattern = "…，(这)就是说，…"
+forms = ["就是说", "也就是说"]
+explanation = "Dùng để giải thích lại ý vừa nói bằng cách khác: 也就是说 (cũng tức là)."
+examples = [
+  { text = "他没回电话，就是说他不想去。", translation = "Anh ấy không gọi lại, tức là anh ấy không muốn đi." },
+  { text = "也就是说，我们得重新开始。", translation = "Cũng tức là chúng ta phải bắt đầu lại." },
+]
+source = "gf0025-2021"
+source_ref = "391"
+
+[[grammar]]
+key = "zh.hsk6.suanle"
+title = "算了: thôi bỏ đi"
+pattern = "算了(吧) / … 就算了"
+forms = ["算了"]
+explanation = "算了 là thôi, bỏ qua, không bàn tiếp nữa: 算了，别说了 (thôi, đừng nói nữa)."
+examples = [
+  { text = "算了，我们不去了。", translation = "Thôi, chúng ta không đi nữa." },
+  { text = "不想吃就算了。", translation = "Không muốn ăn thì thôi." },
+]
+source = "gf0025-2021"
+source_ref = "392"
+
+[[grammar]]
+key = "zh.hsk6.weile_er"
+title = "为了……而……: vì … mà …"
+pattern = "为了 + mục đích + 而 + động từ"
+forms = ["而"]
+explanation = "而 nối mục đích với hành động trong văn viết: 为了理想而努力 (nỗ lực vì lý tưởng)."
+examples = [
+  { text = "他们为了理想而努力。", translation = "Họ nỗ lực vì lý tưởng." },
+  { text = "不要为了小事而生气。", translation = "Đừng vì chuyện nhỏ mà nổi giận." },
+]
+source = "gf0025-2021"
+source_ref = "395"
+
+[[grammar]]
+key = "zh.hsk6.direction_state"
+title = "Bổ ngữ xu hướng chỉ trạng thái: 静下来, 好起来"
+pattern = "động từ/tính từ + 下来/下去/起来/过来"
+forms = ["下来", "下去", "起来", "过来"]
+explanation = "Bổ ngữ xu hướng nói trạng thái thay đổi: 安静下来 (lặng xuống), 好起来 (khá lên), 冷下去 (lạnh dần), 醒过来 (tỉnh lại)."
+examples = [
+  { text = "教室里慢慢安静下来了。", translation = "Lớp học dần dần yên lặng." },
+  { text = "天气渐渐暖和起来了。", translation = "Thời tiết dần ấm lên." },
+]
+source = "gf0025-2021"
+source_ref = "397"
+
+[[grammar]]
+key = "zh.hsk6.ba_causative"
+title = "Câu 把 chỉ khiến: 把他急坏了"
+pattern = "chủ ngữ (sự việc) + 把 + người + động từ/tính từ + bổ ngữ"
+forms = ["把"]
+explanation = "Câu 把 có thể nói một sự việc khiến người ta rơi vào trạng thái nào đó: 这件事把我急坏了 (việc này làm tôi sốt ruột chết đi được)."
+examples = [
+  { text = "这个消息把大家都高兴坏了。", translation = "Tin này làm mọi người vui phát điên." },
+  { text = "孩子发烧，把妈妈急哭了。", translation = "Con bị sốt làm mẹ sốt ruột đến phát khóc." },
+]
+source = "gf0025-2021"
+source_ref = "398"
+
+[[grammar]]
+key = "zh.hsk6.bei_gei"
+title = "被……给……: bị … (khẩu ngữ, nhấn mạnh)"
+pattern = "chủ ngữ + 被/叫/让 + người + 给 + động từ + thành phần khác"
+forms = ["给"]
+explanation = "Thêm 给 trước động từ trong câu bị động để nhấn mạnh, mang tính khẩu ngữ: 我的蛋糕被弟弟给吃了."
+examples = [
+  { text = "我的自行车让人给骑走了。", translation = "Xe đạp của tôi bị người ta đạp đi mất rồi." },
+  { text = "衣服被雨给淋湿了。", translation = "Quần áo bị mưa làm ướt hết." },
+]
+source = "gf0025-2021"
+source_ref = "399"
+
+[[grammar]]
+key = "zh.hsk6.budan_bu_faner"
+title = "不但不……，反而……: chẳng những không … ngược lại còn …"
+pattern = "不但不/没有 + A，反而 + B"
+forms = ["反而"]
+explanation = "Kết quả trái hẳn với mong đợi: 不但没好，反而更严重了 (chẳng những không đỡ, ngược lại còn nặng hơn)."
+examples = [
+  { text = "吃了药，他的病不但没好，反而更重了。", translation = "Uống thuốc rồi, bệnh anh ấy chẳng những không đỡ mà còn nặng hơn." },
+  { text = "他不但不感谢我，反而怪我。", translation = "Anh ta chẳng những không cảm ơn mà còn trách tôi." },
+]
+source = "gf0025-2021"
+source_ref = "403"
+
+[[grammar]]
+key = "zh.hsk6.yaome"
+title = "要么……，要么……: hoặc là … hoặc là …"
+pattern = "要么 + A，要么 + B"
+forms = ["要么"]
+explanation = "Đưa ra hai lựa chọn, bắt buộc chọn một: 要么现在走，要么别去了."
+examples = [
+  { text = "要么现在就走，要么干脆别去。", translation = "Hoặc là đi ngay bây giờ, hoặc là thôi đừng đi." },
+  { text = "周末我要么在家看书，要么去爬山。", translation = "Cuối tuần tôi hoặc là ở nhà đọc sách, hoặc là đi leo núi." },
+]
+source = "gf0025-2021"
+source_ref = "406"
+
+[[grammar]]
+key = "zh.hsk6.sui_que"
+title = "虽……，但/却……: tuy … nhưng"
+pattern = "chủ ngữ + 虽 + A，但/却/可 + B"
+forms = ["虽"]
+explanation = "虽 là dạng văn viết của 虽然, thường đứng sau chủ ngữ: 他虽年轻，却很有经验."
+examples = [
+  { text = "他虽年轻，却很有经验。", translation = "Anh ấy tuy trẻ nhưng rất có kinh nghiệm." },
+  { text = "这里虽小，但很舒服。", translation = "Chỗ này tuy nhỏ nhưng rất thoải mái." },
+]
+source = "gf0025-2021"
+source_ref = "407"
+
+[[grammar]]
+key = "zh.hsk6.fanshi_dou"
+title = "凡是……，都……: hễ là … đều …"
+pattern = "凡是 + phạm vi，都 + …"
+forms = ["凡是"]
+explanation = "凡是 bao quát mọi trường hợp thuộc phạm vi đó, không có ngoại lệ."
+examples = [
+  { text = "凡是去过那儿的人，都说那里很美。", translation = "Hễ ai đã đến đó đều nói nơi ấy rất đẹp." },
+  { text = "凡是学生，都可以免费参观。", translation = "Hễ là học sinh đều được tham quan miễn phí." },
+]
+source = "gf0025-2021"
+source_ref = "409"
+
+[[grammar]]
+key = "zh.hsk6.jiusuan_ye"
+title = "就算/就是……，也……: cho dù … cũng …"
+pattern = "就算/就是 + giả định，也 + …"
+forms = ["就算"]
+explanation = "Nghĩa như 即使 nhưng mang tính khẩu ngữ: 就算你不说，我也知道."
+examples = [
+  { text = "就算你不说，我也知道。", translation = "Cho dù bạn không nói thì tôi cũng biết." },
+  { text = "就算再难，我也要试一试。", translation = "Cho dù khó đến mấy, tôi cũng phải thử." },
+]
+source = "gf0025-2021"
+source_ref = "410"
+
+[[grammar]]
+key = "zh.hsk6.fei_buke"
+title = "非……不可: nhất định phải"
+pattern = "非 + động từ/người + 不可"
+forms = ["非", "不可"]
+explanation = "Phủ định kép nhấn mạnh sự bắt buộc hoặc quyết tâm: 我非去不可 (tôi nhất định phải đi)."
+examples = [
+  { text = "这件事非你去不可。", translation = "Việc này nhất định phải bạn đi mới được." },
+  { text = "他今天非要见到经理不可。", translation = "Hôm nay anh ta nhất quyết phải gặp được giám đốc." },
+]
+source = "gf0025-2021"
+source_ref = "413"
+
+# --- Units ---------------------------------------------------------------------------------
+
+[[units]]
+key = "zh.hsk6.u01-modern-life"
+title = "Cuộc sống hiện đại"
+topic = "现代化和国际化"
+can_do = ["Hiểu từ có hậu tố -化, -性.", "Hiểu 本, 此 trong văn bản."]
+grammar = ["zh.hsk6.suffixes", "zh.hsk6.ben_ci"]
+words = [
+  { headword = "国际", sense_id = "cedict:6627fa670c38f62c", gloss = "international" },
+  { headword = "现代", sense_id = "cedict:86b79d8717629b7c", gloss = "modern times" },
+  { headword = "重要", sense_id = "cedict:47f1508161fe49aa", gloss = "important; significant; major" },
+  { headword = "本人", sense_id = "cedict:f31499412f4894de", gloss = "I; me; myself" },
+]
+
+[[units]]
+key = "zh.hsk6.u02-invitations"
+title = "Thư mời"
+topic = "邀请和活动"
+can_do = ["Hiểu lời mời trang trọng.", "Nói sớm muộn, nhất thời."]
+grammar = ["zh.hsk6.yitong", "zh.hsk6.yishi_zaowan"]
+words = [
+  { headword = "邀请", sense_id = "cedict:b71706a2d7619590", gloss = "to invite" },
+  { headword = "参加", sense_id = "cedict:cacbedb2bd6f32cc", gloss = "to participate" },
+  { headword = "鼓掌", sense_id = "cedict:5bf7d51844128b70", gloss = "to applaud" },
+  { headword = "家人", sense_id = "cedict:cf4712ab38b644cc", gloss = "family member" },
+]
+
+[[units]]
+key = "zh.hsk6.u03-literary"
+title = "Văn kể chuyện"
+topic = "叙述和描写"
+can_do = ["Hiểu 便, 仿佛 trong văn kể chuyện.", "Nói cảm xúc bật ra bằng 不禁."]
+grammar = ["zh.hsk6.bian", "zh.hsk6.fangfu"]
+words = [
+  { headword = "童年", sense_id = "cedict:d8471059832d001e", gloss = "childhood" },
+  { headword = "回忆", sense_id = "cedict:a1c2c6aacab2930a", gloss = "to recall" },
+  { headword = "仿佛", sense_id = "cedict:25791209eec70efe", gloss = "to seem; as if; seemingly" },
+  { headword = "睡着", sense_id = "cedict:7f9d43f2d16b0d29", gloss = "to fall asleep" },
+]
+
+[[units]]
+key = "zh.hsk6.u04-feelings"
+title = "Cố ý hay tình cờ"
+topic = "特意和巧合"
+can_do = ["Nói làm việc gì cố ý hay không kìm được.", "Nói vừa đúng lúc, hoặc cứ nhất định làm ngược."]
+grammar = ["zh.hsk6.manner_adverbs", "zh.hsk6.pian_qiahao"]
+words = [
+  { headword = "特意", sense_id = "cedict:836274ca5a01b8e6", gloss = "specially" },
+  { headword = "恰好", sense_id = "cedict:f3312658dc7b8706", gloss = "as it turns out" },
+  { headword = "车站", sense_id = "cedict:4982c6ed297b19b9", gloss = "rail station" },
+  { headword = "赶", sense_id = "cedict:f68a2fe43a680b36", gloss = "to overtake; to catch up with" },
+]
+
+[[units]]
+key = "zh.hsk6.u05-written-prepositions"
+title = "Giới từ văn viết"
+topic = "书面语介词"
+can_do = ["Hiểu 于 trong văn viết.", "Nói đi dọc theo một con đường."]
+grammar = ["zh.hsk6.yu_at", "zh.hsk6.yanzhe"]
+words = [
+  { headword = "出生", sense_id = "cedict:9aae6e39bd015a7c", gloss = "to be born" },
+  { headword = "有利", sense_id = "cedict:76cc8ce7c8c64980", gloss = "advantageous; favorable" },
+  { headword = "河", sense_id = "cedict:89e27f33b7ee4f80", gloss = "river (CL:條|条[tiao2],道[dao4])" },
+  { headword = "散步", sense_id = "cedict:05bf47afcfc55944", gloss = "to take a walk; to go for a walk" },
+]
+
+[[units]]
+key = "zh.hsk6.u06-meetings"
+title = "Cuộc họp"
+topic = "会议讨论"
+can_do = ["Nói bàn bạc với ai theo cách trang trọng.", "Chuyển sang chủ đề khác bằng 至于."]
+grammar = ["zh.hsk6.yu_with", "zh.hsk6.zhiyu"]
+words = [
+  { headword = "费用", sense_id = "cedict:ac6a4c77d84ff6f9", gloss = "cost" },
+  { headword = "讨论", sense_id = "cedict:c9bd9c0ae70fbde6", gloss = "to discuss; to talk over" },
+  { headword = "同意", sense_id = "cedict:8448f392c84c4fb7", gloss = "to agree" },
+  { headword = "意见", sense_id = "cedict:ad7ccbf1eb26226e", gloss = "idea" },
+]
+
+[[units]]
+key = "zh.hsk6.u07-reports"
+title = "Thông báo và tin tức"
+topic = "通知和报道"
+can_do = ["Hiểu nguyên nhân nêu bằng 因.", "Nêu nguồn tin bằng 据."]
+grammar = ["zh.hsk6.yin", "zh.hsk6.ju"]
+words = [
+  { headword = "航班", sense_id = "cedict:b63688fcacd9aebb", gloss = "(scheduled) flight; (scheduled) sailing" },
+  { headword = "报道", sense_id = "cedict:52f07323d8b108eb", gloss = "to report (news)" },
+  { headword = "原因", sense_id = "cedict:7ef8bb9181f36d0c", gloss = "cause" },
+  { headword = "据说", sense_id = "cedict:0f169b014b0b2881", gloss = "it is said that; reportedly" },
+]
+
+[[units]]
+key = "zh.hsk6.u08-formal-style"
+title = "Văn phong trang trọng"
+topic = "书面表达"
+can_do = ["Hiểu 不料, 若 trong văn viết.", "Hiểu cụm 所 + động từ."]
+grammar = ["zh.hsk6.buliao_ruo", "zh.hsk6.suo"]
+words = [
+  { headword = "随时", sense_id = "cedict:1b2631cc9a89e401", gloss = "at any time; at all times" },
+  { headword = "接受", sense_id = "cedict:cd3ae7accea61a9b", gloss = "to accept (a suggestion, punishment, bribe etc); to" },
+  { headword = "一切", sense_id = "cedict:7b46da0980f57322", gloss = "everything" },
+  { headword = "联系", sense_id = "cedict:3fb4ee5d44fe9352", gloss = "connection" },
+]
+
+[[units]]
+key = "zh.hsk6.u09-casual-talk"
+title = "Nói chuyện tự nhiên"
+topic = "口语语气"
+can_do = ["Dùng trợ từ ngữ khí 罢了, 嘛, 啦.", "Phủ định nhẹ bằng 不怎么."]
+grammar = ["zh.hsk6.mood_particles_6", "zh.hsk6.buzenme"]
+words = [
+  { headword = "开玩笑", sense_id = "cedict:bd1cdaba493115f7", gloss = "to play a joke; to make fun of; to joke" },
+  { headword = "甜", sense_id = "cedict:7de5a1888803c8e5", gloss = "sweet" },
+  { headword = "随便", sense_id = "cedict:86788ec8dc3666ef", gloss = "as one wishes" },
+  { headword = "其实", sense_id = "cedict:24b74c6a8b5403de", gloss = "actually; in fact; really" },
+]
+
+[[units]]
+key = "zh.hsk6.u10-effort"
+title = "Vất vả lắm mới được"
+topic = "努力和放弃"
+can_do = ["Nói vất vả lắm mới làm được gì.", "Bỏ qua một việc bằng 算了."]
+grammar = ["zh.hsk6.haoburongyi", "zh.hsk6.suanle"]
+words = [
+  { headword = "容易", sense_id = "cedict:6f822a1729f24828", gloss = "easy; straightforward" },
+  { headword = "加班", sense_id = "cedict:579c4eca1ed31f64", gloss = "to work overtime" },
+  { headword = "商店", sense_id = "cedict:e551477062274de3", gloss = "store; shop" },
+  { headword = "放弃", sense_id = "cedict:95f6be1d60162cbc", gloss = "to renounce; to abandon; to give up" },
+]
+
+[[units]]
+key = "zh.hsk6.u11-explaining"
+title = "Giải thích lại"
+topic = "解释和目的"
+can_do = ["Diễn đạt lại ý bằng 就是说.", "Nói làm việc gì vì mục đích gì theo văn viết."]
+grammar = ["zh.hsk6.jiushishuo", "zh.hsk6.weile_er"]
+words = [
+  { headword = "理想", sense_id = "cedict:2dbd8355461156e9", gloss = "an ideal" },
+  { headword = "重新", sense_id = "cedict:b473e1d30f3df9f9", gloss = "again; once more; re-" },
+  { headword = "生气", sense_id = "cedict:4b2c5d72ebc0900d", gloss = "to get angry; to be furious" },
+  { headword = "目的", sense_id = "cedict:5193216a90cc8f0b", gloss = "purpose; aim; goal; target; objective" },
+]
+
+[[units]]
+key = "zh.hsk6.u12-changes-of-state"
+title = "Trạng thái thay đổi"
+topic = "状态的变化"
+can_do = ["Tả trạng thái thay đổi bằng bổ ngữ xu hướng.", "Nói sự việc khiến ai rơi vào trạng thái nào."]
+grammar = ["zh.hsk6.direction_state", "zh.hsk6.ba_causative"]
+words = [
+  { headword = "安静", sense_id = "cedict:8748283aaef73ca8", gloss = "quiet" },
+  { headword = "发烧", sense_id = "cedict:73fa377198702f78", gloss = "to have a high temperature (from illness); to have a fever" },
+  { headword = "醒", sense_id = "cedict:a4442e231c1ea046", gloss = "to wake up" },
+  { headword = "渐渐", sense_id = "cedict:a9b23f0c177a52dd", gloss = "gradually" },
+]
+
+[[units]]
+key = "zh.hsk6.u13-bad-luck"
+title = "Xui xẻo"
+topic = "倒霉的事"
+can_do = ["Kể chuyện xui xẻo bằng câu bị động khẩu ngữ.", "Nói kết quả trái hẳn với mong đợi."]
+grammar = ["zh.hsk6.bei_gei", "zh.hsk6.budan_bu_faner"]
+words = [
+  { headword = "雨", sense_id = "cedict:f49d88f850409e11", gloss = "rain" },
+  { headword = "湿", sense_id = "cedict:d2fce8ffbcbd7457", gloss = "moist" },
+  { headword = "怪", sense_id = "cedict:a86c33c347b675f4", gloss = "to blame" },
+  { headword = "运气", sense_id = "cedict:15750601129db7ce", gloss = "luck (good or bad)" },
+]
+
+[[units]]
+key = "zh.hsk6.u14-choices"
+title = "Hoặc là … hoặc là …"
+topic = "选择和让步"
+can_do = ["Đưa ra hai lựa chọn bắt buộc.", "Nói tuy … nhưng … theo văn viết."]
+grammar = ["zh.hsk6.yaome", "zh.hsk6.sui_que"]
+words = [
+  { headword = "干脆", sense_id = "cedict:96c2cfdf3d7375a5", gloss = "candid" },
+  { headword = "经验", sense_id = "cedict:36598dc0e1a1e4de", gloss = "experience" },
+  { headword = "年轻", sense_id = "cedict:4a8d0d1ada691b6f", gloss = "young" },
+  { headword = "舒服", sense_id = "cedict:fe4fd0ba67655212", gloss = "comfortable" },
+]
+
+[[units]]
+key = "zh.hsk6.u15-no-exceptions"
+title = "Không có ngoại lệ"
+topic = "全部和让步"
+can_do = ["Nói mọi trường hợp đều như nhau bằng 凡是.", "Nói cho dù … cũng … theo khẩu ngữ."]
+grammar = ["zh.hsk6.fanshi_dou", "zh.hsk6.jiusuan_ye"]
+words = [
+  { headword = "免费", sense_id = "cedict:61f10789ea4b6863", gloss = "free (of charge)" },
+  { headword = "参观", sense_id = "cedict:e82f182914aef064", gloss = "to visit (a place, e.g. museum or factory); to tour; to look" },
+  { headword = "美", sense_id = "cedict:d48ce56c3557d492", gloss = "beautiful" },
+  { headword = "试", sense_id = "cedict:f5bd4a9b756daf3a", gloss = "to test" },
+]
+
+[[units]]
+key = "zh.hsk6.u16-insisting"
+title = "Nhất định phải"
+topic = "坚持"
+can_do = ["Nhấn mạnh sự bắt buộc bằng 非……不可."]
+grammar = ["zh.hsk6.fei_buke"]
+words = [
+  { headword = "经理", sense_id = "cedict:f3faea70078c047e", gloss = "manager" },
+  { headword = "坚持", sense_id = "cedict:9b04a9be5f3dd824", gloss = "to persevere with" },
+  { headword = "必须", sense_id = "cedict:2003994eaa4c8d42", gloss = "to have to" },
+  { headword = "见", sense_id = "cedict:8e99e6707b06d4cc", gloss = "to see" },
+]

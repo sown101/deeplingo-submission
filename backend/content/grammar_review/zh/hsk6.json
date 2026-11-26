@@ -1,0 +1,1905 @@
+{
+ "format": "deeplingo-grammar-bank-v1",
+ "catalogue_source": "deeplingo",
+ "authorship": "ai_draft",
+ "language": "zh",
+ "level": "HSK6",
+ "support_language": "vi",
+ "version": 1,
+ "topics": [
+  {
+   "key": "concession_condition",
+   "title": "Nhượng bộ và giả định trang trọng"
+  },
+  {
+   "key": "tone_rhetoric",
+   "title": "Sắc thái, phản vấn và nhận định"
+  },
+  {
+   "key": "frames",
+   "title": "Khung câu trang trọng"
+  }
+ ],
+ "points": [
+  {
+   "key": "zh.hsk6.guran_danshi",
+   "title": "固然…但是…: đành rằng…nhưng…",
+   "topic_key": "concession_condition",
+   "questions": [
+    {
+     "id": "zh.hsk6.guran_danshi.01",
+     "prompt": "这个办法___好，但是成本太高。",
+     "options": [
+      {
+       "id": "a",
+       "text": "固然"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "固然…但是… (Cách này đành rằng tốt nhưng chi phí quá cao)."
+    },
+    {
+     "id": "zh.hsk6.guran_danshi.02",
+     "prompt": "价格高___是个问题，但质量更重要。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "如果"
+      },
+      {
+       "id": "d",
+       "text": "固然"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "固然 thừa nhận trước (Giá cao đành rằng là vấn đề, nhưng chất lượng quan trọng hơn)."
+    },
+    {
+     "id": "zh.hsk6.guran_danshi.03",
+     "prompt": "他努力___重要，方法也不能忽视。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "固然"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "努力固然重要 (Cố gắng đành rằng quan trọng, phương pháp cũng không thể xem nhẹ)."
+    },
+    {
+     "id": "zh.hsk6.guran_danshi.04",
+     "prompt": "天赋固然重要，___后天的努力更重要。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "但是"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "但是 chuyển ý (Thiên phú đành rằng quan trọng, nhưng nỗ lực về sau quan trọng hơn)."
+    },
+    {
+     "id": "zh.hsk6.guran_danshi.05",
+     "prompt": "这样做固然省钱，___风险也大。",
+     "options": [
+      {
+       "id": "a",
+       "text": "但"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "固然…但… (Làm vậy đành rằng tiết kiệm nhưng rủi ro cũng lớn)."
+    },
+    {
+     "id": "zh.hsk6.guran_danshi.06",
+     "prompt": "学历___有用，经验也很关键。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "如果"
+      },
+      {
+       "id": "d",
+       "text": "固然"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "学历固然有用 (Học vị đành rằng hữu ích, kinh nghiệm cũng rất then chốt)."
+    },
+    {
+     "id": "zh.hsk6.guran_danshi.07",
+     "prompt": "朋友多固然好，___也要学会独处。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "但"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "固然…但… (Nhiều bạn đành rằng tốt, nhưng cũng cần biết ở một mình)."
+    },
+    {
+     "id": "zh.hsk6.guran_danshi.08",
+     "prompt": "你的想法固然不错，___实施起来很难。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "但是"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "固然…但是… (Ý tưởng của bạn đành rằng hay, nhưng thực hiện rất khó)."
+    }
+   ],
+   "lesson": {
+    "summary": "固然 thừa nhận một điều là đúng hoặc đáng kể, rồi vế sau dùng 但是, 可是, 但 để chuyển sang điều quan trọng hơn.",
+    "rules": [
+     "A 固然 + tính từ, 但是 + B: 这个办法固然好，但是成本太高。",
+     "Vế sau nhấn mạnh điều cần chú ý hơn: 天赋固然重要，但后天的努力更重要。",
+     "固然 trang trọng hơn 虽然."
+    ],
+    "examples": [
+     {
+      "text": "这个办法固然好，但是成本太高。",
+      "meaning": "Cách này đành rằng tốt, nhưng chi phí quá cao."
+     },
+     {
+      "text": "天赋固然重要，但后天的努力更重要。",
+      "meaning": "Thiên phú đành rằng quan trọng, nhưng nỗ lực về sau còn quan trọng hơn."
+     },
+     {
+      "text": "朋友多固然好，但也要学会独处。",
+      "meaning": "Nhiều bạn đành rằng tốt, nhưng cũng cần biết ở một mình."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "这个办法因为好，但是成本太高。",
+      "right": "这个办法固然好，但是成本太高。",
+      "why": "Thừa nhận trước rồi chuyển ý dùng 固然."
+     },
+     {
+      "wrong": "天赋固然重要，所以努力更重要。",
+      "right": "天赋固然重要，但是努力更重要。",
+      "why": "Vế sau là chuyển ý nên dùng 但是."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk6.tangruo_naipa",
+   "title": "倘若, 哪怕: giả định và nhượng bộ mạnh",
+   "topic_key": "concession_condition",
+   "questions": [
+    {
+     "id": "zh.hsk6.tangruo_naipa.01",
+     "prompt": "___你有时间，请来参加我们的活动。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "倘若"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "倘若 = nếu (trang trọng): Nếu bạn có thời gian, mời đến tham gia hoạt động."
+    },
+    {
+     "id": "zh.hsk6.tangruo_naipa.02",
+     "prompt": "倘若失败了，我们___重新开始。",
+     "options": [
+      {
+       "id": "a",
+       "text": "就"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "倘若…就… (Nếu thất bại, chúng ta sẽ làm lại)."
+    },
+    {
+     "id": "zh.hsk6.tangruo_naipa.03",
+     "prompt": "哪怕只有一线希望，我们___要努力。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "也"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "哪怕…也… (Dù chỉ còn một tia hy vọng chúng ta cũng phải cố gắng)."
+    },
+    {
+     "id": "zh.hsk6.tangruo_naipa.04",
+     "prompt": "___再困难，我们也不能放弃。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "哪怕"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "哪怕 = dù cho (Dù khó đến đâu chúng ta cũng không thể bỏ cuộc)."
+    },
+    {
+     "id": "zh.hsk6.tangruo_naipa.05",
+     "prompt": "___条件允许，我们明年出国留学。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "倘若"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "倘若条件允许 (Nếu điều kiện cho phép, sang năm chúng tôi đi du học)."
+    },
+    {
+     "id": "zh.hsk6.tangruo_naipa.06",
+     "prompt": "哪怕是一分钱，他___不愿意浪费。",
+     "options": [
+      {
+       "id": "a",
+       "text": "也"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "哪怕…也不… (Dù chỉ một đồng anh ấy cũng không muốn lãng phí)."
+    },
+    {
+     "id": "zh.hsk6.tangruo_naipa.07",
+     "prompt": "倘若事情___你想的那样，我就放心了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "如"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "如你想的那样 = đúng như bạn nghĩ (Nếu việc đúng như bạn nghĩ thì tôi yên tâm)."
+    },
+    {
+     "id": "zh.hsk6.tangruo_naipa.08",
+     "prompt": "哪怕全世界反对，他___要坚持。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "也"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "哪怕…也要… (Dù cả thế giới phản đối anh ấy cũng phải kiên trì)."
+    }
+   ],
+   "lesson": {
+    "summary": "倘若 là giả định trang trọng (nếu); 哪怕 là nhượng bộ mạnh (dù cho), vế sau thường có 也/都.",
+    "rules": [
+     "倘若 + giả định, (S) + 就 + kết quả: 倘若失败了，我们就重新开始。",
+     "哪怕 + tình huống cực đoan, S + 也/都 + vẫn: 哪怕只有一线希望，我们也要努力。",
+     "倘若 tương đương 如果 nhưng trang trọng hơn."
+    ],
+    "examples": [
+     {
+      "text": "倘若失败了，我们就重新开始。",
+      "meaning": "Nếu thất bại, chúng ta sẽ làm lại từ đầu."
+     },
+     {
+      "text": "哪怕只有一线希望，我们也要努力。",
+      "meaning": "Dù chỉ còn một tia hy vọng, chúng ta cũng phải cố gắng."
+     },
+     {
+      "text": "倘若条件允许，我们明年出国留学。",
+      "meaning": "Nếu điều kiện cho phép, sang năm chúng tôi sẽ đi du học."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "哪怕再困难，我们才不能放弃。",
+      "right": "哪怕再困难，我们也不能放弃。",
+      "why": "Vế sau dùng 也, không dùng 才."
+     },
+     {
+      "wrong": "倘若失败了，我们也重新开始。",
+      "right": "倘若失败了，我们就重新开始。",
+      "why": "Kết quả của giả định dùng 就."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk6.buzhiyu_weimian",
+   "title": "不至于, 未免, 不免",
+   "topic_key": "tone_rhetoric",
+   "questions": [
+    {
+     "id": "zh.hsk6.buzhiyu_weimian.01",
+     "prompt": "他虽然生气，但还___动手打人。",
+     "options": [
+      {
+       "id": "a",
+       "text": "未免"
+      },
+      {
+       "id": "b",
+       "text": "不免"
+      },
+      {
+       "id": "c",
+       "text": "不至于"
+      },
+      {
+       "id": "d",
+       "text": "难免"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "不至于 = chưa đến mức (Anh ấy tuy giận nhưng chưa đến mức động tay)."
+    },
+    {
+     "id": "zh.hsk6.buzhiyu_weimian.02",
+     "prompt": "这么小的事就哭，___太夸张了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不至于"
+      },
+      {
+       "id": "b",
+       "text": "未免"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "未免 = hơi quá (Chuyện nhỏ thế mà khóc thì hơi quá)."
+    },
+    {
+     "id": "zh.hsk6.buzhiyu_weimian.03",
+     "prompt": "听到这个消息，他___有些失望。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不免"
+      },
+      {
+       "id": "b",
+       "text": "不至于"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "不免 = khó tránh (Nghe tin này anh ấy khó tránh thất vọng)."
+    },
+    {
+     "id": "zh.hsk6.buzhiyu_weimian.04",
+     "prompt": "你的要求___过高了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不至于"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "未免"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "未免过高 = hơi quá cao (Yêu cầu của bạn hơi quá cao)."
+    },
+    {
+     "id": "zh.hsk6.buzhiyu_weimian.05",
+     "prompt": "你的病不严重，___住院。",
+     "options": [
+      {
+       "id": "a",
+       "text": "未免"
+      },
+      {
+       "id": "b",
+       "text": "不免"
+      },
+      {
+       "id": "c",
+       "text": "不至于"
+      },
+      {
+       "id": "d",
+       "text": "难免"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "不至于住院 = chưa đến mức nhập viện."
+    },
+    {
+     "id": "zh.hsk6.buzhiyu_weimian.06",
+     "prompt": "他一个人在国外，___会感到孤独。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不至于"
+      },
+      {
+       "id": "b",
+       "text": "不免"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "不免会 = khó tránh sẽ (Anh ấy ở nước ngoài một mình khó tránh cô đơn)."
+    },
+    {
+     "id": "zh.hsk6.buzhiyu_weimian.07",
+     "prompt": "这件事___有点儿小题大做了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "未免"
+      },
+      {
+       "id": "b",
+       "text": "不至于"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "未免有点儿 = hơi bé xé ra to (Việc này hơi làm quá lên)."
+    },
+    {
+     "id": "zh.hsk6.buzhiyu_weimian.08",
+     "prompt": "他虽然不高兴，但还___和你吵架。",
+     "options": [
+      {
+       "id": "a",
+       "text": "未免"
+      },
+      {
+       "id": "b",
+       "text": "不免"
+      },
+      {
+       "id": "c",
+       "text": "难免"
+      },
+      {
+       "id": "d",
+       "text": "不至于"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "不至于 (Anh ấy tuy không vui nhưng chưa đến mức cãi nhau với bạn)."
+    }
+   ],
+   "lesson": {
+    "summary": "不至于: chưa đến mức. 未免: quá, hơi quá (phê bình nhẹ). 不免: khó tránh khỏi.",
+    "rules": [
+     "不至于 + V: 他虽然不高兴，但还不至于和你吵架。",
+     "未免 + (太/过于) + tính từ: 你的要求未免过高了。",
+     "不免 + V/tính từ: 听到这个消息，他不免有些失望。"
+    ],
+    "examples": [
+     {
+      "text": "他虽然不高兴，但还不至于和你吵架。",
+      "meaning": "Anh ấy tuy không vui nhưng chưa đến mức cãi nhau với bạn."
+     },
+     {
+      "text": "你的要求未免过高了。",
+      "meaning": "Yêu cầu của bạn hơi quá cao rồi."
+     },
+     {
+      "text": "听到这个消息，他不免有些失望。",
+      "meaning": "Nghe tin này anh ấy khó tránh hơi thất vọng."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "你的要求不免过高了。",
+      "right": "你的要求未免过高了。",
+      "why": "Phê bình là quá mức dùng 未免."
+     },
+     {
+      "wrong": "他一个人在国外，未免会感到孤独。",
+      "right": "他一个人在国外，不免会感到孤独。",
+      "why": "Điều khó tránh dùng 不免."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk6.nandao_hechang",
+   "title": "难道, 何尝, 莫非: câu hỏi phản vấn",
+   "topic_key": "tone_rhetoric",
+   "questions": [
+    {
+     "id": "zh.hsk6.nandao_hechang.01",
+     "prompt": "___你不知道这件事吗？",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "难道"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "难道…吗 = lẽ nào… sao? (Lẽ nào bạn không biết chuyện này?)."
+    },
+    {
+     "id": "zh.hsk6.nandao_hechang.02",
+     "prompt": "你___不想成功呢？",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "何尝"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "何尝不 = đâu phải không (Bạn đâu phải không muốn thành công?)."
+    },
+    {
+     "id": "zh.hsk6.nandao_hechang.03",
+     "prompt": "他今天没来，___是生病了？",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "莫非"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "莫非 = hay là (Hôm nay anh ấy không đến, hay là bị ốm?)."
+    },
+    {
+     "id": "zh.hsk6.nandao_hechang.04",
+     "prompt": "这么简单的道理，___你还不明白吗？",
+     "options": [
+      {
+       "id": "a",
+       "text": "难道"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "难道…吗 (Đạo lý đơn giản thế mà lẽ nào bạn vẫn chưa hiểu?)."
+    },
+    {
+     "id": "zh.hsk6.nandao_hechang.05",
+     "prompt": "我___不想去，可是实在没时间。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "何尝"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "何尝不想 (Tôi đâu phải không muốn đi, nhưng thật sự không có thời gian)."
+    },
+    {
+     "id": "zh.hsk6.nandao_hechang.06",
+     "prompt": "灯亮着，___他还没睡？",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "莫非"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "莫非 (Đèn còn sáng, hay là anh ấy chưa ngủ?)."
+    },
+    {
+     "id": "zh.hsk6.nandao_hechang.07",
+     "prompt": "这样做，___不是对大家都有好处吗？",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "难道"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "难道不是…吗 (Làm vậy chẳng lẽ không có lợi cho mọi người sao?)."
+    },
+    {
+     "id": "zh.hsk6.nandao_hechang.08",
+     "prompt": "他___不知道这样做不对，只是没办法。",
+     "options": [
+      {
+       "id": "a",
+       "text": "何尝"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "何尝不知道 (Anh ấy đâu phải không biết làm vậy không đúng, chỉ là không có cách)."
+    }
+   ],
+   "lesson": {
+    "summary": "难道…吗 phản vấn mạnh; 何尝 phủ nhận nhẹ (đâu phải không); 莫非 phỏng đoán bán tín bán nghi.",
+    "rules": [
+     "难道 + câu + 吗/呢: 难道你不知道这件事吗？",
+     "何尝 + (不) + V: 我何尝不想去，可是实在没时间。",
+     "莫非 + phỏng đoán: 他今天没来，莫非是生病了？"
+    ],
+    "examples": [
+     {
+      "text": "难道你不知道这件事吗？",
+      "meaning": "Lẽ nào bạn không biết chuyện này sao?"
+     },
+     {
+      "text": "我何尝不想去，可是实在没时间。",
+      "meaning": "Tôi đâu phải không muốn đi, nhưng thật sự không có thời gian."
+     },
+     {
+      "text": "他今天没来，莫非是生病了？",
+      "meaning": "Hôm nay anh ấy không đến, hay là bị ốm?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "我难道不想去，可是没时间。",
+      "right": "我何尝不想去，可是没时间。",
+      "why": "Giải thích mình thật ra muốn dùng 何尝."
+     },
+     {
+      "wrong": "他没来，何尝是生病了？",
+      "right": "他没来，莫非是生病了？",
+      "why": "Phỏng đoán dùng 莫非."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk6.yi_wei",
+   "title": "Khung 以…为…, 以…而…",
+   "topic_key": "frames",
+   "questions": [
+    {
+     "id": "zh.hsk6.yi_wei.01",
+     "prompt": "他们___健康为目标制订了计划。",
+     "options": [
+      {
+       "id": "a",
+       "text": "以"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "以…为目标 (Họ lập kế hoạch lấy sức khỏe làm mục tiêu)."
+    },
+    {
+     "id": "zh.hsk6.yi_wei.02",
+     "prompt": "这座城市以美食___闻名。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "而"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "以…而闻名 (Thành phố này nổi tiếng nhờ ẩm thực)."
+    },
+    {
+     "id": "zh.hsk6.yi_wei.03",
+     "prompt": "我们要以实际行动___证明自己。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "来"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "以…来 + động từ (Chúng ta phải dùng hành động thực tế để chứng minh mình)."
+    },
+    {
+     "id": "zh.hsk6.yi_wei.04",
+     "prompt": "学校以培养创新人才___目标。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "为"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "以…为目标 (Nhà trường lấy việc đào tạo nhân tài sáng tạo làm mục tiêu)."
+    },
+    {
+     "id": "zh.hsk6.yi_wei.05",
+     "prompt": "他以自己的经验___例，向大家说明。",
+     "options": [
+      {
+       "id": "a",
+       "text": "为"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "以…为例 (Anh ấy lấy kinh nghiệm của mình làm ví dụ để giải thích)."
+    },
+    {
+     "id": "zh.hsk6.yi_wei.06",
+     "prompt": "该国以农业___主。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "为"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "以…为主 = lấy…là chính (Nước đó lấy nông nghiệp là chính)."
+    },
+    {
+     "id": "zh.hsk6.yi_wei.07",
+     "prompt": "我们以质量求生存，以信誉___发展。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "求"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "以…求… = nhờ…mà tìm…: 求发展 (Chúng tôi dựa vào chất lượng để tồn tại, dựa vào uy tín để phát triển)."
+    },
+    {
+     "id": "zh.hsk6.yi_wei.08",
+     "prompt": "大家都以他___榜样。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "为"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "以…为榜样 = lấy…làm gương (Mọi người đều lấy anh ấy làm gương)."
+    }
+   ],
+   "lesson": {
+    "summary": "Khung 以…为… và 以…而… dùng trong văn trang trọng để nói lấy gì làm gì, hoặc nổi tiếng nhờ gì.",
+    "rules": [
+     "以 A 为 B: lấy A làm B: 学校以培养创新人才为目标。 以他为榜样。",
+     "以 A 为例: lấy A làm ví dụ. 以…为主: lấy…là chính.",
+     "以 A 而闻名: nổi tiếng vì A: 这座城市以美食而闻名。",
+     "以 A 来 + V: dùng A để…: 以实际行动来证明自己。"
+    ],
+    "examples": [
+     {
+      "text": "学校以培养创新人才为目标。",
+      "meaning": "Nhà trường lấy việc đào tạo nhân tài sáng tạo làm mục tiêu."
+     },
+     {
+      "text": "这座城市以美食而闻名。",
+      "meaning": "Thành phố này nổi tiếng nhờ ẩm thực."
+     },
+     {
+      "text": "大家都以他为榜样。",
+      "meaning": "Mọi người đều lấy anh ấy làm gương."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "大家都以他是榜样。",
+      "right": "大家都以他为榜样。",
+      "why": "Cấu trúc cố định là 以…为…."
+     },
+     {
+      "wrong": "这座城市以美食闻名而。",
+      "right": "这座城市以美食而闻名。",
+      "why": "而 đứng trước 闻名."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk6.wufei_zhibuguo",
+   "title": "无非, 只不过: chẳng qua chỉ là",
+   "topic_key": "tone_rhetoric",
+   "questions": [
+    {
+     "id": "zh.hsk6.wufei_zhibuguo.01",
+     "prompt": "他___是想引起大家的注意。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "无非"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "无非 = chẳng qua (Anh ấy chẳng qua chỉ muốn thu hút sự chú ý)."
+    },
+    {
+     "id": "zh.hsk6.wufei_zhibuguo.02",
+     "prompt": "这___是个小问题，不必担心。",
+     "options": [
+      {
+       "id": "a",
+       "text": "只不过"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "只不过是 = chẳng qua chỉ là (Đây chẳng qua chỉ là vấn đề nhỏ)."
+    },
+    {
+     "id": "zh.hsk6.wufei_zhibuguo.03",
+     "prompt": "他每天加班，无非___多挣点钱。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "为了"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "无非为了… (Anh ấy tăng ca mỗi ngày chẳng qua để kiếm thêm tiền)."
+    },
+    {
+     "id": "zh.hsk6.wufei_zhibuguo.04",
+     "prompt": "我只不过___开个玩笑，你别当真。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "是"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "只不过是… (Tôi chẳng qua chỉ đùa thôi, đừng coi là thật)."
+    },
+    {
+     "id": "zh.hsk6.wufei_zhibuguo.05",
+     "prompt": "这___是一场误会。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "无非"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "无非是… (Đây chẳng qua là một sự hiểu lầm)."
+    },
+    {
+     "id": "zh.hsk6.wufei_zhibuguo.06",
+     "prompt": "他___不过是个学生，不要对他要求太高。",
+     "options": [
+      {
+       "id": "a",
+       "text": "只"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "只不过是… (Cậu ấy chẳng qua chỉ là học sinh, đừng yêu cầu quá cao)."
+    },
+    {
+     "id": "zh.hsk6.wufei_zhibuguo.07",
+     "prompt": "你说的___就是这些，我早就知道了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "无非"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "无非就是… (Điều bạn nói chẳng qua cũng chỉ là thế, tôi biết từ lâu)."
+    },
+    {
+     "id": "zh.hsk6.wufei_zhibuguo.08",
+     "prompt": "这件事___不过是个开始，后面还有更多。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "只"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "只不过是个开始 (Chuyện này chẳng qua chỉ là khởi đầu, phía sau còn nhiều)."
+    }
+   ],
+   "lesson": {
+    "summary": "无非 và 只不过 giảm nhẹ tầm quan trọng của điều gì: chẳng qua chỉ là, nói cho cùng cũng chỉ.",
+    "rules": [
+     "无非 + (是) + điều: 他无非是想引起大家的注意。",
+     "只不过 + 是 + điều nhỏ: 这只不过是个小问题。",
+     "Dùng khi muốn nói điều đó không nghiêm trọng hay không có gì đặc biệt."
+    ],
+    "examples": [
+     {
+      "text": "他无非是想引起大家的注意。",
+      "meaning": "Anh ấy chẳng qua chỉ muốn thu hút sự chú ý."
+     },
+     {
+      "text": "这只不过是个小问题，不必担心。",
+      "meaning": "Đây chẳng qua chỉ là vấn đề nhỏ, không cần lo."
+     },
+     {
+      "text": "这无非是一场误会。",
+      "meaning": "Đây chẳng qua là một sự hiểu lầm."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "这只因为是个小问题。",
+      "right": "这只不过是个小问题。",
+      "why": "Giảm nhẹ dùng 只不过."
+     },
+     {
+      "wrong": "他无非是想为了钱。",
+      "right": "他无非是为了钱。",
+      "why": "Sau 无非 dùng 是 + mục đích hoặc nguyên nhân."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk6.fanshi_renhe",
+   "title": "凡是, 任何, 一切…都",
+   "topic_key": "frames",
+   "questions": [
+    {
+     "id": "zh.hsk6.fanshi_renhe.01",
+     "prompt": "___是学生，都要遵守规定。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "凡"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "凡是…都… (Hễ là học sinh đều phải tuân thủ quy định)."
+    },
+    {
+     "id": "zh.hsk6.fanshi_renhe.02",
+     "prompt": "他不怕___困难。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "任何"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "任何困难 = bất cứ khó khăn nào (Anh ấy không sợ bất kỳ khó khăn nào)."
+    },
+    {
+     "id": "zh.hsk6.fanshi_renhe.03",
+     "prompt": "一切困难___能克服。",
+     "options": [
+      {
+       "id": "a",
+       "text": "都"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "一切…都… (Mọi khó khăn đều có thể vượt qua)."
+    },
+    {
+     "id": "zh.hsk6.fanshi_renhe.04",
+     "prompt": "凡是我知道的，我___告诉你。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "都"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "凡是…都… (Cái gì tôi biết, tôi đều nói cho bạn)."
+    },
+    {
+     "id": "zh.hsk6.fanshi_renhe.05",
+     "prompt": "不管是谁，凡是犯了错，___要负责。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "都"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "凡是…都… (Bất kể ai, hễ mắc lỗi đều phải chịu trách nhiệm)."
+    },
+    {
+     "id": "zh.hsk6.fanshi_renhe.06",
+     "prompt": "任何人___不能例外。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "都"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "任何人都… (Bất cứ ai cũng không thể ngoại lệ)."
+    },
+    {
+     "id": "zh.hsk6.fanshi_renhe.07",
+     "prompt": "这里的一切我___很熟悉。",
+     "options": [
+      {
+       "id": "a",
+       "text": "都"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "一切…都… (Mọi thứ ở đây tôi đều quen thuộc)."
+    },
+    {
+     "id": "zh.hsk6.fanshi_renhe.08",
+     "prompt": "凡是有利于国家的事，他___愿意做。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "都"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "凡是…都… (Việc gì có lợi cho đất nước anh ấy đều sẵn lòng làm)."
+    }
+   ],
+   "lesson": {
+    "summary": "凡是, 任何, 一切 nêu phạm vi toàn bộ, vế sau dùng 都 để khẳng định không có ngoại lệ.",
+    "rules": [
+     "凡是 + điều kiện/nhóm, 都 + V: 凡是学生，都要遵守规定。",
+     "任何 + danh từ + 都/也 + V: 任何人都不能例外。",
+     "一切 + danh từ + 都 + V: 一切困难都能克服。"
+    ],
+    "examples": [
+     {
+      "text": "凡是学生，都要遵守规定。",
+      "meaning": "Hễ là học sinh đều phải tuân thủ quy định."
+     },
+     {
+      "text": "任何人都不能例外。",
+      "meaning": "Bất cứ ai cũng không thể ngoại lệ."
+     },
+     {
+      "text": "一切困难都能克服。",
+      "meaning": "Mọi khó khăn đều có thể vượt qua."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "凡是学生，才要遵守规定。",
+      "right": "凡是学生，都要遵守规定。",
+      "why": "Vế sau dùng 都."
+     },
+     {
+      "wrong": "任何人也不能例外。",
+      "right": "任何人都不能例外。",
+      "why": "任何 thường đi với 都."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk6.yin_er_wei_er",
+   "title": "因…而…, 为…而…, 由…而…",
+   "topic_key": "frames",
+   "questions": [
+    {
+     "id": "zh.hsk6.yin_er_wei_er.01",
+     "prompt": "他___生病而缺席了会议。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "因"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "因…而… (Anh ấy vắng họp vì ốm)."
+    },
+    {
+     "id": "zh.hsk6.yin_er_wei_er.02",
+     "prompt": "为了理想___奋斗，是值得的。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "而"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "为…而奋斗 (Phấn đấu vì lý tưởng là xứng đáng)."
+    },
+    {
+     "id": "zh.hsk6.yin_er_wei_er.03",
+     "prompt": "他们为保护环境___努力。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "而"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "为…而努力 (Họ nỗ lực vì bảo vệ môi trường)."
+    },
+    {
+     "id": "zh.hsk6.yin_er_wei_er.04",
+     "prompt": "这个故事___真实事件改编。",
+     "options": [
+      {
+       "id": "a",
+       "text": "由"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "由…改编 = chuyển thể từ… (Câu chuyện này chuyển thể từ sự kiện có thật)."
+    },
+    {
+     "id": "zh.hsk6.yin_er_wei_er.05",
+     "prompt": "大家因他的成功___高兴。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "而"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "因…而高兴 (Mọi người vui mừng vì thành công của anh ấy)."
+    },
+    {
+     "id": "zh.hsk6.yin_er_wei_er.06",
+     "prompt": "他为这次比赛___做了充分准备。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "而"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "为…而做准备 (Anh ấy chuẩn bị đầy đủ cho trận đấu này)."
+    },
+    {
+     "id": "zh.hsk6.yin_er_wei_er.07",
+     "prompt": "这件事因天气原因___推迟了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "而"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "因…而推迟 (Việc này bị hoãn vì thời tiết)."
+    },
+    {
+     "id": "zh.hsk6.yin_er_wei_er.08",
+     "prompt": "她为了孩子___放弃了工作。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "为了…而… (Cô ấy từ bỏ công việc vì con)."
+    }
+   ],
+   "lesson": {
+    "summary": "而 nối nguyên nhân hoặc mục đích với hành động trong văn trang trọng: 因…而…, 为…而…, 由…而….",
+    "rules": [
+     "因 + nguyên nhân + 而 + V: 他因生病而缺席了会议。",
+     "为 + mục đích/đối tượng + 而 + V: 为理想而奋斗。",
+     "由 + nguồn/gốc + (而) + V: 由真实事件改编。"
+    ],
+    "examples": [
+     {
+      "text": "他因生病而缺席了会议。",
+      "meaning": "Anh ấy vắng họp vì ốm."
+     },
+     {
+      "text": "为理想而奋斗是值得的。",
+      "meaning": "Phấn đấu vì lý tưởng là xứng đáng."
+     },
+     {
+      "text": "这件事因天气原因而推迟了。",
+      "meaning": "Việc này bị hoãn vì lý do thời tiết."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "他因生病缺席了会议而。",
+      "right": "他因生病而缺席了会议。",
+      "why": "而 đứng trước động từ."
+     },
+     {
+      "wrong": "为理想奋斗而。",
+      "right": "为理想而奋斗。",
+      "why": "Cấu trúc là 为…而…"
+     }
+    ]
+   }
+  }
+ ],
+ "approval": {
+  "reviewer": "owner",
+  "approved_on": "2026-11-02",
+  "content_sha256": "0f684a3f229f6e27d887cdf6af815b73ad4766668d639395ba3389a4b06a8158",
+  "sample_question_ids": [
+   "zh.hsk6.guran_danshi.01",
+   "zh.hsk6.tangruo_naipa.01",
+   "zh.hsk6.buzhiyu_weimian.01",
+   "zh.hsk6.nandao_hechang.01",
+   "zh.hsk6.yi_wei.01",
+   "zh.hsk6.wufei_zhibuguo.01",
+   "zh.hsk6.fanshi_renhe.01",
+   "zh.hsk6.yin_er_wei_er.01"
+  ]
+ }
+}

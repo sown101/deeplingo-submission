@@ -1,0 +1,3 @@
+# Real runtime settings never live in the repo.
+*.env
+!*.env.example

@@ -1,0 +1,807 @@
+# DRAFT (2026-11-07): drafted by the AI, awaiting the owner's sample review.
+# Coverage frame: HSK 3.0 grammar syllabus, GF 0025-2021 (Ministry of Education of the PRC; item
+# numbers via ivankra/hsk30). Explanations and examples are written by DeepLingo. Word senses
+# are CC-CEDICT senses; word levels are GF 0025-2021.
+format = "deeplingo-curriculum-v1"
+language = "zh"
+framework = "HSK"
+level = "HSK4"
+version = 1
+title = "Tiếng Trung HSK4: Trung cấp"
+
+# --- Grammar -------------------------------------------------------------------------------
+
+[[grammar]]
+key = "zh.hsk4.dei_must"
+title = "得 (děi): phải"
+pattern = "得 + động từ"
+forms = ["得"]
+explanation = "得 đọc là děi khi đứng trước động từ, nghĩa là phải (khẩu ngữ): 我得走了 (tôi phải đi rồi). Phủ định không dùng 不得 mà dùng 不用."
+examples = [
+  { text = "太晚了，我得回家了。", translation = "Muộn quá rồi, tôi phải về nhà." },
+  { text = "这件事你得自己决定。", translation = "Việc này bạn phải tự quyết định." },
+]
+source = "gf0025-2021"
+source_ref = "212"
+
+[[grammar]]
+key = "zh.hsk4.geiwai_jiqi"
+title = "格外, 极其: đặc biệt, cực kỳ"
+pattern = "格外/极其/极 + tính từ"
+forms = ["格外", "极其", "极"]
+explanation = "格外 là đặc biệt, hơn hẳn bình thường; 极其 là cực kỳ, mang sắc thái văn viết."
+examples = [
+  { text = "雨后的空气格外新鲜。", translation = "Không khí sau mưa trong lành hẳn." },
+  { text = "这个问题极其重要。", translation = "Vấn đề này cực kỳ quan trọng." },
+]
+source = "gf0025-2021"
+source_ref = "216"
+
+[[grammar]]
+key = "zh.hsk4.jianjian_jinkuai"
+title = "渐渐, 尽快, 按时, 即将"
+pattern = "渐渐/尽快/按时/即将/急忙 + động từ"
+forms = ["渐渐", "尽快", "按时", "即将", "急忙"]
+explanation = "渐渐 là dần dần; 尽快 là càng sớm càng tốt; 按时 là đúng giờ; 即将 là sắp (văn viết); 急忙 là vội vàng."
+examples = [
+  { text = "天渐渐黑了。", translation = "Trời dần dần tối." },
+  { text = "请尽快回复我。", translation = "Xin hãy trả lời tôi sớm nhất có thể." },
+]
+source = "gf0025-2021"
+source_ref = "218"
+
+[[grammar]]
+key = "zh.hsk4.que"
+title = "却: nhưng lại"
+pattern = "chủ ngữ + 却 + động từ/tính từ"
+forms = ["却"]
+explanation = "却 là phó từ, đứng sau chủ ngữ, nêu điều trái với mong đợi: 他很努力，成绩却不好. Không đứng đầu câu như 但是."
+examples = [
+  { text = "他学得很努力，成绩却不太好。", translation = "Anh ấy học rất chăm, nhưng thành tích lại không tốt lắm." },
+  { text = "已经春天了，天气却还很冷。", translation = "Đã sang xuân rồi mà trời vẫn còn lạnh." },
+]
+source = "gf0025-2021"
+source_ref = "220"
+
+[[grammar]]
+key = "zh.hsk4.weibi"
+title = "未必: chưa chắc"
+pattern = "未必 + động từ/tính từ"
+forms = ["未必"]
+explanation = "未必 nghĩa là chưa chắc đã, phủ định nhẹ nhàng một nhận định: 贵的未必好 (đắt chưa chắc đã tốt)."
+examples = [
+  { text = "贵的东西未必好。", translation = "Đồ đắt chưa chắc đã tốt." },
+  { text = "他说的未必是真的。", translation = "Điều anh ta nói chưa chắc đã là thật." },
+]
+source = "gf0025-2021"
+source_ref = "221"
+
+[[grammar]]
+key = "zh.hsk4.jihu_sihu"
+title = "几乎, 似乎: gần như, dường như"
+pattern = "几乎 + động từ/số lượng / 似乎 + câu"
+forms = ["几乎", "似乎"]
+explanation = "几乎 là gần như, suýt; 似乎 là dường như, có vẻ (văn viết, gần với 好像)."
+examples = [
+  { text = "他几乎每天都加班。", translation = "Anh ấy gần như ngày nào cũng làm thêm giờ." },
+  { text = "她似乎不太高兴。", translation = "Cô ấy có vẻ không vui lắm." },
+]
+source = "gf0025-2021"
+source_ref = "222"
+
+[[grammar]]
+key = "zh.hsk4.mood_adverbs_4"
+title = "的确, 反而, 竟然, 究竟"
+pattern = "的确/反而/竟然/究竟 + động từ/tính từ"
+forms = ["的确", "反而", "竟然", "究竟", "还"]
+explanation = "的确 là quả thật; 反而 là ngược lại (trái với lẽ thường); 竟然 là vậy mà, không ngờ; 究竟 là rốt cuộc (trong câu hỏi, văn viết hơn 到底)."
+examples = [
+  { text = "吃了药，病反而更重了。", translation = "Uống thuốc rồi, bệnh ngược lại còn nặng hơn." },
+  { text = "他竟然一个人去了西藏。", translation = "Không ngờ anh ấy lại đi Tây Tạng một mình." },
+]
+source = "gf0025-2021"
+source_ref = "223"
+
+[[grammar]]
+key = "zh.hsk4.duiyu"
+title = "对于: đối với"
+pattern = "对于 + đối tượng，…"
+forms = ["对于"]
+explanation = "对于 giới thiệu đối tượng được bàn đến, trang trọng hơn 对 và thường đứng đầu câu: 对于这个问题，大家有不同的看法."
+examples = [
+  { text = "对于这个问题，大家的看法不同。", translation = "Về vấn đề này, mọi người có cách nhìn khác nhau." },
+  { text = "对于学生来说，时间很宝贵。", translation = "Đối với học sinh, thời gian rất quý báu." },
+]
+source = "gf0025-2021"
+source_ref = "225"
+
+[[grammar]]
+key = "zh.hsk4.guanyu"
+title = "关于: về (chủ đề)"
+pattern = "关于 + chủ đề (+ 的 + danh từ)"
+forms = ["关于"]
+explanation = "关于 nêu chủ đề của lời nói hay tài liệu: 一本关于中国历史的书 (một cuốn sách về lịch sử Trung Quốc)."
+examples = [
+  { text = "我在看一本关于中国历史的书。", translation = "Tôi đang đọc một cuốn sách về lịch sử Trung Quốc." },
+  { text = "关于这件事，我们明天再谈。", translation = "Về việc này, mai chúng ta bàn tiếp." },
+]
+source = "gf0025-2021"
+source_ref = "226"
+
+[[grammar]]
+key = "zh.hsk4.ti"
+title = "替: thay cho"
+pattern = "替 + người + động từ"
+forms = ["替"]
+explanation = "替 nghĩa là làm thay cho ai, hoặc vì ai: 你替我请个假 (bạn xin nghỉ giúp tôi)."
+examples = [
+  { text = "你替我向老师请个假吧。", translation = "Bạn xin phép thầy giúp tôi nhé." },
+  { text = "我真替你高兴。", translation = "Tôi thật mừng cho bạn." },
+]
+source = "gf0025-2021"
+source_ref = "227"
+
+[[grammar]]
+key = "zh.hsk4.genju"
+title = "根据: căn cứ theo"
+pattern = "根据 + nguồn/căn cứ，…"
+forms = ["根据"]
+explanation = "根据 nêu căn cứ của một kết luận hay hành động: 根据天气预报 (theo dự báo thời tiết)."
+examples = [
+  { text = "根据天气预报，明天有雨。", translation = "Theo dự báo thời tiết, mai có mưa." },
+  { text = "这部电影是根据小说改编的。", translation = "Bộ phim này được chuyển thể từ tiểu thuyết." },
+]
+source = "gf0025-2021"
+source_ref = "228"
+
+[[grammar]]
+key = "zh.hsk4.zuowei"
+title = "作为: với tư cách là"
+pattern = "作为 + thân phận，…"
+forms = ["作为"]
+explanation = "作为 nêu tư cách, vai trò của chủ thể: 作为老师，我应该… (là giáo viên, tôi nên…)."
+examples = [
+  { text = "作为学生，你应该按时完成作业。", translation = "Là học sinh, bạn nên hoàn thành bài tập đúng hạn." },
+  { text = "作为朋友，我必须告诉你实话。", translation = "Là bạn bè, tôi phải nói thật với bạn." },
+]
+source = "gf0025-2021"
+source_ref = "229"
+
+[[grammar]]
+key = "zh.hsk4.ciwai_zongzhi"
+title = "此外, 总之: ngoài ra, tóm lại"
+pattern = "…。此外，… / 总之，…"
+forms = ["此外", "总之", "而是", "甚至"]
+explanation = "此外 thêm ý khác (ngoài ra); 总之 tổng kết lại (tóm lại). Hai từ nối câu này hay dùng khi trình bày, viết bài."
+examples = [
+  { text = "这里交通方便，此外，房租也不贵。", translation = "Ở đây giao thông thuận tiện, ngoài ra tiền thuê nhà cũng không đắt." },
+  { text = "总之，我们必须马上做决定。", translation = "Tóm lại, chúng ta phải quyết định ngay." },
+]
+source = "gf0025-2021"
+source_ref = "231"
+
+[[grammar]]
+key = "zh.hsk4.shide"
+title = "像……似的: giống như là"
+pattern = "(像) + danh từ/động từ + 似的"
+forms = ["似的"]
+explanation = "似的 đặt cuối một cụm so sánh, thường đi với 像: 高兴得像个孩子似的 (vui như đứa trẻ)."
+examples = [
+  { text = "他高兴得像个孩子似的。", translation = "Anh ấy vui như một đứa trẻ." },
+  { text = "她好像什么都知道似的。", translation = "Cô ấy cứ như là cái gì cũng biết." },
+]
+source = "gf0025-2021"
+source_ref = "232"
+
+[[grammar]]
+key = "zh.hsk4.kanlai"
+title = "看来: xem ra"
+pattern = "看来，+ nhận định"
+forms = ["看来"]
+explanation = "看来 đưa ra nhận định dựa trên tình hình đang thấy: 看来要下雨了 (xem ra sắp mưa)."
+examples = [
+  { text = "看来今天要下雨了。", translation = "Xem ra hôm nay sắp mưa rồi." },
+  { text = "他还没来，看来是忘了。", translation = "Anh ấy vẫn chưa đến, xem ra là quên rồi." },
+]
+source = "gf0025-2021"
+source_ref = "236"
+
+[[grammar]]
+key = "zh.hsk4.laideji"
+title = "来得及 / 来不及: kịp, không kịp"
+pattern = "来得及/来不及 + động từ"
+forms = ["来得及", "来不及"]
+explanation = "来得及 là còn kịp thời gian làm gì; 来不及 là không kịp."
+examples = [
+  { text = "别着急，还来得及。", translation = "Đừng vội, vẫn còn kịp." },
+  { text = "我来不及吃早饭了。", translation = "Tôi không kịp ăn sáng." },
+]
+source = "gf0025-2021"
+source_ref = "237"
+
+[[grammar]]
+key = "zh.hsk4.shuobuding"
+title = "说不定: không chừng, biết đâu"
+pattern = "说不定 + câu"
+forms = ["说不定"]
+explanation = "说不定 nghĩa là không chừng, có khi, biết đâu: 说不定他已经到了."
+examples = [
+  { text = "说不定他已经到家了。", translation = "Không chừng anh ấy đã về đến nhà rồi." },
+  { text = "你去问问，说不定还有票。", translation = "Bạn đi hỏi thử, biết đâu vẫn còn vé." },
+]
+source = "gf0025-2021"
+source_ref = "238"
+
+[[grammar]]
+key = "zh.hsk4.yibanlaishuo"
+title = "一般来说: nói chung"
+pattern = "一般来说，+ nhận định chung"
+forms = ["一般来说"]
+explanation = "Mở đầu một nhận định chung, đúng với phần lớn trường hợp."
+examples = [
+  { text = "一般来说，南方比北方暖和。", translation = "Nói chung miền Nam ấm hơn miền Bắc." },
+  { text = "一般来说，周末人比较多。", translation = "Thường thì cuối tuần khá đông người." },
+]
+source = "gf0025-2021"
+source_ref = "239"
+
+[[grammar]]
+key = "zh.hsk4.yilai"
+title = "（自）……以来: từ … đến nay"
+pattern = "(自/自从) + mốc thời gian + 以来，…"
+forms = ["以来"]
+explanation = "以来 tính từ một mốc trong quá khứ cho tới hiện tại: 今年以来 (từ đầu năm đến nay)."
+examples = [
+  { text = "自去年以来，物价一直在涨。", translation = "Từ năm ngoái đến nay giá cả liên tục tăng." },
+  { text = "开学以来，他每天都很忙。", translation = "Từ khi khai giảng đến nay, ngày nào anh ấy cũng bận." },
+]
+source = "gf0025-2021"
+source_ref = "241"
+
+[[grammar]]
+key = "zh.hsk4.zai_fangmian"
+title = "在……方面: về mặt"
+pattern = "在 + lĩnh vực + 方面，…"
+forms = ["方面"]
+explanation = "Giới hạn phạm vi của nhận định: 在工作方面 (về mặt công việc)."
+examples = [
+  { text = "在学习方面，他一直很认真。", translation = "Về mặt học tập, anh ấy luôn rất chăm chỉ." },
+  { text = "这个城市在交通方面还有很多问题。", translation = "Thành phố này về mặt giao thông vẫn còn nhiều vấn đề." },
+]
+source = "gf0025-2021"
+source_ref = "243"
+
+[[grammar]]
+key = "zh.hsk4.direction_extended"
+title = "Bổ ngữ xu hướng nghĩa mở rộng: 想起来, 看出来, 考上"
+pattern = "động từ + 起来/出来/上/下 (nghĩa kết quả)"
+forms = ["起来", "出来", "上", "下"]
+explanation = "Bổ ngữ xu hướng có thể mang nghĩa kết quả, không còn chỉ hướng: 想起来 (nhớ ra), 看出来 (nhận ra), 考上 (thi đỗ), 留下 (để lại)."
+examples = [
+  { text = "我想起来了，他叫李明。", translation = "Tôi nhớ ra rồi, anh ấy tên là Lý Minh." },
+  { text = "她考上了北京大学。", translation = "Cô ấy thi đỗ Đại học Bắc Kinh." },
+]
+source = "gf0025-2021"
+source_ref = "248"
+
+[[grammar]]
+key = "zh.hsk4.ba_sentence_2"
+title = "Câu 把 (2): 把衣服洗洗, 把钱给弄丢了"
+pattern = "chủ ngữ + 把 + tân ngữ + động từ lặp / (给) + động từ + 了"
+forms = ["把"]
+explanation = "Câu 把 có thể dùng động từ lặp (把房间收拾收拾: dọn phòng một chút) hoặc thêm 给 trước động từ trong khẩu ngữ để nhấn mạnh kết quả (把钥匙给丢了)."
+examples = [
+  { text = "你把房间收拾收拾吧。", translation = "Bạn dọn dẹp phòng một chút đi." },
+  { text = "我把钱包给弄丢了。", translation = "Tôi làm mất ví rồi." },
+]
+source = "gf0025-2021"
+source_ref = "249"
+
+[[grammar]]
+key = "zh.hsk4.bei_without_agent"
+title = "Câu 被 không nêu người làm"
+pattern = "chủ ngữ + 被 + động từ + thành phần khác"
+forms = ["被"]
+explanation = "Sau 被 có thể bỏ người làm khi không biết hoặc không cần nói: 我的手机被偷了. (叫, 让 thì không bỏ được.)"
+examples = [
+  { text = "他的自行车被偷了。", translation = "Xe đạp của anh ấy bị trộm rồi." },
+  { text = "这个问题已经被解决了。", translation = "Vấn đề này đã được giải quyết." },
+]
+source = "gf0025-2021"
+source_ref = "250"
+
+[[grammar]]
+key = "zh.hsk4.dang_zuo"
+title = "Kiêm ngữ gọi tên, chọn làm: 选他当班长"
+pattern = "chủ ngữ + 选/叫/称 + người + 当/做/为 + danh từ"
+forms = ["当", "做", "为", "选", "称"]
+explanation = "Nói ai được chọn hay gọi là gì: 大家选他当班长 (mọi người chọn anh ấy làm lớp trưởng); hoặc khen, phê bình ai vì việc gì."
+examples = [
+  { text = "大家选他当班长。", translation = "Mọi người chọn anh ấy làm lớp trưởng." },
+  { text = "老师表扬他学习认真。", translation = "Thầy khen anh ấy học hành chăm chỉ." },
+]
+source = "gf0025-2021"
+source_ref = "252"
+
+[[grammar]]
+key = "zh.hsk4.shi_de_attitude"
+title = "是……的 (2): khẳng định thái độ"
+pattern = "chủ ngữ + 是 + nhận định + 的"
+forms = ["是"]
+explanation = "是…的 bao quanh một nhận định để thể hiện người nói khẳng định chắc chắn: 这个办法是可以的 (cách này là được)."
+examples = [
+  { text = "你的想法是对的。", translation = "Suy nghĩ của bạn là đúng." },
+  { text = "这样做是不行的。", translation = "Làm như vậy là không được." },
+]
+source = "gf0025-2021"
+source_ref = "253"
+
+[[grammar]]
+key = "zh.hsk4.bushi_ershi"
+title = "不是……，而是……: không phải … mà là …"
+pattern = "不是 + A，而是 + B"
+forms = ["而是"]
+explanation = "Phủ định A và khẳng định B là đúng: 我不是不想去，而是没有时间."
+examples = [
+  { text = "我不是不想去，而是没有时间。", translation = "Không phải tôi không muốn đi, mà là không có thời gian." },
+  { text = "问题不是钱，而是时间。", translation = "Vấn đề không phải là tiền mà là thời gian." },
+]
+source = "gf0025-2021"
+source_ref = "254"
+
+[[grammar]]
+key = "zh.hsk4.ji_you"
+title = "既……，又/也……: vừa … vừa …"
+pattern = "既 + A，又/也 + B"
+forms = ["既"]
+explanation = "Nối hai đặc điểm cùng tồn tại, trang trọng hơn 又…又…: 既好看又实用."
+examples = [
+  { text = "这件衣服既好看又便宜。", translation = "Bộ quần áo này vừa đẹp vừa rẻ." },
+  { text = "他既是我的老师，也是我的朋友。", translation = "Anh ấy vừa là thầy, vừa là bạn của tôi." },
+]
+source = "gf0025-2021"
+source_ref = "255"
+
+[[grammar]]
+key = "zh.hsk4.yushi"
+title = "……，于是……: thế là"
+pattern = "sự việc 1，于是 + sự việc 2"
+forms = ["于是"]
+explanation = "于是 nối hai việc nối tiếp, việc sau là do việc trước dẫn tới: 天黑了，于是我们回家了."
+examples = [
+  { text = "雨越下越大，于是我们决定不去了。", translation = "Mưa càng lúc càng to, thế là chúng tôi quyết định không đi nữa." },
+  { text = "他觉得累了，于是早早地睡了。", translation = "Anh ấy thấy mệt, thế là đi ngủ sớm." },
+]
+source = "gf0025-2021"
+source_ref = "257"
+
+[[grammar]]
+key = "zh.hsk4.shenzhi"
+title = "甚至: thậm chí"
+pattern = "…，甚至 + điều cực đoan hơn"
+forms = ["甚至"]
+explanation = "甚至 đưa ra một ví dụ ở mức cao nhất, bất ngờ nhất: 他忙得甚至没时间吃饭."
+examples = [
+  { text = "他很忙，甚至没时间吃饭。", translation = "Anh ấy rất bận, thậm chí không có thời gian ăn cơm." },
+  { text = "这个歌连孩子甚至老人都会唱。", translation = "Bài hát này trẻ con thậm chí người già đều biết hát." },
+]
+source = "gf0025-2021"
+source_ref = "258"
+
+[[grammar]]
+key = "zh.hsk4.raner"
+title = "然而: thế nhưng"
+pattern = "…，然而 + điều trái ngược"
+forms = ["然而"]
+explanation = "然而 nghĩa là nhưng, tuy nhiên, mang sắc thái văn viết, hay gặp trong tin tức và bài viết."
+examples = [
+  { text = "他试了很多次，然而都失败了。", translation = "Anh ấy đã thử nhiều lần, thế nhưng đều thất bại." },
+  { text = "计划很好，然而很难实现。", translation = "Kế hoạch rất hay, tuy nhiên khó thực hiện." },
+]
+source = "gf0025-2021"
+source_ref = "260"
+
+[[grammar]]
+key = "zh.hsk4.fouze"
+title = "否则: nếu không thì"
+pattern = "việc cần làm，否则 + hậu quả"
+forms = ["否则", "不然", "要不然"]
+explanation = "否则 nêu hậu quả nếu không làm theo điều phía trước: 快走吧，否则要迟到了."
+examples = [
+  { text = "快点儿走，否则就赶不上火车了。", translation = "Đi nhanh lên, nếu không sẽ lỡ tàu." },
+  { text = "你得多穿点儿，否则会感冒的。", translation = "Bạn phải mặc thêm, không thì sẽ bị cảm." },
+]
+source = "gf0025-2021"
+source_ref = "261"
+
+[[grammar]]
+key = "zh.hsk4.wanyi"
+title = "万一……，（就）……: lỡ như"
+pattern = "万一 + điều không mong muốn，(就) + …"
+forms = ["万一"]
+explanation = "万一 nêu một khả năng nhỏ nhưng xấu: lỡ như, nhỡ đâu."
+examples = [
+  { text = "带把伞吧，万一下雨呢？", translation = "Mang ô đi, lỡ trời mưa thì sao?" },
+  { text = "万一他不来，我们就自己去。", translation = "Nhỡ anh ấy không đến thì chúng ta tự đi." },
+]
+source = "gf0025-2021"
+source_ref = "263"
+
+[[grammar]]
+key = "zh.hsk4.buguan_dou"
+title = "不管……，都/也……: bất kể"
+pattern = "不管 + từ hỏi / A 不 A / A 还是 B，都/也 + …"
+forms = ["不管"]
+explanation = "Kết quả không thay đổi dù điều kiện thế nào. Vế 不管 phải có từ hỏi hoặc lựa chọn: 不管天气怎么样，我都去."
+examples = [
+  { text = "不管天气怎么样，我都去跑步。", translation = "Bất kể thời tiết thế nào, tôi vẫn đi chạy bộ." },
+  { text = "不管你去不去，我都要去。", translation = "Bạn đi hay không thì tôi vẫn đi." },
+]
+source = "gf0025-2021"
+source_ref = "264"
+
+[[grammar]]
+key = "zh.hsk4.wulun_dou"
+title = "无论……，都/也……: dù … đều …"
+pattern = "无论 + từ hỏi / lựa chọn，都/也 + …"
+forms = ["无论"]
+explanation = "Nghĩa giống 不管 nhưng trang trọng hơn, hay dùng trong văn viết."
+examples = [
+  { text = "无论遇到什么困难，我们都不放弃。", translation = "Dù gặp khó khăn gì, chúng ta cũng không bỏ cuộc." },
+  { text = "无论是谁，都要遵守规定。", translation = "Dù là ai cũng phải tuân thủ quy định." },
+]
+source = "gf0025-2021"
+source_ref = "265"
+
+[[grammar]]
+key = "zh.hsk4.jiran_jiu"
+title = "既然……，就……: đã … thì …"
+pattern = "既然 + sự thật đã biết，就 + kết luận"
+forms = ["既然"]
+explanation = "既然 nêu một sự thật cả hai bên đều biết, rồi rút ra kết luận: 既然你不舒服，就回家休息吧."
+examples = [
+  { text = "既然你不舒服，就早点儿回家吧。", translation = "Bạn đã không khỏe thì về nhà sớm đi." },
+  { text = "既然决定了，就别后悔。", translation = "Đã quyết rồi thì đừng hối hận." },
+]
+source = "gf0025-2021"
+source_ref = "266"
+
+[[grammar]]
+key = "zh.hsk4.napa_ye"
+title = "哪怕……，也……: cho dù … cũng …"
+pattern = "哪怕 + giả định cực đoan，也/还 + …"
+forms = ["哪怕"]
+explanation = "哪怕 nêu một giả định khó khăn nhất, nhưng kết quả vẫn không đổi: 哪怕再累，我也要完成."
+examples = [
+  { text = "哪怕再忙，他也每天给妈妈打电话。", translation = "Dù bận đến mấy, ngày nào anh ấy cũng gọi cho mẹ." },
+  { text = "哪怕只有一点儿希望，我们也要试试。", translation = "Cho dù chỉ có một chút hy vọng, chúng ta cũng phải thử." },
+]
+source = "gf0025-2021"
+source_ref = "268"
+
+[[grammar]]
+key = "zh.hsk4.fractions"
+title = "Số thập phân, phân số, phần trăm, bội số"
+pattern = "三点五 / 三分之一 / 百分之二十 / 两倍"
+forms = ["点", "分之", "百分之", "倍"]
+explanation = "Số thập phân đọc với 点 (3.5 = 三点五); phân số là mẫu + 分之 + tử (1/3 = 三分之一); phần trăm là 百分之 + số; 倍 là gấp … lần."
+examples = [
+  { text = "我们班百分之八十的学生是女生。", translation = "Tám mươi phần trăm học sinh lớp tôi là nữ." },
+  { text = "今年的收入是去年的两倍。", translation = "Thu nhập năm nay gấp đôi năm ngoái." },
+]
+source = "gf0025-2021"
+source_ref = "273"
+
+[[grammar]]
+key = "zh.hsk4.rhetorical_question_words"
+title = "Câu hỏi tu từ với từ để hỏi: 谁不知道？"
+pattern = "谁/什么/哪儿/怎么 + … ？ (nghĩa khẳng định/phủ định ngược lại)"
+forms = ["谁", "什么", "哪儿", "哪里", "怎么"]
+explanation = "Câu hỏi có từ để hỏi nhưng không cần trả lời, mang nghĩa ngược lại: 谁不知道？ (ai mà không biết = ai cũng biết), 我哪儿有钱？ (tôi làm gì có tiền)."
+examples = [
+  { text = "这件事谁不知道啊？", translation = "Chuyện này ai mà không biết?" },
+  { text = "我哪儿有时间玩儿？", translation = "Tôi làm gì có thời gian mà chơi?" },
+]
+source = "gf0025-2021"
+source_ref = "274"
+
+[[grammar]]
+key = "zh.hsk4.double_negative"
+title = "Phủ định kép: 不得不, 没有……不"
+pattern = "不得不 / 不能不 / 没有 + … + 不 + …"
+forms = ["不得不", "不能不", "不会不", "没有不", "非"]
+explanation = "Hai lần phủ định tạo nghĩa khẳng định mạnh: 不得不去 (buộc phải đi), 没有人不喜欢他 (không ai là không thích anh ấy)."
+examples = [
+  { text = "下大雨了，我们不得不取消比赛。", translation = "Mưa to quá, chúng tôi buộc phải hủy trận đấu." },
+  { text = "这里没有人不认识他。", translation = "Ở đây không ai là không biết anh ấy." },
+]
+source = "gf0025-2021"
+source_ref = "275"
+
+[[grammar]]
+key = "zh.hsk4.lian_dou"
+title = "连……也/都……: ngay cả … cũng …"
+pattern = "连 + người/vật + 也/都 + động từ"
+forms = ["连"]
+explanation = "连 nhấn mạnh một trường hợp đặc biệt nhất để làm nổi bật điều muốn nói: 他连饭都没吃 (đến cơm anh ấy cũng chưa ăn)."
+examples = [
+  { text = "他忙得连饭都没吃。", translation = "Anh ấy bận đến mức cơm cũng chưa ăn." },
+  { text = "这个字连老师也不认识。", translation = "Chữ này ngay cả thầy cũng không biết." },
+]
+source = "gf0025-2021"
+source_ref = "277"
+
+# --- Units ---------------------------------------------------------------------------------
+
+[[units]]
+key = "zh.hsk4.u01-leaving"
+title = "Phải đi rồi"
+topic = "不得不做的事"
+can_do = ["Nói việc mình phải làm.", "Nói buộc phải làm vì hoàn cảnh."]
+grammar = ["zh.hsk4.dei_must", "zh.hsk4.double_negative"]
+words = [
+  { headword = "决定", sense_id = "cedict:d5233022c9a6bbff", gloss = "to decide; to determine; to make up one's mind" },
+  { headword = "取消", sense_id = "cedict:a0c1ee7b27e74160", gloss = "to cancel; to call off; to revoke; to rescind" },
+  { headword = "认识", sense_id = "cedict:59a6288cd7ae11e6", gloss = "to know" },
+  { headword = "必须", sense_id = "cedict:2003994eaa4c8d42", gloss = "to have to" },
+]
+
+[[units]]
+key = "zh.hsk4.u02-nature"
+title = "Thiên nhiên đổi thay"
+topic = "自然和变化"
+can_do = ["Tả thay đổi dần dần.", "Nhấn mạnh mức độ đặc biệt, cực kỳ."]
+grammar = ["zh.hsk4.geiwai_jiqi", "zh.hsk4.jianjian_jinkuai"]
+words = [
+  { headword = "空气", sense_id = "cedict:d0d931b6c1325516", gloss = "air" },
+  { headword = "新鲜", sense_id = "cedict:4cff934b10d9d737", gloss = "fresh (experience, food etc)" },
+  { headword = "回答", sense_id = "cedict:a1628c5195b1732b", gloss = "to reply; to answer" },
+  { headword = "春天", sense_id = "cedict:746a02df74974c0b", gloss = "spring (season)" },
+]
+
+[[units]]
+key = "zh.hsk4.u03-unexpected"
+title = "Không như mong đợi"
+topic = "出乎意料的结果"
+can_do = ["Nói điều trái với mong đợi bằng 却, 反而, 竟然.", "Phủ định nhẹ bằng 未必."]
+grammar = ["zh.hsk4.que", "zh.hsk4.mood_adverbs_4"]
+words = [
+  { headword = "成绩", sense_id = "cedict:4245a53ddedfddd2", gloss = "achievement" },
+  { headword = "竟然", sense_id = "cedict:d1a233184c064bab", gloss = "unexpectedly" },
+  { headword = "反而", sense_id = "cedict:938a9e5cc7c2bbe8", gloss = "on the contrary; instead" },
+  { headword = "失败", sense_id = "cedict:5623c2d63080899c", gloss = "to be defeated" },
+]
+
+[[units]]
+key = "zh.hsk4.u04-guessing"
+title = "Phỏng đoán"
+topic = "推测和判断"
+can_do = ["Nói chưa chắc, dường như, gần như.", "Nói biết đâu, không chừng."]
+grammar = ["zh.hsk4.weibi", "zh.hsk4.jihu_sihu"]
+words = [
+  { headword = "加班", sense_id = "cedict:579c4eca1ed31f64", gloss = "to work overtime" },
+  { headword = "真", sense_id = "cedict:4c3d706a2c149d38", gloss = "really" },
+  { headword = "几乎", sense_id = "cedict:678fe3a414d2072e", gloss = "almost; nearly; practically" },
+  { headword = "似乎", sense_id = "cedict:099ae5d63bc99443", gloss = "it seems; seemingly; as if" },
+]
+
+[[units]]
+key = "zh.hsk4.u05-topics"
+title = "Bàn về một vấn đề"
+topic = "讨论问题"
+can_do = ["Nêu đối tượng và chủ đề đang bàn.", "Nói về một mặt của vấn đề."]
+grammar = ["zh.hsk4.duiyu", "zh.hsk4.guanyu"]
+words = [
+  { headword = "看法", sense_id = "cedict:120659bc87b91417", gloss = "way of looking at a thing" },
+  { headword = "历史", sense_id = "cedict:2fff0378e9213439", gloss = "history" },
+  { headword = "讨论", sense_id = "cedict:c9bd9c0ae70fbde6", gloss = "to discuss; to talk over" },
+  { headword = "问题", sense_id = "cedict:4462666458b281a4", gloss = "question" },
+]
+
+[[units]]
+key = "zh.hsk4.u06-roles"
+title = "Vai trò và trách nhiệm"
+topic = "身份和责任"
+can_do = ["Nói làm gì với tư cách là ai.", "Nói làm thay cho người khác."]
+grammar = ["zh.hsk4.zuowei", "zh.hsk4.ti"]
+words = [
+  { headword = "请假", sense_id = "cedict:5724f4998d8689c1", gloss = "to request leave of absence" },
+  { headword = "责任", sense_id = "cedict:3e873fd8f96492c2", gloss = "responsibility; duty; liability" },
+  { headword = "难过", sense_id = "cedict:1744e5fcd8999d8f", gloss = "to feel sad" },
+  { headword = "按时", sense_id = "cedict:feafcb144601163f", gloss = "on time" },
+]
+
+[[units]]
+key = "zh.hsk4.u07-sources"
+title = "Theo nguồn tin"
+topic = "根据和总结"
+can_do = ["Nêu căn cứ của một thông tin.", "Bổ sung và tóm tắt ý khi trình bày."]
+grammar = ["zh.hsk4.genju", "zh.hsk4.ciwai_zongzhi"]
+words = [
+  { headword = "预报", sense_id = "cedict:396be1d47ec750fa", gloss = "forecast" },
+  { headword = "小说", sense_id = "cedict:bc461ec78af2b989", gloss = "novel" },
+  { headword = "交通", sense_id = "cedict:9921d02b7abf4e46", gloss = "traffic" },
+  { headword = "方便", sense_id = "cedict:9dc0f5324657f01f", gloss = "convenient; suitable" },
+]
+
+[[units]]
+key = "zh.hsk4.u08-looks-like"
+title = "Xem ra"
+topic = "比喻和推断"
+can_do = ["So sánh bằng 像……似的.", "Đưa ra nhận định bằng 看来."]
+grammar = ["zh.hsk4.shide", "zh.hsk4.kanlai"]
+words = [
+  { headword = "像", sense_id = "cedict:1440012687cceec6", gloss = "to resemble" },
+  { headword = "高兴", sense_id = "cedict:74d90fee776e55e7", gloss = "happy" },
+  { headword = "忘记", sense_id = "cedict:23ae03a69a1825c2", gloss = "to forget" },
+  { headword = "孩子", sense_id = "cedict:d668761089ad7524", gloss = "child" },
+]
+
+[[units]]
+key = "zh.hsk4.u09-in-time"
+title = "Kịp hay không kịp"
+topic = "时间和可能性"
+can_do = ["Nói còn kịp hay không kịp làm gì.", "Nói biết đâu điều gì đó xảy ra."]
+grammar = ["zh.hsk4.laideji", "zh.hsk4.shuobuding"]
+words = [
+  { headword = "早饭", sense_id = "cedict:ea925d4870dc7e70", gloss = "breakfast" },
+  { headword = "着急", sense_id = "cedict:ddee3647d57c623c", gloss = "to worry; to feel anxious" },
+  { headword = "赶", sense_id = "cedict:f68a2fe43a680b36", gloss = "to overtake; to catch up with" },
+  { headword = "票", sense_id = "cedict:929d5f6c327b0e6b", gloss = "ticket" },
+]
+
+[[units]]
+key = "zh.hsk4.u10-general-trends"
+title = "Xu hướng chung"
+topic = "一般情况和变化"
+can_do = ["Đưa ra nhận định chung.", "Nói tình hình từ một mốc đến nay."]
+grammar = ["zh.hsk4.yibanlaishuo", "zh.hsk4.yilai"]
+words = [
+  { headword = "暖和", sense_id = "cedict:789a2bb6d41b6fd0", gloss = "warm" },
+  { headword = "南方", sense_id = "cedict:f0a964008f829e9e", gloss = "south; southern direction" },
+  { headword = "价格", sense_id = "cedict:1bf9a2ad0a25b23a", gloss = "price" },
+  { headword = "上升", sense_id = "cedict:8cea161c1be205ea", gloss = "to rise" },
+]
+
+[[units]]
+key = "zh.hsk4.u11-study"
+title = "Học hành và thi cử"
+topic = "学习和考试"
+can_do = ["Nhận xét về một mặt cụ thể.", "Nói nhớ ra, nhận ra, thi đỗ."]
+grammar = ["zh.hsk4.zai_fangmian", "zh.hsk4.direction_extended"]
+words = [
+  { headword = "认真", sense_id = "cedict:645d2ce814a79bcd", gloss = "conscientious" },
+  { headword = "大学", sense_id = "cedict:36fb7b8d26d34dd1", gloss = "university" },
+  { headword = "考", sense_id = "cedict:1f39933841eff7bc", gloss = "to take an exam" },
+  { headword = "想起", sense_id = "cedict:d6838a759ee305f3", gloss = "to recall" },
+]
+
+[[units]]
+key = "zh.hsk4.u12-mishaps"
+title = "Rủi ro nhỏ"
+topic = "丢东西和意外"
+can_do = ["Kể chuyện làm mất, làm hỏng đồ bằng câu 把.", "Nói đồ vật bị làm sao mà không cần nêu ai làm."]
+grammar = ["zh.hsk4.ba_sentence_2", "zh.hsk4.bei_without_agent"]
+words = [
+  { headword = "钱包", sense_id = "cedict:2be3635611c50cc1", gloss = "purse" },
+  { headword = "打扫", sense_id = "cedict:34f511b7270cecf5", gloss = "to clean" },
+  { headword = "找到", sense_id = "cedict:9e3d95afa62f0475", gloss = "to find" },
+  { headword = "解决", sense_id = "cedict:a00dee4aab0422a6", gloss = "to solve; to resolve; to settle (a problem)" },
+]
+
+[[units]]
+key = "zh.hsk4.u13-class-elections"
+title = "Bầu lớp trưởng"
+topic = "选举和评价"
+can_do = ["Nói ai được chọn làm gì.", "Khẳng định nhận định của mình."]
+grammar = ["zh.hsk4.dang_zuo", "zh.hsk4.shi_de_attitude"]
+words = [
+  { headword = "选", sense_id = "cedict:81fd0936b345d5e0", gloss = "to choose" },
+  { headword = "表扬", sense_id = "cedict:a7647e2cb09ceae7", gloss = "to praise" },
+  { headword = "想法", sense_id = "cedict:66b2c820664c589c", gloss = "way of thinking; opinion; notion" },
+  { headword = "同意", sense_id = "cedict:8448f392c84c4fb7", gloss = "to agree" },
+]
+
+[[units]]
+key = "zh.hsk4.u14-clarifying"
+title = "Nói cho rõ"
+topic = "说明真正的原因"
+can_do = ["Phủ định một ý và nêu ý đúng.", "Nêu hai đặc điểm cùng có."]
+grammar = ["zh.hsk4.bushi_ershi", "zh.hsk4.ji_you"]
+words = [
+  { headword = "原因", sense_id = "cedict:7ef8bb9181f36d0c", gloss = "cause" },
+  { headword = "实用", sense_id = "cedict:6b53bf22b17f1b0f", gloss = "practical; functional; pragmatic; applied (science)" },
+  { headword = "其实", sense_id = "cedict:24b74c6a8b5403de", gloss = "actually; in fact; really" },
+  { headword = "关系", sense_id = "cedict:4ee6c9e3bce7a531", gloss = "relation" },
+]
+
+[[units]]
+key = "zh.hsk4.u15-stories"
+title = "Kể chuyện"
+topic = "讲故事"
+can_do = ["Nối các việc theo quan hệ nhân quả bằng 于是.", "Đưa ra ví dụ cực đoan bằng 甚至."]
+grammar = ["zh.hsk4.yushi", "zh.hsk4.shenzhi"]
+words = [
+  { headword = "故事", sense_id = "cedict:f16a659543021c11", gloss = "narrative; story; tale" },
+  { headword = "后来", sense_id = "cedict:c40f02350794db93", gloss = "afterwards; later" },
+  { headword = "突然", sense_id = "cedict:3a82717a99b25f89", gloss = "sudden; abrupt; unexpected" },
+  { headword = "老人", sense_id = "cedict:0197b2e9b0addf4d", gloss = "old man or woman" },
+]
+
+[[units]]
+key = "zh.hsk4.u16-warnings"
+title = "Cảnh báo"
+topic = "提醒和后果"
+can_do = ["Nói hậu quả nếu không làm theo.", "Nhắc đề phòng điều không mong muốn."]
+grammar = ["zh.hsk4.fouze", "zh.hsk4.wanyi"]
+words = [
+  { headword = "提醒", sense_id = "cedict:ecda1d3c33abc1c6", gloss = "to remind" },
+  { headword = "伞", sense_id = "cedict:88a3a01b50da6e50", gloss = "umbrella" },
+  { headword = "迟到", sense_id = "cedict:c95ef37cddf55879", gloss = "to arrive late" },
+  { headword = "安全", sense_id = "cedict:d9752416822cc309", gloss = "safe; secure" },
+]
+
+[[units]]
+key = "zh.hsk4.u17-no-matter-what"
+title = "Bất kể thế nào"
+topic = "坚持和规定"
+can_do = ["Nói kết quả không đổi dù điều kiện thế nào.", "Nói về quy định chung."]
+grammar = ["zh.hsk4.buguan_dou", "zh.hsk4.wulun_dou"]
+words = [
+  { headword = "困难", sense_id = "cedict:0e9b986fe6f5a12f", gloss = "difficult" },
+  { headword = "努力", sense_id = "cedict:7ceb777e35af66e5", gloss = "to make an effort; to try hard; to strive" },
+  { headword = "规则", sense_id = "cedict:e88f6b3a512695a4", gloss = "rule; regulation" },
+  { headword = "规定", sense_id = "cedict:f0a05c030037ae49", gloss = "to stipulate; to specify; to prescribe; to fix (a price); to" },
+]
+
+[[units]]
+key = "zh.hsk4.u18-decisions"
+title = "Đã thế thì"
+topic = "做决定"
+can_do = ["Rút ra kết luận từ sự thật đã biết.", "Nói dù khó đến đâu vẫn làm."]
+grammar = ["zh.hsk4.jiran_jiu", "zh.hsk4.napa_ye"]
+words = [
+  { headword = "放心", sense_id = "cedict:6b7d7aa167959067", gloss = "to feel relieved" },
+  { headword = "希望", sense_id = "cedict:5a6c48296830f4dd", gloss = "to hope" },
+  { headword = "舒服", sense_id = "cedict:fe4fd0ba67655212", gloss = "comfortable" },
+  { headword = "坚持", sense_id = "cedict:9b04a9be5f3dd824", gloss = "to persevere with" },
+]
+
+[[units]]
+key = "zh.hsk4.u19-numbers"
+title = "Số liệu"
+topic = "数字和比例"
+can_do = ["Đọc số thập phân, phân số, phần trăm.", "Nói tăng gấp mấy lần."]
+grammar = ["zh.hsk4.fractions"]
+words = [
+  { headword = "收入", sense_id = "cedict:218af41e401cbb09", gloss = "income" },
+  { headword = "增加", sense_id = "cedict:4cd4be4e801688fd", gloss = "to raise; to increase" },
+  { headword = "减少", sense_id = "cedict:2b9c73ecc340056a", gloss = "to lessen; to decrease; to reduce; to lower" },
+  { headword = "数字", sense_id = "cedict:0467b14a929af4e5", gloss = "numeral" },
+]
+
+[[units]]
+key = "zh.hsk4.u20-emphasis"
+title = "Nhấn mạnh"
+topic = "强调和反问"
+can_do = ["Khẳng định mạnh bằng câu hỏi tu từ.", "Nhấn mạnh bằng 连……也/都……"]
+grammar = ["zh.hsk4.rhetorical_question_words", "zh.hsk4.lian_dou"]
+words = [
+  { headword = "连", sense_id = "cedict:af91612771834039", gloss = "(used with 也[ye3], 都[dou1] etc) even" },
+  { headword = "字", sense_id = "cedict:4080b20a1d4a7b64", gloss = "character" },
+  { headword = "忙", sense_id = "cedict:4c9aee6b5ea8051e", gloss = "busy" },
+  { headword = "游戏", sense_id = "cedict:16497ab00533d041", gloss = "game (CL:場|场[chang3])" },
+]
+
+[[units]]
+key = "zh.hsk4.u21-contrast"
+title = "Tuy nhiên"
+topic = "转折"
+can_do = ["Nêu ý trái ngược theo văn viết bằng 然而."]
+grammar = ["zh.hsk4.raner"]
+words = [
+  { headword = "计划", sense_id = "cedict:b62e305a70333a6d", gloss = "plan" },
+  { headword = "实现", sense_id = "cedict:fd9f5caa6c8957df", gloss = "to achieve; to implement; to realize; to bring about" },
+  { headword = "试", sense_id = "cedict:f5bd4a9b756daf3a", gloss = "to test" },
+  { headword = "成功", sense_id = "cedict:ac21f0a2ee7d6f9a", gloss = "to succeed" },
+]

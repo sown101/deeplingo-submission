@@ -1,0 +1,662 @@
+# DRAFT (2026-11-07): drafted by the AI, awaiting the owner's sample review.
+# Coverage frame: CEFR-J Grammar Profile 20180315 (Tono Laboratory, TUFS; used with citation),
+# CEFR-J columns only. Explanations and examples are written by DeepLingo. Word senses come from
+# the dictionary data.
+format = "deeplingo-curriculum-v1"
+language = "en"
+framework = "CEFR"
+level = "B1"
+version = 1
+title = "Tiếng Anh B1: Trung cấp"
+
+# --- Grammar -------------------------------------------------------------------------------
+
+[[grammar]]
+key = "en.b1.possessive_pronouns"
+title = "Đại từ sở hữu: mine, yours, hers"
+pattern = "mine / yours / his / hers / ours / theirs"
+forms = ["mine", "yours", "his", "hers", "ours", "theirs"]
+explanation = "Đại từ sở hữu đứng một mình, thay cho \"của ai + danh từ\": This bag is mine = This is my bag. Không thêm danh từ phía sau."
+examples = [
+  { text = "Is this phone yours?", translation = "Điện thoại này của bạn à?" },
+  { text = "Our flat is smaller than theirs.", translation = "Căn hộ của chúng tôi nhỏ hơn của họ." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "22"
+
+[[grammar]]
+key = "en.b1.reflexive_pronouns"
+title = "Đại từ phản thân: myself, yourself"
+pattern = "myself / yourself / himself / herself / itself / ourselves / themselves"
+forms = ["myself", "yourself", "himself", "herself", "itself", "ourselves", "yourselves", "themselves"]
+explanation = "Dùng khi người làm và người chịu tác động là một (I hurt myself), hoặc để nhấn mạnh tự mình làm (I made it myself). By myself nghĩa là một mình."
+examples = [
+  { text = "Be careful, don't cut yourself.", translation = "Cẩn thận, đừng để bị đứt tay." },
+  { text = "She built the website herself.", translation = "Cô ấy tự làm trang web." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "23"
+
+[[grammar]]
+key = "en.b1.each_other"
+title = "Each other: nhau"
+pattern = "động từ + each other / one another"
+forms = ["each other", "one another"]
+explanation = "Each other nghĩa là \"nhau\": hai bên cùng làm việc đó với nhau. Khác với themselves (mỗi người tự làm với chính mình)."
+examples = [
+  { text = "We have known each other for ten years.", translation = "Chúng tôi quen nhau đã mười năm." },
+  { text = "They don't talk to each other any more.", translation = "Họ không nói chuyện với nhau nữa." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "27"
+
+[[grammar]]
+key = "en.b1.others"
+title = "Others: những người khác, những cái khác"
+pattern = "others / the others"
+forms = ["others"]
+explanation = "Others là đại từ số nhiều, đứng một mình nghĩa là \"những người/cái khác\". The others là phần còn lại của một nhóm đã biết."
+examples = [
+  { text = "Some people like it, others don't.", translation = "Có người thích, có người không." },
+  { text = "Try to think about others.", translation = "Hãy cố nghĩ cho người khác." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "29"
+
+[[grammar]]
+key = "en.b1.something_adjective"
+title = "Something + tính từ: something new"
+pattern = "something / anything / nothing / someone + tính từ"
+forms = ["something", "anything", "nothing", "everything", "someone", "anyone", "somebody", "anybody", "nobody", "everyone", "somewhere", "anywhere"]
+explanation = "Với các từ something, anything, nothing, someone…, tính từ đứng sau chứ không đứng trước: something new (một điều gì đó mới)."
+examples = [
+  { text = "I want to try something new.", translation = "Tôi muốn thử điều gì đó mới." },
+  { text = "Is there anything interesting on TV?", translation = "Trên TV có gì hay không?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "31"
+
+[[grammar]]
+key = "en.b1.attitude_adverbs"
+title = "Trạng từ thái độ: fortunately, clearly"
+pattern = "Fortunately / Unfortunately / Clearly / Apparently, + câu"
+forms = ["fortunately", "unfortunately", "luckily", "clearly", "obviously", "apparently", "frankly", "honestly", "hopefully", "surprisingly"]
+explanation = "Những trạng từ này thường đứng đầu câu để cho biết người nói nghĩ gì về cả câu: may mà, tiếc là, rõ ràng, nghe nói là."
+examples = [
+  { text = "Fortunately, nobody was hurt.", translation = "May mà không ai bị thương." },
+  { text = "Apparently, the shop is closing.", translation = "Nghe nói cửa hàng sắp đóng cửa." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "34"
+
+[[grammar]]
+key = "en.b1.too_to"
+title = "Too … to: quá … đến nỗi không"
+pattern = "too + tính từ/trạng từ (+ for ai) + to + động từ"
+forms = ["too"]
+explanation = "Too … to nói một mức độ vượt quá, khiến việc gì đó không làm được: too tired to walk (mệt quá không đi nổi)."
+examples = [
+  { text = "I was too tired to cook.", translation = "Tôi mệt quá không nấu nổi." },
+  { text = "This box is too heavy for me to carry.", translation = "Cái hộp này nặng quá, tôi không xách nổi." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "44"
+
+[[grammar]]
+key = "en.b1.so_that_result"
+title = "So … that: đến nỗi mà"
+pattern = "so + tính từ/trạng từ + (that) + câu"
+forms = ["so"]
+explanation = "So … that nối một mức độ với kết quả của nó: so tired that I fell asleep. That thường được lược khi nói."
+examples = [
+  { text = "It was so hot that we stayed inside.", translation = "Trời nóng đến nỗi chúng tôi ở trong nhà." },
+  { text = "She spoke so fast I couldn't understand.", translation = "Cô ấy nói nhanh đến mức tôi không hiểu." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "45"
+
+[[grammar]]
+key = "en.b1.intensified_comparatives"
+title = "Nhấn mạnh so sánh: much better, far bigger"
+pattern = "much / far / a lot / even / still + so sánh hơn"
+forms = ["much", "far", "a lot", "even", "still", "by far", "a bit", "slightly"]
+explanation = "Đặt much, far, a lot trước so sánh hơn để nói \"hơn nhiều\"; even, still nghĩa là \"còn … hơn nữa\". Không dùng very trước so sánh hơn."
+examples = [
+  { text = "The new phone is much faster.", translation = "Điện thoại mới nhanh hơn nhiều." },
+  { text = "Today is even colder than yesterday.", translation = "Hôm nay còn lạnh hơn hôm qua." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "51"
+
+[[grammar]]
+key = "en.b1.past_perfect"
+title = "Quá khứ hoàn thành: đã … trước đó"
+pattern = "had ('d) + quá khứ phân từ"
+forms = ["had", "'d", "hadn't", "had not"]
+explanation = "Dùng cho việc xảy ra trước một mốc khác trong quá khứ: When I arrived, the train had left (tàu đã đi trước khi tôi đến)."
+examples = [
+  { text = "When we arrived, the film had already started.", translation = "Khi chúng tôi đến, phim đã bắt đầu rồi." },
+  { text = "I hadn't seen her before that day.", translation = "Trước hôm đó tôi chưa từng gặp cô ấy." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "67"
+
+[[grammar]]
+key = "en.b1.passive_modal"
+title = "Bị động với động từ khuyết thiếu: can be done"
+pattern = "can/must/should/will + be + quá khứ phân từ"
+forms = ["be"]
+explanation = "Sau can, must, should, will…, bị động có dạng be + quá khứ phân từ: It must be done today (việc này phải được làm hôm nay)."
+examples = [
+  { text = "This form must be signed by a parent.", translation = "Mẫu này phải có chữ ký của phụ huynh." },
+  { text = "The tickets can be bought online.", translation = "Vé có thể mua trên mạng." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "82"
+
+[[grammar]]
+key = "en.b1.get_passive"
+title = "Get + quá khứ phân từ: bị, được"
+pattern = "get/got + quá khứ phân từ"
+forms = ["get", "gets", "got", "gotten", "getting"]
+explanation = "Trong văn nói, get thay cho be để nói một việc xảy đến với ai, thường bất ngờ: get married (cưới), get lost (lạc), get hurt (bị thương)."
+examples = [
+  { text = "We got lost in the old town.", translation = "Chúng tôi bị lạc trong phố cổ." },
+  { text = "They got married last year.", translation = "Họ cưới nhau năm ngoái." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "87"
+
+[[grammar]]
+key = "en.b1.not_to"
+title = "Not to + động từ: để không, đừng"
+pattern = "… not to + động từ nguyên mẫu"
+forms = ["not to"]
+explanation = "Phủ định của to + động từ là not to, đặt not trước to: try not to be late, told me not to go."
+examples = [
+  { text = "Try not to be late.", translation = "Cố đừng đến muộn nhé." },
+  { text = "I decided not to buy it.", translation = "Tôi quyết định không mua nó." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "89"
+
+[[grammar]]
+key = "en.b1.for_someone_to"
+title = "For + người + to V"
+pattern = "… for + người/vật + to + động từ"
+forms = ["for"]
+explanation = "Muốn nói ai là người làm việc ở dạng to + động từ, đặt for + người trước to: It's time for us to go."
+examples = [
+  { text = "It's time for us to go home.", translation = "Đến lúc chúng ta về nhà rồi." },
+  { text = "I'm waiting for the bus to come.", translation = "Tôi đang đợi xe buýt đến." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "93"
+
+[[grammar]]
+key = "en.b1.be_to"
+title = "Be to: theo lịch, theo kế hoạch"
+pattern = "am/is/are/was/were + to + động từ"
+forms = ["is to", "are to", "am to", "was to", "were to"]
+explanation = "Be to + động từ nói một việc đã được sắp xếp hoặc yêu cầu chính thức, hay gặp trong tin tức: The president is to visit Japan."
+examples = [
+  { text = "The new bridge is to open next month.", translation = "Cây cầu mới dự kiến sẽ thông xe tháng sau." },
+  { text = "You are to stay in the room until nine.", translation = "Các bạn phải ở trong phòng đến chín giờ." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "99"
+
+[[grammar]]
+key = "en.b1.be_able_to"
+title = "Be able to: có khả năng"
+pattern = "be able to + động từ nguyên mẫu"
+forms = ["able to", "unable to"]
+explanation = "Be able to nghĩa giống can, nhưng dùng được ở mọi thì: will be able to, have been able to. Cũng dùng để nói đã làm được một việc cụ thể."
+examples = [
+  { text = "I won't be able to come tomorrow.", translation = "Mai tôi không đến được." },
+  { text = "She was able to fix the car herself.", translation = "Cô ấy đã tự sửa được xe." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "121"
+
+[[grammar]]
+key = "en.b1.could"
+title = "Could: đã có thể, có thể"
+pattern = "could / couldn't + động từ nguyên mẫu"
+forms = ["could", "couldn't", "could not"]
+explanation = "Could là quá khứ của can (I could swim when I was five), và cũng dùng để đưa gợi ý hay nói một khả năng: We could go by train."
+examples = [
+  { text = "I couldn't sleep last night.", translation = "Tối qua tôi không ngủ được." },
+  { text = "We could meet on Friday.", translation = "Chúng ta có thể gặp vào thứ Sáu." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "124"
+
+[[grammar]]
+key = "en.b1.may"
+title = "May: có thể, được phép"
+pattern = "may (not) + động từ nguyên mẫu"
+forms = ["may", "may not"]
+explanation = "May nói một khả năng (có thể sẽ) hoặc sự cho phép trang trọng. May I …? là cách xin phép lịch sự."
+examples = [
+  { text = "It may snow tonight.", translation = "Tối nay có thể có tuyết." },
+  { text = "May I sit here?", translation = "Tôi ngồi đây được không?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "129"
+
+[[grammar]]
+key = "en.b1.must_deduction"
+title = "Must / can't: chắc hẳn, chắc chắn không"
+pattern = "must / can't + động từ nguyên mẫu (suy đoán)"
+forms = ["must", "can't", "cannot"]
+explanation = "Must còn dùng để suy luận gần như chắc chắn: You must be tired (chắc bạn mệt lắm). Ngược lại dùng can't: That can't be true."
+examples = [
+  { text = "You've worked all day. You must be tired.", translation = "Bạn làm cả ngày rồi. Chắc mệt lắm." },
+  { text = "That can't be Tom. He's in London.", translation = "Đó không thể là Tom. Anh ấy đang ở London." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "135"
+
+[[grammar]]
+key = "en.b1.used_to"
+title = "Used to: đã từng (nay không còn)"
+pattern = "used to + động từ nguyên mẫu / didn't use to"
+forms = ["used to", "use to"]
+explanation = "Used to nói thói quen hoặc tình trạng trong quá khứ mà bây giờ không còn: I used to smoke (trước đây tôi hút thuốc)."
+examples = [
+  { text = "I used to live in Hue.", translation = "Tôi từng sống ở Huế." },
+  { text = "We didn't use to have a car.", translation = "Trước đây nhà tôi không có xe hơi." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "140"
+
+[[grammar]]
+key = "en.b1.here_is"
+title = "Here is / Here are: đây là"
+pattern = "Here is/are + danh từ / Here you are"
+forms = ["here is", "here are", "here's", "here you are", "here you go"]
+explanation = "Dùng khi đưa hoặc chỉ cho ai một vật: Here's your coffee. Here you are là câu nói khi đưa đồ."
+examples = [
+  { text = "Here's your change.", translation = "Tiền thừa của anh đây." },
+  { text = "Here are the keys to your room.", translation = "Đây là chìa khóa phòng của bạn." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "149"
+
+[[grammar]]
+key = "en.b1.as_soon_as"
+title = "As soon as: ngay khi"
+pattern = "as soon as + hiện tại/quá khứ, …"
+forms = ["as soon as"]
+explanation = "As soon as nghĩa là ngay sau khi. Nói về tương lai thì vế as soon as vẫn dùng hiện tại: I'll call you as soon as I arrive."
+examples = [
+  { text = "I'll call you as soon as I arrive.", translation = "Tôi sẽ gọi bạn ngay khi tôi đến." },
+  { text = "As soon as she saw me, she started laughing.", translation = "Vừa thấy tôi, cô ấy đã bật cười." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "158"
+
+[[grammar]]
+key = "en.b1.wh_to_infinitive"
+title = "How to / what to / where to + động từ"
+pattern = "know/learn/tell + how/what/where + to + động từ"
+forms = ["how to", "what to", "where to", "when to", "which to", "who to", "whether to"]
+explanation = "Từ hỏi + to + động từ là cách gọn để nói \"nên làm gì, làm thế nào\": I don't know what to say (tôi không biết nói gì)."
+examples = [
+  { text = "Can you show me how to use this?", translation = "Bạn chỉ tôi cách dùng cái này được không?" },
+  { text = "I don't know what to say.", translation = "Tôi không biết phải nói gì." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "167"
+
+[[grammar]]
+key = "en.b1.nonrestrictive_relative"
+title = "Mệnh đề quan hệ có dấu phẩy: , who … / , which …"
+pattern = "danh từ, who/which/whose …,"
+forms = ["who", "which", "whose"]
+explanation = "Mệnh đề giữa hai dấu phẩy chỉ thêm thông tin phụ về người hay vật đã rõ là ai, cái gì. Không dùng that trong loại mệnh đề này."
+examples = [
+  { text = "My sister, who lives in Hanoi, is a doctor.", translation = "Chị tôi, người sống ở Hà Nội, là bác sĩ." },
+  { text = "We stayed at the Sun Hotel, which was very nice.", translation = "Chúng tôi ở khách sạn Sun, nơi đó rất đẹp." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "181"
+
+[[grammar]]
+key = "en.b1.that_is_why"
+title = "That's where / why / how …"
+pattern = "That's / This is + where/why/when/how + câu"
+forms = ["where", "why", "when", "how"]
+explanation = "Where, why, when, how có thể mở một vế câu đứng thay cho danh từ: That's why I'm late (đó là lý do tôi đến muộn)."
+examples = [
+  { text = "That's why I called you.", translation = "Đó là lý do tôi gọi bạn." },
+  { text = "This is where we first met.", translation = "Đây là nơi chúng ta gặp nhau lần đầu." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "186"
+
+[[grammar]]
+key = "en.b1.tag_questions"
+title = "Câu hỏi đuôi: …, isn't it?"
+pattern = "câu khẳng định, + trợ động từ phủ định + đại từ?"
+explanation = "Câu hỏi đuôi dùng để xác nhận điều mình nghĩ là đúng. Câu khẳng định thì đuôi phủ định, dùng lại trợ động từ của câu: It's cold, isn't it? You like tea, don't you?"
+examples = [
+  { text = "It's a lovely day, isn't it?", translation = "Hôm nay trời đẹp nhỉ?" },
+  { text = "You live near here, don't you?", translation = "Bạn sống gần đây phải không?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "193"
+
+[[grammar]]
+key = "en.b1.reported_tell"
+title = "Thuật lại với tell: told me (that) …"
+pattern = "tell + người + (that) + câu lùi thì"
+forms = ["tell", "tells", "told"]
+explanation = "Tell luôn có người nghe ngay sau: She told me (that) she was busy. Say thì không có người nghe ngay sau (She said she was busy)."
+examples = [
+  { text = "He told me he was moving to Hue.", translation = "Anh ấy bảo tôi là anh ấy sắp chuyển đến Huế." },
+  { text = "She told us that the meeting was cancelled.", translation = "Cô ấy báo với chúng tôi là cuộc họp bị hủy." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "201"
+
+[[grammar]]
+key = "en.b1.reported_question"
+title = "Thuật lại câu hỏi: asked me where/if …"
+pattern = "ask + người + từ hỏi/if + chủ ngữ + động từ"
+forms = ["ask", "asks", "asked"]
+explanation = "Khi kể lại câu hỏi, dùng asked, giữ trật tự câu kể và lùi thì. Câu hỏi có/không dùng if hoặc whether: She asked if I was free."
+examples = [
+  { text = "She asked me where I lived.", translation = "Cô ấy hỏi tôi sống ở đâu." },
+  { text = "He asked if I was free on Sunday.", translation = "Anh ấy hỏi tôi Chủ nhật có rảnh không." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "203"
+
+[[grammar]]
+key = "en.b1.ask_tell_to"
+title = "Ask / tell + người + to V: nhờ, bảo ai làm gì"
+pattern = "ask/tell/want + người + (not) to + động từ"
+forms = ["ask", "asked", "tell", "told", "want", "wanted", "remind", "reminded"]
+explanation = "Dùng để kể lại lời nhờ hay lời yêu cầu: asked me to wait (nhờ tôi đợi), told him not to worry (bảo anh ấy đừng lo)."
+examples = [
+  { text = "My boss asked me to stay late.", translation = "Sếp nhờ tôi ở lại muộn." },
+  { text = "The doctor told me not to eat sugar.", translation = "Bác sĩ dặn tôi đừng ăn đường." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "209"
+
+[[grammar]]
+key = "en.b1.participle_clause"
+title = "Cụm V-ing thay cho một vế câu"
+pattern = "V-ing …, chủ ngữ + động từ"
+explanation = "Một cụm bắt đầu bằng V-ing có thể thay cho một vế câu khi hai vế cùng chủ ngữ: Walking home, I met an old friend (trong lúc đi bộ về, tôi gặp…)."
+examples = [
+  { text = "Walking along the river, I saw an old friend.", translation = "Đang đi dọc bờ sông thì tôi thấy một người bạn cũ." },
+  { text = "Feeling tired, she went to bed early.", translation = "Thấy mệt nên cô ấy đi ngủ sớm." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "213"
+
+[[grammar]]
+key = "en.b1.second_conditional"
+title = "Câu điều kiện loại 2: nếu … thì đã/sẽ (không có thật)"
+pattern = "If + quá khứ đơn, … would + động từ nguyên mẫu"
+forms = ["if"]
+explanation = "Nói điều tưởng tượng, không có thật hoặc khó xảy ra ở hiện tại. Vế if dùng quá khứ, vế kia dùng would: If I had money, I would travel. Với be có thể dùng were cho mọi ngôi."
+examples = [
+  { text = "If I had more time, I would learn to cook.", translation = "Nếu có nhiều thời gian hơn, tôi sẽ học nấu ăn." },
+  { text = "If I were you, I'd take the job.", translation = "Nếu tôi là bạn, tôi sẽ nhận công việc đó." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "215"
+
+[[grammar]]
+key = "en.b1.exclamations"
+title = "Câu cảm thán: What a …! / How …!"
+pattern = "What (a/an) + tính từ + danh từ! / How + tính từ!"
+forms = ["what", "how"]
+explanation = "Dùng để bày tỏ cảm xúc mạnh. What đi với cụm danh từ (What a beautiful day!), How đi với tính từ hoặc trạng từ đứng một mình (How beautiful!)."
+examples = [
+  { text = "What a beautiful view!", translation = "Cảnh đẹp quá!" },
+  { text = "How kind of you!", translation = "Bạn tốt bụng quá!" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "192"
+
+[[grammar]]
+key = "en.b1.make_object_adjective"
+title = "Make + người/vật + tính từ"
+pattern = "make + tân ngữ + tính từ"
+forms = ["make", "makes", "made", "making"]
+explanation = "Make + người + tính từ nghĩa là làm cho ai cảm thấy hoặc trở nên như thế nào: The news made me happy."
+examples = [
+  { text = "This song always makes me happy.", translation = "Bài hát này luôn làm tôi vui." },
+  { text = "The long wait made everyone angry.", translation = "Đợi lâu làm mọi người bực bội." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "199"
+
+# --- Units ---------------------------------------------------------------------------------
+
+[[units]]
+key = "en.b1.u01-belongings"
+title = "Đồ của ai?"
+topic = "Belongings, lost property and doing things yourself"
+can_do = ["Nói đồ vật thuộc về ai mà không lặp danh từ.", "Nói mình tự làm việc gì."]
+grammar = ["en.b1.possessive_pronouns", "en.b1.reflexive_pronouns"]
+words = [
+  { headword = "belong", sense_id = "enwikt:95b624df3e5cc225", gloss = "To be the property of, or be bound to by dependency or as an" },
+  { headword = "lose", sense_id = "enwikt:a55686e3c6dfe678", gloss = "To cease to have (something) in one's possession or" },
+  { headword = "wallet", sense_id = "enwikt:c7bcc10f8e0462c9", gloss = "A small case, often flat and often made of leather, for" },
+  { headword = "own", sense_id = "enwikt:3f09ddead9e0fc63", gloss = "To have rightful possession of (property, goods or capital)" },
+]
+
+[[units]]
+key = "en.b1.u02-relationships"
+title = "Các mối quan hệ"
+topic = "Friends, neighbours and other people"
+can_do = ["Nói về quan hệ giữa hai người.", "Nói về người khác trong một nhóm."]
+grammar = ["en.b1.each_other", "en.b1.others"]
+words = [
+  { headword = "relationship", sense_id = "enwikt:aa7aadf97079b3c5", gloss = "A connection or association; the condition of being related." },
+  { headword = "neighbour", sense_id = "enwikt:31adfc7d5d26825f", gloss = "A person living on adjacent or nearby land; a person" },
+  { headword = "trust", sense_id = "enwikt:4476143c4925fa20", gloss = "To place confidence in, to rely on, to confide in." },
+  { headword = "argue", sense_id = "enwikt:fda2abfb56fe1f14", gloss = "To debate, disagree, or discuss opposing or differing" },
+]
+
+[[units]]
+key = "en.b1.u03-news-reactions"
+title = "Phản ứng trước tin tức"
+topic = "Reacting to news and surprises"
+can_do = ["Nói cảm nghĩ của mình về một tin.", "Nói có điều gì đó mới hay lạ."]
+grammar = ["en.b1.attitude_adverbs", "en.b1.something_adjective"]
+words = [
+  { headword = "accident", sense_id = "enwikt:7c10126f2e3f4d95", gloss = "An unexpected event with negative consequences occurring" },
+  { headword = "surprise", sense_id = "enwikt:95f22c3b81c2fb3b", gloss = "Something unexpected." },
+  { headword = "injure", sense_id = "enwikt:c1b5c8860a37af41", gloss = "To wound or cause physical harm to a living creature." },
+  { headword = "luck", sense_id = "enwikt:81e66f82cf4ac5b2", gloss = "Something that happens to someone by chance, a chance" },
+]
+
+[[units]]
+key = "en.b1.u04-limits"
+title = "Quá sức rồi!"
+topic = "Describing extremes and their results"
+can_do = ["Nói việc gì quá mức nên không làm được.", "Nói mức độ dẫn đến kết quả gì."]
+grammar = ["en.b1.too_to", "en.b1.so_that_result"]
+words = [
+  { headword = "heavy", sense_id = "enwikt:14fb78fadad4efbc", gloss = "Having great weight." },
+  { headword = "exhausted", sense_id = "enwikt:39f23018382a8651", gloss = "Very tired; zonked (out)." },
+  { headword = "noisy", sense_id = "enwikt:75297d0579478863", gloss = "Making a noise, especially a loud unpleasant sound" },
+  { headword = "carry", sense_id = "enwikt:77556cb6da38f7c2", gloss = "To lift (something) and take it to another place; to" },
+]
+
+[[units]]
+key = "en.b1.u05-then-and-now"
+title = "Ngày trước và bây giờ"
+topic = "How life has changed"
+can_do = ["Nói về thói quen trước đây.", "So sánh mức thay đổi nhiều hay ít."]
+grammar = ["en.b1.used_to", "en.b1.intensified_comparatives"]
+words = [
+  { headword = "change", sense_id = "enwikt:87e29e58055ff6ec", gloss = "To become something different." },
+  { headword = "childhood", sense_id = "enwikt:d2ad5985243c74af", gloss = "The state of being a child." },
+  { headword = "village", sense_id = "enwikt:eae94d8bcff8d457", gloss = "A rural habitation of size between a hamlet and a town." },
+  { headword = "nowadays", sense_id = "enwikt:4f85e478a63fc840", gloss = "At the present time; in the current era." },
+]
+
+[[units]]
+key = "en.b1.u06-stories"
+title = "Kể một câu chuyện"
+topic = "Telling stories in order"
+can_do = ["Kể lại các việc theo đúng thứ tự trước sau.", "Kể việc xảy ra ngay sau một việc khác."]
+grammar = ["en.b1.past_perfect", "en.b1.as_soon_as"]
+words = [
+  { headword = "realize", sense_id = "enwikt:cb56e705d11e278a", gloss = "To become aware of, understand, or appreciate (a fact or" },
+  { headword = "arrive", sense_id = "enwikt:5c683208c394f726", gloss = "To reach; to get to a certain place." },
+  { headword = "leave", sense_id = "enwikt:ca963f6c424510d5", gloss = "To depart from; to end one's connection or affiliation with." },
+  { headword = "story", sense_id = "enwikt:e7bc1aae2ed8a2c3", gloss = "An account of real or fictional events." },
+]
+
+[[units]]
+key = "en.b1.u07-instructions"
+title = "Hướng dẫn và thủ tục"
+topic = "Forms, procedures and how-to instructions"
+can_do = ["Hiểu và nói việc gì phải được làm thế nào.", "Hỏi cách làm một việc."]
+grammar = ["en.b1.passive_modal", "en.b1.wh_to_infinitive"]
+words = [
+  { headword = "form", sense_id = "enwikt:fadada94b919d73a", gloss = "A blank document or template to be filled in by the user." },
+  { headword = "sign", sense_id = "enwikt:ec0d9ec8994675a9", gloss = "To validate or ratify (a document) by writing one's" },
+  { headword = "fill", sense_id = "enwikt:8b103927a66f36b0", gloss = "To add contents to (a container, cavity, or the like) so" },
+  { headword = "instruction", sense_id = "enwikt:347faedf042d08f9", gloss = "A set of directions provided by a manufacturer for the users" },
+]
+
+[[units]]
+key = "en.b1.u08-life-events"
+title = "Những sự kiện trong đời"
+topic = "Weddings, moves and getting lost"
+can_do = ["Kể những việc xảy đến với mình.", "Nói việc mình quyết định không làm."]
+grammar = ["en.b1.get_passive", "en.b1.not_to"]
+words = [
+  { headword = "marry", sense_id = "enwikt:6e58bab9ff2cf71b", gloss = "To enter into the conjugal or connubial state; to take a" },
+  { headword = "wedding", sense_id = "enwikt:736a708380a5825e", gloss = "A marriage ceremony; a ritual officially celebrating the" },
+  { headword = "move", sense_id = "enwikt:18a977b22e502dc2", gloss = "To change place or posture; to go, in any manner, from one" },
+  { headword = "decide", sense_id = "enwikt:609201f98aa8044f", gloss = "To resolve (a contest, problem, dispute, etc.); to choose" },
+]
+
+[[units]]
+key = "en.b1.u09-schedules"
+title = "Lịch trình và thông báo"
+topic = "Official plans and timetables"
+can_do = ["Hiểu thông báo về việc đã được lên lịch.", "Nói đến lúc ai đó phải làm gì."]
+grammar = ["en.b1.be_to", "en.b1.for_someone_to"]
+words = [
+  { headword = "schedule", sense_id = "enwikt:2cca8f1a8616d6db", gloss = "A procedural plan, usually but not necessarily tabular in" },
+  { headword = "announce", sense_id = "enwikt:ac3da6ab624bab78", gloss = "To give public notice of, especially for the first time; to" },
+  { headword = "official", sense_id = "enwikt:9ab4819b80c352f2", gloss = "Derived from the proper office or officer, or the" },
+  { headword = "president", sense_id = "enwikt:77d08e4bdd1c5b79", gloss = "The head of state of a republic, sometimes also the head of" },
+]
+
+[[units]]
+key = "en.b1.u10-abilities"
+title = "Làm được và không làm được"
+topic = "Abilities now, in the past and in the future"
+can_do = ["Nói điều mình đã, đang và sẽ làm được.", "Đưa ra gợi ý bằng could."]
+grammar = ["en.b1.be_able_to", "en.b1.could"]
+words = [
+  { headword = "manage", sense_id = "enwikt:304b4d9eb02e3507", gloss = "To succeed at an attempt in spite of difficulty." },
+  { headword = "skill", sense_id = "enwikt:2aaac1321f8c41a2", gloss = "A capacity to do something well; a technique, an ability" },
+  { headword = "fix", sense_id = "enwikt:88602ea36d4f2211", gloss = "To mend, to repair." },
+  { headword = "suggest", sense_id = "enwikt:c911e0d12c03ea3e", gloss = "To explicitly mention (something) as a possibility for" },
+]
+
+[[units]]
+key = "en.b1.u11-guessing"
+title = "Đoán xem chuyện gì"
+topic = "Guessing and drawing conclusions"
+can_do = ["Đoán một việc có thể đúng.", "Kết luận điều gì chắc hẳn hoặc không thể đúng."]
+grammar = ["en.b1.may", "en.b1.must_deduction"]
+words = [
+  { headword = "probably", sense_id = "enwikt:e219c3314d01f13f", gloss = "In all likelihood." },
+  { headword = "possible", sense_id = "enwikt:5b12972a2cfeebc9", gloss = "Capable of being done or achieved; feasible." },
+  { headword = "guess", sense_id = "enwikt:321ee83f48b74b17", gloss = "To reach a partly (or totally) unconfirmed conclusion; to" },
+  { headword = "certain", sense_id = "enwikt:faf0ca6f45bec1f0", gloss = "Sure in one's mind, positive; absolutely confident in the" },
+]
+
+[[units]]
+key = "en.b1.u12-hotel"
+title = "Ở khách sạn"
+topic = "Check-in, giving things and describing places"
+can_do = ["Đưa đồ cho khách và hướng dẫn ngắn.", "Thêm thông tin về một nơi đã nhắc tới."]
+grammar = ["en.b1.here_is", "en.b1.nonrestrictive_relative"]
+words = [
+  { headword = "reception", sense_id = "enwikt:77ed8d94ab7a37f8", gloss = "The desk of a hotel or office where guests are received." },
+  { headword = "key", sense_id = "enwikt:064d392603bd5864", gloss = "An object designed to open and close a lock or to activate" },
+  { headword = "receipt", sense_id = "enwikt:86b3db80f545f2da", gloss = "A written acknowledgment that a specified article or sum of" },
+  { headword = "available", sense_id = "enwikt:37fd559a7361b341", gloss = "Readily obtainable." },
+]
+
+[[units]]
+key = "en.b1.u13-small-talk"
+title = "Chuyện phiếm"
+topic = "Small talk and explaining reasons"
+can_do = ["Bắt chuyện và xác nhận điều mình nghĩ.", "Giải thích lý do bằng That's why."]
+grammar = ["en.b1.tag_questions", "en.b1.that_is_why"]
+words = [
+  { headword = "lovely", sense_id = "enwikt:371d24d81f5deab7", gloss = "Delightful for beauty, harmony, or grace." },
+  { headword = "reason", sense_id = "enwikt:601aa0779b446567", gloss = "That which causes something: an efficient cause, a proximate" },
+  { headword = "chat", sense_id = "enwikt:1a720eafc162bba0", gloss = "To talk a while in a friendly manner." },
+  { headword = "mention", sense_id = "enwikt:a445709616d91932", gloss = "To make mention of; to speak of; to refer to; to name; to" },
+]
+
+[[units]]
+key = "en.b1.u14-passing-on"
+title = "Nhắn lại cho người khác"
+topic = "Reporting what people told and asked you"
+can_do = ["Kể lại điều ai đó đã nói với mình.", "Kể lại câu hỏi người khác đã hỏi."]
+grammar = ["en.b1.reported_tell", "en.b1.reported_question"]
+words = [
+  { headword = "reply", sense_id = "enwikt:1bb58143734b12f0", gloss = "To give a written or spoken response, especially to a" },
+  { headword = "interview", sense_id = "enwikt:3ddc8c0311b02fa7", gloss = "A conversation in person (or, by extension, over the" },
+  { headword = "information", sense_id = "enwikt:801c2857f7618174", gloss = "Things that are or can be known about a given topic" },
+  { headword = "repeat", sense_id = "enwikt:68145f71b7ee239e", gloss = "To do or say again (and again)." },
+]
+
+[[units]]
+key = "en.b1.u15-requests"
+title = "Lời nhờ và lời dặn"
+topic = "Requests and warnings at work"
+can_do = ["Kể lại ai nhờ, ai dặn mình làm gì.", "Kể một việc đang làm thì gặp chuyện khác."]
+grammar = ["en.b1.ask_tell_to", "en.b1.participle_clause"]
+words = [
+  { headword = "remind", sense_id = "enwikt:1c1b1128b4138e43", gloss = "To cause one to experience a memory (of someone or" },
+  { headword = "warn", sense_id = "enwikt:f4057559e3dc0f69", gloss = "To make (someone) aware of impending danger, evil, etc." },
+  { headword = "team", sense_id = "enwikt:159b434cb6d7ccfe", gloss = "Any group of people involved in the same activity" },
+  { headword = "boss", sense_id = "enwikt:13e6b26865a135a2", gloss = "A person in charge of a business or company." },
+]
+
+[[units]]
+key = "en.b1.u16-dreams"
+title = "Nếu tôi là…"
+topic = "Imagined situations and dreams"
+can_do = ["Nói điều mình sẽ làm trong tình huống tưởng tượng.", "Khuyên bằng If I were you."]
+grammar = ["en.b1.second_conditional"]
+words = [
+  { headword = "dream", sense_id = "enwikt:277f92749a8e0d68", gloss = "A hope or wish." },
+  { headword = "lottery", sense_id = "enwikt:410410116db2c0e8", gloss = "A scheme for the distribution of prizes by lot or chance" },
+  { headword = "rich", sense_id = "enwikt:51cc3caea91be0c5", gloss = "Wealthy: having a lot of money and possessions." },
+  { headword = "imagine", sense_id = "enwikt:abd17a87c20c5fe7", gloss = "To form a mental image of something; to envision or create" },
+]
+
+[[units]]
+key = "en.b1.u17-reactions"
+title = "Cảm xúc bật ra"
+topic = "Reacting with emotion to places and events"
+can_do = ["Bày tỏ cảm xúc mạnh bằng câu cảm thán.", "Nói điều gì làm mình vui, buồn, bực."]
+grammar = ["en.b1.exclamations", "en.b1.make_object_adjective"]
+words = [
+  { headword = "view", sense_id = "enwikt:bf7ffeaa218f346d", gloss = "The act of seeing or looking at something." },
+  { headword = "kind", sense_id = "enwikt:2e93ecc90b0dd90c", gloss = "Having a benevolent, courteous, friendly, generous, gentle" },
+  { headword = "angry", sense_id = "enwikt:11efa4a762af22a3", gloss = "Displaying or feeling anger." },
+  { headword = "upset", sense_id = "enwikt:489e0b29f8a5f775", gloss = "Angry, distressed, or unhappy" },
+]

@@ -1,0 +1,1474 @@
+{
+  "format": "deeplingo-grammar-bank-v1",
+  "catalogue_source": "deeplingo",
+  "authorship": "ai_draft",
+  "language": "zh",
+  "level": "HSK1",
+  "support_language": "vi",
+  "version": 2,
+  "topics": [
+    {
+      "key": "basic-sentences",
+      "title": "Câu cơ bản"
+    },
+    {
+      "key": "negation-possession",
+      "title": "Phủ định và sở hữu"
+    },
+    {
+      "key": "quantities-questions",
+      "title": "Số lượng và câu hỏi"
+    }
+  ],
+  "points": [
+    {
+      "key": "zh.hsk1.shi",
+      "title": "Dùng 是 để giới thiệu người và danh tính",
+      "topic_key": "basic-sentences",
+      "questions": [
+        {
+          "id": "zh.hsk1.shi.01",
+          "prompt": "Điền từ để nói “Tôi là học sinh”: 我___学生。",
+          "options": [
+            {
+              "id": "a",
+              "text": "是"
+            },
+            {
+              "id": "b",
+              "text": "吗"
+            },
+            {
+              "id": "c",
+              "text": "的"
+            },
+            {
+              "id": "d",
+              "text": "不"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Dùng 是 để nối chủ ngữ với danh từ chỉ danh tính: 我是学生 (Tôi là học sinh)."
+        },
+        {
+          "id": "zh.hsk1.shi.02",
+          "prompt": "Chọn câu hoàn chỉnh có nghĩa “Cô ấy là bác sĩ”.",
+          "options": [
+            {
+              "id": "a",
+              "text": "她医生是。"
+            },
+            {
+              "id": "b",
+              "text": "是她医生。"
+            },
+            {
+              "id": "c",
+              "text": "她的医生。"
+            },
+            {
+              "id": "d",
+              "text": "她是医生。"
+            }
+          ],
+          "correct_option_id": "d",
+          "explanation": "Trật tự là chủ ngữ + 是 + danh từ: 她是医生. 她的医生 chỉ là cụm “bác sĩ của cô ấy”, không phải câu được yêu cầu."
+        },
+        {
+          "id": "zh.hsk1.shi.03",
+          "prompt": "Điền từ để nói “Họ là người Trung Quốc”: 他们___中国人。",
+          "options": [
+            {
+              "id": "a",
+              "text": "在"
+            },
+            {
+              "id": "b",
+              "text": "吗"
+            },
+            {
+              "id": "c",
+              "text": "是"
+            },
+            {
+              "id": "d",
+              "text": "的"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "是 dùng để nối 他们 với danh từ 中国人: 他们是中国人. 是 giữ nguyên dù chủ ngữ là một hay nhiều người."
+        },
+        {
+          "id": "zh.hsk1.shi.04",
+          "prompt": "Hoàn thành lời đáp “Không, tôi là học sinh”: A: 你是老师吗？ B: 不，我___学生。",
+          "options": [
+            {
+              "id": "a",
+              "text": "吗"
+            },
+            {
+              "id": "b",
+              "text": "是"
+            },
+            {
+              "id": "c",
+              "text": "的"
+            },
+            {
+              "id": "d",
+              "text": "很"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Người nói trả lời không phải giáo viên rồi giới thiệu mình là học sinh: 不，我是学生. Dùng 是 trước danh từ 学生."
+        }
+      ],
+      "lesson": {
+        "summary": "是 nối chủ ngữ với danh từ để nói ai là ai, cái gì là cái gì.",
+        "rules": [
+          "Cấu trúc: chủ ngữ + 是 + danh từ (我是学生).",
+          "Phủ định: 不是 (他不是老师).",
+          "Không dùng 是 trước tính từ: nói 我很忙, không nói 我是忙."
+        ],
+        "examples": [
+          {
+            "text": "我是越南人。",
+            "meaning": "Tôi là người Việt Nam."
+          },
+          {
+            "text": "她不是医生。",
+            "meaning": "Cô ấy không phải bác sĩ."
+          },
+          {
+            "text": "这是我的书。",
+            "meaning": "Đây là sách của tôi."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "我是很高兴。",
+            "right": "我很高兴。",
+            "why": "Trước tính từ dùng 很, không dùng 是."
+          }
+        ]
+      }
+    },
+    {
+      "key": "zh.hsk1.ma_question",
+      "title": "Câu hỏi có/không với 吗",
+      "topic_key": "basic-sentences",
+      "questions": [
+        {
+          "id": "zh.hsk1.ma_question.01",
+          "prompt": "Thêm trợ từ cuối câu để hỏi “Bạn là học sinh phải không?”: 你是学生___？",
+          "options": [
+            {
+              "id": "a",
+              "text": "的"
+            },
+            {
+              "id": "b",
+              "text": "吗"
+            },
+            {
+              "id": "c",
+              "text": "很"
+            },
+            {
+              "id": "d",
+              "text": "在"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Thêm 吗 ở cuối câu trần thuật để tạo câu hỏi có/không: 你是学生吗？ Trật tự các từ trước 吗 giữ nguyên."
+        },
+        {
+          "id": "zh.hsk1.ma_question.02",
+          "prompt": "Điền trợ từ cuối câu để hỏi “Anh ấy thích trà phải không?”: 他喜欢茶___？",
+          "options": [
+            {
+              "id": "a",
+              "text": "是"
+            },
+            {
+              "id": "b",
+              "text": "的"
+            },
+            {
+              "id": "c",
+              "text": "在"
+            },
+            {
+              "id": "d",
+              "text": "吗"
+            }
+          ],
+          "correct_option_id": "d",
+          "explanation": "他喜欢茶 là câu trần thuật. Thêm 吗 ở cuối thành 他喜欢茶吗？ để hỏi có/không."
+        },
+        {
+          "id": "zh.hsk1.ma_question.03",
+          "prompt": "Chuyển “她是老师。” thành câu hỏi có/không với 吗. Chọn câu đúng.",
+          "options": [
+            {
+              "id": "a",
+              "text": "吗她是老师？"
+            },
+            {
+              "id": "b",
+              "text": "她吗是老师？"
+            },
+            {
+              "id": "c",
+              "text": "她是老师吗？"
+            },
+            {
+              "id": "d",
+              "text": "她是吗老师？"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "吗 đứng cuối toàn bộ câu trần thuật: 她是老师吗？ Không đặt 吗 ở đầu hoặc chen giữa chủ ngữ, động từ và danh từ."
+        },
+        {
+          "id": "zh.hsk1.ma_question.04",
+          "prompt": "Hoàn thành câu hỏi có/không: A: 你喝水___？ B: 喝。",
+          "options": [
+            {
+              "id": "a",
+              "text": "吗"
+            },
+            {
+              "id": "b",
+              "text": "的"
+            },
+            {
+              "id": "c",
+              "text": "是"
+            },
+            {
+              "id": "d",
+              "text": "在"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "你喝水吗？ hỏi người kia có uống nước không. Có thể đáp bằng động từ 喝 để khẳng định."
+        }
+      ],
+      "lesson": {
+        "summary": "Thêm 吗 vào cuối câu kể để thành câu hỏi có/không.",
+        "rules": [
+          "Câu kể + 吗？: 你是学生吗？",
+          "Trả lời bằng cách lặp động từ: 是 / 不是, 喜欢 / 不喜欢.",
+          "Câu đã có từ để hỏi (什么, 谁, 哪儿) thì không thêm 吗."
+        ],
+        "examples": [
+          {
+            "text": "你忙吗？",
+            "meaning": "Bạn có bận không?"
+          },
+          {
+            "text": "他是老师吗？",
+            "meaning": "Anh ấy là giáo viên à?"
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "你叫什么名字吗？",
+            "right": "你叫什么名字？",
+            "why": "Đã có 什么 thì không thêm 吗."
+          }
+        ]
+      }
+    },
+    {
+      "key": "zh.hsk1.bu",
+      "title": "Phủ định với 不",
+      "topic_key": "negation-possession",
+      "questions": [
+        {
+          "id": "zh.hsk1.bu.01",
+          "prompt": "Điền từ để nói “Tôi không phải giáo viên”: 我___是老师。",
+          "options": [
+            {
+              "id": "a",
+              "text": "吗"
+            },
+            {
+              "id": "b",
+              "text": "不"
+            },
+            {
+              "id": "c",
+              "text": "的"
+            },
+            {
+              "id": "d",
+              "text": "很"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "不 đứng trước 是 để phủ định: 我不是老师 (Tôi không phải giáo viên)."
+        },
+        {
+          "id": "zh.hsk1.bu.02",
+          "prompt": "Điền từ để nói “Tôi không uống cà phê”: 我___喝咖啡。",
+          "options": [
+            {
+              "id": "a",
+              "text": "是"
+            },
+            {
+              "id": "b",
+              "text": "的"
+            },
+            {
+              "id": "c",
+              "text": "吗"
+            },
+            {
+              "id": "d",
+              "text": "不"
+            }
+          ],
+          "correct_option_id": "d",
+          "explanation": "不 đứng trước động từ 喝 để nói không uống: 我不喝咖啡. Câu này diễn đạt việc không uống cà phê nói chung hoặc ý không uống."
+        },
+        {
+          "id": "zh.hsk1.bu.03",
+          "prompt": "Điền từ để nói “Anh ấy không thích trà”: 他___喜欢茶。",
+          "options": [
+            {
+              "id": "a",
+              "text": "不"
+            },
+            {
+              "id": "b",
+              "text": "很"
+            },
+            {
+              "id": "c",
+              "text": "也"
+            },
+            {
+              "id": "d",
+              "text": "都"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Đặt 不 trước 喜欢 để phủ định sở thích: 他不喜欢茶. 很, 也 và 都 không diễn đạt nghĩa phủ định được yêu cầu."
+        },
+        {
+          "id": "zh.hsk1.bu.04",
+          "prompt": "Chọn câu phủ định có nghĩa “Tôi không đi đến trường”.",
+          "options": [
+            {
+              "id": "a",
+              "text": "我去不学校。"
+            },
+            {
+              "id": "b",
+              "text": "不我去学校。"
+            },
+            {
+              "id": "c",
+              "text": "我不去学校。"
+            },
+            {
+              "id": "d",
+              "text": "我去学校不。"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "不 đứng ngay trước động từ 去: 我不去学校. Trong câu phủ định này, 不 không đặt trước chủ ngữ hay sau 学校."
+        }
+      ],
+      "lesson": {
+        "summary": "不 phủ định ý muốn, thói quen và hiện tại; đặt trước động từ hoặc tính từ.",
+        "rules": [
+          "不 + động từ/tính từ: 我不喝咖啡, 今天不冷.",
+          "Phủ định 有 dùng 没, không dùng 不: 没有.",
+          "不 đọc thành bú trước thanh 4: 不是 (bú shì)."
+        ],
+        "examples": [
+          {
+            "text": "我不喝茶。",
+            "meaning": "Tôi không uống trà."
+          },
+          {
+            "text": "这个不贵。",
+            "meaning": "Cái này không đắt."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "我不有钱。",
+            "right": "我没有钱。",
+            "why": "Phủ định 有 phải dùng 没."
+          }
+        ]
+      }
+    },
+    {
+      "key": "zh.hsk1.de_possession",
+      "title": "Sở hữu với 的",
+      "topic_key": "negation-possession",
+      "questions": [
+        {
+          "id": "zh.hsk1.de_possession.01",
+          "prompt": "Điền từ để nói “Đây là sách của tôi”: 这是我___书。",
+          "options": [
+            {
+              "id": "a",
+              "text": "是"
+            },
+            {
+              "id": "b",
+              "text": "的"
+            },
+            {
+              "id": "c",
+              "text": "吗"
+            },
+            {
+              "id": "d",
+              "text": "不"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Dùng người sở hữu + 的 + danh từ: 我的书 là sách của tôi. Câu hoàn chỉnh là 这是我的书."
+        },
+        {
+          "id": "zh.hsk1.de_possession.02",
+          "prompt": "Điền từ để nói “Chiếc xe này là của cô ấy”: 这辆车是她___。",
+          "options": [
+            {
+              "id": "a",
+              "text": "我"
+            },
+            {
+              "id": "b",
+              "text": "是"
+            },
+            {
+              "id": "c",
+              "text": "们"
+            },
+            {
+              "id": "d",
+              "text": "的"
+            }
+          ],
+          "correct_option_id": "d",
+          "explanation": "Khi vật được nói đến đã rõ, 她的 có thể đứng một mình với nghĩa của cô ấy: 这辆车是她的. Không cần lặp lại 车 sau 的."
+        },
+        {
+          "id": "zh.hsk1.de_possession.03",
+          "prompt": "Điền từ để nói “Đây là bút của bạn”: 这是你___笔。",
+          "options": [
+            {
+              "id": "a",
+              "text": "是"
+            },
+            {
+              "id": "b",
+              "text": "不"
+            },
+            {
+              "id": "c",
+              "text": "的"
+            },
+            {
+              "id": "d",
+              "text": "吗"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "你的笔 nghĩa là bút của bạn: 你 là người sở hữu, 的 nối với danh từ 笔. Câu đúng là 这是你的笔."
+        },
+        {
+          "id": "zh.hsk1.de_possession.04",
+          "prompt": "Điền từ để nói “Bạn của anh ấy là giáo viên”: 他___朋友是老师。",
+          "options": [
+            {
+              "id": "a",
+              "text": "的"
+            },
+            {
+              "id": "b",
+              "text": "不"
+            },
+            {
+              "id": "c",
+              "text": "吗"
+            },
+            {
+              "id": "d",
+              "text": "很"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "他的朋友 là bạn của anh ấy. 的 nối 他 với 朋友; cả cụm này làm chủ ngữ của câu 他的朋友是老师."
+        }
+      ],
+      "lesson": {
+        "summary": "的 nối người sở hữu với vật được sở hữu: 我的书 (sách của tôi).",
+        "rules": [
+          "Người/vật sở hữu + 的 + danh từ.",
+          "Với người thân và tổ chức gần gũi có thể bỏ 的: 我妈妈, 我们学校.",
+          "Có thể dùng 的 cuối câu thay danh từ đã biết: 这本书是我的."
+        ],
+        "examples": [
+          {
+            "text": "这是老师的电脑。",
+            "meaning": "Đây là máy tính của thầy giáo."
+          },
+          {
+            "text": "我妈妈是医生。",
+            "meaning": "Mẹ tôi là bác sĩ."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "我书",
+            "right": "我的书",
+            "why": "Với đồ vật thường cần 的."
+          }
+        ]
+      }
+    },
+    {
+      "key": "zh.hsk1.you",
+      "title": "有 và 没有: có / không có",
+      "topic_key": "negation-possession",
+      "lesson": {
+        "summary": "有 nói ai có cái gì hoặc ở đâu có cái gì; phủ định là 没有.",
+        "rules": [
+          "Chủ ngữ + 有 + danh từ: 我有一个哥哥.",
+          "Phủ định: 没有 (không dùng 不有).",
+          "Nơi chốn + 有 + vật: 桌子上有一本书."
+        ],
+        "examples": [
+          {
+            "text": "我有两个妹妹。",
+            "meaning": "Tôi có hai em gái."
+          },
+          {
+            "text": "他没有车。",
+            "meaning": "Anh ấy không có xe."
+          },
+          {
+            "text": "学校里有很多学生。",
+            "meaning": "Trong trường có nhiều học sinh."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "我不有时间。",
+            "right": "我没有时间。",
+            "why": "Phủ định 有 dùng 没."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "zh.hsk1.you.01",
+          "prompt": "我___一个姐姐。",
+          "options": [
+            {
+              "id": "a",
+              "text": "有"
+            },
+            {
+              "id": "b",
+              "text": "是"
+            },
+            {
+              "id": "c",
+              "text": "在"
+            },
+            {
+              "id": "d",
+              "text": "的"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Có ai đó dùng 有: Tôi có một chị gái."
+        },
+        {
+          "id": "zh.hsk1.you.02",
+          "prompt": "他___有手机。",
+          "options": [
+            {
+              "id": "a",
+              "text": "不"
+            },
+            {
+              "id": "b",
+              "text": "没"
+            },
+            {
+              "id": "c",
+              "text": "别"
+            },
+            {
+              "id": "d",
+              "text": "很"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Phủ định 有 là 没有: Anh ấy không có điện thoại."
+        },
+        {
+          "id": "zh.hsk1.you.03",
+          "prompt": "桌子上___一本书。",
+          "options": [
+            {
+              "id": "a",
+              "text": "是"
+            },
+            {
+              "id": "b",
+              "text": "有"
+            },
+            {
+              "id": "c",
+              "text": "在"
+            },
+            {
+              "id": "d",
+              "text": "吗"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Nơi chốn + 有 + vật: Trên bàn có một quyển sách."
+        },
+        {
+          "id": "zh.hsk1.you.04",
+          "prompt": "你___没有中文书？",
+          "options": [
+            {
+              "id": "a",
+              "text": "有"
+            },
+            {
+              "id": "b",
+              "text": "是"
+            },
+            {
+              "id": "c",
+              "text": "不"
+            },
+            {
+              "id": "d",
+              "text": "在"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Câu hỏi 有没有: Bạn có sách tiếng Trung không?"
+        },
+        {
+          "id": "zh.hsk1.you.05",
+          "prompt": "我们家___狗。",
+          "options": [
+            {
+              "id": "a",
+              "text": "没有"
+            },
+            {
+              "id": "b",
+              "text": "不有"
+            },
+            {
+              "id": "c",
+              "text": "不是"
+            },
+            {
+              "id": "d",
+              "text": "没是"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Nhà chúng tôi không có chó: 没有."
+        },
+        {
+          "id": "zh.hsk1.you.06",
+          "prompt": "商店里___很多人。",
+          "options": [
+            {
+              "id": "a",
+              "text": "有"
+            },
+            {
+              "id": "b",
+              "text": "是"
+            },
+            {
+              "id": "c",
+              "text": "在"
+            },
+            {
+              "id": "d",
+              "text": "的"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Trong cửa hàng có nhiều người: 有."
+        },
+        {
+          "id": "zh.hsk1.you.07",
+          "prompt": "她有___个孩子？",
+          "options": [
+            {
+              "id": "a",
+              "text": "几"
+            },
+            {
+              "id": "b",
+              "text": "什么"
+            },
+            {
+              "id": "c",
+              "text": "谁"
+            },
+            {
+              "id": "d",
+              "text": "哪"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Hỏi số lượng nhỏ dùng 几: Cô ấy có mấy đứa con?"
+        },
+        {
+          "id": "zh.hsk1.you.08",
+          "prompt": "Chọn câu đúng.",
+          "options": [
+            {
+              "id": "a",
+              "text": "我不有钱。"
+            },
+            {
+              "id": "b",
+              "text": "我没有钱。"
+            },
+            {
+              "id": "c",
+              "text": "我没是钱。"
+            },
+            {
+              "id": "d",
+              "text": "我是没钱有。"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Tôi không có tiền: 没有."
+        }
+      ]
+    },
+    {
+      "key": "zh.hsk1.measure_words",
+      "title": "Lượng từ cơ bản: 个, 本, 口, 杯",
+      "topic_key": "quantities-questions",
+      "lesson": {
+        "summary": "Giữa số đếm (hoặc 这, 那) và danh từ cần một lượng từ.",
+        "rules": [
+          "Số + lượng từ + danh từ: 三个人, 两本书.",
+          "个 dùng cho người và nhiều vật; 本 cho sách; 杯 cho cốc đồ uống; 口 cho số người trong nhà.",
+          "Với số 2 trước lượng từ dùng 两, không dùng 二: 两个."
+        ],
+        "examples": [
+          {
+            "text": "我买了三本书。",
+            "meaning": "Tôi đã mua ba quyển sách."
+          },
+          {
+            "text": "我家有四口人。",
+            "meaning": "Nhà tôi có bốn người."
+          },
+          {
+            "text": "请给我一杯水。",
+            "meaning": "Cho tôi một cốc nước."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "三书",
+            "right": "三本书",
+            "why": "Giữa số và danh từ cần lượng từ."
+          },
+          {
+            "wrong": "二个人",
+            "right": "两个人",
+            "why": "Trước lượng từ dùng 两."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "zh.hsk1.measure_words.01",
+          "prompt": "我有一___汉语书。",
+          "options": [
+            {
+              "id": "a",
+              "text": "本"
+            },
+            {
+              "id": "b",
+              "text": "个"
+            },
+            {
+              "id": "c",
+              "text": "口"
+            },
+            {
+              "id": "d",
+              "text": "杯"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Sách dùng 本: Tôi có một quyển sách tiếng Trung."
+        },
+        {
+          "id": "zh.hsk1.measure_words.02",
+          "prompt": "他家有五___人。",
+          "options": [
+            {
+              "id": "a",
+              "text": "口"
+            },
+            {
+              "id": "b",
+              "text": "本"
+            },
+            {
+              "id": "c",
+              "text": "杯"
+            },
+            {
+              "id": "d",
+              "text": "张"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Số người trong nhà dùng 口: Nhà anh ấy có năm người."
+        },
+        {
+          "id": "zh.hsk1.measure_words.03",
+          "prompt": "我想喝一___茶。",
+          "options": [
+            {
+              "id": "a",
+              "text": "杯"
+            },
+            {
+              "id": "b",
+              "text": "本"
+            },
+            {
+              "id": "c",
+              "text": "口"
+            },
+            {
+              "id": "d",
+              "text": "个"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Đồ uống trong cốc dùng 杯: Tôi muốn uống một cốc trà."
+        },
+        {
+          "id": "zh.hsk1.measure_words.04",
+          "prompt": "这___学生很好。",
+          "options": [
+            {
+              "id": "a",
+              "text": "个"
+            },
+            {
+              "id": "b",
+              "text": "本"
+            },
+            {
+              "id": "c",
+              "text": "杯"
+            },
+            {
+              "id": "d",
+              "text": "口"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Người dùng 个: Học sinh này rất giỏi."
+        },
+        {
+          "id": "zh.hsk1.measure_words.05",
+          "prompt": "我有___个朋友在北京。",
+          "options": [
+            {
+              "id": "a",
+              "text": "两"
+            },
+            {
+              "id": "b",
+              "text": "二"
+            },
+            {
+              "id": "c",
+              "text": "第二"
+            },
+            {
+              "id": "d",
+              "text": "双"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Trước lượng từ dùng 两: Tôi có hai người bạn ở Bắc Kinh."
+        },
+        {
+          "id": "zh.hsk1.measure_words.06",
+          "prompt": "那___苹果很大。",
+          "options": [
+            {
+              "id": "a",
+              "text": "个"
+            },
+            {
+              "id": "b",
+              "text": "本"
+            },
+            {
+              "id": "c",
+              "text": "杯"
+            },
+            {
+              "id": "d",
+              "text": "口"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Quả táo dùng 个: Quả táo kia rất to."
+        },
+        {
+          "id": "zh.hsk1.measure_words.07",
+          "prompt": "你要几___咖啡？",
+          "options": [
+            {
+              "id": "a",
+              "text": "杯"
+            },
+            {
+              "id": "b",
+              "text": "本"
+            },
+            {
+              "id": "c",
+              "text": "口"
+            },
+            {
+              "id": "d",
+              "text": "位"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Cà phê theo cốc dùng 杯: Bạn muốn mấy cốc cà phê?"
+        },
+        {
+          "id": "zh.hsk1.measure_words.08",
+          "prompt": "Chọn câu đúng.",
+          "options": [
+            {
+              "id": "a",
+              "text": "我买了两书。"
+            },
+            {
+              "id": "b",
+              "text": "我买了两本书。"
+            },
+            {
+              "id": "c",
+              "text": "我买了二本书。"
+            },
+            {
+              "id": "d",
+              "text": "我买了本两书。"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Số + lượng từ + danh từ: 两本书."
+        }
+      ]
+    },
+    {
+      "key": "zh.hsk1.question_words",
+      "title": "Từ để hỏi: 什么, 谁, 哪儿, 几",
+      "topic_key": "quantities-questions",
+      "lesson": {
+        "summary": "Từ để hỏi đứng đúng chỗ của thông tin cần hỏi; câu không thêm 吗.",
+        "rules": [
+          "什么: cái gì (你喝什么？).",
+          "谁: ai (他是谁？).",
+          "哪儿: ở đâu (你去哪儿？).",
+          "几: mấy, dùng cho số nhỏ, thường kèm lượng từ (你有几个哥哥？)."
+        ],
+        "examples": [
+          {
+            "text": "你叫什么名字？",
+            "meaning": "Bạn tên là gì?"
+          },
+          {
+            "text": "你住在哪儿？",
+            "meaning": "Bạn sống ở đâu?"
+          },
+          {
+            "text": "现在几点？",
+            "meaning": "Bây giờ mấy giờ?"
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "你去哪儿吗？",
+            "right": "你去哪儿？",
+            "why": "Có từ để hỏi thì bỏ 吗."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "zh.hsk1.question_words.01",
+          "prompt": "你叫___名字？",
+          "options": [
+            {
+              "id": "a",
+              "text": "什么"
+            },
+            {
+              "id": "b",
+              "text": "谁"
+            },
+            {
+              "id": "c",
+              "text": "哪儿"
+            },
+            {
+              "id": "d",
+              "text": "几"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Hỏi tên dùng 什么: Bạn tên là gì?"
+        },
+        {
+          "id": "zh.hsk1.question_words.02",
+          "prompt": "那个人是___？",
+          "options": [
+            {
+              "id": "a",
+              "text": "谁"
+            },
+            {
+              "id": "b",
+              "text": "什么"
+            },
+            {
+              "id": "c",
+              "text": "哪儿"
+            },
+            {
+              "id": "d",
+              "text": "几"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Hỏi người dùng 谁: Người kia là ai?"
+        },
+        {
+          "id": "zh.hsk1.question_words.03",
+          "prompt": "你的学校在___？",
+          "options": [
+            {
+              "id": "a",
+              "text": "哪儿"
+            },
+            {
+              "id": "b",
+              "text": "谁"
+            },
+            {
+              "id": "c",
+              "text": "什么"
+            },
+            {
+              "id": "d",
+              "text": "几"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Hỏi nơi chốn dùng 哪儿: Trường của bạn ở đâu?"
+        },
+        {
+          "id": "zh.hsk1.question_words.04",
+          "prompt": "你家有___口人？",
+          "options": [
+            {
+              "id": "a",
+              "text": "几"
+            },
+            {
+              "id": "b",
+              "text": "什么"
+            },
+            {
+              "id": "c",
+              "text": "谁"
+            },
+            {
+              "id": "d",
+              "text": "哪儿"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Hỏi số người dùng 几: Nhà bạn có mấy người?"
+        },
+        {
+          "id": "zh.hsk1.question_words.05",
+          "prompt": "你想吃___？",
+          "options": [
+            {
+              "id": "a",
+              "text": "什么"
+            },
+            {
+              "id": "b",
+              "text": "谁"
+            },
+            {
+              "id": "c",
+              "text": "哪儿"
+            },
+            {
+              "id": "d",
+              "text": "吗"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Hỏi món dùng 什么: Bạn muốn ăn gì?"
+        },
+        {
+          "id": "zh.hsk1.question_words.06",
+          "prompt": "现在___点？",
+          "options": [
+            {
+              "id": "a",
+              "text": "几"
+            },
+            {
+              "id": "b",
+              "text": "什么"
+            },
+            {
+              "id": "c",
+              "text": "谁"
+            },
+            {
+              "id": "d",
+              "text": "哪儿"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Hỏi giờ dùng 几点: Bây giờ mấy giờ?"
+        },
+        {
+          "id": "zh.hsk1.question_words.07",
+          "prompt": "你明天去___？",
+          "options": [
+            {
+              "id": "a",
+              "text": "哪儿"
+            },
+            {
+              "id": "b",
+              "text": "谁"
+            },
+            {
+              "id": "c",
+              "text": "几"
+            },
+            {
+              "id": "d",
+              "text": "吗"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Hỏi đi đâu dùng 哪儿: Ngày mai bạn đi đâu?"
+        },
+        {
+          "id": "zh.hsk1.question_words.08",
+          "prompt": "Chọn câu đúng.",
+          "options": [
+            {
+              "id": "a",
+              "text": "他是谁吗？"
+            },
+            {
+              "id": "b",
+              "text": "他是谁？"
+            },
+            {
+              "id": "c",
+              "text": "谁他是？"
+            },
+            {
+              "id": "d",
+              "text": "他谁是吗？"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Có 谁 thì không thêm 吗: Anh ấy là ai?"
+        }
+      ]
+    },
+    {
+      "key": "zh.hsk1.zai_location",
+      "title": "在 chỉ nơi chốn: ở đâu",
+      "topic_key": "basic-sentences",
+      "lesson": {
+        "summary": "在 nói người hoặc vật ở đâu, hoặc làm việc gì ở đâu.",
+        "rules": [
+          "Người/vật + 在 + nơi chốn: 我在家.",
+          "在 + nơi chốn + động từ: 我在学校学习.",
+          "Phủ định: 不在 (他不在家)."
+        ],
+        "examples": [
+          {
+            "text": "妈妈在厨房。",
+            "meaning": "Mẹ ở trong bếp."
+          },
+          {
+            "text": "我在饭馆吃饭。",
+            "meaning": "Tôi ăn cơm ở nhà hàng."
+          },
+          {
+            "text": "老师不在学校。",
+            "meaning": "Thầy giáo không ở trường."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "我学习在图书馆。",
+            "right": "我在图书馆学习。",
+            "why": "Cụm 在 + nơi chốn đứng trước động từ."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "zh.hsk1.zai_location.01",
+          "prompt": "我___家。",
+          "options": [
+            {
+              "id": "a",
+              "text": "在"
+            },
+            {
+              "id": "b",
+              "text": "是"
+            },
+            {
+              "id": "c",
+              "text": "有"
+            },
+            {
+              "id": "d",
+              "text": "的"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Ở đâu dùng 在: Tôi ở nhà."
+        },
+        {
+          "id": "zh.hsk1.zai_location.02",
+          "prompt": "他___医院工作。",
+          "options": [
+            {
+              "id": "a",
+              "text": "在"
+            },
+            {
+              "id": "b",
+              "text": "是"
+            },
+            {
+              "id": "c",
+              "text": "有"
+            },
+            {
+              "id": "d",
+              "text": "去"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "在 + nơi chốn + động từ: Anh ấy làm việc ở bệnh viện."
+        },
+        {
+          "id": "zh.hsk1.zai_location.03",
+          "prompt": "你的手机___桌子上。",
+          "options": [
+            {
+              "id": "a",
+              "text": "在"
+            },
+            {
+              "id": "b",
+              "text": "有"
+            },
+            {
+              "id": "c",
+              "text": "是"
+            },
+            {
+              "id": "d",
+              "text": "吗"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Vật ở đâu dùng 在: Điện thoại của bạn ở trên bàn."
+        },
+        {
+          "id": "zh.hsk1.zai_location.04",
+          "prompt": "爸爸不___家。",
+          "options": [
+            {
+              "id": "a",
+              "text": "在"
+            },
+            {
+              "id": "b",
+              "text": "有"
+            },
+            {
+              "id": "c",
+              "text": "是"
+            },
+            {
+              "id": "d",
+              "text": "去"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Phủ định: 不在家. Bố không ở nhà."
+        },
+        {
+          "id": "zh.hsk1.zai_location.05",
+          "prompt": "我们___学校吃午饭。",
+          "options": [
+            {
+              "id": "a",
+              "text": "在"
+            },
+            {
+              "id": "b",
+              "text": "是"
+            },
+            {
+              "id": "c",
+              "text": "有"
+            },
+            {
+              "id": "d",
+              "text": "的"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Chúng tôi ăn trưa ở trường: 在学校吃午饭."
+        },
+        {
+          "id": "zh.hsk1.zai_location.06",
+          "prompt": "猫___椅子下面。",
+          "options": [
+            {
+              "id": "a",
+              "text": "在"
+            },
+            {
+              "id": "b",
+              "text": "有"
+            },
+            {
+              "id": "c",
+              "text": "是"
+            },
+            {
+              "id": "d",
+              "text": "很"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Con mèo ở dưới ghế: 在椅子下面."
+        },
+        {
+          "id": "zh.hsk1.zai_location.07",
+          "prompt": "你___哪儿？",
+          "options": [
+            {
+              "id": "a",
+              "text": "在"
+            },
+            {
+              "id": "b",
+              "text": "是"
+            },
+            {
+              "id": "c",
+              "text": "有"
+            },
+            {
+              "id": "d",
+              "text": "吗"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Hỏi ai đó ở đâu: 你在哪儿？"
+        },
+        {
+          "id": "zh.hsk1.zai_location.08",
+          "prompt": "Chọn câu đúng.",
+          "options": [
+            {
+              "id": "a",
+              "text": "我看书在家。"
+            },
+            {
+              "id": "b",
+              "text": "我在家看书。"
+            },
+            {
+              "id": "c",
+              "text": "在我家看书。"
+            },
+            {
+              "id": "d",
+              "text": "我家在看书。"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "在 + nơi chốn đứng trước động từ: Tôi đọc sách ở nhà."
+        }
+      ]
+    }
+  ],
+  "approval": {
+    "reviewer": "owner",
+    "approved_on": "2026-11-06",
+    "content_sha256": "d3c55ff0c3b596245c646afe325b6a87f5ea2cff3dcf228681e057ef76cc6e62",
+    "sample_question_ids": [
+      "zh.hsk1.shi.01",
+      "zh.hsk1.ma_question.01",
+      "zh.hsk1.bu.01",
+      "zh.hsk1.de_possession.01",
+      "zh.hsk1.you.01",
+      "zh.hsk1.measure_words.01",
+      "zh.hsk1.question_words.01",
+      "zh.hsk1.zai_location.01"
+    ]
+  }
+}

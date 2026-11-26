@@ -1,0 +1,445 @@
+# DRAFT (2026-10-15): drafted by the AI, awaiting the owner's review.
+# Grammar items come from the HSK 3.0 grammar syllabus, GF 0025-2021 (Ministry of Education of
+# the PRC; item numbers via ivankra/hsk30); explanations and examples are written by DeepLingo.
+# Word senses are CC-CEDICT senses; word levels are GF 0025-2021.
+format = "deeplingo-curriculum-v1"
+language = "zh"
+framework = "HSK"
+level = "HSK1"
+version = 1
+title = "Tiếng Trung HSK1: Người mới bắt đầu"
+
+# --- Grammar -------------------------------------------------------------------------------
+
+[[grammar]]
+key = "zh.personal_pronouns"
+title = "Đại từ nhân xưng: 我, 你, 您, 他, 她"
+pattern = "我 / 你 / 您 / 他 / 她 (+ 们 = số nhiều)"
+forms = ["我", "你", "您", "他", "她", "它", "我们", "你们", "他们", "她们"]
+explanation = "我 là tôi, 你 là bạn, 您 là bạn nhưng lịch sự (dùng với người lớn tuổi), 他 là anh ấy, 她 là cô ấy. Thêm 们 để thành số nhiều: 我们 (chúng tôi), 他们 (họ)."
+examples = [
+  { text = "我是学生。", translation = "Tôi là học sinh." },
+  { text = "您好！", translation = "Xin chào (lịch sự)!" },
+]
+source = "gf0025-2021"
+source_ref = "5"
+
+[[grammar]]
+key = "zh.shi_sentence"
+title = "Câu với 是: A 是 B"
+pattern = "A + 是 + B / A + 不是 + B"
+forms = ["是"]
+explanation = "是 nghĩa là \"là\", nối hai danh từ: A là B. Phủ định thêm 不 phía trước: 不是. Không dùng 是 trước tính từ (nói 我很好, không nói 我是好)."
+examples = [
+  { text = "我是越南人。", translation = "Tôi là người Việt Nam." },
+  { text = "他不是老师。", translation = "Anh ấy không phải là giáo viên." },
+]
+source = "gf0025-2021"
+source_ref = "36"
+
+[[grammar]]
+key = "zh.ma_question"
+title = "Câu hỏi có/không với 吗"
+pattern = "câu trần thuật + 吗？"
+forms = ["吗"]
+explanation = "Thêm 吗 vào cuối câu là thành câu hỏi có/không, không cần đổi trật tự từ. Trả lời bằng cách lặp lại động từ: 是 / 不是."
+examples = [
+  { text = "你是中国人吗？", translation = "Bạn là người Trung Quốc phải không?" },
+  { text = "你说汉语吗？", translation = "Bạn có nói tiếng Trung không?" },
+]
+source = "gf0025-2021"
+source_ref = "45"
+
+[[grammar]]
+key = "zh.question_words"
+title = "Câu hỏi với 哪, 什么, 谁"
+pattern = "đặt từ hỏi vào đúng chỗ của thông tin cần hỏi"
+forms = ["什么", "谁", "哪", "哪儿", "哪里", "怎么", "怎么样", "多少", "几"]
+explanation = "Trong tiếng Trung, từ để hỏi đứng đúng vị trí của câu trả lời, không đưa lên đầu câu. 什么 là gì, 谁 là ai, 哪 là nào (哪国人: người nước nào)."
+examples = [
+  { text = "你是哪国人？", translation = "Bạn là người nước nào?" },
+  { text = "他是谁？", translation = "Anh ấy là ai?" },
+]
+source = "gf0025-2021"
+source_ref = "46"
+
+[[grammar]]
+key = "zh.you_sentence"
+title = "Câu với 有: có"
+pattern = "A + 有 + B / A + 没有 + B"
+forms = ["有"]
+explanation = "有 nghĩa là \"có\". Phủ định của 有 là 没有, không dùng 不有."
+examples = [
+  { text = "我有一个哥哥。", translation = "Tôi có một anh trai." },
+  { text = "她没有妹妹。", translation = "Cô ấy không có em gái." },
+]
+source = "gf0025-2021"
+source_ref = "37"
+
+[[grammar]]
+key = "zh.measure_words"
+title = "Lượng từ: 个, 口, 本, 杯"
+pattern = "số + lượng từ + danh từ"
+forms = ["个", "口", "本", "杯", "块", "家", "间", "页"]
+explanation = "Giữa số và danh từ luôn có một lượng từ, giống \"cái\", \"con\", \"quyển\" trong tiếng Việt. 个 dùng được với rất nhiều danh từ; 口 để đếm người trong gia đình; 本 cho sách; 杯 cho cốc."
+examples = [
+  { text = "我家有四口人。", translation = "Nhà tôi có bốn người." },
+  { text = "一本书", translation = "một quyển sách" },
+]
+source = "gf0025-2021"
+source_ref = "8"
+
+[[grammar]]
+key = "zh.numbers"
+title = "Số đếm: 一 đến 十, 二 và 两"
+pattern = "一 二 三 … 十; 两 + lượng từ"
+forms = ["一", "二", "两", "三", "四", "五", "六", "七", "八", "九", "十", "零", "百", "半"]
+explanation = "Học các số từ 一 đến 十, rồi ghép thành số lớn hơn: 十一 (11), 二十 (20). Khi đếm đồ vật đứng trước lượng từ, số 2 đọc là 两, không phải 二: 两个人."
+examples = [
+  { text = "我有两个弟弟。", translation = "Tôi có hai em trai." },
+  { text = "二十一", translation = "hai mươi mốt" },
+]
+source = "gf0025-2021"
+source_ref = "7"
+
+[[grammar]]
+key = "zh.ji_how_many"
+title = "Hỏi số lượng và tuổi với 几"
+pattern = "几 + lượng từ + danh từ？ / 你几岁？"
+forms = ["几"]
+explanation = "几 hỏi số lượng nhỏ, thường dưới mười, và luôn đi với lượng từ. Hỏi tuổi trẻ nhỏ dùng 你几岁？; hỏi người lớn thì dùng 多大."
+examples = [
+  { text = "你家有几口人？", translation = "Nhà bạn có mấy người?" },
+  { text = "你女儿几岁？", translation = "Con gái bạn mấy tuổi?" },
+]
+source = "gf0025-2021"
+source_ref = "4"
+
+[[grammar]]
+key = "zh.dates_times"
+title = "Ngày, tháng, thứ và giờ"
+pattern = "年 → 月 → 号 → 星期; số + 点"
+forms = ["年", "月", "号", "日", "星期", "点", "分"]
+explanation = "Tiếng Trung nói thời gian từ lớn đến nhỏ: năm, tháng, ngày, thứ. Thứ trong tuần là 星期 + số (星期一 là thứ Hai). Giờ là số + 点: 八点 (tám giờ)."
+examples = [
+  { text = "今天五月八号。", translation = "Hôm nay là ngày 8 tháng 5." },
+  { text = "现在三点。", translation = "Bây giờ là ba giờ." },
+]
+source = "gf0025-2021"
+source_ref = "44"
+
+[[grammar]]
+key = "zh.xiang_yao"
+title = "想 và 要: muốn"
+pattern = "chủ ngữ + 想/要 + động từ"
+forms = ["想", "要"]
+explanation = "想 + động từ là \"muốn làm gì\" (nhẹ nhàng), 要 + động từ là \"muốn, cần\" (chắc chắn hơn). Khi gọi món, 要 + món ăn là \"cho tôi …\"."
+examples = [
+  { text = "我想喝茶。", translation = "Tôi muốn uống trà." },
+  { text = "我要米饭。", translation = "Cho tôi cơm." },
+]
+source = "gf0025-2021"
+source_ref = "3"
+
+[[grammar]]
+key = "zh.affirmative_negative_question"
+title = "Câu hỏi chính phản: 是不是, 好不好"
+pattern = "động từ/tính từ + 不 + động từ/tính từ？"
+forms = ["不"]
+explanation = "Ghép dạng khẳng định và phủ định liền nhau để hỏi có/không, thay cho 吗. Câu này không thêm 吗 ở cuối."
+examples = [
+  { text = "你喝不喝水？", translation = "Bạn có uống nước không?" },
+  { text = "这个菜好吃不好吃？", translation = "Món này có ngon không?" },
+]
+source = "gf0025-2021"
+source_ref = "48"
+
+[[grammar]]
+key = "zh.zai_location"
+title = "在: ở đâu"
+pattern = "người/vật + 在 + nơi chốn"
+forms = ["在"]
+explanation = "在 + nơi chốn nghĩa là \"ở …\". Hỏi ở đâu: 在哪儿？"
+examples = [
+  { text = "妈妈在家。", translation = "Mẹ ở nhà." },
+  { text = "学校在哪儿？", translation = "Trường học ở đâu?" },
+]
+source = "gf0025-2021"
+source_ref = "16"
+
+[[grammar]]
+key = "zh.locality_nouns"
+title = "Từ chỉ phương hướng: 里, 前边, 后边"
+pattern = "nơi chốn + 里 / 前边 / 后边"
+forms = ["上", "下", "里", "外", "前", "后", "左", "右"]
+explanation = "Các từ chỉ phương hướng đứng sau danh từ, ngược với tiếng Việt: 学校前边 là phía trước trường học, 家里 là trong nhà."
+examples = [
+  { text = "商店在学校后边。", translation = "Cửa hàng ở phía sau trường học." },
+  { text = "他在家里。", translation = "Anh ấy ở trong nhà." },
+]
+source = "gf0025-2021"
+source_ref = "1"
+
+[[grammar]]
+key = "zh.money"
+title = "Nói giá tiền: 块"
+pattern = "số + 块 (钱)"
+forms = ["块", "元", "毛", "钱"]
+explanation = "Trong khẩu ngữ, đơn vị tiền là 块 (= 元). Hỏi giá: 多少钱？ Trả lời: 十块 hoặc 十块钱."
+examples = [
+  { text = "这个多少钱？", translation = "Cái này bao nhiêu tiền?" },
+  { text = "二十块。", translation = "Hai mươi tệ." },
+]
+source = "gf0025-2021"
+source_ref = "43"
+
+[[grammar]]
+key = "zh.demonstratives"
+title = "这 và 那: này và kia"
+pattern = "这/那 + (lượng từ) + danh từ"
+forms = ["这", "那"]
+explanation = "这 là \"này\" (gần), 那 là \"kia\" (xa). Trước danh từ thường cần lượng từ: 这个, 那件."
+examples = [
+  { text = "这是我的书。", translation = "Đây là sách của tôi." },
+  { text = "那件衣服很贵。", translation = "Bộ quần áo kia rất đắt." },
+]
+source = "gf0025-2021"
+source_ref = "6"
+
+[[grammar]]
+key = "zh.adjective_predicate"
+title = "Câu tính từ: 天气很冷"
+pattern = "chủ ngữ + 很/太 + tính từ"
+forms = ["很", "太", "不", "非常", "真"]
+explanation = "Tính từ làm vị ngữ trực tiếp, không cần 是. Thường thêm 很 phía trước, kể cả khi không muốn nhấn mạnh \"rất\"."
+examples = [
+  { text = "今天很热。", translation = "Hôm nay nóng." },
+  { text = "天气不冷。", translation = "Thời tiết không lạnh." },
+]
+source = "gf0025-2021"
+source_ref = "30"
+
+[[grammar]]
+key = "zh.degree_adverbs"
+title = "Phó từ mức độ: 很, 太, 非常"
+pattern = "很 / 非常 + tính từ; 太 + tính từ + 了"
+forms = ["很", "太", "非常", "真", "最"]
+explanation = "很 là rất (nhẹ), 非常 là vô cùng. 太 … 了 là \"quá …\", thường để than phiền hoặc khen."
+examples = [
+  { text = "太冷了！", translation = "Lạnh quá!" },
+  { text = "这个菜非常好吃。", translation = "Món này vô cùng ngon." },
+]
+source = "gf0025-2021"
+source_ref = "9"
+
+[[grammar]]
+key = "zh.hui_neng"
+title = "会 và 能: biết, có thể"
+pattern = "chủ ngữ + 会/能 + động từ"
+forms = ["会", "能"]
+explanation = "会 là biết làm gì nhờ học (会说汉语). 能 là có thể, đủ điều kiện để làm (今天能来). Phủ định thêm 不: 不会, 不能."
+examples = [
+  { text = "我会唱歌。", translation = "Tôi biết hát." },
+  { text = "明天我不能去。", translation = "Ngày mai tôi không đi được." },
+]
+source = "gf0025-2021"
+source_ref = "2"
+
+[[grammar]]
+key = "zh.progressive_zai"
+title = "Đang làm gì: 在 + động từ"
+pattern = "chủ ngữ + 在/正在 + động từ (+ 呢)"
+forms = ["在", "正在", "正", "呢"]
+explanation = "Đặt 在 hoặc 正在 trước động từ để nói việc đang diễn ra, có thể thêm 呢 ở cuối."
+examples = [
+  { text = "我在看书。", translation = "Tôi đang đọc sách." },
+  { text = "他们在看电影呢。", translation = "Họ đang xem phim." },
+]
+source = "gf0025-2021"
+source_ref = "42"
+
+# --- Units ---------------------------------------------------------------------------------
+
+[[units]]
+key = "zh.hsk1.u01-greetings"
+title = "Chào hỏi"
+topic = "问候和介绍自己"
+can_do = ["Chào, cảm ơn, xin lỗi và tạm biệt bằng tiếng Trung.", "Nói tên mình và hỏi tên người khác."]
+grammar = ["zh.personal_pronouns", "zh.shi_sentence"]
+words = [
+  { headword = "你好", sense_id = "cedict:5abdd352266bc690", gloss = "hello" },
+  { headword = "您", sense_id = "cedict:271568b6da8e225d", gloss = "you (courteous" },
+  { headword = "再见", sense_id = "cedict:28ce51f92f5a0278", gloss = "goodbye" },
+  { headword = "谢谢", sense_id = "cedict:a7e8880753f4afcb", gloss = "thank you" },
+  { headword = "不客气", sense_id = "cedict:28f2061de5d94ef2", gloss = "you're welcome" },
+  { headword = "对不起", sense_id = "cedict:8d9d032404c07a1a", gloss = "I'm sorry" },
+  { headword = "没关系", sense_id = "cedict:33e1be6c70295aad", gloss = "it doesn't matter" },
+  { headword = "叫", sense_id = "cedict:5890d8027bc0c35e", gloss = "to be called" },
+  { headword = "名字", sense_id = "cedict:5e9eab861f28b4de", gloss = "name" },
+]
+
+[[units]]
+key = "zh.hsk1.u02-nationality"
+title = "Bạn là người nước nào?"
+topic = "国家、职业和朋友"
+can_do = ["Nói mình là người nước nào và làm nghề gì.", "Hỏi người khác bằng 吗 và từ để hỏi."]
+grammar = ["zh.ma_question", "zh.question_words"]
+words = [
+  { headword = "中国", sense_id = "cedict:6aece6166b3cc82a", gloss = "China" },
+  { headword = "国", sense_id = "cedict:dbc7f7435a80bd1d", gloss = "country" },
+  { headword = "人", sense_id = "cedict:c7ec4fd22ee12bff", gloss = "person" },
+  { headword = "哪", sense_id = "cedict:353bd39cfc6d67c0", gloss = "which" },
+  { headword = "是", sense_id = "cedict:1f97c2a63d1ee84d", gloss = "to be" },
+  { headword = "老师", sense_id = "cedict:c0cf98e29e2931e5", gloss = "teacher" },
+  { headword = "学生", sense_id = "cedict:2098c794a7e89f22", gloss = "student" },
+  { headword = "朋友", sense_id = "cedict:dec8fcf21f76c6bd", gloss = "friend" },
+  { headword = "说", sense_id = "cedict:55eedb9dd47e21e1", gloss = "to speak" },
+  { headword = "汉语", sense_id = "cedict:8fd4214d1ff99d24", gloss = "Chinese language" },
+]
+
+[[units]]
+key = "zh.hsk1.u03-family"
+title = "Gia đình tôi"
+topic = "家人"
+can_do = ["Kể nhà mình có mấy người và có những ai.", "Hỏi người khác có anh chị em không."]
+grammar = ["zh.you_sentence", "zh.measure_words"]
+words = [
+  { headword = "家", sense_id = "cedict:0e2ce47bc85af19e", gloss = "family" },
+  { headword = "爸爸", sense_id = "cedict:71e02de665bd466c", gloss = "(coll.) father" },
+  { headword = "妈妈", sense_id = "cedict:2bf304f14ea0b322", gloss = "mother" },
+  { headword = "哥哥", sense_id = "cedict:4cea617ceac91f71", gloss = "older brother" },
+  { headword = "姐姐", sense_id = "cedict:fb712ad4fff414fc", gloss = "older sister" },
+  { headword = "弟弟", sense_id = "cedict:f7076fb540576318", gloss = "younger brother" },
+  { headword = "妹妹", sense_id = "cedict:03eececc0dd01b5d", gloss = "younger sister" },
+  { headword = "有", sense_id = "cedict:2f8d4f1675f58d93", gloss = "to have" },
+  { headword = "儿子", sense_id = "cedict:308771b53640f0c7", gloss = "son" },
+  { headword = "女儿", sense_id = "cedict:59a56f7a9fa8dcc6", gloss = "daughter" },
+]
+
+[[units]]
+key = "zh.hsk1.u04-numbers-age"
+title = "Số đếm và tuổi"
+topic = "数字和年龄"
+can_do = ["Đếm từ một đến mười và nói số lớn hơn.", "Hỏi và nói tuổi, số người."]
+grammar = ["zh.numbers", "zh.ji_how_many"]
+words = [
+  { headword = "一", sense_id = "cedict:e99c6b8fd0697b76", gloss = "one" },
+  { headword = "二", sense_id = "cedict:2626fdd31810644f", gloss = "two" },
+  { headword = "三", sense_id = "cedict:985a737bca7fa543", gloss = "three" },
+  { headword = "十", sense_id = "cedict:50a05668c541cf03", gloss = "ten" },
+  { headword = "两", sense_id = "cedict:f33c05897d7321b5", gloss = "two" },
+  { headword = "几", sense_id = "cedict:206b4a7439f8ff33", gloss = "how many" },
+  { headword = "岁", sense_id = "cedict:4ee15380707d5dd6", gloss = "years old" },
+  { headword = "今年", sense_id = "cedict:3325c0135e489d86", gloss = "this year" },
+  { headword = "年", sense_id = "cedict:8400705438ec927c", gloss = "year" },
+]
+
+[[units]]
+key = "zh.hsk1.u05-dates-times"
+title = "Ngày tháng và giờ"
+topic = "日期和时间"
+can_do = ["Nói hôm nay là ngày mấy, thứ mấy.", "Hỏi và nói bây giờ là mấy giờ."]
+grammar = ["zh.dates_times"]
+words = [
+  { headword = "今天", sense_id = "cedict:4489ef273586cc58", gloss = "today" },
+  { headword = "明天", sense_id = "cedict:3aaa5ac4924233bf", gloss = "tomorrow" },
+  { headword = "昨天", sense_id = "cedict:2f599e6ea4f8b109", gloss = "yesterday" },
+  { headword = "月", sense_id = "cedict:54f6165414bc513c", gloss = "month" },
+  { headword = "号", sense_id = "cedict:3ee70e72ea3942af", gloss = "day of the month" },
+  { headword = "星期", sense_id = "cedict:04d04aa771a4404f", gloss = "week" },
+  { headword = "点", sense_id = "cedict:2c9cbc785c8dfc2c", gloss = "(after a number) o'clock" },
+  { headword = "现在", sense_id = "cedict:bcb4519a61850227", gloss = "now" },
+  { headword = "上午", sense_id = "cedict:d66589b0b8297e09", gloss = "morning" },
+  { headword = "下午", sense_id = "cedict:9e688bb156771b85", gloss = "afternoon" },
+  { headword = "晚上", sense_id = "cedict:e649c4f7d8e3c895", gloss = "evening" },
+]
+
+[[units]]
+key = "zh.hsk1.u06-food-drink"
+title = "Ăn uống"
+topic = "吃饭和喝东西"
+can_do = ["Nói mình muốn ăn uống gì và gọi món đơn giản.", "Hỏi người khác có muốn ăn uống không."]
+grammar = ["zh.xiang_yao", "zh.affirmative_negative_question"]
+words = [
+  { headword = "吃", sense_id = "cedict:8919d84cd3962ff6", gloss = "to eat" },
+  { headword = "喝", sense_id = "cedict:e4e682fa32dfb4e1", gloss = "to drink" },
+  { headword = "饭", sense_id = "cedict:64b0119377de8f5e", gloss = "meal" },
+  { headword = "水", sense_id = "cedict:7a0f812abf974f46", gloss = "water" },
+  { headword = "茶", sense_id = "cedict:abf198382f8864e8", gloss = "tea" },
+  { headword = "米饭", sense_id = "cedict:3bedbc19d61e4c1c", gloss = "(cooked) rice" },
+  { headword = "菜", sense_id = "cedict:fb43c7ce6e1bab89", gloss = "dish (of food)" },
+  { headword = "想", sense_id = "cedict:feb2716ccfbac15a", gloss = "to desire; to want" },
+  { headword = "要", sense_id = "cedict:538017a162c3db4d", gloss = "to want" },
+  { headword = "好", sense_id = "cedict:66870c63c2ad44e0", gloss = "good" },
+]
+
+[[units]]
+key = "zh.hsk1.u07-places"
+title = "Ở đâu?"
+topic = "地方和方位"
+can_do = ["Nói ai đó hoặc cái gì đang ở đâu.", "Hỏi đường đến trường, bệnh viện, cửa hàng."]
+grammar = ["zh.zai_location", "zh.locality_nouns"]
+words = [
+  { headword = "在", sense_id = "cedict:33a98336a97b05b8", gloss = "(of sb or sth) to be (located) at" },
+  { headword = "这儿", sense_id = "cedict:c0f36f84da1ac100", gloss = "here" },
+  { headword = "那儿", sense_id = "cedict:91beced6643a20ab", gloss = "there" },
+  { headword = "学校", sense_id = "cedict:0ca32994faeccd78", gloss = "school" },
+  { headword = "医院", sense_id = "cedict:935d52c5c8a65994", gloss = "hospital" },
+  { headword = "商店", sense_id = "cedict:e551477062274de3", gloss = "store; shop" },
+  { headword = "里", sense_id = "cedict:e4031c9086a77a4f", gloss = "inside" },
+  { headword = "前边", sense_id = "cedict:592b301abfbd76fa", gloss = "in front of" },
+  { headword = "后边", sense_id = "cedict:8aae1f07cd15cbfc", gloss = "behind" },
+]
+
+[[units]]
+key = "zh.hsk1.u08-shopping"
+title = "Mua sắm"
+topic = "买东西"
+can_do = ["Hỏi giá và nói giá tiền.", "Nói món đồ này hay kia đắt hay không."]
+grammar = ["zh.money", "zh.demonstratives"]
+words = [
+  { headword = "买", sense_id = "cedict:0c16897e987d9a93", gloss = "to buy" },
+  { headword = "东西", sense_id = "cedict:a10f9e1ccffee8b5", gloss = "thing" },
+  { headword = "钱", sense_id = "cedict:32fcb25a4e2935ca", gloss = "money" },
+  { headword = "块", sense_id = "cedict:e4874f02c2847d77", gloss = "(coll.) classifier for money" },
+  { headword = "多少", sense_id = "cedict:68b96716b3a6b2a2", gloss = "how much?" },
+  { headword = "贵", sense_id = "cedict:2b6fa681bf53df05", gloss = "expensive" },
+  { headword = "衣服", sense_id = "cedict:12d7a10f55c6beae", gloss = "clothes" },
+  { headword = "这", sense_id = "cedict:ed63223aa9f512bd", gloss = "(pronoun) this" },
+  { headword = "那", sense_id = "cedict:6fcde3130f29f80c", gloss = "(pronoun) that" },
+]
+
+[[units]]
+key = "zh.hsk1.u09-weather"
+title = "Thời tiết"
+topic = "天气"
+can_do = ["Nói hôm nay trời nóng, lạnh hay mưa.", "Than phiền hoặc khen bằng 太……了."]
+grammar = ["zh.adjective_predicate", "zh.degree_adverbs"]
+words = [
+  { headword = "天气", sense_id = "cedict:e91e5b03a40a1d8f", gloss = "weather" },
+  { headword = "冷", sense_id = "cedict:cc5ad26de363be58", gloss = "cold" },
+  { headword = "热", sense_id = "cedict:9da3adb00b9455ad", gloss = "hot (of weather)" },
+  { headword = "下雨", sense_id = "cedict:3ac3ed978ea9b00a", gloss = "to rain" },
+  { headword = "雨", sense_id = "cedict:f49d88f850409e11", gloss = "rain" },
+  { headword = "太", sense_id = "cedict:2d5e60d282304a96", gloss = "too (much)" },
+  { headword = "很", sense_id = "cedict:0279f57acebb1b0b", gloss = "very" },
+]
+
+[[units]]
+key = "zh.hsk1.u10-hobbies"
+title = "Sở thích"
+topic = "爱好"
+can_do = ["Kể sở thích và những việc mình biết làm.", "Nói mình đang làm gì."]
+grammar = ["zh.hui_neng", "zh.progressive_zai"]
+words = [
+  { headword = "喜欢", sense_id = "cedict:3a48c05e2fa48019", gloss = "to like" },
+  { headword = "看", sense_id = "cedict:74b9309a09430194", gloss = "to watch" },
+  { headword = "书", sense_id = "cedict:c2d9d8a48f7a1223", gloss = "book" },
+  { headword = "电影", sense_id = "cedict:26a5f88eefdaf9e3", gloss = "movie" },
+  { headword = "电视", sense_id = "cedict:a98485bd10d78574", gloss = "television" },
+  { headword = "学习", sense_id = "cedict:b837d02faa485e71", gloss = "to learn" },
+  { headword = "会", sense_id = "cedict:b86ba5d61a12f248", gloss = "can; to have the skill" },
+  { headword = "能", sense_id = "cedict:c4e566f9373131d0", gloss = "to be able to" },
+  { headword = "玩儿", sense_id = "cedict:0e9e51f3da1dab2e", gloss = "to play" },
+  { headword = "唱歌", sense_id = "cedict:04807e21b00670e6", gloss = "to sing a song" },
+]

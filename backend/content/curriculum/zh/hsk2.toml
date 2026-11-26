@@ -1,0 +1,858 @@
+# DRAFT (2026-11-07): drafted by the AI, awaiting the owner's sample review.
+# Coverage frame: HSK 3.0 grammar syllabus, GF 0025-2021 (Ministry of Education of the PRC; item
+# numbers via ivankra/hsk30). Explanations and examples are written by DeepLingo. Word senses
+# are CC-CEDICT senses; word levels are GF 0025-2021.
+format = "deeplingo-curriculum-v1"
+language = "zh"
+framework = "HSK"
+level = "HSK2"
+version = 1
+title = "Tiếng Trung HSK2: Sơ cấp"
+
+# --- Grammar -------------------------------------------------------------------------------
+
+[[grammar]]
+key = "zh.hsk2.keyi_keneng"
+title = "可以 và 可能: được phép, có thể"
+pattern = "可以 + động từ / 可能 + động từ"
+forms = ["可以", "可能"]
+explanation = "可以 nói được phép hoặc có điều kiện làm được (这儿可以拍照吗？). 可能 nói khả năng, phỏng đoán: có lẽ, có thể (他可能不来了)."
+examples = [
+  { text = "这里可以坐吗？", translation = "Ngồi ở đây được không?" },
+  { text = "明天可能下雨。", translation = "Mai có thể trời mưa." },
+]
+source = "gf0025-2021"
+source_ref = "49"
+
+[[grammar]]
+key = "zh.hsk2.yinggai"
+title = "应该: nên, phải"
+pattern = "应该 / 该 + động từ"
+forms = ["应该", "该"]
+explanation = "应该 nói điều nên làm hoặc lẽ ra phải như vậy. Phủ định là 不应该 (không nên)."
+examples = [
+  { text = "你应该多休息。", translation = "Bạn nên nghỉ ngơi nhiều hơn." },
+  { text = "我们不应该迟到。", translation = "Chúng ta không nên đến muộn." },
+]
+source = "gf0025-2021"
+source_ref = "50"
+
+[[grammar]]
+key = "zh.hsk2.yuanyi"
+title = "愿意: sẵn lòng, muốn"
+pattern = "愿意 + động từ / 不愿意 + động từ"
+forms = ["愿意"]
+explanation = "愿意 nói sẵn lòng, đồng ý làm việc gì theo ý mình. 不愿意 là không muốn, không chịu."
+examples = [
+  { text = "你愿意跟我一起去吗？", translation = "Bạn có muốn đi cùng tôi không?" },
+  { text = "他不愿意说。", translation = "Anh ấy không muốn nói." },
+]
+source = "gf0025-2021"
+source_ref = "51"
+
+[[grammar]]
+key = "zh.hsk2.verb_reduplication"
+title = "Lặp động từ: 看看, 试一试"
+pattern = "AA / A一A / A了A / ABAB (động từ lặp lại)"
+explanation = "Lặp động từ làm câu nhẹ nhàng hơn, nghĩa là làm thử, làm một chút: 看看 (xem thử), 试一试 (thử xem), 休息休息 (nghỉ một chút)."
+examples = [
+  { text = "我看看你的照片。", translation = "Để tôi xem ảnh của bạn một chút." },
+  { text = "你试一试这件衣服。", translation = "Bạn mặc thử cái áo này xem." },
+]
+source = "gf0025-2021"
+source_ref = "52"
+
+[[grammar]]
+key = "zh.hsk2.question_words_2"
+title = "为什么, 怎么样, 多久: vì sao, thế nào, bao lâu"
+pattern = "为什么 + … ? / … 怎么样？ / 多久？"
+forms = ["为什么", "怎么样", "怎样", "多久"]
+explanation = "为什么 hỏi lý do, 怎么样 hỏi tình trạng hay ý kiến (thế nào), 多久 hỏi khoảng thời gian (bao lâu)."
+examples = [
+  { text = "你为什么学中文？", translation = "Tại sao bạn học tiếng Trung?" },
+  { text = "你在北京住了多久？", translation = "Bạn đã ở Bắc Kinh bao lâu?" },
+]
+source = "gf0025-2021"
+source_ref = "53"
+
+[[grammar]]
+key = "zh.hsk2.pronouns_2"
+title = "Đại từ 自己, 大家, 别人, 咱们"
+pattern = "自己 / 大家 / 别人 / 咱们 / 它"
+forms = ["自己", "大家", "别人", "咱们", "咱", "它", "它们"]
+explanation = "自己 là tự mình, 大家 là mọi người, 别人 là người khác, 咱们 là chúng ta (gồm cả người nghe), 它 là nó (chỉ vật, con vật)."
+examples = [
+  { text = "大家好！", translation = "Chào mọi người!" },
+  { text = "这件事我自己做。", translation = "Việc này tôi tự làm." },
+]
+source = "gf0025-2021"
+source_ref = "54"
+
+[[grammar]]
+key = "zh.hsk2.zheme_name"
+title = "这么, 那么, 这样, 那样"
+pattern = "这么/那么 + tính từ / 这样/那样 + động từ"
+forms = ["这么", "那么", "这样", "那样"]
+explanation = "这么, 那么 + tính từ nghĩa là \"như thế này, như thế kia\" (这么贵: đắt thế). 这样, 那样 chỉ cách làm hay tính chất (这样做: làm như vậy)."
+examples = [
+  { text = "今天怎么这么冷？", translation = "Sao hôm nay lạnh thế này?" },
+  { text = "你不能这样做。", translation = "Bạn không thể làm như vậy." },
+]
+source = "gf0025-2021"
+source_ref = "55"
+
+[[grammar]]
+key = "zh.hsk2.verbal_measure_words"
+title = "Lượng từ của động tác: 次, 遍, 下"
+pattern = "động từ + số + 次/遍/下/回"
+forms = ["次", "遍", "下", "回", "场"]
+explanation = "Đếm số lần làm: 次 (lần), 遍 (lượt, từ đầu đến cuối), 下 (một cái, một chút), 回 (lần, khẩu ngữ). Đặt sau động từ: 去过两次."
+examples = [
+  { text = "我去过两次上海。", translation = "Tôi đã đến Thượng Hải hai lần." },
+  { text = "请再说一遍。", translation = "Làm ơn nói lại một lần nữa." },
+]
+source = "gf0025-2021"
+source_ref = "59"
+
+[[grammar]]
+key = "zh.hsk2.degree_adverbs_2"
+title = "Phó từ mức độ: 更, 特别, 有点儿, 挺"
+pattern = "更 / 特别 / 挺…的 / 有点儿 + tính từ"
+forms = ["更", "特别", "挺", "有点儿", "有一点儿", "十分", "多么", "好"]
+explanation = "更 là hơn nữa, 特别 là đặc biệt, rất; 挺…的 là khá (khẩu ngữ). 有点儿 + tính từ thường mang ý không hài lòng: 有点儿贵 (hơi đắt)."
+examples = [
+  { text = "这个菜有点儿辣。", translation = "Món này hơi cay." },
+  { text = "他的汉语挺好的。", translation = "Tiếng Trung của anh ấy khá tốt." },
+]
+source = "gf0025-2021"
+source_ref = "61"
+
+[[grammar]]
+key = "zh.hsk2.zhi_yigong"
+title = "只, 一共, 全: chỉ, tổng cộng, toàn bộ"
+pattern = "只 + động từ / 一共 + số lượng / 全 + động từ"
+forms = ["只", "一共", "全"]
+explanation = "只 là chỉ, giới hạn phạm vi (只有一个). 一共 là tổng cộng, hay dùng khi tính tiền. 全 là tất cả, toàn bộ."
+examples = [
+  { text = "一共多少钱？", translation = "Tổng cộng bao nhiêu tiền?" },
+  { text = "我只喝了一杯。", translation = "Tôi chỉ uống một cốc." },
+]
+source = "gf0025-2021"
+source_ref = "62"
+
+[[grammar]]
+key = "zh.hsk2.time_adverbs_2"
+title = "已经, 刚, 一直, 忽然"
+pattern = "已经…了 / 刚 + động từ / 一直 + động từ / 忽然 + động từ"
+forms = ["已经", "刚", "刚刚", "一直", "忽然", "还"]
+explanation = "已经…了 là đã … rồi; 刚 là vừa mới; 一直 là suốt, luôn luôn; 忽然 là bỗng nhiên; 还 là vẫn còn."
+examples = [
+  { text = "我已经吃饭了。", translation = "Tôi ăn cơm rồi." },
+  { text = "他刚到家。", translation = "Anh ấy vừa về đến nhà." },
+]
+source = "gf0025-2021"
+source_ref = "63"
+
+[[grammar]]
+key = "zh.hsk2.you_again"
+title = "又, 经常, 老是: lại, thường, cứ"
+pattern = "又 + động từ (+ 了) / 经常 + động từ / 老是 + động từ"
+forms = ["又", "经常", "老", "老是", "重新"]
+explanation = "又 nói việc lặp lại đã xảy ra (他又迟到了: anh ấy lại đến muộn). 经常 là thường xuyên; 老是 là cứ, suốt (thường kèm ý phàn nàn)."
+examples = [
+  { text = "他又迟到了。", translation = "Anh ấy lại đến muộn." },
+  { text = "我经常去那家饭馆。", translation = "Tôi thường đến nhà hàng đó." },
+]
+source = "gf0025-2021"
+source_ref = "64"
+
+[[grammar]]
+key = "zh.hsk2.jiu_soon"
+title = "就: ngay, sớm, liền"
+pattern = "thời gian + 就 + động từ"
+forms = ["就"]
+explanation = "就 đặt trước động từ nhấn mạnh việc xảy ra sớm, nhanh hoặc ngay sau đó: 我八点就到了 (mới tám giờ tôi đã đến)."
+examples = [
+  { text = "我马上就来。", translation = "Tôi đến ngay đây." },
+  { text = "他六点就起床了。", translation = "Mới sáu giờ anh ấy đã dậy rồi." },
+]
+source = "gf0025-2021"
+source_ref = "65"
+
+[[grammar]]
+key = "zh.hsk2.modal_adverbs_2"
+title = "必须, 也许, 好像, 差不多"
+pattern = "必须 / 也许 / 好像 / 差不多 + động từ hoặc tính từ"
+forms = ["必须", "也许", "好像", "差不多"]
+explanation = "必须 là bắt buộc phải; 也许 là có lẽ; 好像 là hình như; 差不多 là gần như, xấp xỉ."
+examples = [
+  { text = "你必须早点儿睡觉。", translation = "Bạn phải đi ngủ sớm một chút." },
+  { text = "他好像生病了。", translation = "Hình như anh ấy bị ốm." },
+]
+source = "gf0025-2021"
+source_ref = "67"
+
+[[grammar]]
+key = "zh.hsk2.cai_late"
+title = "才: mới (muộn, chậm)"
+pattern = "thời gian + 才 + động từ"
+forms = ["才"]
+explanation = "才 trước động từ nhấn mạnh việc xảy ra muộn hơn mong đợi, ngược với 就: 他十点才起床 (mười giờ anh ấy mới dậy)."
+examples = [
+  { text = "他十点才起床。", translation = "Mười giờ anh ấy mới dậy." },
+  { text = "我昨天才知道。", translation = "Hôm qua tôi mới biết." },
+]
+source = "gf0025-2021"
+source_ref = "68"
+
+[[grammar]]
+key = "zh.hsk2.wang_xiang"
+title = "往 và 向: hướng về"
+pattern = "往/向 + phương hướng + động từ"
+forms = ["往", "向"]
+explanation = "往 và 向 chỉ hướng di chuyển, hay dùng khi chỉ đường: 往前走 (đi thẳng), 往左拐 (rẽ trái)."
+examples = [
+  { text = "一直往前走。", translation = "Cứ đi thẳng về phía trước." },
+  { text = "到路口往左拐。", translation = "Đến ngã tư thì rẽ trái." },
+]
+source = "gf0025-2021"
+source_ref = "70"
+
+[[grammar]]
+key = "zh.hsk2.dui"
+title = "对: đối với"
+pattern = "A + 对 + B + tính từ/động từ"
+forms = ["对"]
+explanation = "对 giới thiệu người hay vật mà hành động, thái độ hướng tới: 对我很好 (tốt với tôi), 对身体不好 (không tốt cho sức khỏe)."
+examples = [
+  { text = "抽烟对身体不好。", translation = "Hút thuốc không tốt cho sức khỏe." },
+  { text = "老师对我们很好。", translation = "Thầy giáo rất tốt với chúng tôi." },
+]
+source = "gf0025-2021"
+source_ref = "73"
+
+[[grammar]]
+key = "zh.hsk2.gei"
+title = "给: cho, giúp, với"
+pattern = "给 + người + động từ"
+forms = ["给"]
+explanation = "给 + người đứng trước động từ để nói hành động hướng tới ai hoặc làm giúp ai: 给妈妈打电话 (gọi điện cho mẹ)."
+examples = [
+  { text = "我晚上给你打电话。", translation = "Tối tôi gọi điện cho bạn." },
+  { text = "他给我们介绍了一个朋友。", translation = "Anh ấy giới thiệu cho chúng tôi một người bạn." },
+]
+source = "gf0025-2021"
+source_ref = "74"
+
+[[grammar]]
+key = "zh.hsk2.li_distance"
+title = "离: cách (khoảng cách)"
+pattern = "A + 离 + B + 远/近"
+forms = ["离"]
+explanation = "离 nói khoảng cách giữa hai nơi hoặc hai thời điểm: 我家离公司很近 (nhà tôi cách công ty rất gần)."
+examples = [
+  { text = "我家离学校很近。", translation = "Nhà tôi cách trường rất gần." },
+  { text = "离考试还有三天。", translation = "Còn ba ngày nữa là thi." },
+]
+source = "gf0025-2021"
+source_ref = "75"
+
+[[grammar]]
+key = "zh.hsk2.state_complement"
+title = "Bổ ngữ trạng thái: 说得很好"
+pattern = "động từ + 得 + tính từ / (động từ +) tân ngữ + động từ + 得 + tính từ"
+forms = ["得"]
+explanation = "得 nối động từ với lời đánh giá về cách làm: 他说得很快 (anh ấy nói rất nhanh). Có tân ngữ thì lặp lại động từ: 他说汉语说得很好."
+examples = [
+  { text = "你说得很好。", translation = "Bạn nói rất hay." },
+  { text = "她跑得非常快。", translation = "Cô ấy chạy rất nhanh." },
+]
+source = "gf0025-2021"
+source_ref = "99"
+
+[[grammar]]
+key = "zh.hsk2.guo_experience"
+title = "过: đã từng"
+pattern = "động từ + 过 / 没 + động từ + 过"
+forms = ["过"]
+explanation = "过 sau động từ nói trải nghiệm đã từng có. Phủ định là 没(有) + động từ + 过: 我没去过中国 (tôi chưa từng đến Trung Quốc)."
+examples = [
+  { text = "你吃过北京烤鸭吗？", translation = "Bạn đã từng ăn vịt quay Bắc Kinh chưa?" },
+  { text = "我没去过中国。", translation = "Tôi chưa từng đến Trung Quốc." },
+]
+source = "gf0025-2021"
+source_ref = "119"
+
+[[grammar]]
+key = "zh.hsk2.zhe_continuous"
+title = "着: trạng thái kéo dài"
+pattern = "động từ + 着"
+forms = ["着"]
+explanation = "着 sau động từ nói một trạng thái hoặc hành động đang kéo dài: 门开着 (cửa đang mở), 他笑着说 (anh ấy vừa cười vừa nói)."
+examples = [
+  { text = "门开着呢。", translation = "Cửa đang mở đấy." },
+  { text = "墙上挂着一张地图。", translation = "Trên tường treo một tấm bản đồ." },
+]
+source = "gf0025-2021"
+source_ref = "118"
+
+[[grammar]]
+key = "zh.hsk2.yuelaiyue"
+title = "越来越: càng ngày càng"
+pattern = "越来越 + tính từ / động từ tâm lý"
+forms = ["越来越"]
+explanation = "越来越 nói một sự thay đổi tăng dần theo thời gian: 天气越来越冷 (trời càng ngày càng lạnh)."
+examples = [
+  { text = "天气越来越冷了。", translation = "Trời càng ngày càng lạnh." },
+  { text = "我越来越喜欢这个城市了。", translation = "Tôi càng ngày càng thích thành phố này." },
+]
+source = "gf0025-2021"
+source_ref = "92"
+
+[[grammar]]
+key = "zh.hsk2.you_you"
+title = "又……又……: vừa … vừa …"
+pattern = "又 + tính từ/động từ + 又 + tính từ/động từ"
+forms = ["又"]
+explanation = "Nối hai đặc điểm cùng có một lúc: 又便宜又好吃 (vừa rẻ vừa ngon)."
+examples = [
+  { text = "这家饭馆的菜又便宜又好吃。", translation = "Món ăn quán này vừa rẻ vừa ngon." },
+  { text = "她又聪明又漂亮。", translation = "Cô ấy vừa thông minh vừa xinh đẹp." },
+]
+source = "gf0025-2021"
+source_ref = "94"
+
+[[grammar]]
+key = "zh.hsk2.yiqian_yihou"
+title = "……以前 / ……以后: trước khi, sau khi"
+pattern = "(在) + động từ/thời gian + 以前/以后"
+forms = ["以前", "以后", "之前", "之后"]
+explanation = "以前, 以后 đặt sau một việc hay thời điểm: 吃饭以前 (trước khi ăn), 下课以后 (sau khi tan học). Đứng một mình thì nghĩa là trước đây, sau này."
+examples = [
+  { text = "睡觉以前别喝咖啡。", translation = "Trước khi ngủ đừng uống cà phê." },
+  { text = "下课以后我们去打球吧。", translation = "Tan học chúng mình đi chơi bóng nhé." },
+]
+source = "gf0025-2021"
+source_ref = "95"
+
+[[grammar]]
+key = "zh.hsk2.result_complement"
+title = "Bổ ngữ kết quả: 完, 好, 懂, 错"
+pattern = "động từ + 完/好/懂/错/干净/清楚/会"
+forms = ["完", "好", "懂", "错", "干净", "清楚", "会"]
+explanation = "Thêm một từ chỉ kết quả ngay sau động từ: 做完 (làm xong), 听懂 (nghe hiểu), 写错 (viết sai). Phủ định dùng 没: 没听懂."
+examples = [
+  { text = "我听懂了。", translation = "Tôi nghe hiểu rồi." },
+  { text = "作业你做完了吗？", translation = "Bài tập bạn làm xong chưa?" },
+]
+source = "gf0025-2021"
+source_ref = "97"
+
+[[grammar]]
+key = "zh.hsk2.direction_complement"
+title = "Bổ ngữ xu hướng: 来, 去, 上, 下"
+pattern = "động từ + 来/去 / động từ + 上/下/进/出/回/过/起"
+forms = ["来", "去", "上", "下", "进", "出", "回", "过", "起"]
+explanation = "来 là hướng về phía người nói, 去 là rời xa người nói: 进来 (vào đây), 出去 (ra ngoài). 上, 下, 进, 出… chỉ hướng di chuyển."
+examples = [
+  { text = "请进来。", translation = "Mời vào." },
+  { text = "他走出去了。", translation = "Anh ấy đã đi ra ngoài." },
+]
+source = "gf0025-2021"
+source_ref = "98"
+
+[[grammar]]
+key = "zh.hsk2.comparison_2"
+title = "So sánh: 比……更/还, 不如, 有……这么"
+pattern = "A 比 B 更/还 + tính từ / A 不如 B / A 有 B 这么 + tính từ"
+forms = ["比", "不如", "有"]
+explanation = "A 比 B 更 (还) + tính từ là A còn … hơn B. A 不如 B là A không bằng B. A 有 B 这么… là A … bằng B (thường dùng trong câu hỏi, phủ định)."
+examples = [
+  { text = "今天比昨天还热。", translation = "Hôm nay còn nóng hơn hôm qua." },
+  { text = "坐公交车不如坐地铁快。", translation = "Đi xe buýt không nhanh bằng đi tàu điện ngầm." },
+]
+source = "gf0025-2021"
+source_ref = "106"
+
+[[grammar]]
+key = "zh.hsk2.gen_yiyang"
+title = "跟……一样: giống như"
+pattern = "A 跟 B 一样 (+ tính từ)"
+forms = ["一样"]
+explanation = "A 跟 B 一样 nói hai bên giống nhau; thêm tính từ để nói giống ở điểm nào: 我跟你一样高 (tôi cao bằng bạn). Phủ định: 不一样."
+examples = [
+  { text = "我的手机跟你的一样。", translation = "Điện thoại của tôi giống của bạn." },
+  { text = "弟弟跟哥哥一样高。", translation = "Em trai cao bằng anh trai." },
+]
+source = "gf0025-2021"
+source_ref = "107"
+
+[[grammar]]
+key = "zh.hsk2.shi_de"
+title = "Câu 是……的: nhấn mạnh thời gian, nơi chốn, cách thức"
+pattern = "(是) + thời gian/nơi chốn/cách thức + động từ + 的"
+forms = ["是", "的"]
+explanation = "Khi việc đã xảy ra và muốn nhấn mạnh làm lúc nào, ở đâu, bằng cách nào, với ai: 我是坐飞机来的 (tôi đến bằng máy bay)."
+examples = [
+  { text = "你是什么时候来的？", translation = "Bạn đến lúc nào vậy?" },
+  { text = "我是坐飞机来的。", translation = "Tôi đến bằng máy bay." },
+]
+source = "gf0025-2021"
+source_ref = "108"
+
+[[grammar]]
+key = "zh.hsk2.double_object"
+title = "Câu hai tân ngữ: 给他一本书"
+pattern = "động từ + người + vật (给/送/教/告诉/问)"
+forms = ["给", "送", "教", "告诉", "问", "借", "还"]
+explanation = "Một số động từ như 给, 送, 教, 告诉, 问 có hai tân ngữ: người đứng trước, vật đứng sau: 告诉你一件事 (kể bạn nghe một chuyện)."
+examples = [
+  { text = "我告诉你一个好消息。", translation = "Tôi báo cho bạn một tin vui." },
+  { text = "王老师教我们汉语。", translation = "Thầy Vương dạy chúng tôi tiếng Trung." },
+]
+source = "gf0025-2021"
+source_ref = "109"
+
+[[grammar]]
+key = "zh.hsk2.xian_zai"
+title = "先……再/然后……: trước … rồi …"
+pattern = "先 + động từ 1，再/然后 + động từ 2"
+forms = ["先", "再", "然后"]
+explanation = "Nói thứ tự các việc: 先 (trước), 再 hoặc 然后 (sau đó)."
+examples = [
+  { text = "我们先吃饭，再去看电影。", translation = "Chúng ta ăn cơm trước rồi đi xem phim." },
+  { text = "先洗手，然后吃饭。", translation = "Rửa tay trước, rồi ăn cơm." },
+]
+source = "gf0025-2021"
+source_ref = "110"
+
+[[grammar]]
+key = "zh.hsk2.budan_erqie"
+title = "不但……而且……: không những … mà còn …"
+pattern = "不但 + A，而且 + B"
+forms = ["不但", "而且"]
+explanation = "Nối hai ý theo mức tăng dần, ý sau mạnh hơn ý trước."
+examples = [
+  { text = "他不但会说汉语，而且说得很好。", translation = "Anh ấy không những biết nói tiếng Trung mà còn nói rất hay." },
+  { text = "这儿不但便宜，而且很干净。", translation = "Chỗ này không những rẻ mà còn rất sạch." },
+]
+source = "gf0025-2021"
+source_ref = "111"
+
+[[grammar]]
+key = "zh.hsk2.suiran_danshi"
+title = "虽然……但是……: tuy … nhưng …"
+pattern = "虽然 + A，但是/可是 + B / A，不过 + B"
+forms = ["虽然", "但是", "可是", "不过", "但"]
+explanation = "Nối hai ý trái ngược nhau. Khác tiếng Việt, tiếng Trung thường dùng cả cặp 虽然…但是… trong cùng câu."
+examples = [
+  { text = "虽然下雨了，但是他还是来了。", translation = "Tuy trời mưa nhưng anh ấy vẫn đến." },
+  { text = "这件衣服很好看，不过有点儿贵。", translation = "Cái áo này rất đẹp, nhưng hơi đắt." },
+]
+source = "gf0025-2021"
+source_ref = "113"
+
+[[grammar]]
+key = "zh.hsk2.ruguo_jiu"
+title = "如果……就……: nếu … thì …"
+pattern = "如果 + điều kiện，(chủ ngữ +) 就 + kết quả / ……的话"
+forms = ["如果", "的话"]
+explanation = "如果 nêu một giả định, 就 dẫn kết quả. Có thể dùng ……的话 ở cuối vế điều kiện thay hoặc kèm 如果."
+examples = [
+  { text = "如果明天下雨，我们就不去了。", translation = "Nếu mai trời mưa thì chúng ta không đi nữa." },
+  { text = "你有时间的话，就来我家吧。", translation = "Nếu bạn có thời gian thì đến nhà tôi chơi nhé." },
+]
+source = "gf0025-2021"
+source_ref = "114"
+
+[[grammar]]
+key = "zh.hsk2.zhiyao_jiu"
+title = "只要……就……: chỉ cần … là …"
+pattern = "只要 + điều kiện，就 + kết quả"
+forms = ["只要"]
+explanation = "只要 nêu một điều kiện đủ: chỉ cần có điều đó thì kết quả sẽ xảy ra."
+examples = [
+  { text = "只要努力，就能学好。", translation = "Chỉ cần cố gắng là sẽ học tốt." },
+  { text = "只要你喜欢，就买吧。", translation = "Chỉ cần bạn thích thì mua đi." },
+]
+source = "gf0025-2021"
+source_ref = "115"
+
+[[grammar]]
+key = "zh.hsk2.yinwei_suoyi"
+title = "因为……所以……: vì … nên …"
+pattern = "因为 + nguyên nhân，所以 + kết quả"
+forms = ["因为", "所以"]
+explanation = "Nối nguyên nhân và kết quả. Có thể dùng cả cặp hoặc chỉ một từ."
+examples = [
+  { text = "因为生病了，所以他没来上课。", translation = "Vì bị ốm nên anh ấy không đến lớp." },
+  { text = "我很累，所以想早点儿睡。", translation = "Tôi rất mệt nên muốn ngủ sớm." },
+]
+source = "gf0025-2021"
+source_ref = "116"
+
+[[grammar]]
+key = "zh.hsk2.yi_jiu"
+title = "一……就……: hễ … là …, vừa … là …"
+pattern = "一 + động từ 1，就 + động từ 2"
+forms = ["一", "就"]
+explanation = "Việc thứ hai xảy ra ngay sau việc thứ nhất, hoặc lần nào cũng xảy ra như vậy: 我一到家就给你打电话."
+examples = [
+  { text = "我一到家就给你打电话。", translation = "Tôi vừa về đến nhà là gọi cho bạn ngay." },
+  { text = "他一喝酒就脸红。", translation = "Hễ uống rượu là mặt anh ấy đỏ." },
+]
+source = "gf0025-2021"
+source_ref = "117"
+
+[[grammar]]
+key = "zh.hsk2.kuaiyao_le"
+title = "要/快要/就要……了: sắp … rồi"
+pattern = "(快)要 / 就要 + động từ + 了"
+forms = ["快要", "就要", "快", "要"]
+explanation = "Nói việc sắp xảy ra. 快要…了 và 快…了 là sắp; 就要…了 nhấn mạnh rất gần, có thể kèm thời gian cụ thể: 明天就要考试了."
+examples = [
+  { text = "火车快要开了。", translation = "Tàu sắp chạy rồi." },
+  { text = "我们明天就要考试了。", translation = "Mai chúng tôi thi rồi." },
+]
+source = "gf0025-2021"
+source_ref = "130"
+
+[[grammar]]
+key = "zh.hsk2.gai_le"
+title = "该……了: đến lúc phải … rồi"
+pattern = "该 + động từ/chủ ngữ + 了"
+forms = ["该"]
+explanation = "该…了 nói đã đến lúc làm việc gì: 该睡觉了 (đến giờ đi ngủ rồi), 该你了 (đến lượt bạn rồi)."
+examples = [
+  { text = "十一点了，该睡觉了。", translation = "Mười một giờ rồi, đến giờ đi ngủ thôi." },
+  { text = "该你了。", translation = "Đến lượt bạn rồi." },
+]
+source = "gf0025-2021"
+source_ref = "129"
+
+[[grammar]]
+key = "zh.hsk2.tag_questions"
+title = "Hỏi ý kiến: ……好吗？/ 可以吗？/ 怎么样？"
+pattern = "đề nghị + 好吗/可以吗/行吗/怎么样？"
+forms = ["好吗", "可以吗", "行吗", "怎么样"]
+explanation = "Thêm 好吗, 可以吗, 行吗, 怎么样 vào cuối một đề nghị để hỏi ý người nghe: 我们明天去，好吗？"
+examples = [
+  { text = "我们明天去，好吗？", translation = "Mai chúng ta đi nhé, được không?" },
+  { text = "周末一起吃饭，怎么样？", translation = "Cuối tuần cùng ăn cơm nhé, thế nào?" },
+]
+source = "gf0025-2021"
+source_ref = "124"
+
+[[grammar]]
+key = "zh.hsk2.ne_question"
+title = "Câu hỏi rút gọn với 呢: còn … thì sao?"
+pattern = "danh từ/đại từ + 呢？"
+forms = ["呢"]
+explanation = "Danh từ hoặc đại từ + 呢 hỏi lại cùng một câu hỏi về người hay vật khác: 我很好，你呢？ (còn bạn?). Đứng một mình còn hỏi \"ở đâu\": 我的手机呢？"
+examples = [
+  { text = "我是越南人，你呢？", translation = "Tôi là người Việt Nam, còn bạn?" },
+  { text = "我的钥匙呢？", translation = "Chìa khóa của tôi đâu rồi?" },
+]
+source = "gf0025-2021"
+source_ref = "126"
+
+[[grammar]]
+key = "zh.hsk2.serial_verbs"
+title = "Câu liên động: 去商店买东西"
+pattern = "chủ ngữ + 去/来 + nơi chốn + động từ"
+forms = ["去", "来"]
+explanation = "Hai động từ nối liền nhau theo thứ tự xảy ra: đi đâu rồi làm gì: 我去超市买水果 (tôi đi siêu thị mua hoa quả)."
+examples = [
+  { text = "我去超市买水果。", translation = "Tôi đi siêu thị mua hoa quả." },
+  { text = "他来中国学习汉语。", translation = "Anh ấy đến Trung Quốc học tiếng Trung." },
+]
+source = "gf0025-2021"
+source_ref = "105"
+
+# --- Units ---------------------------------------------------------------------------------
+
+[[units]]
+key = "zh.hsk2.u01-permission"
+title = "Được không?"
+topic = "许可、可能和建议"
+can_do = ["Xin phép và hỏi có được làm gì không.", "Nói điều nên làm."]
+grammar = ["zh.hsk2.keyi_keneng", "zh.hsk2.yinggai"]
+words = [
+  { headword = "照相", sense_id = "cedict:5411b129fd7b0e8d", gloss = "to take a photograph" },
+  { headword = "休息", sense_id = "cedict:cb9216508af4dc62", gloss = "rest" },
+  { headword = "晚", sense_id = "cedict:b3350fc1544b794d", gloss = "late" },
+  { headword = "生病", sense_id = "cedict:d5443cc59b799150", gloss = "to fall ill" },
+]
+
+[[units]]
+key = "zh.hsk2.u02-trying-things"
+title = "Thử xem nào"
+topic = "试穿和尝试"
+can_do = ["Đề nghị làm thử một việc.", "Nói mình có muốn làm gì không."]
+grammar = ["zh.hsk2.verb_reduplication", "zh.hsk2.yuanyi"]
+words = [
+  { headword = "试", sense_id = "cedict:f5bd4a9b756daf3a", gloss = "to test" },
+  { headword = "衣服", sense_id = "cedict:12d7a10f55c6beae", gloss = "clothes" },
+  { headword = "照片", sense_id = "cedict:3f222cd97bba7d85", gloss = "photograph" },
+  { headword = "一起", sense_id = "cedict:37e629d7dced1737", gloss = "together; in company (with)" },
+]
+
+[[units]]
+key = "zh.hsk2.u03-asking-why"
+title = "Vì sao và bao lâu"
+topic = "原因和时间长短"
+can_do = ["Hỏi lý do và thời gian kéo dài.", "Nói về mình và mọi người."]
+grammar = ["zh.hsk2.question_words_2", "zh.hsk2.pronouns_2"]
+words = [
+  { headword = "为什么", sense_id = "cedict:af245d7b0efbaea6", gloss = "why?" },
+  { headword = "住", sense_id = "cedict:a720523d072514ee", gloss = "to live; to reside; to stay" },
+  { headword = "大家", sense_id = "cedict:012941b82bc69ff8", gloss = "everyone" },
+  { headword = "自己", sense_id = "cedict:c371eb795732d8c8", gloss = "oneself; (attributive) one's own" },
+]
+
+[[units]]
+key = "zh.hsk2.u04-weather"
+title = "Thời tiết thế này"
+topic = "天气和感受"
+can_do = ["Nhận xét thời tiết, đồ ăn ở mức độ khác nhau.", "Nói một việc làm như thế nào."]
+grammar = ["zh.hsk2.zheme_name", "zh.hsk2.degree_adverbs_2"]
+words = [
+  { headword = "天气", sense_id = "cedict:e91e5b03a40a1d8f", gloss = "weather" },
+  { headword = "冷", sense_id = "cedict:cc5ad26de363be58", gloss = "cold" },
+  { headword = "热", sense_id = "cedict:9da3adb00b9455ad", gloss = "hot (of weather)" },
+  { headword = "安静", sense_id = "cedict:8748283aaef73ca8", gloss = "quiet" },
+]
+
+[[units]]
+key = "zh.hsk2.u05-travel-experience"
+title = "Đã từng đi đâu?"
+topic = "旅行经历"
+can_do = ["Kể nơi mình đã từng đến, từng làm.", "Nói đã làm bao nhiêu lần."]
+grammar = ["zh.hsk2.guo_experience", "zh.hsk2.verbal_measure_words"]
+words = [
+  { headword = "旅游", sense_id = "cedict:612dd33519ede338", gloss = "trip" },
+  { headword = "次", sense_id = "cedict:7e2c49cf5287c129", gloss = "classifier for enumerated events: time" },
+  { headword = "机场", sense_id = "cedict:e2bc5747febedf34", gloss = "airport; airfield" },
+  { headword = "飞机", sense_id = "cedict:9f565f6e74bdd283", gloss = "airplane" },
+]
+
+[[units]]
+key = "zh.hsk2.u06-shopping"
+title = "Tổng cộng bao nhiêu?"
+topic = "买东西和付钱"
+can_do = ["Hỏi tổng số tiền.", "Hỏi ý kiến người khác về một đề nghị."]
+grammar = ["zh.hsk2.zhi_yigong", "zh.hsk2.tag_questions"]
+words = [
+  { headword = "一共", sense_id = "cedict:4d68385c0acd5ec2", gloss = "in total; altogether" },
+  { headword = "便宜", sense_id = "cedict:b1f732da49de4193", gloss = "cheap; inexpensive" },
+  { headword = "贵", sense_id = "cedict:2b6fa681bf53df05", gloss = "expensive" },
+  { headword = "件", sense_id = "cedict:eba34a69f6a4c383", gloss = "item" },
+]
+
+[[units]]
+key = "zh.hsk2.u07-already"
+title = "Đã xong chưa?"
+topic = "已经发生的事情"
+can_do = ["Nói việc đã xảy ra hoặc vừa mới xảy ra.", "Nói việc lặp lại."]
+grammar = ["zh.hsk2.time_adverbs_2", "zh.hsk2.you_again"]
+words = [
+  { headword = "已经", sense_id = "cedict:f6e6cb48097d3127", gloss = "already" },
+  { headword = "刚才", sense_id = "cedict:558e15f287014d46", gloss = "just now" },
+  { headword = "经常", sense_id = "cedict:37ee9627d5d21cc0", gloss = "frequently; constantly; regularly; often" },
+  { headword = "忘", sense_id = "cedict:1cbe9b645f3bb558", gloss = "to forget" },
+]
+
+[[units]]
+key = "zh.hsk2.u08-early-late"
+title = "Sớm hay muộn"
+topic = "作息时间"
+can_do = ["Nhấn mạnh một việc xảy ra sớm hay muộn.", "Nói về giờ giấc sinh hoạt."]
+grammar = ["zh.hsk2.jiu_soon", "zh.hsk2.cai_late"]
+words = [
+  { headword = "起床", sense_id = "cedict:e4b6a6bd49261d0e", gloss = "to get out of bed; to get up" },
+  { headword = "睡觉", sense_id = "cedict:e24f2dacb9260c06", gloss = "to go to bed" },
+  { headword = "早上", sense_id = "cedict:85e0c93b7c6ad32d", gloss = "early morning" },
+  { headword = "晚上", sense_id = "cedict:e649c4f7d8e3c895", gloss = "evening" },
+]
+
+[[units]]
+key = "zh.hsk2.u09-health"
+title = "Sức khỏe"
+topic = "身体和健康"
+can_do = ["Nói việc bắt buộc phải làm và điều có lẽ đúng.", "Nói điều gì tốt hay không tốt cho sức khỏe."]
+grammar = ["zh.hsk2.modal_adverbs_2", "zh.hsk2.dui"]
+words = [
+  { headword = "身体", sense_id = "cedict:7d55ad2dcc49f4cc", gloss = "the body" },
+  { headword = "医生", sense_id = "cedict:1d85ee6fcd2feb62", gloss = "doctor" },
+  { headword = "药", sense_id = "cedict:819ec0bbe6048bd7", gloss = "medicine" },
+  { headword = "病", sense_id = "cedict:aff488c276a6612c", gloss = "illness" },
+]
+
+[[units]]
+key = "zh.hsk2.u10-directions"
+title = "Hỏi đường"
+topic = "问路和距离"
+can_do = ["Chỉ đường đi thẳng, rẽ trái, rẽ phải.", "Nói hai nơi cách nhau xa hay gần."]
+grammar = ["zh.hsk2.wang_xiang", "zh.hsk2.li_distance"]
+words = [
+  { headword = "路口", sense_id = "cedict:a88d625255f24534", gloss = "crossing" },
+  { headword = "左边", sense_id = "cedict:885162254e719c73", gloss = "left" },
+  { headword = "远", sense_id = "cedict:be0a11efc86c7e15", gloss = "far" },
+  { headword = "近", sense_id = "cedict:ae3f78c4a32b0744", gloss = "near" },
+]
+
+[[units]]
+key = "zh.hsk2.u11-phone-calls"
+title = "Gọi điện và nhắn tin"
+topic = "打电话和告诉别人"
+can_do = ["Nói làm việc gì cho ai.", "Báo tin cho người khác."]
+grammar = ["zh.hsk2.gei", "zh.hsk2.double_object"]
+words = [
+  { headword = "打电话", sense_id = "cedict:36463c560dff81b4", gloss = "to make a telephone call" },
+  { headword = "告诉", sense_id = "cedict:b706e0a0bcf3bcc5", gloss = "to tell; to inform; to let know" },
+  { headword = "新闻", sense_id = "cedict:82758858abeedcc4", gloss = "news" },
+  { headword = "介绍", sense_id = "cedict:adf2ac7574462925", gloss = "to introduce (sb to sb)" },
+]
+
+[[units]]
+key = "zh.hsk2.u12-skills"
+title = "Làm giỏi đến đâu?"
+topic = "能力和评价"
+can_do = ["Nhận xét ai làm việc gì giỏi hay kém.", "Nói đã làm xong, đã hiểu chưa."]
+grammar = ["zh.hsk2.state_complement", "zh.hsk2.result_complement"]
+words = [
+  { headword = "打球", sense_id = "cedict:8bd9c91258c6eacc", gloss = "to play ball" },
+  { headword = "唱歌", sense_id = "cedict:04807e21b00670e6", gloss = "to sing a song" },
+  { headword = "作业", sense_id = "cedict:ba9481feb750235c", gloss = "school assignment" },
+  { headword = "懂", sense_id = "cedict:ec4a82887d72f552", gloss = "to understand" },
+]
+
+[[units]]
+key = "zh.hsk2.u13-at-home"
+title = "Trong phòng có gì?"
+topic = "房间和动作方向"
+can_do = ["Tả trạng thái đồ vật trong phòng.", "Nói ai đi vào, đi ra."]
+grammar = ["zh.hsk2.zhe_continuous", "zh.hsk2.direction_complement"]
+words = [
+  { headword = "门", sense_id = "cedict:bef0857049f0d856", gloss = "door" },
+  { headword = "房间", sense_id = "cedict:0d395ff9c53c6ae5", gloss = "room" },
+  { headword = "开", sense_id = "cedict:0c92741b4a2c5619", gloss = "to open (transitive or intransitive)" },
+  { headword = "进", sense_id = "cedict:adcd34ecc8872210", gloss = "to enter" },
+]
+
+[[units]]
+key = "zh.hsk2.u14-changes"
+title = "Mọi thứ đang thay đổi"
+topic = "变化和评价"
+can_do = ["Nói một điều đang thay đổi dần.", "Nêu hai đặc điểm cùng lúc."]
+grammar = ["zh.hsk2.yuelaiyue", "zh.hsk2.you_you"]
+words = [
+  { headword = "地方", sense_id = "cedict:2e54c20de6ef3a06", gloss = "place; location; area; space; territory" },
+  { headword = "好吃", sense_id = "cedict:e20c11321301589a", gloss = "tasty; delicious" },
+  { headword = "漂亮", sense_id = "cedict:af501b666b01088c", gloss = "pretty; beautiful" },
+  { headword = "可爱", sense_id = "cedict:aae1285e60ac64ce", gloss = "adorable" },
+]
+
+[[units]]
+key = "zh.hsk2.u15-comparing"
+title = "So sánh"
+topic = "比较东西和人"
+can_do = ["So sánh hơn, kém giữa hai thứ.", "Nói hai thứ giống nhau."]
+grammar = ["zh.hsk2.comparison_2", "zh.hsk2.gen_yiyang"]
+words = [
+  { headword = "地铁", sense_id = "cedict:2dc2571f215e1517", gloss = "underground railway; subway" },
+  { headword = "公共汽车", sense_id = "cedict:fb89e47c9dccc948", gloss = "bus" },
+  { headword = "高", sense_id = "cedict:66aee0a4f763374b", gloss = "high" },
+  { headword = "快", sense_id = "cedict:2b26d844b2aab164", gloss = "rapid" },
+]
+
+[[units]]
+key = "zh.hsk2.u16-how-you-came"
+title = "Bạn đến bằng gì?"
+topic = "强调时间、地点和方式"
+can_do = ["Hỏi và nói một việc đã xảy ra khi nào, ở đâu, bằng cách nào.", "Nói đi đâu để làm gì."]
+grammar = ["zh.hsk2.shi_de", "zh.hsk2.serial_verbs"]
+words = [
+  { headword = "火车", sense_id = "cedict:3b4b664a60cdfa5b", gloss = "train" },
+  { headword = "出租车", sense_id = "cedict:aa6ea8d7d94bbe8d", gloss = "taxi" },
+  { headword = "超市", sense_id = "cedict:9d9ab8b227a24ce5", gloss = "supermarket (abbr. for 超級市場|超级市场[chao1 ji2 shi4 chang3])" },
+  { headword = "水果", sense_id = "cedict:3341335599289710", gloss = "fruit" },
+]
+
+[[units]]
+key = "zh.hsk2.u17-daily-order"
+title = "Trước và sau"
+topic = "做事的顺序"
+can_do = ["Kể việc theo thứ tự trước sau.", "Nói việc làm trước hoặc sau một việc khác."]
+grammar = ["zh.hsk2.xian_zai", "zh.hsk2.yiqian_yihou"]
+words = [
+  { headword = "洗", sense_id = "cedict:9c7e24f4670f165e", gloss = "to wash; to bathe" },
+  { headword = "然后", sense_id = "cedict:fab1d1481b91ee81", gloss = "then; after that; afterwards" },
+  { headword = "以前", sense_id = "cedict:978c675f40dfeb1c", gloss = "before" },
+  { headword = "茶", sense_id = "cedict:abf198382f8864e8", gloss = "tea" },
+]
+
+[[units]]
+key = "zh.hsk2.u18-describing"
+title = "Không những … mà còn"
+topic = "介绍地方的优点和缺点"
+can_do = ["Nêu thêm ưu điểm theo mức tăng dần.", "Nêu hai ý trái ngược."]
+grammar = ["zh.hsk2.budan_erqie", "zh.hsk2.suiran_danshi"]
+words = [
+  { headword = "干净", sense_id = "cedict:b75a17c2302be2f2", gloss = "clean" },
+  { headword = "热情", sense_id = "cedict:6999ce61a1610343", gloss = "cordial" },
+  { headword = "还是", sense_id = "cedict:6114af34516c6269", gloss = "still (as before)" },
+  { headword = "但是", sense_id = "cedict:5d808f6822ffaa53", gloss = "but; however" },
+]
+
+[[units]]
+key = "zh.hsk2.u19-conditions"
+title = "Nếu … thì …"
+topic = "条件和计划"
+can_do = ["Nói điều sẽ làm nếu có một điều kiện.", "Nói chỉ cần điều gì là đủ."]
+grammar = ["zh.hsk2.ruguo_jiu", "zh.hsk2.zhiyao_jiu"]
+words = [
+  { headword = "如果", sense_id = "cedict:5e1ff51057884177", gloss = "if; in case; in the event that" },
+  { headword = "努力", sense_id = "cedict:7ceb777e35af66e5", gloss = "to make an effort; to try hard; to strive" },
+  { headword = "时间", sense_id = "cedict:46d2162f5864488c", gloss = "(concept of) time" },
+  { headword = "下雨", sense_id = "cedict:3ac3ed978ea9b00a", gloss = "to rain" },
+]
+
+[[units]]
+key = "zh.hsk2.u20-reasons"
+title = "Vì sao lại thế?"
+topic = "原因和结果"
+can_do = ["Nêu nguyên nhân và kết quả.", "Nói hễ việc này xảy ra là việc kia xảy ra."]
+grammar = ["zh.hsk2.yinwei_suoyi", "zh.hsk2.yi_jiu"]
+words = [
+  { headword = "因为", sense_id = "cedict:ed2a38e68179fa63", gloss = "because" },
+  { headword = "所以", sense_id = "cedict:cf5608771ec2da81", gloss = "therefore" },
+  { headword = "累", sense_id = "cedict:6abea3e56fe92dde", gloss = "tired" },
+  { headword = "到", sense_id = "cedict:6fd22e6caceb1d33", gloss = "to reach; to arrive" },
+]
+
+[[units]]
+key = "zh.hsk2.u21-coming-soon"
+title = "Sắp đến rồi"
+topic = "快要发生的事"
+can_do = ["Nói việc sắp xảy ra.", "Nói đã đến lúc làm việc gì."]
+grammar = ["zh.hsk2.kuaiyao_le", "zh.hsk2.gai_le"]
+words = [
+  { headword = "考试", sense_id = "cedict:b5d5a20d508f3a11", gloss = "to take an exam" },
+  { headword = "上课", sense_id = "cedict:3847cb5991286dc2", gloss = "to go to class" },
+  { headword = "准备", sense_id = "cedict:ef3c5d26985c4aa0", gloss = "to prepare" },
+  { headword = "生日", sense_id = "cedict:5588fedd5acd86e4", gloss = "birthday" },
+]
+
+[[units]]
+key = "zh.hsk2.u22-and-you"
+title = "Còn bạn thì sao?"
+topic = "聊天和问别人"
+can_do = ["Hỏi lại người khác cùng câu hỏi bằng 呢.", "Hỏi đồ vật ở đâu bằng 呢."]
+grammar = ["zh.hsk2.ne_question"]
+words = [
+  { headword = "东西", sense_id = "cedict:a10f9e1ccffee8b5", gloss = "thing" },
+  { headword = "手机", sense_id = "cedict:bc6cda28c586832c", gloss = "cell phone; mobile phone" },
+  { headword = "找", sense_id = "cedict:9919390273581f0f", gloss = "to try to find" },
+  { headword = "觉得", sense_id = "cedict:ed38458b83447749", gloss = "to think that ...; to feel that ..." },
+]

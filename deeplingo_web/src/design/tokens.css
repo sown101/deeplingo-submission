@@ -1,0 +1,155 @@
+/* DeepLingo — generated from tokens.json */
+:root, [data-theme="light"] {
+  --blue: #12958B;
+  --blue-strong: #0F7F78;
+  --blue-text: #0B6963;
+  --on-blue: #FFFFFF;
+  --blue-tint: #DDF2EF;
+  --success: #34C759;
+  --success-text: #007F2E;
+  --success-tint: #E5F7EA;
+  --danger: #FF383C;
+  --danger-text: #D21328;
+  --danger-tint: #FDE8EA;
+  --accent: #FF8D28;
+  --accent-text: #B64D00;
+  --accent-tint: #FFF1E4;
+  --bg: #F2F2F7;
+  --card: #FFFFFF;
+  --card-raised: #FFFFFF;
+  --fill: #E9E9EE;
+  --separator: #C6C6C8;
+  --border-control: #8A8A8E;
+  --label: #000000;
+  --label-2: #3C3C43;
+  --label-3: #6C6C70;
+  --label-disabled: #AEAEB2;
+  --glass: rgba(255, 255, 255, 0.55);
+  --glass-solid: #F9F9FB;
+  --glass-edge: rgba(255, 255, 255, 0.8);
+  --scrim: rgba(0, 0, 0, 0.28);
+  --focus: #0F7F78;
+  --chart-purple: #7A4FD0;
+  --chart-rose: #C2185B;
+  --fur: #B48A5E;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.06);
+  --shadow-float: 0 1px 3px rgba(0, 0, 0, 0.08), 0 8px 32px rgba(0, 0, 0, 0.12);
+  --shadow-dialog: 0 24px 64px rgba(0, 0, 0, 0.18);
+}
+[data-theme="dark"] {
+  --blue: #2BB8AC;
+  --blue-strong: #5CD0C5;
+  --blue-text: #7FDDD3;
+  --on-blue: #06221F;
+  --blue-tint: #123B38;
+  --chart-purple: #B79CF0;
+  --chart-rose: #F27BA5;
+  --success: #30D158;
+  --success-text: #30D158;
+  --success-tint: #0E2A16;
+  --danger: #FF4245;
+  --danger-text: #FF6961;
+  --danger-tint: #3A1214;
+  --accent: #FF9230;
+  --accent-text: #FF9230;
+  --accent-tint: #3A2208;
+  --bg: #000000;
+  --card: #1C1C1E;
+  --card-raised: #2C2C2E;
+  --fill: #2C2C2E;
+  --separator: #38383A;
+  --border-control: #7C7C80;
+  --label: #FFFFFF;
+  --label-2: #EBEBF5;
+  --label-3: #98989F;
+  --label-disabled: #636366;
+  --glass: rgba(44, 44, 46, 0.5);
+  --glass-solid: #232325;
+  --glass-edge: rgba(255, 255, 255, 0.12);
+  --scrim: rgba(0, 0, 0, 0.6);
+  --focus: #5CD0C5;
+  --fur: #B48A5E;
+  --shadow-card: 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --shadow-float: 0 1px 3px rgba(0, 0, 0, 0.5), 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-dialog: 0 24px 64px rgba(0, 0, 0, 0.7);
+  color-scheme: dark;
+}
+:root {
+  --space-half: 4px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+  --touch-min: 44px;
+  --button-lg: 50px;
+  --button-md: 44px;
+  --tabbar-h: 64px;
+  --tabbar-collapsed: 48px;
+  --agentbar-h: 56px;
+  --topbar-h: 52px;
+  --mascot-icon: 40px;
+  --mascot-card: 96px;
+  --mascot-empty: 160px;
+  --mascot-stage: 280px;
+  --content-max: 720px;
+  --blur-glass: 24px;
+  --font-sans: "Wix Madefor Text", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI Variable Text", "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Wix Madefor Text", -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI Variable Display", "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-hanzi: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  --font-pinyin: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+}
+.title-2 { font-family: var(--font-display); font-size: 22px; line-height: 28px; font-weight: 700; }
+.body { font-family: var(--font-sans); font-size: 17px; line-height: 24px; font-weight: 400; }
+.subhead { font-family: var(--font-sans); font-size: 15px; line-height: 20px; font-weight: 400; }
+.caption { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.02em; }
+.stat { font-family: var(--font-display); font-size: 34px; line-height: 40px; font-weight: 700; }
+.meaning { font-family: var(--font-sans); font-size: 17px; line-height: 24px; font-weight: 400; }
+
+@media (prefers-color-scheme: dark) {
+:root:not([data-theme="light"]) {
+  --blue: #2BB8AC;
+  --blue-strong: #5CD0C5;
+  --blue-text: #7FDDD3;
+  --on-blue: #06221F;
+  --blue-tint: #123B38;
+  --chart-purple: #B79CF0;
+  --chart-rose: #F27BA5;
+  --success: #30D158;
+  --success-text: #30D158;
+  --success-tint: #0E2A16;
+  --danger: #FF4245;
+  --danger-text: #FF6961;
+  --danger-tint: #3A1214;
+  --accent: #FF9230;
+  --accent-text: #FF9230;
+  --accent-tint: #3A2208;
+  --bg: #000000;
+  --card: #1C1C1E;
+  --card-raised: #2C2C2E;
+  --fill: #2C2C2E;
+  --separator: #38383A;
+  --border-control: #7C7C80;
+  --label: #FFFFFF;
+  --label-2: #EBEBF5;
+  --label-3: #98989F;
+  --label-disabled: #636366;
+  --glass: rgba(44, 44, 46, 0.5);
+  --glass-solid: #232325;
+  --glass-edge: rgba(255, 255, 255, 0.12);
+  --scrim: rgba(0, 0, 0, 0.6);
+  --focus: #5CD0C5;
+  --fur: #B48A5E;
+  --shadow-card: 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --shadow-float: 0 1px 3px rgba(0, 0, 0, 0.5), 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-dialog: 0 24px 64px rgba(0, 0, 0, 0.7);
+  color-scheme: dark;
+}
+}

@@ -1,0 +1,72 @@
+name: Backend Quality
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "backend/**"
+      - "deeplingo_web/scripts/**"
+      - ".github/workflows/backend-quality.yml"
+  pull_request:
+    paths:
+      - "backend/**"
+      - "deeplingo_web/scripts/**"
+      - ".github/workflows/backend-quality.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: backend-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pytest:
+    name: pytest (Python 3.13, offline)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      # A migration contract hashes the original SQL bytes. Configure Git before
+      # checkout so the runner cannot rewrite LF as CRLF.
+      - name: Preserve checkout bytes
+        working-directory: .
+        run: git config --global core.autocrlf false
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: backend/requirements.lock
+
+      - name: Install locked dependencies
+        run: python -m pip install -r requirements.lock
+
+      # File-based settings leave Settings(_env_file=None) validation tests
+      # independent of the defaults used when importing the application.
+      - name: Write fake test configuration
+        run: |
+          cat > .env <<'EOF'
+          ENVIRONMENT=test
+          AI_PROVIDER=fake
+          AI_API_KEY=ci-no-network
+          GEMINI_API_KEY=
+          AI_BASE_URL=http://127.0.0.1:9/v1
+          SPEAKING_TICKET_SECRET=ci-only-speaking-ticket-secret-at-least-32-chars
+          SUPABASE_URL=
+          SUPABASE_KEY=
+          SUPABASE_SERVICE_ROLE_KEY=
+          REDIS_URL=redis://127.0.0.1:9/0
+          EOF
+
+      # A fresh network namespace has no external connectivity, including for
+      # subprocesses. Dependency installation above is the only pip network use.
+      - name: Full backend suite without network
+        run: sudo unshare --net -- env "PATH=$PATH" python -m pytest -q

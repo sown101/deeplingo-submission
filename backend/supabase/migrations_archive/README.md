@@ -1,0 +1,1 @@
+`20261001041627_content_retry_policy_v6b2e.sql` is the original that failed when applied; it is replaced by `migrations/20261001115831_content_retry_policy_v6b2e_corrective.sql` and must never be replayed.

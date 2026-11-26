@@ -1,0 +1,2374 @@
+{
+ "format": "deeplingo-grammar-bank-v1",
+ "catalogue_source": "deeplingo",
+ "authorship": "ai_draft",
+ "language": "zh",
+ "level": "HSK4",
+ "support_language": "vi",
+ "version": 1,
+ "topics": [
+  {
+   "key": "causative_condition",
+   "title": "Sai khiến và điều kiện"
+  },
+  {
+   "key": "contrast_choice",
+   "title": "Tương phản và lựa chọn"
+  },
+  {
+   "key": "emphasis_prep",
+   "title": "Nhấn mạnh và giới từ"
+  }
+ ],
+ "points": [
+  {
+   "key": "zh.hsk4.causative_rang_shi",
+   "title": "Câu sai khiến với 让, 使, 叫",
+   "topic_key": "causative_condition",
+   "questions": [
+    {
+     "id": "zh.hsk4.causative_rang_shi.01",
+     "prompt": "这个消息___我很高兴。",
+     "options": [
+      {
+       "id": "a",
+       "text": "让"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "对"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "让 + người + tính từ: 让我很高兴 (Tin này khiến tôi rất vui)."
+    },
+    {
+     "id": "zh.hsk4.causative_rang_shi.02",
+     "prompt": "妈妈___我早点回家。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "比"
+      },
+      {
+       "id": "d",
+       "text": "让"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "让 + người + động từ: 让我早点回家 (Mẹ bảo tôi về nhà sớm)."
+    },
+    {
+     "id": "zh.hsk4.causative_rang_shi.03",
+     "prompt": "这件事___大家很感动。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "使"
+      },
+      {
+       "id": "d",
+       "text": "比"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "使 = khiến cho: 使大家很感动 (Chuyện này khiến mọi người xúc động)."
+    },
+    {
+     "id": "zh.hsk4.causative_rang_shi.04",
+     "prompt": "老师___我们明天早点来。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "叫"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "比"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "叫 + người + động từ (Thầy bảo chúng tôi mai đến sớm)."
+    },
+    {
+     "id": "zh.hsk4.causative_rang_shi.05",
+     "prompt": "不要___孩子一个人出去。",
+     "options": [
+      {
+       "id": "a",
+       "text": "让"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "对"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "不要让 + người + động từ (Đừng để trẻ con ra ngoài một mình)."
+    },
+    {
+     "id": "zh.hsk4.causative_rang_shi.06",
+     "prompt": "这场雨___天气凉快了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "对"
+      },
+      {
+       "id": "d",
+       "text": "使"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "使 + tân ngữ + tính từ (Trận mưa này làm trời mát hơn)."
+    },
+    {
+     "id": "zh.hsk4.causative_rang_shi.07",
+     "prompt": "你___我等了一个小时。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "让"
+      },
+      {
+       "id": "d",
+       "text": "比"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "让我等了一个小时 (Bạn để tôi đợi một tiếng)."
+    },
+    {
+     "id": "zh.hsk4.causative_rang_shi.08",
+     "prompt": "他的话___我很生气。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "让"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "比"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "让我很生气 (Lời anh ấy khiến tôi rất tức)."
+    }
+   ],
+   "lesson": {
+    "summary": "让, 使, 叫 + người + động từ/tính từ nói ai khiến cho ai làm hoặc cảm thấy gì.",
+    "rules": [
+     "让 + O + V: mẹ bảo/cho phép làm: 妈妈让我早点回家。",
+     "使 + O + tính từ/động từ: khiến cho (trang trọng): 这件事使大家很感动。",
+     "叫 + O + V: bảo, gọi (khẩu ngữ): 老师叫我们明天早点来。",
+     "让 cũng dùng cho cảm xúc: 这个消息让我很高兴。"
+    ],
+    "examples": [
+     {
+      "text": "妈妈让我早点回家。",
+      "meaning": "Mẹ bảo tôi về nhà sớm."
+     },
+     {
+      "text": "这件事使大家很感动。",
+      "meaning": "Chuyện này khiến mọi người rất xúc động."
+     },
+     {
+      "text": "你让我等了一个小时。",
+      "meaning": "Bạn để tôi đợi một tiếng đồng hồ."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "妈妈把我早点回家。",
+      "right": "妈妈让我早点回家。",
+      "why": "Sai khiến dùng 让, không dùng 把."
+     },
+     {
+      "wrong": "这个消息被我很高兴。",
+      "right": "这个消息让我很高兴。",
+      "why": "Gây cảm xúc dùng 让/使."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk4.jishi_ye",
+   "title": "即使…也…: dù…cũng…",
+   "topic_key": "causative_condition",
+   "questions": [
+    {
+     "id": "zh.hsk4.jishi_ye.01",
+     "prompt": "即使下雨，我们___去。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "也"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "即使…也… (Dù mưa chúng tôi cũng đi)."
+    },
+    {
+     "id": "zh.hsk4.jishi_ye.02",
+     "prompt": "___你不同意，我也要去。",
+     "options": [
+      {
+       "id": "a",
+       "text": "即使"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "即使 nêu giả định (Dù bạn không đồng ý, tôi cũng đi)."
+    },
+    {
+     "id": "zh.hsk4.jishi_ye.03",
+     "prompt": "即使很累，他___坚持工作。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "也"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "即使…也… (Dù rất mệt anh ấy vẫn kiên trì làm việc)."
+    },
+    {
+     "id": "zh.hsk4.jishi_ye.04",
+     "prompt": "即使是周末，他___要加班。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "也"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "即使…也… (Dù là cuối tuần anh ấy vẫn phải tăng ca)."
+    },
+    {
+     "id": "zh.hsk4.jishi_ye.05",
+     "prompt": "___他再有钱，也买不到健康。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "即使"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "即使他再有钱 (Dù anh ấy có nhiều tiền đến đâu cũng không mua được sức khỏe)."
+    },
+    {
+     "id": "zh.hsk4.jishi_ye.06",
+     "prompt": "就算他不来，我们___要开会。",
+     "options": [
+      {
+       "id": "a",
+       "text": "也"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "就算…也… (Cho dù anh ấy không đến, chúng ta cũng phải họp)."
+    },
+    {
+     "id": "zh.hsk4.jishi_ye.07",
+     "prompt": "即使你说得对，我___不同意。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "也"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "即使…也… (Dù bạn nói đúng tôi cũng không đồng ý)."
+    },
+    {
+     "id": "zh.hsk4.jishi_ye.08",
+     "prompt": "即使没有地图，我___找得到。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "也"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "即使…也… (Dù không có bản đồ tôi cũng tìm được)."
+    }
+   ],
+   "lesson": {
+    "summary": "即使 (hoặc 就算) nêu giả định cực đoan; vế sau dùng 也 để nói kết quả vẫn không đổi.",
+    "rules": [
+     "即使 + giả định, S + 也 + kết quả: 即使下雨，我们也去。",
+     "Vế sau dùng 也 hoặc 还, không dùng 才.",
+     "Có thể dùng 就算 thay 即使 trong khẩu ngữ."
+    ],
+    "examples": [
+     {
+      "text": "即使下雨，我们也去。",
+      "meaning": "Dù mưa chúng tôi cũng đi."
+     },
+     {
+      "text": "即使很累，他也坚持工作。",
+      "meaning": "Dù rất mệt anh ấy vẫn kiên trì làm việc."
+     },
+     {
+      "text": "就算他不来，我们也要开会。",
+      "meaning": "Cho dù anh ấy không đến, chúng ta cũng phải họp."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "即使下雨，我们才去。",
+      "right": "即使下雨，我们也去。",
+      "why": "Vế sau dùng 也, không dùng 才."
+     },
+     {
+      "wrong": "即使下雨，我们但是去。",
+      "right": "即使下雨，我们也去。",
+      "why": "Không dùng 但是 trong cấu trúc này."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk4.jiran_jiu",
+   "title": "既然…就…: đã…thì…",
+   "topic_key": "causative_condition",
+   "questions": [
+    {
+     "id": "zh.hsk4.jiran_jiu.01",
+     "prompt": "既然你累了，___休息一下吧。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "就"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "既然…就… (Đã mệt thì nghỉ một chút đi)."
+    },
+    {
+     "id": "zh.hsk4.jiran_jiu.02",
+     "prompt": "___你已经决定了，我就不说什么了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "即使"
+      },
+      {
+       "id": "b",
+       "text": "既然"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "既然 nêu điều đã rõ (Đã quyết định rồi thì tôi không nói gì nữa)."
+    },
+    {
+     "id": "zh.hsk4.jiran_jiu.03",
+     "prompt": "既然天气这么好，我们___去公园吧。",
+     "options": [
+      {
+       "id": "a",
+       "text": "就"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "既然…就… (Trời đẹp thế này thì mình đi công viên đi)."
+    },
+    {
+     "id": "zh.hsk4.jiran_jiu.04",
+     "prompt": "既然来了，___多玩几天吧。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "就"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "既然来了，就… (Đã đến rồi thì chơi thêm vài ngày)."
+    },
+    {
+     "id": "zh.hsk4.jiran_jiu.05",
+     "prompt": "你既然知道错了，___改。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "就"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "既然…就… (Bạn đã biết sai thì sửa đi)."
+    },
+    {
+     "id": "zh.hsk4.jiran_jiu.06",
+     "prompt": "既然大家都同意，我们___这样办吧。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "就"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "既然…就… (Mọi người đều đồng ý thì cứ làm thế đi)."
+    },
+    {
+     "id": "zh.hsk4.jiran_jiu.07",
+     "prompt": "___你不想去，就别去了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "既然"
+      },
+      {
+       "id": "b",
+       "text": "即使"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "既然 (Đã không muốn đi thì đừng đi nữa)."
+    },
+    {
+     "id": "zh.hsk4.jiran_jiu.08",
+     "prompt": "既然他不在，你___明天再来吧。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "就"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "既然…就… (Anh ấy không có đây, vậy mai bạn lại đến)."
+    }
+   ],
+   "lesson": {
+    "summary": "既然 nêu một sự thật đã rõ hoặc đã chấp nhận; vế sau (thường có 就) nêu kết luận, đề nghị.",
+    "rules": [
+     "既然 + sự thật, 就 + đề nghị/kết luận: 既然你累了，就休息一下吧。",
+     "既然 đứng đầu vế đầu: 既然你不想去，就别去了。",
+     "Khác với 如果: 既然 nêu điều đã có thật."
+    ],
+    "examples": [
+     {
+      "text": "既然你累了，就休息一下吧。",
+      "meaning": "Đã mệt thì nghỉ một chút đi."
+     },
+     {
+      "text": "既然来了，就多玩几天吧。",
+      "meaning": "Đã đến rồi thì chơi thêm vài ngày đi."
+     },
+     {
+      "text": "既然他不在，你就明天再来吧。",
+      "meaning": "Anh ấy không có đây, vậy mai bạn lại đến nhé."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "既然你累了，才休息一下吧。",
+      "right": "既然你累了，就休息一下吧。",
+      "why": "Vế sau dùng 就."
+     },
+     {
+      "wrong": "既然下雨了，如果我们不去了。",
+      "right": "既然下雨了，我们就不去了。",
+      "why": "Không dùng 如果 cùng 既然."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk4.wulun_dou",
+   "title": "无论/不管…都…: dù thế nào cũng",
+   "topic_key": "causative_condition",
+   "questions": [
+    {
+     "id": "zh.hsk4.wulun_dou.01",
+     "prompt": "无论天气怎么样，我们___去。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "都"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "无论…都… (Dù thời tiết thế nào chúng tôi cũng đi)."
+    },
+    {
+     "id": "zh.hsk4.wulun_dou.02",
+     "prompt": "___谁来，我都不见。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "不管"
+      },
+      {
+       "id": "d",
+       "text": "或者"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "不管 + 谁 + 都 (Bất kể ai đến, tôi cũng không gặp)."
+    },
+    {
+     "id": "zh.hsk4.wulun_dou.03",
+     "prompt": "无论你去哪儿，我___跟着你。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "都"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "无论…都… (Dù bạn đi đâu, tôi cũng đi theo)."
+    },
+    {
+     "id": "zh.hsk4.wulun_dou.04",
+     "prompt": "不管多忙，他___每天锻炼。",
+     "options": [
+      {
+       "id": "a",
+       "text": "都"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "不管…都… (Dù bận đến mấy anh ấy cũng tập thể dục mỗi ngày)."
+    },
+    {
+     "id": "zh.hsk4.wulun_dou.05",
+     "prompt": "无论___，他都不放弃。",
+     "options": [
+      {
+       "id": "a",
+       "text": "很难"
+      },
+      {
+       "id": "b",
+       "text": "太难了"
+      },
+      {
+       "id": "c",
+       "text": "难的"
+      },
+      {
+       "id": "d",
+       "text": "多难"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "无论 + 多 + tính từ (Dù khó đến đâu anh ấy cũng không bỏ cuộc)."
+    },
+    {
+     "id": "zh.hsk4.wulun_dou.06",
+     "prompt": "___你同意不同意，我都要去。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "无论"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "无论 + A不A + 都 (Bạn đồng ý hay không tôi cũng đi)."
+    },
+    {
+     "id": "zh.hsk4.wulun_dou.07",
+     "prompt": "不管你说什么，他___不相信。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "都"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "不管…都… (Dù bạn nói gì anh ấy cũng không tin)."
+    },
+    {
+     "id": "zh.hsk4.wulun_dou.08",
+     "prompt": "无论男女老少，大家___喜欢这首歌。",
+     "options": [
+      {
+       "id": "a",
+       "text": "都"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "无论…都… (Bất kể nam nữ già trẻ, mọi người đều thích bài này)."
+    }
+   ],
+   "lesson": {
+    "summary": "无论 hoặc 不管 + từ nghi vấn/lựa chọn, vế sau dùng 都 để nói kết quả không thay đổi.",
+    "rules": [
+     "无论/不管 + 疑问词 (谁, 什么, 哪儿, 怎么样, 多…) + 都: 无论谁来，我都不见。",
+     "无论/不管 + A不A / A还是B + 都: 无论你同意不同意，我都要去。",
+     "Sau 无论 không dùng tính từ đơn: 无论多难，不是 无论很难."
+    ],
+    "examples": [
+     {
+      "text": "无论天气怎么样，我们都去。",
+      "meaning": "Dù thời tiết thế nào chúng tôi cũng đi."
+     },
+     {
+      "text": "不管多忙，他都每天锻炼。",
+      "meaning": "Dù bận đến mấy anh ấy cũng tập thể dục mỗi ngày."
+     },
+     {
+      "text": "无论男女老少，大家都喜欢这首歌。",
+      "meaning": "Bất kể nam nữ già trẻ, ai cũng thích bài này."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "无论很难，他都不放弃。",
+      "right": "无论多难，他都不放弃。",
+      "why": "Dùng 多 + tính từ sau 无论."
+     },
+     {
+      "wrong": "无论谁来，我才不见。",
+      "right": "无论谁来，我都不见。",
+      "why": "Vế sau dùng 都."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk4.jinguan_que",
+   "title": "尽管…但是/却: tuy…nhưng",
+   "topic_key": "contrast_choice",
+   "questions": [
+    {
+     "id": "zh.hsk4.jinguan_que.01",
+     "prompt": "___他很累，但是还在工作。",
+     "options": [
+      {
+       "id": "a",
+       "text": "尽管"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "如果"
+      },
+      {
+       "id": "d",
+       "text": "所以"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "尽管…但是… (Tuy anh ấy rất mệt nhưng vẫn đang làm việc)."
+    },
+    {
+     "id": "zh.hsk4.jinguan_que.02",
+     "prompt": "尽管天气不好，他们___去了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "如果"
+      },
+      {
+       "id": "d",
+       "text": "还是"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "尽管…还是… (Tuy thời tiết xấu họ vẫn đi)."
+    },
+    {
+     "id": "zh.hsk4.jinguan_que.03",
+     "prompt": "尽管很贵，我___买了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "还是"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "尽管…还是… (Dù rất đắt tôi vẫn mua)."
+    },
+    {
+     "id": "zh.hsk4.jinguan_que.04",
+     "prompt": "尽管大家都反对，他___坚持自己的想法。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "仍然"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "仍然 = vẫn (Dù mọi người phản đối anh ấy vẫn giữ ý mình)."
+    },
+    {
+     "id": "zh.hsk4.jinguan_que.05",
+     "prompt": "___我们很努力，结果还是失败了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "尽管"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "尽管 (Dù chúng tôi rất cố gắng, kết quả vẫn thất bại)."
+    },
+    {
+     "id": "zh.hsk4.jinguan_que.06",
+     "prompt": "尽管他很聪明，___常常不努力。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "如果"
+      },
+      {
+       "id": "d",
+       "text": "却"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "却 = nhưng lại (Tuy anh ấy thông minh nhưng lại thường không cố gắng)."
+    },
+    {
+     "id": "zh.hsk4.jinguan_que.07",
+     "prompt": "他___年纪大了，但是身体很好。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "尽管"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "尽管…但是… (Tuy tuổi đã cao nhưng sức khỏe rất tốt)."
+    },
+    {
+     "id": "zh.hsk4.jinguan_que.08",
+     "prompt": "尽管路很远，他们___准时到了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "所以"
+      },
+      {
+       "id": "b",
+       "text": "却"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "却 = nhưng lại (Tuy đường xa nhưng họ vẫn đến đúng giờ)."
+    }
+   ],
+   "lesson": {
+    "summary": "尽管 nhượng bộ một sự thật; vế sau thường dùng 但是, 可是, 却 hoặc 还是 để nói điều ngược lại.",
+    "rules": [
+     "尽管…但是/可是…: 尽管他很累，但是还在工作。",
+     "尽管…S + 还是/仍然/却 + V: 尽管很贵，我还是买了。",
+     "却 đứng sau chủ ngữ: 尽管他很聪明，却常常不努力。"
+    ],
+    "examples": [
+     {
+      "text": "尽管他很累，但是还在工作。",
+      "meaning": "Tuy anh ấy rất mệt nhưng vẫn đang làm việc."
+     },
+     {
+      "text": "尽管很贵，我还是买了。",
+      "meaning": "Dù rất đắt tôi vẫn mua."
+     },
+     {
+      "text": "尽管他很聪明，却常常不努力。",
+      "meaning": "Tuy anh ấy thông minh nhưng lại thường lười biếng."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "因为他很累，但是还在工作。",
+      "right": "尽管他很累，但是还在工作。",
+      "why": "Nhượng bộ dùng 尽管, không dùng 因为."
+     },
+     {
+      "wrong": "尽管很贵，我所以买了。",
+      "right": "尽管很贵，我还是买了。",
+      "why": "Vế sau dùng 还是/却."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk4.yuqi_buru",
+   "title": "与其…不如…, 宁可…也…",
+   "topic_key": "contrast_choice",
+   "questions": [
+    {
+     "id": "zh.hsk4.yuqi_buru.01",
+     "prompt": "与其在家看电视，___出去走走。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "不如"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "与其…不如… (Thà ra ngoài đi dạo còn hơn ở nhà xem tivi)."
+    },
+    {
+     "id": "zh.hsk4.yuqi_buru.02",
+     "prompt": "___坐车，不如走路，还能锻炼身体。",
+     "options": [
+      {
+       "id": "a",
+       "text": "与其"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "与其 A，不如 B (Thà đi bộ còn hơn đi xe, lại tập thể dục được)."
+    },
+    {
+     "id": "zh.hsk4.yuqi_buru.03",
+     "prompt": "我宁可不睡觉，___要把工作做完。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "也"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "宁可…也… (Tôi thà không ngủ cũng phải làm xong việc)."
+    },
+    {
+     "id": "zh.hsk4.yuqi_buru.04",
+     "prompt": "与其抱怨，___想办法解决问题。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不但"
+      },
+      {
+       "id": "b",
+       "text": "不管"
+      },
+      {
+       "id": "c",
+       "text": "不如"
+      },
+      {
+       "id": "d",
+       "text": "不是"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "不如 + B (Thà nghĩ cách giải quyết còn hơn phàn nàn)."
+    },
+    {
+     "id": "zh.hsk4.yuqi_buru.05",
+     "prompt": "他宁可饿着肚子，___不愿意吃别人的东西。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "也"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "宁可…也不… (Anh ấy thà đói bụng cũng không chịu ăn đồ của người khác)."
+    },
+    {
+     "id": "zh.hsk4.yuqi_buru.06",
+     "prompt": "___花钱买便宜货，不如买质量好的。",
+     "options": [
+      {
+       "id": "a",
+       "text": "与其"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "与其…不如… (Thà mua hàng chất lượng tốt còn hơn mua hàng rẻ)."
+    },
+    {
+     "id": "zh.hsk4.yuqi_buru.07",
+     "prompt": "我宁可自己走路，___不想麻烦别人。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "也"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "宁可…也不… (Tôi thà tự đi bộ cũng không muốn phiền người khác)."
+    },
+    {
+     "id": "zh.hsk4.yuqi_buru.08",
+     "prompt": "与其说他聪明，___说他努力。",
+     "options": [
+      {
+       "id": "a",
+       "text": "不但"
+      },
+      {
+       "id": "b",
+       "text": "不管"
+      },
+      {
+       "id": "c",
+       "text": "不如"
+      },
+      {
+       "id": "d",
+       "text": "不是"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "与其说…不如说… (Thay vì nói anh ấy thông minh, nên nói anh ấy chăm chỉ)."
+    }
+   ],
+   "lesson": {
+    "summary": "与其 A 不如 B: thà B còn hơn A. 宁可 A 也 B: thà A chứ không B.",
+    "rules": [
+     "与其 + A, 不如 + B: 与其在家看电视，不如出去走走。",
+     "宁可 + A, 也 + 不/要 + B: 我宁可不睡觉，也要把工作做完。",
+     "与其说 A, 不如说 B: 与其说他聪明，不如说他努力。"
+    ],
+    "examples": [
+     {
+      "text": "与其在家看电视，不如出去走走。",
+      "meaning": "Thà ra ngoài đi dạo còn hơn ở nhà xem tivi."
+     },
+     {
+      "text": "我宁可不睡觉，也要把工作做完。",
+      "meaning": "Tôi thà không ngủ cũng phải làm xong việc."
+     },
+     {
+      "text": "与其说他聪明，不如说他努力。",
+      "meaning": "Thay vì nói anh ấy thông minh, nên nói anh ấy chăm chỉ."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "与其在家看电视，才出去走走。",
+      "right": "与其在家看电视，不如出去走走。",
+      "why": "Vế sau dùng 不如."
+     },
+     {
+      "wrong": "宁可不睡觉，才要把工作做完。",
+      "right": "宁可不睡觉，也要把工作做完。",
+      "why": "宁可…也…"
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk4.fouze_buran",
+   "title": "否则, 不然, 要不: nếu không thì",
+   "topic_key": "contrast_choice",
+   "questions": [
+    {
+     "id": "zh.hsk4.fouze_buran.01",
+     "prompt": "你要早点睡，___明天起不来。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "可是"
+      },
+      {
+       "id": "c",
+       "text": "否则"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "否则 = nếu không thì (Bạn phải ngủ sớm, nếu không mai không dậy nổi)."
+    },
+    {
+     "id": "zh.hsk4.fouze_buran.02",
+     "prompt": "快走吧，___我们会迟到的。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "不然"
+      },
+      {
+       "id": "c",
+       "text": "可是"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "不然 = nếu không thì (Đi nhanh đi, không thì chúng ta sẽ trễ)."
+    },
+    {
+     "id": "zh.hsk4.fouze_buran.03",
+     "prompt": "一定要带伞，___会淋雨的。",
+     "options": [
+      {
+       "id": "a",
+       "text": "否则"
+      },
+      {
+       "id": "b",
+       "text": "而且"
+      },
+      {
+       "id": "c",
+       "text": "可是"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "否则 (Nhất định mang ô, nếu không sẽ bị ướt)."
+    },
+    {
+     "id": "zh.hsk4.fouze_buran.04",
+     "prompt": "我们得抓紧时间，___来不及了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "可是"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "否则"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "否则 (Chúng ta phải tranh thủ, nếu không không kịp)."
+    },
+    {
+     "id": "zh.hsk4.fouze_buran.05",
+     "prompt": "你得小心点儿，___会出事的。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "可是"
+      },
+      {
+       "id": "c",
+       "text": "不然"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "不然 (Bạn phải cẩn thận, không thì sẽ xảy ra chuyện)."
+    },
+    {
+     "id": "zh.hsk4.fouze_buran.06",
+     "prompt": "请安静，___会影响别人。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "否则"
+      },
+      {
+       "id": "c",
+       "text": "可是"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "否则 (Xin giữ yên lặng, nếu không sẽ ảnh hưởng người khác)."
+    },
+    {
+     "id": "zh.hsk4.fouze_buran.07",
+     "prompt": "你快点儿吃，___饭就凉了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "否则"
+      },
+      {
+       "id": "b",
+       "text": "而且"
+      },
+      {
+       "id": "c",
+       "text": "可是"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "否则 (Bạn ăn nhanh đi, nếu không cơm nguội mất)."
+    },
+    {
+     "id": "zh.hsk4.fouze_buran.08",
+     "prompt": "多亏你提醒我，___我就忘了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "可是"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "要不"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "要不 = nếu không thì (May bạn nhắc tôi, không thì tôi quên mất)."
+    }
+   ],
+   "lesson": {
+    "summary": "否则 (trang trọng), 不然 và 要不 (khẩu ngữ) đứng đầu vế sau để nói hậu quả nếu không làm điều ở vế trước.",
+    "rules": [
+     "Vế trước nêu điều cần làm, vế sau nêu hậu quả: 你要早点睡，否则明天起不来。",
+     "不然/要不然 dùng trong khẩu ngữ: 快走吧，不然我们会迟到的。",
+     "Không dùng 因为/所以 thay thế."
+    ],
+    "examples": [
+     {
+      "text": "你要早点睡，否则明天起不来。",
+      "meaning": "Bạn phải ngủ sớm, nếu không mai không dậy nổi."
+     },
+     {
+      "text": "快走吧，不然我们会迟到的。",
+      "meaning": "Đi nhanh đi, không thì chúng ta sẽ trễ."
+     },
+     {
+      "text": "多亏你提醒我，要不我就忘了。",
+      "meaning": "May bạn nhắc, không thì tôi quên mất."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "你要早点睡，因为明天起不来。",
+      "right": "你要早点睡，否则明天起不来。",
+      "why": "Hậu quả nếu không làm dùng 否则."
+     },
+     {
+      "wrong": "快走吧，所以我们会迟到。",
+      "right": "快走吧，不然我们会迟到。",
+      "why": "Dùng 不然 để nói hậu quả."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk4.fan_er_bing",
+   "title": "反而, 并, 竟然: trái với mong đợi",
+   "topic_key": "contrast_choice",
+   "questions": [
+    {
+     "id": "zh.hsk4.fan_er_bing.01",
+     "prompt": "药吃了以后，病___更重了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "因为"
+      },
+      {
+       "id": "d",
+       "text": "反而"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "反而 = ngược lại (Uống thuốc xong bệnh lại nặng hơn)."
+    },
+    {
+     "id": "zh.hsk4.fan_er_bing.02",
+     "prompt": "他不但没有感谢我，___批评了我。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "反而"
+      },
+      {
+       "id": "d",
+       "text": "因为"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "反而 = trái lại (Anh ấy không những không cảm ơn mà còn chê tôi)."
+    },
+    {
+     "id": "zh.hsk4.fan_er_bing.03",
+     "prompt": "我___不知道这件事。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "并"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "并不 nhấn mạnh phủ định (Tôi hoàn toàn không biết chuyện này)."
+    },
+    {
+     "id": "zh.hsk4.fan_er_bing.04",
+     "prompt": "这个电影___不好看。",
+     "options": [
+      {
+       "id": "a",
+       "text": "并"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "并不好看 = chẳng hay chút nào (Bộ phim này chẳng hay chút nào)."
+    },
+    {
+     "id": "zh.hsk4.fan_er_bing.05",
+     "prompt": "他今天___没来上课，大家都很吃惊。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "如果"
+      },
+      {
+       "id": "d",
+       "text": "竟然"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "竟然 = không ngờ (Hôm nay anh ấy không ngờ không đến lớp, mọi người ngạc nhiên)."
+    },
+    {
+     "id": "zh.hsk4.fan_er_bing.06",
+     "prompt": "下雨了，他___没带伞。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "竟然"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "竟然 (Trời mưa mà anh ấy không ngờ không mang ô)."
+    },
+    {
+     "id": "zh.hsk4.fan_er_bing.07",
+     "prompt": "不但没有进步，成绩___下降了。",
+     "options": [
+      {
+       "id": "a",
+       "text": "而且"
+      },
+      {
+       "id": "b",
+       "text": "反而"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "因为"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "反而 (Không những không tiến bộ, thành tích còn giảm)."
+    },
+    {
+     "id": "zh.hsk4.fan_er_bing.08",
+     "prompt": "我___没有生气，你别误会。",
+     "options": [
+      {
+       "id": "a",
+       "text": "并"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "并没有 nhấn mạnh phủ định (Tôi hoàn toàn không giận, bạn đừng hiểu lầm)."
+    }
+   ],
+   "lesson": {
+    "summary": "反而 nói kết quả trái với dự đoán; 并 nhấn mạnh phủ định; 竟然 diễn tả bất ngờ.",
+    "rules": [
+     "反而: trái lại, ngược lại: 药吃了以后，病反而更重了。",
+     "并 + 不/没: nhấn mạnh phủ định (không hề): 我并不知道这件事。",
+     "竟然: không ngờ: 他今天竟然没来上课。"
+    ],
+    "examples": [
+     {
+      "text": "药吃了以后，病反而更重了。",
+      "meaning": "Uống thuốc xong bệnh lại nặng hơn."
+     },
+     {
+      "text": "我并不知道这件事。",
+      "meaning": "Tôi hoàn toàn không biết chuyện này."
+     },
+     {
+      "text": "他今天竟然没来上课。",
+      "meaning": "Không ngờ hôm nay anh ấy không đến lớp."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "药吃了以后，病而且更重了。",
+      "right": "药吃了以后，病反而更重了。",
+      "why": "Trái với dự đoán dùng 反而."
+     },
+     {
+      "wrong": "我并知道这件事。",
+      "right": "我并不知道这件事。",
+      "why": "并 phải đi với 不/没."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk4.prepositions_formal",
+   "title": "Giới từ: 对…来说, 关于, 根据, 按照, 为了, 对…感兴趣",
+   "topic_key": "emphasis_prep",
+   "questions": [
+    {
+     "id": "zh.hsk4.prepositions_formal.01",
+     "prompt": "___我来说，这个问题很难。",
+     "options": [
+      {
+       "id": "a",
+       "text": "对"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "对…来说 = đối với…: 对我来说 (Đối với tôi, vấn đề này rất khó)."
+    },
+    {
+     "id": "zh.hsk4.prepositions_formal.02",
+     "prompt": "___这件事，我没有意见。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "虽然"
+      },
+      {
+       "id": "d",
+       "text": "关于"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "关于 + chủ đề (Về chuyện này, tôi không có ý kiến)."
+    },
+    {
+     "id": "zh.hsk4.prepositions_formal.03",
+     "prompt": "___天气预报，明天会下雨。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "根据"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "根据 = dựa theo (Theo dự báo thời tiết, mai sẽ mưa)."
+    },
+    {
+     "id": "zh.hsk4.prepositions_formal.04",
+     "prompt": "___规定，这里不能停车。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "按照"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "按照 = theo (Theo quy định, ở đây không được đỗ xe)."
+    },
+    {
+     "id": "zh.hsk4.prepositions_formal.05",
+     "prompt": "___健康，他每天都锻炼。",
+     "options": [
+      {
+       "id": "a",
+       "text": "为了"
+      },
+      {
+       "id": "b",
+       "text": "被"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "虽然"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "为了 = vì (mục đích): 为了健康 (Vì sức khỏe, anh ấy tập mỗi ngày)."
+    },
+    {
+     "id": "zh.hsk4.prepositions_formal.06",
+     "prompt": "他对音乐很___兴趣。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "感"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "对…感兴趣 = hứng thú với…: 感兴趣 (Anh ấy rất hứng thú với âm nhạc)."
+    },
+    {
+     "id": "zh.hsk4.prepositions_formal.07",
+     "prompt": "对你的帮助，我非常___。",
+     "options": [
+      {
+       "id": "a",
+       "text": "感兴趣"
+      },
+      {
+       "id": "b",
+       "text": "感觉"
+      },
+      {
+       "id": "c",
+       "text": "感谢"
+      },
+      {
+       "id": "d",
+       "text": "感冒"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "感谢 = cảm ơn (Rất cảm ơn sự giúp đỡ của bạn)."
+    },
+    {
+     "id": "zh.hsk4.prepositions_formal.08",
+     "prompt": "___他的经验，这件事应该不难。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "凭"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "凭 = dựa vào (Với kinh nghiệm của anh ấy, việc này chắc không khó)."
+    }
+   ],
+   "lesson": {
+    "summary": "Các giới từ dẫn đối tượng, chủ đề, căn cứ và mục đích.",
+    "rules": [
+     "对…来说: đối với…: 对我来说，这个问题很难。",
+     "关于 + chủ đề: 关于这件事，我没有意见。",
+     "根据/按照 + căn cứ: 根据天气预报，明天会下雨。 按照规定，这里不能停车。",
+     "为了 + mục đích: 为了健康，他每天都锻炼。 对…感兴趣: hứng thú với…"
+    ],
+    "examples": [
+     {
+      "text": "对我来说，这个问题很难。",
+      "meaning": "Đối với tôi, vấn đề này rất khó."
+     },
+     {
+      "text": "根据天气预报，明天会下雨。",
+      "meaning": "Theo dự báo thời tiết, mai sẽ mưa."
+     },
+     {
+      "text": "为了健康，他每天都锻炼。",
+      "meaning": "Vì sức khỏe, anh ấy tập luyện mỗi ngày."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "因为健康，他每天都锻炼。",
+      "right": "为了健康，他每天都锻炼。",
+      "why": "Mục đích dùng 为了."
+     },
+     {
+      "wrong": "他对音乐很感兴趣的。",
+      "right": "他对音乐很感兴趣。",
+      "why": "对…感兴趣 là cụm cố định."
+     }
+    ]
+   }
+  },
+  {
+   "key": "zh.hsk4.lian_dou_shenzhi",
+   "title": "连…都/也, 甚至",
+   "topic_key": "emphasis_prep",
+   "questions": [
+    {
+     "id": "zh.hsk4.lian_dou_shenzhi.01",
+     "prompt": "他忙得___吃饭的时间都没有。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "连"
+      },
+      {
+       "id": "c",
+       "text": "把"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "连…都… (Anh ấy bận đến mức không có cả thời gian ăn cơm)."
+    },
+    {
+     "id": "zh.hsk4.lian_dou_shenzhi.02",
+     "prompt": "这个问题很简单，连小孩子___会。",
+     "options": [
+      {
+       "id": "a",
+       "text": "都"
+      },
+      {
+       "id": "b",
+       "text": "才"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "连…都… (Câu hỏi đơn giản, ngay cả trẻ con cũng biết)."
+    },
+    {
+     "id": "zh.hsk4.lian_dou_shenzhi.03",
+     "prompt": "他太累了，___话都不想说。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "连"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "连话都不想说 (Anh ấy mệt đến mức không muốn nói cả lời nào)."
+    },
+    {
+     "id": "zh.hsk4.lian_dou_shenzhi.04",
+     "prompt": "他喜欢运动，___周末也去爬山。",
+     "options": [
+      {
+       "id": "a",
+       "text": "因为"
+      },
+      {
+       "id": "b",
+       "text": "所以"
+      },
+      {
+       "id": "c",
+       "text": "甚至"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "甚至 = thậm chí (Anh ấy thích vận động, thậm chí cuối tuần cũng đi leo núi)."
+    },
+    {
+     "id": "zh.hsk4.lian_dou_shenzhi.05",
+     "prompt": "我连他的名字___不知道。",
+     "options": [
+      {
+       "id": "a",
+       "text": "才"
+      },
+      {
+       "id": "b",
+       "text": "都"
+      },
+      {
+       "id": "c",
+       "text": "被"
+      },
+      {
+       "id": "d",
+       "text": "把"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "连…都不… (Tôi còn không biết cả tên anh ấy)."
+    },
+    {
+     "id": "zh.hsk4.lian_dou_shenzhi.06",
+     "prompt": "这里的冬天很冷，___零下二十度。",
+     "options": [
+      {
+       "id": "a",
+       "text": "甚至"
+      },
+      {
+       "id": "b",
+       "text": "因为"
+      },
+      {
+       "id": "c",
+       "text": "所以"
+      },
+      {
+       "id": "d",
+       "text": "如果"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "甚至 (Mùa đông ở đây rất lạnh, thậm chí âm hai mươi độ)."
+    },
+    {
+     "id": "zh.hsk4.lian_dou_shenzhi.07",
+     "prompt": "他连一句汉语___不会说。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "给"
+      },
+      {
+       "id": "d",
+       "text": "也"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "连…也不… (Anh ấy ngay cả một câu tiếng Hán cũng không biết nói)."
+    },
+    {
+     "id": "zh.hsk4.lian_dou_shenzhi.08",
+     "prompt": "这件事谁都知道，___孩子也知道。",
+     "options": [
+      {
+       "id": "a",
+       "text": "被"
+      },
+      {
+       "id": "b",
+       "text": "把"
+      },
+      {
+       "id": "c",
+       "text": "连"
+      },
+      {
+       "id": "d",
+       "text": "给"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "连…也… (Chuyện này ai cũng biết, ngay cả trẻ con cũng biết)."
+    }
+   ],
+   "lesson": {
+    "summary": "连…都/也 nhấn mạnh ngay cả trường hợp cực đoan; 甚至 nêu mức độ cao hơn.",
+    "rules": [
+     "连 + thành phần + 都/也 + động từ: 他连饭都没吃。",
+     "Với phủ định, nhấn mạnh hoàn toàn không: 他连一句汉语也不会说。",
+     "甚至: thậm chí: 这里的冬天很冷，甚至零下二十度。"
+    ],
+    "examples": [
+     {
+      "text": "他忙得连吃饭的时间都没有。",
+      "meaning": "Anh ấy bận đến mức không có cả thời gian ăn cơm."
+     },
+     {
+      "text": "这个问题很简单，连小孩子都会。",
+      "meaning": "Câu hỏi này đơn giản, ngay cả trẻ con cũng biết."
+     },
+     {
+      "text": "这里的冬天很冷，甚至零下二十度。",
+      "meaning": "Mùa đông ở đây rất lạnh, thậm chí xuống âm hai mươi độ."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "他连一句汉语会说。",
+      "right": "他连一句汉语也不会说。",
+      "why": "连…也/都 cần động từ phủ định để nhấn mạnh."
+     },
+     {
+      "wrong": "他忙得甚至吃饭的时间都没有。",
+      "right": "他忙得连吃饭的时间都没有。",
+      "why": "Với cấu trúc 都 thường dùng 连."
+     }
+    ]
+   }
+  }
+ ],
+ "approval": {
+  "reviewer": "owner",
+  "approved_on": "2026-11-02",
+  "content_sha256": "cc04815e6795a8d84f0a899322007972b448e3af8b04f164b24e0640cdd64273",
+  "sample_question_ids": [
+   "zh.hsk4.causative_rang_shi.01",
+   "zh.hsk4.jishi_ye.01",
+   "zh.hsk4.jiran_jiu.01",
+   "zh.hsk4.wulun_dou.01",
+   "zh.hsk4.jinguan_que.01",
+   "zh.hsk4.yuqi_buru.01",
+   "zh.hsk4.fouze_buran.01",
+   "zh.hsk4.fan_er_bing.01",
+   "zh.hsk4.prepositions_formal.01",
+   "zh.hsk4.lian_dou_shenzhi.01"
+  ]
+ }
+}

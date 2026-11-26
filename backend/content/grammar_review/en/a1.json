@@ -1,0 +1,1503 @@
+{
+  "format": "deeplingo-grammar-bank-v1",
+  "catalogue_source": "deeplingo",
+  "authorship": "ai_draft",
+  "language": "en",
+  "level": "A1",
+  "support_language": "vi",
+  "version": 2,
+  "topics": [
+    {
+      "key": "verbs",
+      "title": "Câu với động từ"
+    },
+    {
+      "key": "noun-phrases",
+      "title": "Cụm danh từ"
+    },
+    {
+      "key": "places",
+      "title": "Nơi chốn và sự tồn tại"
+    }
+  ],
+  "points": [
+    {
+      "key": "en.a1.be",
+      "title": "To be ở hiện tại: khẳng định, phủ định và câu hỏi",
+      "topic_key": "verbs",
+      "questions": [
+        {
+          "id": "en.a1.be.01",
+          "prompt": "Chọn dạng đúng của be: I ___ a student.",
+          "options": [
+            {
+              "id": "a",
+              "text": "am"
+            },
+            {
+              "id": "b",
+              "text": "is"
+            },
+            {
+              "id": "c",
+              "text": "are"
+            },
+            {
+              "id": "d",
+              "text": "be"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Với chủ ngữ I, dạng hiện tại của be là am: I am a student (Tôi là học sinh)."
+        },
+        {
+          "id": "en.a1.be.02",
+          "prompt": "Chọn dạng đúng của be: They ___ at home.",
+          "options": [
+            {
+              "id": "a",
+              "text": "is"
+            },
+            {
+              "id": "b",
+              "text": "am"
+            },
+            {
+              "id": "c",
+              "text": "be"
+            },
+            {
+              "id": "d",
+              "text": "are"
+            }
+          ],
+          "correct_option_id": "d",
+          "explanation": "They đi với are: They are at home (Họ đang ở nhà)."
+        },
+        {
+          "id": "en.a1.be.03",
+          "prompt": "Chọn từ mở đầu câu hỏi: ___ she your teacher?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Am"
+            },
+            {
+              "id": "b",
+              "text": "Are"
+            },
+            {
+              "id": "c",
+              "text": "Is"
+            },
+            {
+              "id": "d",
+              "text": "Be"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "She đi với is. Khi hỏi có/không, đưa is lên trước chủ ngữ: Is she your teacher?"
+        },
+        {
+          "id": "en.a1.be.04",
+          "prompt": "Điền dạng phủ định của be: He ___ tired. He feels fine.",
+          "options": [
+            {
+              "id": "a",
+              "text": "aren't"
+            },
+            {
+              "id": "b",
+              "text": "isn't"
+            },
+            {
+              "id": "c",
+              "text": "am not"
+            },
+            {
+              "id": "d",
+              "text": "don't"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "He đi với is; dạng phủ định is not thường rút gọn thành isn't. He isn't tired nghĩa là anh ấy không mệt."
+        }
+      ],
+      "lesson": {
+        "summary": "Be ở hiện tại có ba dạng: am, is, are. Dùng để nói ai là ai, ở đâu, như thế nào.",
+        "rules": [
+          "I đi với am; he, she, it và danh từ số ít đi với is; you, we, they và danh từ số nhiều đi với are.",
+          "Phủ định: thêm not sau be (I am not, she isn't, they aren't).",
+          "Câu hỏi: đưa be lên trước chủ ngữ (Are you a student? Is he at home?)."
+        ],
+        "examples": [
+          {
+            "text": "I am a teacher.",
+            "meaning": "Tôi là giáo viên."
+          },
+          {
+            "text": "She isn't at work today.",
+            "meaning": "Hôm nay cô ấy không ở chỗ làm."
+          },
+          {
+            "text": "Are they your friends?",
+            "meaning": "Họ là bạn của bạn à?"
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "She are happy.",
+            "right": "She is happy.",
+            "why": "She là ngôi thứ ba số ít nên dùng is."
+          },
+          {
+            "wrong": "I not am tired.",
+            "right": "I am not tired.",
+            "why": "Not đứng sau be."
+          }
+        ]
+      }
+    },
+    {
+      "key": "en.a1.present_simple",
+      "title": "Hiện tại đơn với động từ thường",
+      "topic_key": "verbs",
+      "questions": [
+        {
+          "id": "en.a1.present_simple.01",
+          "prompt": "Chọn dạng hiện tại đơn: She ___ to school every day.",
+          "options": [
+            {
+              "id": "a",
+              "text": "go"
+            },
+            {
+              "id": "b",
+              "text": "goes"
+            },
+            {
+              "id": "c",
+              "text": "going"
+            },
+            {
+              "id": "d",
+              "text": "gone"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Ở hiện tại đơn, chủ ngữ she cần động từ ngôi thứ ba số ít. Go đổi thành goes: She goes to school every day."
+        },
+        {
+          "id": "en.a1.present_simple.02",
+          "prompt": "Chọn dạng phủ định ở hiện tại đơn: We ___ coffee.",
+          "options": [
+            {
+              "id": "a",
+              "text": "doesn't drink"
+            },
+            {
+              "id": "b",
+              "text": "not drink"
+            },
+            {
+              "id": "c",
+              "text": "isn't drink"
+            },
+            {
+              "id": "d",
+              "text": "don't drink"
+            }
+          ],
+          "correct_option_id": "d",
+          "explanation": "Với we, dùng do not (don't) rồi đến động từ nguyên thể: We don't drink coffee (Chúng tôi không uống cà phê)."
+        },
+        {
+          "id": "en.a1.present_simple.03",
+          "prompt": "Chọn trợ động từ để hỏi ở hiện tại đơn: ___ he work here?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Do"
+            },
+            {
+              "id": "b",
+              "text": "Is"
+            },
+            {
+              "id": "c",
+              "text": "Does"
+            },
+            {
+              "id": "d",
+              "text": "Are"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "He cần trợ động từ does khi hỏi với động từ thường. Sau does, work giữ nguyên: Does he work here?"
+        },
+        {
+          "id": "en.a1.present_simple.04",
+          "prompt": "Chọn dạng hiện tại đơn: I ___ English every evening.",
+          "options": [
+            {
+              "id": "a",
+              "text": "study"
+            },
+            {
+              "id": "b",
+              "text": "studies"
+            },
+            {
+              "id": "c",
+              "text": "studying"
+            },
+            {
+              "id": "d",
+              "text": "to study"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Với I, dùng dạng nguyên thể study ở hiện tại đơn: I study English every evening (Tôi học tiếng Anh mỗi tối)."
+        }
+      ],
+      "lesson": {
+        "summary": "Hiện tại đơn nói về thói quen, sự thật và lịch cố định.",
+        "rules": [
+          "He, she, it: động từ thêm -s hoặc -es (works, watches).",
+          "Phủ định và câu hỏi dùng do/does, động từ chính giữ nguyên mẫu (She doesn't work. Does he play?).",
+          "Hay đi với every day, usually, often, never."
+        ],
+        "examples": [
+          {
+            "text": "I drink coffee every morning.",
+            "meaning": "Sáng nào tôi cũng uống cà phê."
+          },
+          {
+            "text": "He works in a bank.",
+            "meaning": "Anh ấy làm ở ngân hàng."
+          },
+          {
+            "text": "Do you like music?",
+            "meaning": "Bạn có thích nhạc không?"
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "He work here.",
+            "right": "He works here.",
+            "why": "Với he cần thêm -s."
+          },
+          {
+            "wrong": "She doesn't likes tea.",
+            "right": "She doesn't like tea.",
+            "why": "Sau doesn't động từ giữ nguyên mẫu."
+          }
+        ]
+      }
+    },
+    {
+      "key": "en.a1.articles",
+      "title": "Mạo từ a, an và the",
+      "topic_key": "noun-phrases",
+      "questions": [
+        {
+          "id": "en.a1.articles.01",
+          "prompt": "Chọn mạo từ bất định để nói “một quả táo”: I eat ___ apple every day.",
+          "options": [
+            {
+              "id": "a",
+              "text": "a"
+            },
+            {
+              "id": "b",
+              "text": "an"
+            },
+            {
+              "id": "c",
+              "text": "the"
+            },
+            {
+              "id": "d",
+              "text": "(không có mạo từ)"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Apple là danh từ đếm được số ít, bắt đầu bằng một âm nguyên âm. Dùng an apple khi nói một quả táo chưa xác định."
+        },
+        {
+          "id": "en.a1.articles.02",
+          "prompt": "Chọn mạo từ bất định khi nói nghề nghiệp: She is ___ engineer.",
+          "options": [
+            {
+              "id": "a",
+              "text": "a"
+            },
+            {
+              "id": "b",
+              "text": "the"
+            },
+            {
+              "id": "c",
+              "text": "(không có mạo từ)"
+            },
+            {
+              "id": "d",
+              "text": "an"
+            }
+          ],
+          "correct_option_id": "d",
+          "explanation": "Engineer bắt đầu bằng một âm nguyên âm nên dùng an: She is an engineer (Cô ấy là kỹ sư)."
+        },
+        {
+          "id": "en.a1.articles.03",
+          "prompt": "Chọn mạo từ xác định khi nói về Mặt Trời của chúng ta: ___ sun is bright today.",
+          "options": [
+            {
+              "id": "a",
+              "text": "The"
+            },
+            {
+              "id": "b",
+              "text": "A"
+            },
+            {
+              "id": "c",
+              "text": "An"
+            },
+            {
+              "id": "d",
+              "text": "(không có mạo từ)"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Dùng the khi người nói và người nghe đều xác định được đối tượng. Ở đây đó là Mặt Trời: The sun is bright today."
+        },
+        {
+          "id": "en.a1.articles.04",
+          "prompt": "Chọn mạo từ bất định để giới thiệu một quyển sách chưa nhắc tới: I have ___ book.",
+          "options": [
+            {
+              "id": "a",
+              "text": "an"
+            },
+            {
+              "id": "b",
+              "text": "the"
+            },
+            {
+              "id": "c",
+              "text": "a"
+            },
+            {
+              "id": "d",
+              "text": "(không có mạo từ)"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Book là danh từ đếm được số ít và bắt đầu bằng âm phụ âm. Dùng a book khi giới thiệu một quyển sách chưa xác định."
+        }
+      ],
+      "lesson": {
+        "summary": "A và an dùng cho một vật bất kỳ, lần đầu nhắc tới; the dùng cho vật cả hai người đều biết.",
+        "rules": [
+          "A trước âm phụ âm (a book, a university); an trước âm nguyên âm (an apple, an hour).",
+          "The khi vật đã được nhắc hoặc chỉ có một (the sun, the book I bought).",
+          "Danh từ số nhiều nói chung không cần mạo từ (Dogs are friendly)."
+        ],
+        "examples": [
+          {
+            "text": "I have a cat. The cat is black.",
+            "meaning": "Tôi có một con mèo. Con mèo đó màu đen."
+          },
+          {
+            "text": "She eats an orange every day.",
+            "meaning": "Ngày nào cô ấy cũng ăn một quả cam."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "I am an student.",
+            "right": "I am a student.",
+            "why": "Student bắt đầu bằng âm phụ âm /s/."
+          }
+        ]
+      }
+    },
+    {
+      "key": "en.a1.possessive_adjectives",
+      "title": "Từ chỉ sở hữu đứng trước danh từ",
+      "topic_key": "noun-phrases",
+      "questions": [
+        {
+          "id": "en.a1.possessive_adjectives.01",
+          "prompt": "Điền từ chỉ sở hữu của chính cô ấy: She has a bag. This is ___ bag.",
+          "options": [
+            {
+              "id": "a",
+              "text": "his"
+            },
+            {
+              "id": "b",
+              "text": "her"
+            },
+            {
+              "id": "c",
+              "text": "hers"
+            },
+            {
+              "id": "d",
+              "text": "she"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Her đứng trước danh từ để nói “của cô ấy”: her bag. Hers dùng thay cho cả cụm danh từ, không đứng ngay trước bag."
+        },
+        {
+          "id": "en.a1.possessive_adjectives.02",
+          "prompt": "Chọn từ đúng: We have a classroom. This is ___ classroom.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ours"
+            },
+            {
+              "id": "b",
+              "text": "us"
+            },
+            {
+              "id": "c",
+              "text": "our"
+            },
+            {
+              "id": "d",
+              "text": "we"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Our đứng trước danh từ để nói “của chúng tôi/chúng ta”: our classroom. Ours không đứng ngay trước danh từ."
+        },
+        {
+          "id": "en.a1.possessive_adjectives.03",
+          "prompt": "Chọn từ đúng: I have a new phone. ___ phone is blue.",
+          "options": [
+            {
+              "id": "a",
+              "text": "My"
+            },
+            {
+              "id": "b",
+              "text": "Mine"
+            },
+            {
+              "id": "c",
+              "text": "Me"
+            },
+            {
+              "id": "d",
+              "text": "I"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "My đứng trước phone để nói “điện thoại của tôi”. Mine thay cho cả cụm my phone nên không dùng Mine phone."
+        },
+        {
+          "id": "en.a1.possessive_adjectives.04",
+          "prompt": "Chọn từ đúng: They have two bikes. These are ___ bikes.",
+          "options": [
+            {
+              "id": "a",
+              "text": "theirs"
+            },
+            {
+              "id": "b",
+              "text": "them"
+            },
+            {
+              "id": "c",
+              "text": "they"
+            },
+            {
+              "id": "d",
+              "text": "their"
+            }
+          ],
+          "correct_option_id": "d",
+          "explanation": "Their đứng trước danh từ để nói “của họ”: their bikes. Theirs là đại từ sở hữu và không đứng ngay trước bikes."
+        }
+      ],
+      "lesson": {
+        "summary": "Từ chỉ sở hữu đứng trước danh từ để nói vật thuộc về ai: my, your, his, her, its, our, their.",
+        "rules": [
+          "Chọn theo người sở hữu, không theo vật: his mother (mẹ của anh ấy).",
+          "Không dùng thêm mạo từ: my car, không nói the my car.",
+          "Its (của nó) khác it's (= it is)."
+        ],
+        "examples": [
+          {
+            "text": "This is my brother.",
+            "meaning": "Đây là anh trai tôi."
+          },
+          {
+            "text": "Their house is big.",
+            "meaning": "Nhà của họ to."
+          },
+          {
+            "text": "The dog wags its tail.",
+            "meaning": "Con chó vẫy đuôi."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "She loves his mother.",
+            "right": "She loves her mother.",
+            "why": "Người sở hữu là she nên dùng her."
+          },
+          {
+            "wrong": "It's color is red.",
+            "right": "Its color is red.",
+            "why": "Its là sở hữu; it's là it is."
+          }
+        ]
+      }
+    },
+    {
+      "key": "en.a1.there_is_are",
+      "title": "There is / there are: nói có cái gì ở đâu",
+      "topic_key": "places",
+      "lesson": {
+        "summary": "There is / there are giới thiệu thứ có ở một nơi.",
+        "rules": [
+          "There is + danh từ số ít hoặc không đếm được; there are + danh từ số nhiều.",
+          "Phủ định: there isn't / there aren't; câu hỏi: Is there…? Are there…?",
+          "Với số nhiều trong câu phủ định và câu hỏi hay dùng any: Are there any chairs?"
+        ],
+        "examples": [
+          {
+            "text": "There is a bank near my house.",
+            "meaning": "Có một ngân hàng gần nhà tôi."
+          },
+          {
+            "text": "There are two cats in the garden.",
+            "meaning": "Có hai con mèo trong vườn."
+          },
+          {
+            "text": "Is there any milk?",
+            "meaning": "Còn sữa không?"
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "There are a book on the table.",
+            "right": "There is a book on the table.",
+            "why": "A book là số ít nên dùng there is."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "en.a1.there_is_are.01",
+          "prompt": "There ___ a park near here.",
+          "options": [
+            {
+              "id": "a",
+              "text": "is"
+            },
+            {
+              "id": "b",
+              "text": "are"
+            },
+            {
+              "id": "c",
+              "text": "am"
+            },
+            {
+              "id": "d",
+              "text": "be"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "A park số ít nên dùng there is: Có một công viên gần đây."
+        },
+        {
+          "id": "en.a1.there_is_are.02",
+          "prompt": "There ___ three people in my family.",
+          "options": [
+            {
+              "id": "a",
+              "text": "is"
+            },
+            {
+              "id": "b",
+              "text": "are"
+            },
+            {
+              "id": "c",
+              "text": "am"
+            },
+            {
+              "id": "d",
+              "text": "has"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Three people là số nhiều: Gia đình tôi có ba người."
+        },
+        {
+          "id": "en.a1.there_is_are.03",
+          "prompt": "There ___ any water in the bottle.",
+          "options": [
+            {
+              "id": "a",
+              "text": "isn't"
+            },
+            {
+              "id": "b",
+              "text": "aren't"
+            },
+            {
+              "id": "c",
+              "text": "not is"
+            },
+            {
+              "id": "d",
+              "text": "don't"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Water không đếm được nên dùng isn't: Trong chai không còn nước."
+        },
+        {
+          "id": "en.a1.there_is_are.04",
+          "prompt": "___ there a hotel in this street?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Is"
+            },
+            {
+              "id": "b",
+              "text": "Are"
+            },
+            {
+              "id": "c",
+              "text": "Do"
+            },
+            {
+              "id": "d",
+              "text": "Does"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Câu hỏi với a hotel số ít: Is there…? Phố này có khách sạn không?"
+        },
+        {
+          "id": "en.a1.there_is_are.05",
+          "prompt": "___ there any shops near the station?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Are"
+            },
+            {
+              "id": "b",
+              "text": "Is"
+            },
+            {
+              "id": "c",
+              "text": "Do"
+            },
+            {
+              "id": "d",
+              "text": "Have"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Any shops số nhiều: Are there…? Gần ga có cửa hàng nào không?"
+        },
+        {
+          "id": "en.a1.there_is_are.06",
+          "prompt": "There ___ many cars on the road today.",
+          "options": [
+            {
+              "id": "a",
+              "text": "are"
+            },
+            {
+              "id": "b",
+              "text": "is"
+            },
+            {
+              "id": "c",
+              "text": "be"
+            },
+            {
+              "id": "d",
+              "text": "has"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Many cars số nhiều: Hôm nay có nhiều xe trên đường."
+        },
+        {
+          "id": "en.a1.there_is_are.07",
+          "prompt": "There ___ a cat and two dogs in the house.",
+          "options": [
+            {
+              "id": "a",
+              "text": "is"
+            },
+            {
+              "id": "b",
+              "text": "are"
+            },
+            {
+              "id": "c",
+              "text": "am"
+            },
+            {
+              "id": "d",
+              "text": "be"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Danh từ đứng ngay sau là a cat (số ít) nên dùng is."
+        },
+        {
+          "id": "en.a1.there_is_are.08",
+          "prompt": "Chọn câu đúng.",
+          "options": [
+            {
+              "id": "a",
+              "text": "There is some apples."
+            },
+            {
+              "id": "b",
+              "text": "There are some apples."
+            },
+            {
+              "id": "c",
+              "text": "There are an apple."
+            },
+            {
+              "id": "d",
+              "text": "There is apples."
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Apples số nhiều nên dùng there are: Có vài quả táo."
+        }
+      ]
+    },
+    {
+      "key": "en.a1.plural_nouns",
+      "title": "Danh từ số nhiều",
+      "topic_key": "noun-phrases",
+      "lesson": {
+        "summary": "Phần lớn danh từ thêm -s khi chỉ hai cái trở lên; một số từ có dạng riêng.",
+        "rules": [
+          "Thường thêm -s: book → books.",
+          "Tận cùng -s, -sh, -ch, -x thêm -es: bus → buses, watch → watches.",
+          "Phụ âm + y đổi thành -ies: city → cities.",
+          "Dạng riêng: man → men, woman → women, child → children, person → people."
+        ],
+        "examples": [
+          {
+            "text": "I have two brothers.",
+            "meaning": "Tôi có hai anh trai."
+          },
+          {
+            "text": "The children are in the park.",
+            "meaning": "Bọn trẻ ở công viên."
+          },
+          {
+            "text": "There are many cities in Vietnam.",
+            "meaning": "Việt Nam có nhiều thành phố."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "three childs",
+            "right": "three children",
+            "why": "Child có dạng số nhiều riêng."
+          },
+          {
+            "wrong": "two box",
+            "right": "two boxes",
+            "why": "Box tận cùng -x nên thêm -es."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "en.a1.plural_nouns.01",
+          "prompt": "I have three ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "sister"
+            },
+            {
+              "id": "b",
+              "text": "sisters"
+            },
+            {
+              "id": "c",
+              "text": "sisteres"
+            },
+            {
+              "id": "d",
+              "text": "sisteries"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Thêm -s: Tôi có ba chị gái."
+        },
+        {
+          "id": "en.a1.plural_nouns.02",
+          "prompt": "There are two ___ on the table.",
+          "options": [
+            {
+              "id": "a",
+              "text": "glass"
+            },
+            {
+              "id": "b",
+              "text": "glasss"
+            },
+            {
+              "id": "c",
+              "text": "glasses"
+            },
+            {
+              "id": "d",
+              "text": "glassies"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Tận cùng -s thêm -es: Có hai cái cốc trên bàn."
+        },
+        {
+          "id": "en.a1.plural_nouns.03",
+          "prompt": "Many ___ live in this building.",
+          "options": [
+            {
+              "id": "a",
+              "text": "family"
+            },
+            {
+              "id": "b",
+              "text": "familys"
+            },
+            {
+              "id": "c",
+              "text": "families"
+            },
+            {
+              "id": "d",
+              "text": "familyes"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Phụ âm + y đổi thành -ies: Nhiều gia đình sống ở tòa nhà này."
+        },
+        {
+          "id": "en.a1.plural_nouns.04",
+          "prompt": "Five ___ are waiting outside.",
+          "options": [
+            {
+              "id": "a",
+              "text": "person"
+            },
+            {
+              "id": "b",
+              "text": "persons"
+            },
+            {
+              "id": "c",
+              "text": "people"
+            },
+            {
+              "id": "d",
+              "text": "peoples"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Person có số nhiều là people: Năm người đang đợi bên ngoài."
+        },
+        {
+          "id": "en.a1.plural_nouns.05",
+          "prompt": "The ___ are playing football.",
+          "options": [
+            {
+              "id": "a",
+              "text": "child"
+            },
+            {
+              "id": "b",
+              "text": "childs"
+            },
+            {
+              "id": "c",
+              "text": "children"
+            },
+            {
+              "id": "d",
+              "text": "childrens"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Child → children: Bọn trẻ đang chơi bóng đá."
+        },
+        {
+          "id": "en.a1.plural_nouns.06",
+          "prompt": "She buys two ___ of bread.",
+          "options": [
+            {
+              "id": "a",
+              "text": "loaf"
+            },
+            {
+              "id": "b",
+              "text": "loafs"
+            },
+            {
+              "id": "c",
+              "text": "loaves"
+            },
+            {
+              "id": "d",
+              "text": "loafes"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Loaf → loaves: Cô ấy mua hai ổ bánh mì."
+        },
+        {
+          "id": "en.a1.plural_nouns.07",
+          "prompt": "We need four ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "knife"
+            },
+            {
+              "id": "b",
+              "text": "knifes"
+            },
+            {
+              "id": "c",
+              "text": "knives"
+            },
+            {
+              "id": "d",
+              "text": "knivies"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Knife → knives: Chúng ta cần bốn con dao."
+        },
+        {
+          "id": "en.a1.plural_nouns.08",
+          "prompt": "Chọn câu đúng.",
+          "options": [
+            {
+              "id": "a",
+              "text": "I see two mans."
+            },
+            {
+              "id": "b",
+              "text": "I see two men."
+            },
+            {
+              "id": "c",
+              "text": "I see two mens."
+            },
+            {
+              "id": "d",
+              "text": "I see two man."
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Man → men: Tôi thấy hai người đàn ông."
+        }
+      ]
+    },
+    {
+      "key": "en.a1.present_continuous_now",
+      "title": "Hiện tại tiếp diễn: việc đang diễn ra",
+      "topic_key": "verbs",
+      "lesson": {
+        "summary": "Hiện tại tiếp diễn nói việc đang xảy ra ngay lúc nói.",
+        "rules": [
+          "Cấu trúc: am/is/are + động từ -ing (I am reading).",
+          "Phủ định thêm not; câu hỏi đưa am/is/are lên trước (Are you listening?).",
+          "Hay đi với now, right now, at the moment.",
+          "Chính tả: make → making, sit → sitting."
+        ],
+        "examples": [
+          {
+            "text": "I am cooking dinner now.",
+            "meaning": "Bây giờ tôi đang nấu bữa tối."
+          },
+          {
+            "text": "She isn't watching TV.",
+            "meaning": "Cô ấy không đang xem TV."
+          },
+          {
+            "text": "Are they sleeping?",
+            "meaning": "Họ đang ngủ à?"
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "He is play football.",
+            "right": "He is playing football.",
+            "why": "Sau is cần động từ -ing."
+          },
+          {
+            "wrong": "I reading a book now.",
+            "right": "I am reading a book now.",
+            "why": "Không được bỏ am."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "en.a1.present_continuous_now.01",
+          "prompt": "Look! It ___ raining.",
+          "options": [
+            {
+              "id": "a",
+              "text": "is"
+            },
+            {
+              "id": "b",
+              "text": "are"
+            },
+            {
+              "id": "c",
+              "text": "am"
+            },
+            {
+              "id": "d",
+              "text": "be"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "It đi với is: Nhìn kìa! Trời đang mưa."
+        },
+        {
+          "id": "en.a1.present_continuous_now.02",
+          "prompt": "They ___ playing in the garden now.",
+          "options": [
+            {
+              "id": "a",
+              "text": "is"
+            },
+            {
+              "id": "b",
+              "text": "are"
+            },
+            {
+              "id": "c",
+              "text": "am"
+            },
+            {
+              "id": "d",
+              "text": "does"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "They đi với are: Bây giờ họ đang chơi trong vườn."
+        },
+        {
+          "id": "en.a1.present_continuous_now.03",
+          "prompt": "I am ___ an email right now.",
+          "options": [
+            {
+              "id": "a",
+              "text": "write"
+            },
+            {
+              "id": "b",
+              "text": "writes"
+            },
+            {
+              "id": "c",
+              "text": "writing"
+            },
+            {
+              "id": "d",
+              "text": "wrote"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Write bỏ e thêm -ing: Ngay lúc này tôi đang viết email."
+        },
+        {
+          "id": "en.a1.present_continuous_now.04",
+          "prompt": "She ___ to music at the moment.",
+          "options": [
+            {
+              "id": "a",
+              "text": "listens"
+            },
+            {
+              "id": "b",
+              "text": "is listening"
+            },
+            {
+              "id": "c",
+              "text": "listen"
+            },
+            {
+              "id": "d",
+              "text": "listening"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "At the moment là việc đang diễn ra: Lúc này cô ấy đang nghe nhạc."
+        },
+        {
+          "id": "en.a1.present_continuous_now.05",
+          "prompt": "___ you waiting for the bus?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Do"
+            },
+            {
+              "id": "b",
+              "text": "Are"
+            },
+            {
+              "id": "c",
+              "text": "Is"
+            },
+            {
+              "id": "d",
+              "text": "Does"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Câu hỏi đưa are lên trước: Bạn đang đợi xe buýt à?"
+        },
+        {
+          "id": "en.a1.present_continuous_now.06",
+          "prompt": "We aren't ___ TV now.",
+          "options": [
+            {
+              "id": "a",
+              "text": "watch"
+            },
+            {
+              "id": "b",
+              "text": "watching"
+            },
+            {
+              "id": "c",
+              "text": "watches"
+            },
+            {
+              "id": "d",
+              "text": "watched"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Sau aren't dùng -ing: Bây giờ chúng tôi không xem TV."
+        },
+        {
+          "id": "en.a1.present_continuous_now.07",
+          "prompt": "The baby is ___ in the bedroom.",
+          "options": [
+            {
+              "id": "a",
+              "text": "sleep"
+            },
+            {
+              "id": "b",
+              "text": "sleeps"
+            },
+            {
+              "id": "c",
+              "text": "sleeping"
+            },
+            {
+              "id": "d",
+              "text": "slept"
+            }
+          ],
+          "correct_option_id": "c",
+          "explanation": "Is + sleeping: Em bé đang ngủ trong phòng."
+        },
+        {
+          "id": "en.a1.present_continuous_now.08",
+          "prompt": "He is ___ on the chair.",
+          "options": [
+            {
+              "id": "a",
+              "text": "siting"
+            },
+            {
+              "id": "b",
+              "text": "sitting"
+            },
+            {
+              "id": "c",
+              "text": "sits"
+            },
+            {
+              "id": "d",
+              "text": "sit"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Sit gấp đôi t: sitting. Anh ấy đang ngồi trên ghế."
+        }
+      ]
+    },
+    {
+      "key": "en.a1.prepositions_place",
+      "title": "Giới từ chỉ nơi chốn: in, on, under, next to",
+      "topic_key": "places",
+      "lesson": {
+        "summary": "Giới từ nơi chốn cho biết vật ở đâu so với vật khác.",
+        "rules": [
+          "In: bên trong (in the box, in the room).",
+          "On: trên bề mặt (on the table, on the wall).",
+          "Under: bên dưới; next to: bên cạnh; between: ở giữa hai vật."
+        ],
+        "examples": [
+          {
+            "text": "The keys are on the table.",
+            "meaning": "Chìa khóa ở trên bàn."
+          },
+          {
+            "text": "The cat is under the bed.",
+            "meaning": "Con mèo ở dưới gầm giường."
+          },
+          {
+            "text": "The bank is next to the café.",
+            "meaning": "Ngân hàng ở cạnh quán cà phê."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "The picture is in the wall.",
+            "right": "The picture is on the wall.",
+            "why": "Tranh treo trên bề mặt tường nên dùng on."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "en.a1.prepositions_place.01",
+          "prompt": "The milk is ___ the fridge.",
+          "options": [
+            {
+              "id": "a",
+              "text": "in"
+            },
+            {
+              "id": "b",
+              "text": "on"
+            },
+            {
+              "id": "c",
+              "text": "under"
+            },
+            {
+              "id": "d",
+              "text": "at"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Bên trong tủ lạnh dùng in: Sữa ở trong tủ lạnh."
+        },
+        {
+          "id": "en.a1.prepositions_place.02",
+          "prompt": "Your phone is ___ the desk.",
+          "options": [
+            {
+              "id": "a",
+              "text": "in"
+            },
+            {
+              "id": "b",
+              "text": "on"
+            },
+            {
+              "id": "c",
+              "text": "between"
+            },
+            {
+              "id": "d",
+              "text": "into"
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Trên mặt bàn dùng on: Điện thoại của bạn ở trên bàn."
+        },
+        {
+          "id": "en.a1.prepositions_place.03",
+          "prompt": "The shoes are ___ the bed.",
+          "options": [
+            {
+              "id": "a",
+              "text": "under"
+            },
+            {
+              "id": "b",
+              "text": "in"
+            },
+            {
+              "id": "c",
+              "text": "on"
+            },
+            {
+              "id": "d",
+              "text": "at"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Bên dưới giường dùng under: Đôi giày ở dưới gầm giường."
+        },
+        {
+          "id": "en.a1.prepositions_place.04",
+          "prompt": "The school is ___ the hospital.",
+          "options": [
+            {
+              "id": "a",
+              "text": "next to"
+            },
+            {
+              "id": "b",
+              "text": "in"
+            },
+            {
+              "id": "c",
+              "text": "on"
+            },
+            {
+              "id": "d",
+              "text": "under"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Bên cạnh dùng next to: Trường học ở cạnh bệnh viện."
+        },
+        {
+          "id": "en.a1.prepositions_place.05",
+          "prompt": "The café is ___ the bank and the post office.",
+          "options": [
+            {
+              "id": "a",
+              "text": "between"
+            },
+            {
+              "id": "b",
+              "text": "next"
+            },
+            {
+              "id": "c",
+              "text": "under"
+            },
+            {
+              "id": "d",
+              "text": "in"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Ở giữa hai nơi dùng between."
+        },
+        {
+          "id": "en.a1.prepositions_place.06",
+          "prompt": "There is a clock ___ the wall.",
+          "options": [
+            {
+              "id": "a",
+              "text": "on"
+            },
+            {
+              "id": "b",
+              "text": "in"
+            },
+            {
+              "id": "c",
+              "text": "under"
+            },
+            {
+              "id": "d",
+              "text": "between"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Đồng hồ treo trên tường dùng on."
+        },
+        {
+          "id": "en.a1.prepositions_place.07",
+          "prompt": "The children are ___ the classroom.",
+          "options": [
+            {
+              "id": "a",
+              "text": "in"
+            },
+            {
+              "id": "b",
+              "text": "on"
+            },
+            {
+              "id": "c",
+              "text": "under"
+            },
+            {
+              "id": "d",
+              "text": "next"
+            }
+          ],
+          "correct_option_id": "a",
+          "explanation": "Bên trong lớp học dùng in."
+        },
+        {
+          "id": "en.a1.prepositions_place.08",
+          "prompt": "Chọn câu đúng.",
+          "options": [
+            {
+              "id": "a",
+              "text": "The cat is on the box inside."
+            },
+            {
+              "id": "b",
+              "text": "The cat is in the box."
+            },
+            {
+              "id": "c",
+              "text": "The cat is at the box in."
+            },
+            {
+              "id": "d",
+              "text": "The cat is in on the box."
+            }
+          ],
+          "correct_option_id": "b",
+          "explanation": "Bên trong hộp: in the box."
+        }
+      ]
+    }
+  ],
+  "approval": {
+    "reviewer": "owner",
+    "approved_on": "2026-11-06",
+    "content_sha256": "66510c3ea009f713790b9987609e43abf526db9b083e6f19881c55260c642f60",
+    "sample_question_ids": [
+      "en.a1.be.01",
+      "en.a1.present_simple.01",
+      "en.a1.articles.01",
+      "en.a1.possessive_adjectives.01",
+      "en.a1.there_is_are.01",
+      "en.a1.plural_nouns.01",
+      "en.a1.present_continuous_now.01",
+      "en.a1.prepositions_place.01"
+    ]
+  }
+}

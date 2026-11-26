@@ -1,0 +1,13 @@
+/* The one review session for every exercise type, and the notebook's decks. Tokens only (src/design/tokens.css). */
+.rv-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1); }
+
+/* The decks on the notebook shelf: one per language, due and new counts. */
+.rv-decks { display: grid; gap: var(--space-1); }
+.rv-deck { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); padding: var(--space-2);
+  border-radius: var(--radius-md); background: var(--fill); color: var(--label); text-decoration: none; }
+.rv-deck strong { font: 600 16px/22px var(--font-sans); }
+.rv-deck small { color: var(--label-2); }
+.rv-deck b { color: var(--blue-text); }
+.rv-redo { display: grid; gap: var(--space-1); margin: 0; padding: 0; list-style: none; }
+.rv-redo li { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-md); background: var(--accent-tint); color: var(--accent-text); }

@@ -1,0 +1,12 @@
+{$API_HOSTNAME} {
+	# SEC-02: refuse oversized bodies at the edge; the API enforces its own 3 MiB cap too.
+	request_body {
+		max_size 4MB
+	}
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+		-Server
+	}
+	reverse_proxy api:8000
+}

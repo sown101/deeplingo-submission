@@ -1,0 +1,520 @@
+# DRAFT (2026-11-07): drafted by the AI, awaiting the owner's sample review.
+# Coverage frame: CEFR-J Grammar Profile 20180315 (Tono Laboratory, TUFS; used with citation),
+# CEFR-J columns only. CEFR-J assigns no level above B2: items cited here are ones CEFR-J lists
+# without a CEFR-J level, placed at C1 by DeepLingo's own judgement; points CEFR-J does not list
+# are marked `deeplingo`. Explanations and examples are written by DeepLingo. Word senses come
+# from the dictionary data.
+format = "deeplingo-curriculum-v1"
+language = "en"
+framework = "CEFR"
+level = "C1"
+version = 1
+title = "Tiếng Anh C1: Cao cấp"
+
+# --- Grammar -------------------------------------------------------------------------------
+
+[[grammar]]
+key = "en.c1.negative_inversion"
+title = "Đảo ngữ sau từ phủ định: Never have I …"
+pattern = "Never / Rarely / Hardly / No sooner / Not only + trợ động từ + chủ ngữ + …"
+forms = ["never", "rarely", "seldom", "hardly", "scarcely", "no sooner", "not only", "little", "under no circumstances", "not until", "only then", "at no time"]
+explanation = "Khi đưa một từ mang nghĩa phủ định hay hạn chế lên đầu câu để nhấn mạnh, trợ động từ đứng trước chủ ngữ như trong câu hỏi: Never have I seen such a mess. Hay gặp trong văn viết và bài phát biểu."
+examples = [
+  { text = "Never have I seen such a beautiful sunset.", translation = "Chưa bao giờ tôi thấy hoàng hôn đẹp như thế." },
+  { text = "No sooner had we sat down than the phone rang.", translation = "Chúng tôi vừa ngồi xuống thì điện thoại reo." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "234"
+
+[[grammar]]
+key = "en.c1.wish_past"
+title = "Wish + quá khứ: ước điều trái hiện tại"
+pattern = "wish + chủ ngữ + quá khứ đơn / could / would"
+forms = ["wish", "wishes", "wished"]
+explanation = "Ước một điều khác với hiện tại thì lùi về quá khứ: I wish I knew (ước gì tôi biết, thực tế là không biết). Wish + would dùng để than phiền về hành vi của người khác."
+examples = [
+  { text = "I wish I had more free time.", translation = "Ước gì tôi có nhiều thời gian rảnh hơn." },
+  { text = "I wish you would stop interrupting me.", translation = "Ước gì bạn thôi ngắt lời tôi." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "218"
+
+[[grammar]]
+key = "en.c1.wish_past_perfect"
+title = "Wish + had done: tiếc điều đã qua"
+pattern = "wish + chủ ngữ + had + quá khứ phân từ"
+forms = ["wish", "wishes", "wished"]
+explanation = "Tiếc một việc trong quá khứ thì dùng had + quá khứ phân từ: I wish I had studied harder (tiếc là ngày đó tôi đã không học chăm hơn)."
+examples = [
+  { text = "I wish I had listened to my parents.", translation = "Giá mà ngày đó tôi nghe lời bố mẹ." },
+  { text = "She wishes she hadn't sold her old car.", translation = "Cô ấy tiếc vì đã bán chiếc xe cũ." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "219"
+
+[[grammar]]
+key = "en.c1.if_only"
+title = "If only: giá mà"
+pattern = "If only + quá khứ đơn / had + quá khứ phân từ"
+forms = ["if only"]
+explanation = "If only giống I wish nhưng cảm xúc mạnh hơn. Quá khứ đơn cho hiện tại, had + quá khứ phân từ cho quá khứ."
+examples = [
+  { text = "If only I knew her number!", translation = "Giá mà tôi biết số điện thoại của cô ấy!" },
+  { text = "If only we had left earlier.", translation = "Giá mà chúng ta đi sớm hơn." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "222"
+
+[[grammar]]
+key = "en.c1.as_if"
+title = "As if / as though: cứ như thể"
+pattern = "as if / as though + câu (thường lùi thì)"
+forms = ["as if", "as though"]
+explanation = "So sánh với một tình huống tưởng tượng. Khi điều đó không có thật, động từ lùi thì: He talks as if he knew everything (thực ra không biết)."
+examples = [
+  { text = "He talks as if he knew everything.", translation = "Anh ta nói cứ như thể cái gì cũng biết." },
+  { text = "She looked as though she had seen a ghost.", translation = "Trông cô ấy như vừa thấy ma." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "220"
+
+[[grammar]]
+key = "en.c1.inverted_third_conditional"
+title = "Đảo ngữ điều kiện loại 3: Had I known, …"
+pattern = "Had + chủ ngữ + quá khứ phân từ, … would have + quá khứ phân từ"
+forms = ["had"]
+explanation = "Bỏ if và đưa had lên trước chủ ngữ là cách trang trọng của câu điều kiện loại 3: Had I known = If I had known."
+examples = [
+  { text = "Had I known about the traffic, I would have left earlier.", translation = "Nếu biết trước kẹt xe thì tôi đã đi sớm hơn." },
+  { text = "Had she asked, I would have helped her.", translation = "Nếu cô ấy nhờ thì tôi đã giúp rồi." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "226"
+
+[[grammar]]
+key = "en.c1.if_it_were_not_for"
+title = "If it weren't for / But for: nếu không nhờ có"
+pattern = "If it weren't for + danh từ / If it hadn't been for + danh từ / But for + danh từ"
+forms = ["if it weren't for", "if it wasn't for", "if it were not for", "if it hadn't been for", "if it had not been for", "but for"]
+explanation = "Nói rằng chính nhờ (hoặc tại) một người hay sự việc mà tình hình mới như vậy: If it weren't for you, I'd be lost (không có bạn thì tôi không biết làm sao)."
+examples = [
+  { text = "If it weren't for my sister, I'd never have finished.", translation = "Nếu không có chị tôi thì tôi đã chẳng bao giờ làm xong." },
+  { text = "If it hadn't been for the rain, we would have won.", translation = "Nếu không vì trời mưa thì chúng tôi đã thắng." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "228"
+
+[[grammar]]
+key = "en.c1.pseudo_cleft"
+title = "Câu chẻ với What: What I need is …"
+pattern = "What + chủ ngữ + động từ + is/was + phần cần nhấn"
+forms = ["what", "all"]
+explanation = "Đưa phần quan trọng ra cuối để nhấn: What I need is a break (thứ tôi cần là được nghỉ). All I want is … nghĩa là chỉ cần … mà thôi."
+examples = [
+  { text = "What I really need is a good night's sleep.", translation = "Thứ tôi thật sự cần là một giấc ngủ ngon." },
+  { text = "What surprised me was how calm she stayed.", translation = "Điều làm tôi bất ngờ là cô ấy giữ bình tĩnh đến thế." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "205"
+
+[[grammar]]
+key = "en.c1.so_neither_do_i"
+title = "So do I / Neither do I: tôi cũng vậy"
+pattern = "So / Neither / Nor + trợ động từ + chủ ngữ"
+forms = ["so", "neither", "nor"]
+explanation = "Đồng tình ngắn gọn bằng cách đảo trợ động từ lên trước chủ ngữ: So do I (tôi cũng thế) cho câu khẳng định, Neither do I cho câu phủ định."
+examples = [
+  { text = "\"I love spicy food.\" \"So do I.\"", translation = "\"Tôi thích đồ cay.\" \"Tôi cũng vậy.\"" },
+  { text = "She can't swim, and neither can her brother.", translation = "Cô ấy không biết bơi, em trai cô ấy cũng không." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "232"
+
+[[grammar]]
+key = "en.c1.be_about_to"
+title = "Be about to: sắp sửa"
+pattern = "am/is/are/was/were about to + động từ"
+forms = ["about to"]
+explanation = "Nói việc sắp xảy ra ngay lúc đó: I was about to call you (tôi đang định gọi cho bạn thì…). Be not about to còn có nghĩa \"nhất định không\"."
+examples = [
+  { text = "I was about to call you.", translation = "Tôi vừa định gọi cho bạn." },
+  { text = "Hurry up, the film is about to start.", translation = "Nhanh lên, phim sắp chiếu rồi." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "100"
+
+[[grammar]]
+key = "en.c1.may_well"
+title = "May well / might well: rất có thể"
+pattern = "may/might/could well + động từ nguyên mẫu"
+forms = ["may well", "might well", "could well"]
+explanation = "Thêm well sau may, might, could để nói khả năng khá cao: It may well rain (rất có thể sẽ mưa)."
+examples = [
+  { text = "You may well be right.", translation = "Rất có thể bạn nói đúng." },
+  { text = "Prices might well go up again next year.", translation = "Năm sau giá rất có thể lại tăng." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "131"
+
+[[grammar]]
+key = "en.c1.might_as_well"
+title = "Might as well: thôi thì cứ"
+pattern = "may/might as well + động từ nguyên mẫu"
+forms = ["might as well", "may as well"]
+explanation = "Nói một lựa chọn không hay hơn là bao nhưng cũng chẳng có lý do gì để không làm: The bus isn't coming, we might as well walk."
+examples = [
+  { text = "There's nothing on TV. We might as well go to bed.", translation = "TV chẳng có gì. Thôi đi ngủ luôn cho rồi." },
+  { text = "You may as well keep it.", translation = "Thôi bạn cứ giữ lấy luôn đi." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "133"
+
+[[grammar]]
+key = "en.c1.would_rather"
+title = "Would rather: thà, thích … hơn"
+pattern = "would rather ('d rather) + động từ (than …) / would rather + chủ ngữ + quá khứ"
+forms = ["would rather", "'d rather", "would sooner", "'d sooner"]
+explanation = "Nói điều mình thích hơn. Khi muốn người khác làm gì, dùng would rather + chủ ngữ + quá khứ: I'd rather you didn't smoke here."
+examples = [
+  { text = "I'd rather stay in tonight.", translation = "Tối nay tôi thà ở nhà còn hơn." },
+  { text = "I'd rather you didn't tell anyone.", translation = "Tôi mong bạn đừng kể với ai." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "143"
+
+[[grammar]]
+key = "en.c1.dare"
+title = "Dare: dám"
+pattern = "dare (to) + động từ / daren't / How dare you …!"
+forms = ["dare", "dared", "daren't", "dares"]
+explanation = "Dare nghĩa là dám. Có thể dùng như động từ thường (didn't dare to ask) hoặc như động từ khuyết thiếu (daren't ask). How dare you …! là câu trách gay gắt."
+examples = [
+  { text = "I didn't dare to tell him the truth.", translation = "Tôi không dám nói thật với anh ấy." },
+  { text = "How dare you read my messages!", translation = "Sao bạn dám đọc tin nhắn của tôi!" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "125"
+
+[[grammar]]
+key = "en.c1.possessive_gerund"
+title = "Tính từ sở hữu + V-ing: my being late"
+pattern = "my/your/his/John's + động từ -ing"
+forms = ["my", "your", "his", "her", "our", "their", "its"]
+explanation = "Muốn nói ai làm hành động ở dạng -ing, đặt tính từ sở hữu hoặc tên + 's trước nó, trang trọng hơn dùng me/him: Do you mind my asking?"
+examples = [
+  { text = "Do you mind my asking how old you are?", translation = "Bạn có phiền nếu tôi hỏi tuổi bạn không?" },
+  { text = "I appreciate your coming at such short notice.", translation = "Cảm ơn bạn đã đến dù được báo gấp như vậy." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "111"
+
+[[grammar]]
+key = "en.c1.it_adjective_that"
+title = "It is + tính từ + that …"
+pattern = "It is/was + tính từ + that + câu"
+forms = ["it is", "it was", "it's", "it seems", "it seemed"]
+explanation = "It làm chủ ngữ tạm cho cả một vế that phía sau, hay dùng để nhận xét hoặc nêu điều quan trọng: It is clear that …, It's essential that everyone attends."
+examples = [
+  { text = "It is clear that we need more time.", translation = "Rõ ràng là chúng ta cần thêm thời gian." },
+  { text = "It's essential that everyone attends the meeting.", translation = "Điều cần thiết là mọi người đều dự họp." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "165"
+
+[[grammar]]
+key = "en.c1.by_the_time"
+title = "By the time: đến lúc mà"
+pattern = "By the time + câu, … hoàn thành"
+forms = ["by the time"]
+explanation = "By the time nghĩa là \"đến lúc …\", vế kia thường dùng thì hoàn thành vì việc đó đã xong trước mốc: By the time we arrived, they had left."
+examples = [
+  { text = "By the time we arrived, the shop had closed.", translation = "Đến lúc chúng tôi tới thì cửa hàng đã đóng." },
+  { text = "By the time you read this, I'll be in Paris.", translation = "Khi bạn đọc những dòng này, tôi đã ở Paris rồi." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "159"
+
+[[grammar]]
+key = "en.c1.if_should"
+title = "If + should: nếu chẳng may"
+pattern = "If + chủ ngữ + should + động từ, …"
+forms = ["should"]
+explanation = "Thêm should vào vế if để nói điều ít có khả năng xảy ra, giọng lịch sự trang trọng: If you should need anything, call me."
+examples = [
+  { text = "If you should need any help, just call me.", translation = "Nếu bạn có cần giúp gì thì cứ gọi tôi." },
+  { text = "If anyone should ask, I'm in a meeting.", translation = "Nếu có ai hỏi thì bảo tôi đang họp." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "224"
+
+[[grammar]]
+key = "en.c1.perception_past_participle"
+title = "Hear / see + vật + V3: nghe ai gọi tên mình"
+pattern = "hear/see/feel/find + tân ngữ + quá khứ phân từ"
+forms = ["hear", "heard", "see", "saw", "seen", "feel", "felt", "find", "found", "watch", "watched"]
+explanation = "Quá khứ phân từ sau tân ngữ mang nghĩa bị động: I heard my name called (tôi nghe tên mình được gọi)."
+examples = [
+  { text = "I heard my name called.", translation = "Tôi nghe thấy tên mình được gọi." },
+  { text = "We found the door locked.", translation = "Chúng tôi thấy cửa đã bị khóa." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "212"
+
+[[grammar]]
+key = "en.c1.get_object_ing"
+title = "Get + người/vật + V-ing: làm cho bắt đầu chạy"
+pattern = "get + tân ngữ + động từ -ing"
+forms = ["get", "gets", "got", "getting"]
+explanation = "Get + tân ngữ + -ing nghĩa là làm cho người hay vật bắt đầu hoạt động: get the engine running, get everyone talking."
+examples = [
+  { text = "Can you get the printer working again?", translation = "Bạn làm cho máy in chạy lại được không?" },
+  { text = "His joke got everyone laughing.", translation = "Câu đùa của anh ấy làm mọi người phá lên cười." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "208"
+
+[[grammar]]
+key = "en.c1.intensified_superlative"
+title = "Nhấn mạnh so sánh nhất: by far the best"
+pattern = "by far / far and away / much + the + so sánh nhất"
+forms = ["by far", "far and away", "much", "easily"]
+explanation = "By far, far and away, much đứng trước so sánh nhất để nói hơn hẳn mọi thứ khác: by far the best (tốt nhất, hơn xa)."
+examples = [
+  { text = "It was by far the best concert I've been to.", translation = "Đó là buổi hòa nhạc hay nhất, hơn xa những buổi tôi từng xem." },
+  { text = "She is easily the most talented player.", translation = "Cô ấy rõ ràng là cầu thủ tài năng nhất." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "52"
+
+[[grammar]]
+key = "en.c1.future_perfect_progressive"
+title = "Tương lai hoàn thành tiếp diễn"
+pattern = "will have been + động từ -ing (for …)"
+forms = ["will have been", "'ll have been"]
+explanation = "Nói một việc sẽ đã kéo dài bao lâu tính đến một mốc trong tương lai: By June, I'll have been working here for ten years."
+examples = [
+  { text = "By June, I'll have been working here for ten years.", translation = "Đến tháng Sáu là tôi đã làm ở đây được mười năm." },
+  { text = "Next month we will have been living together for a year.", translation = "Tháng sau là chúng tôi sống cùng nhau được một năm." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "72"
+
+[[grammar]]
+key = "en.c1.preposition_wh_question"
+title = "Câu hỏi trang trọng: To whom …? / In which …?"
+pattern = "giới từ + whom/which/what + trợ động từ + chủ ngữ …?"
+forms = ["whom", "which", "what", "whose"]
+explanation = "Văn trang trọng đặt giới từ ở đầu câu hỏi: To whom should I send it? Văn nói thường để giới từ ở cuối: Who should I send it to?"
+examples = [
+  { text = "To whom should I address the letter?", translation = "Tôi nên gửi thư này cho ai?" },
+  { text = "In which year did the war end?", translation = "Chiến tranh kết thúc vào năm nào?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "248"
+
+[[grammar]]
+key = "en.c1.mixed_conditional"
+title = "Câu điều kiện hỗn hợp"
+pattern = "If + had + quá khứ phân từ, … would + động từ (bây giờ) / If + quá khứ, … would have + quá khứ phân từ"
+forms = ["if"]
+explanation = "Trộn hai loại điều kiện khi thời gian của hai vế khác nhau: một việc đã qua ảnh hưởng tới hiện tại (If I had taken the job, I would be rich now), hoặc một đặc điểm hiện tại giải thích quá khứ."
+examples = [
+  { text = "If I had taken that job, I would be living in Singapore now.", translation = "Nếu ngày đó nhận việc ấy thì giờ tôi đang sống ở Singapore." },
+  { text = "If she weren't so shy, she would have spoken up.", translation = "Nếu cô ấy không nhút nhát như vậy thì đã lên tiếng rồi." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c1.high_time"
+title = "It's (high) time + quá khứ: đã đến lúc"
+pattern = "It's (high/about) time + chủ ngữ + quá khứ đơn"
+forms = ["it's time", "it is time", "it's high time", "it's about time"]
+explanation = "Dù nói về hiện tại, vế sau dùng quá khứ đơn để ngụ ý việc đó lẽ ra phải làm rồi: It's high time we left (đã đến lúc chúng ta phải đi, muộn rồi)."
+examples = [
+  { text = "It's high time we went home.", translation = "Đã đến lúc chúng ta phải về rồi." },
+  { text = "It's about time you got a new phone.", translation = "Bạn nên thay điện thoại mới từ lâu rồi." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c1.not_only_but_also"
+title = "Not only … but also: không những … mà còn"
+pattern = "not only + A + but (also) + B"
+forms = ["not only", "but also"]
+explanation = "Nối hai ý, ý sau thường bất ngờ hoặc mạnh hơn. Khi Not only đứng đầu câu thì phải đảo ngữ (xem đảo ngữ sau từ phủ định)."
+examples = [
+  { text = "She speaks not only English but also Japanese.", translation = "Cô ấy không những nói tiếng Anh mà còn nói tiếng Nhật." },
+  { text = "The plan is not only cheap but also effective.", translation = "Kế hoạch này không chỉ rẻ mà còn hiệu quả." },
+]
+source = "deeplingo"
+
+# --- Units ---------------------------------------------------------------------------------
+
+[[units]]
+key = "en.c1.u01-speeches"
+title = "Văn diễn thuyết"
+topic = "Speeches, emphasis and rhetoric"
+can_do = ["Hiểu và dùng đảo ngữ để nhấn mạnh.", "Nối hai ý theo kiểu không những … mà còn."]
+grammar = ["en.c1.negative_inversion", "en.c1.not_only_but_also"]
+words = [
+  { headword = "speech", sense_id = "enwikt:9bf5fd9477a3a90e", gloss = "The ability to speak; the faculty of uttering words or" },
+  { headword = "audience", sense_id = "enwikt:86fb1febbd1cde5e", gloss = "A group of people within hearing; specifically, a large" },
+  { headword = "remarkable", sense_id = "enwikt:c084e5dd21586d29", gloss = "Worthy of remark; notable; interesting." },
+  { headword = "emphasis", sense_id = "enwikt:30335b9139b2b886", gloss = "Special weight or forcefulness given to something considered" },
+]
+
+[[units]]
+key = "en.c1.u02-regrets"
+title = "Ước và tiếc"
+topic = "Wishes about the present and regrets about the past"
+can_do = ["Nói điều mình ước khác với hiện tại.", "Bày tỏ tiếc nuối về quá khứ."]
+grammar = ["en.c1.wish_past", "en.c1.wish_past_perfect"]
+words = [
+  { headword = "regret", sense_id = "enwikt:17af314a5582318c", gloss = "Emotional pain on account of something done or experienced" },
+  { headword = "opportunity", sense_id = "enwikt:e0ff298efd5ead33", gloss = "A chance for advancement, progress or profit." },
+  { headword = "career", sense_id = "enwikt:665be7f1866fceb1", gloss = "One’s calling in life; one's working occupation or" },
+  { headword = "decision", sense_id = "enwikt:e1d0c02d17008020", gloss = "The act of deciding." },
+]
+
+[[units]]
+key = "en.c1.u03-appearances"
+title = "Bề ngoài và cảm xúc mạnh"
+topic = "Appearances, impressions and strong wishes"
+can_do = ["Tả ai đó trông như thể thế nào.", "Bày tỏ mong muốn mạnh bằng If only."]
+grammar = ["en.c1.as_if", "en.c1.if_only"]
+words = [
+  { headword = "pretend", sense_id = "enwikt:e57b85b8d2271786", gloss = "To speak or behave so as to give a false or simulated" },
+  { headword = "ghost", sense_id = "enwikt:4208194af984e39f", gloss = "A disembodied soul; a soul or spirit of a deceased person; a" },
+  { headword = "desperate", sense_id = "enwikt:216c3d4a86511e8b", gloss = "In dire need (of something); having a dire need or desire." },
+  { headword = "behave", sense_id = "enwikt:8859214a06dbe2b0", gloss = "To conduct (oneself) well, or in a given way; to conform." },
+]
+
+[[units]]
+key = "en.c1.u04-turning-points"
+title = "Bước ngoặt"
+topic = "Turning points and what made them possible"
+can_do = ["Nói về giả định quá khứ một cách trang trọng.", "Nói nhờ ai hay điều gì mà mọi chuyện mới như vậy."]
+grammar = ["en.c1.inverted_third_conditional", "en.c1.if_it_were_not_for"]
+words = [
+  { headword = "support", sense_id = "enwikt:6b775c09583d0ef9", gloss = "Something which supports." },
+  { headword = "crisis", sense_id = "enwikt:1251eec7afaf7e5c", gloss = "A crucial or decisive point or situation; a turning point." },
+  { headword = "survive", sense_id = "enwikt:0402d855466ef0f8", gloss = "Of a person, to continue to live; to remain alive." },
+  { headword = "grateful", sense_id = "enwikt:72a169b13d7b580a", gloss = "Of a person or their actions, feelings, etc.: expressing" },
+]
+
+[[units]]
+key = "en.c1.u05-agreeing"
+title = "Đồng tình và nhấn mạnh"
+topic = "Agreeing and focusing on what matters"
+can_do = ["Đồng tình ngắn gọn bằng So do I / Neither do I.", "Đưa ý quan trọng lên tiêu điểm bằng What …"]
+grammar = ["en.c1.so_neither_do_i", "en.c1.pseudo_cleft"]
+words = [
+  { headword = "agree", sense_id = "enwikt:fa52c62a98c12bb2", gloss = "To be in harmony about an opinion, statement, or action; to" },
+  { headword = "matter", sense_id = "enwikt:d9cf41b49e875686", gloss = "To be important." },
+  { headword = "priority", sense_id = "enwikt:fca9f91570fcb0cb", gloss = "An item's relative importance." },
+  { headword = "essentially", sense_id = "enwikt:6b417e2673646439", gloss = "In essence: by nature." },
+]
+
+[[units]]
+key = "en.c1.u06-likelihood"
+title = "Khả năng và dự đoán"
+topic = "Likelihood and imminent events"
+can_do = ["Nói điều rất có thể xảy ra.", "Nói việc sắp sửa diễn ra."]
+grammar = ["en.c1.may_well", "en.c1.be_about_to"]
+words = [
+  { headword = "likely", sense_id = "enwikt:4b892b5418888099", gloss = "Probable; having a greater-than-even chance of occurring." },
+  { headword = "predict", sense_id = "enwikt:415f16dfce221202", gloss = "To make a prediction: to forecast, foretell, or estimate a" },
+  { headword = "economy", sense_id = "enwikt:c8e489fbc3f01628", gloss = "The study of money, currency and trade, and the efficient" },
+  { headword = "announcement", sense_id = "enwikt:665da0906e1bf689", gloss = "An act of announcing, or giving notice." },
+]
+
+[[units]]
+key = "en.c1.u07-preferences"
+title = "Thà thế này còn hơn"
+topic = "Preferences and reluctant choices"
+can_do = ["Nói mình thích làm gì hơn.", "Chọn một phương án vì chẳng còn cách nào tốt hơn."]
+grammar = ["en.c1.would_rather", "en.c1.might_as_well"]
+words = [
+  { headword = "alternative", sense_id = "enwikt:335b9cd557c6ded1", gloss = "A situation which allows a mutually exclusive choice between" },
+  { headword = "reluctant", sense_id = "enwikt:ace6391257074a2c", gloss = "Not wanting to take some action; unwilling to do something." },
+  { headword = "bother", sense_id = "enwikt:120c65cb3b809f89", gloss = "To annoy, to disturb, to irritate; to be troublesome to, to" },
+  { headword = "option", sense_id = "enwikt:3529f4e4c149ce4e", gloss = "One of a set of choices that can be made." },
+]
+
+[[units]]
+key = "en.c1.u08-courage"
+title = "Dám hay không dám"
+topic = "Courage, boldness and polite requests"
+can_do = ["Nói ai dám hay không dám làm gì.", "Xin phép trang trọng bằng my + V-ing."]
+grammar = ["en.c1.dare", "en.c1.possessive_gerund"]
+words = [
+  { headword = "courage", sense_id = "enwikt:c624254ed6b387fc", gloss = "The quality of being confident, not afraid or easily" },
+  { headword = "appreciate", sense_id = "enwikt:6601813792f844ac", gloss = "To be grateful or thankful for." },
+  { headword = "confront", sense_id = "enwikt:5f0105a5394923b7", gloss = "To stand or meet facing, especially in competition" },
+  { headword = "permission", sense_id = "enwikt:f8fafba65436e7cf", gloss = "authorisation; consent (especially formal consent from" },
+]
+
+[[units]]
+key = "en.c1.u09-reports"
+title = "Báo cáo và kết luận"
+topic = "Formal reports and conclusions"
+can_do = ["Nêu nhận định bằng It is clear that …", "Nói đến lúc nào thì việc gì đã xong."]
+grammar = ["en.c1.it_adjective_that", "en.c1.by_the_time"]
+words = [
+  { headword = "evidence", sense_id = "enwikt:3e318f0e98129a78", gloss = "Facts or observations presented in support of an assertion." },
+  { headword = "essential", sense_id = "enwikt:8dd4b3a9076675fb", gloss = "Necessary." },
+  { headword = "conclusion", sense_id = "enwikt:2d5be0c7a6a74e56", gloss = "The end, finish, close or last part of something." },
+  { headword = "obvious", sense_id = "enwikt:f2d35b691fb286c8", gloss = "Easily discovered, seen, or understood; self-explanatory." },
+]
+
+[[units]]
+key = "en.c1.u10-customer-service"
+title = "Dịch vụ khách hàng"
+topic = "Formal offers of help and contingencies"
+can_do = ["Đưa lời đề nghị giúp đỡ lịch sự, trang trọng.", "Hỏi theo kiểu trang trọng với giới từ đứng đầu."]
+grammar = ["en.c1.if_should", "en.c1.preposition_wh_question"]
+words = [
+  { headword = "inquiry", sense_id = "enwikt:67f987f9df82b82e", gloss = "The act of inquiring; a seeking of information by asking" },
+  { headword = "assist", sense_id = "enwikt:101cb445ab1a2c84", gloss = "To help." },
+  { headword = "hesitate", sense_id = "enwikt:238f0e3765a48657", gloss = "To stop or pause respecting decision or action; to be in" },
+  { headword = "address", sense_id = "enwikt:5f9921f6d803d943", gloss = "To direct speech to; to make a communication to, whether" },
+]
+
+[[units]]
+key = "en.c1.u11-getting-things-going"
+title = "Làm cho mọi thứ chạy"
+topic = "Getting things working and noticing results"
+can_do = ["Nói làm cho ai, cái gì bắt đầu hoạt động.", "Kể điều mình nghe, thấy ở dạng bị động."]
+grammar = ["en.c1.get_object_ing", "en.c1.perception_past_participle"]
+words = [
+  { headword = "engine", sense_id = "enwikt:d0786134c1b05abc", gloss = "A complex mechanical device which converts energy into" },
+  { headword = "lock", sense_id = "enwikt:4771c52405ee284e", gloss = "To become fastened in place." },
+  { headword = "mechanism", sense_id = "enwikt:6dcbc65c8a699b32", gloss = "Any mechanical means for the conversion or control of" },
+  { headword = "restart", sense_id = "enwikt:31b407725744cf98", gloss = "To start again." },
+]
+
+[[units]]
+key = "en.c1.u12-milestones"
+title = "Thành tựu và cột mốc"
+topic = "Achievements and long commitments"
+can_do = ["Nhấn mạnh điều gì là tốt nhất, hơn hẳn.", "Nói một việc sẽ đã kéo dài bao lâu."]
+grammar = ["en.c1.intensified_superlative", "en.c1.future_perfect_progressive"]
+words = [
+  { headword = "achievement", sense_id = "enwikt:bfeaed2fe819a5f0", gloss = "The act of achieving or performing; a successful" },
+  { headword = "talented", sense_id = "enwikt:faf2b8a693e1da36", gloss = "Endowed with one or more talents." },
+  { headword = "anniversary", sense_id = "enwikt:bcf9892fe8acd2ac", gloss = "A day that is an exact number of years (to the day) since a" },
+  { headword = "commitment", sense_id = "enwikt:fa80844cff4e09a9", gloss = "Promise or agreement to do something in the future" },
+]
+
+[[units]]
+key = "en.c1.u13-what-if"
+title = "Nếu ngày ấy khác đi"
+topic = "Alternative lives and overdue changes"
+can_do = ["Nói một lựa chọn trong quá khứ ảnh hưởng hiện tại ra sao.", "Nói đã đến lúc phải thay đổi."]
+grammar = ["en.c1.mixed_conditional", "en.c1.high_time"]
+words = [
+  { headword = "circumstance", sense_id = "enwikt:699c4c829bae5a1c", gloss = "Something which is related to, or in some way affects, a" },
+  { headword = "consequence", sense_id = "enwikt:097c581c84df37e0", gloss = "An effect; something that follows a cause as a result." },
+  { headword = "overdue", sense_id = "enwikt:bcb777097cb61926", gloss = "Late; especially, past a deadline or too late to fulfill a" },
+  { headword = "shy", sense_id = "enwikt:5ec4a09d63d15bdd", gloss = "Easily frightened; timid." },
+]

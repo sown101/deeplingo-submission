@@ -1,0 +1,315 @@
+# DRAFT (2026-11-07): drafted by the AI, awaiting the owner's sample review.
+# Coverage frame: CEFR-J Grammar Profile 20180315 (Tono Laboratory, TUFS; used with citation),
+# CEFR-J columns only. CEFR-J assigns no level above B2: items cited here are ones CEFR-J lists
+# without a CEFR-J level, placed at C2 by DeepLingo's own judgement; points CEFR-J does not list
+# are marked `deeplingo`. Explanations and examples are written by DeepLingo. Word senses come
+# from the dictionary data.
+format = "deeplingo-curriculum-v1"
+language = "en"
+framework = "CEFR"
+level = "C2"
+version = 1
+title = "Tiếng Anh C2: Thành thạo"
+
+# --- Grammar -------------------------------------------------------------------------------
+
+[[grammar]]
+key = "en.c2.inverted_were"
+title = "Đảo ngữ điều kiện loại 2: Were I …"
+pattern = "Were + chủ ngữ + (to + động từ / danh từ / tính từ), … would …"
+forms = ["were"]
+explanation = "Bỏ if và đưa were lên trước chủ ngữ là cách viết rất trang trọng của câu điều kiện không có thật: Were I in your position = If I were in your position."
+examples = [
+  { text = "Were I in your position, I would accept the offer.", translation = "Nếu tôi ở vào vị trí của bạn, tôi sẽ nhận lời." },
+  { text = "Were the company to fail, thousands would lose their jobs.", translation = "Nếu công ty phá sản, hàng nghìn người sẽ mất việc." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "225"
+
+[[grammar]]
+key = "en.c2.inverted_should"
+title = "Đảo ngữ với Should: Should you need …"
+pattern = "Should + chủ ngữ + động từ, …"
+forms = ["should"]
+explanation = "Should đứng đầu câu thay cho If … should, rất hay gặp trong thư từ trang trọng: Should you have any questions, please contact us."
+examples = [
+  { text = "Should you have any questions, please contact us.", translation = "Nếu quý vị có câu hỏi nào, xin vui lòng liên hệ với chúng tôi." },
+  { text = "Should the weather worsen, the event will be postponed.", translation = "Nếu thời tiết xấu đi, sự kiện sẽ bị hoãn." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "227"
+
+[[grammar]]
+key = "en.c2.were_it_not_for"
+title = "Were it not for / Had it not been for"
+pattern = "Were it not for + danh từ / Had it not been for + danh từ, …"
+forms = ["were it not for", "had it not been for"]
+explanation = "Dạng đảo ngữ trang trọng của If it weren't for / If it hadn't been for: chính nhờ (hoặc tại) điều đó mà sự việc mới như vậy."
+examples = [
+  { text = "Were it not for her help, the project would have collapsed.", translation = "Nếu không có sự giúp đỡ của cô ấy, dự án đã đổ bể." },
+  { text = "Had it not been for the delay, we would have arrived on time.", translation = "Nếu không vì sự chậm trễ, chúng tôi đã đến đúng giờ." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "229"
+
+[[grammar]]
+key = "en.c2.so_adjective_a_noun"
+title = "So / too + tính từ + a + danh từ"
+pattern = "so/too/as/how + tính từ + a/an + danh từ"
+forms = ["so", "too", "as", "how"]
+explanation = "Sau so, too, as, how, tính từ được đưa lên trước a/an: so good a player (một cầu thủ giỏi đến thế), too big a risk (một rủi ro quá lớn). Văn phong trang trọng."
+examples = [
+  { text = "It was too good an opportunity to miss.", translation = "Đó là cơ hội quá tốt để bỏ lỡ." },
+  { text = "She is as talented a writer as her mother.", translation = "Cô ấy là một nhà văn tài năng không kém mẹ mình." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "47"
+
+[[grammar]]
+key = "en.c2.to_have_been_done"
+title = "To have been done: được, bị (đã xảy ra trước)"
+pattern = "seem/appear/be said/be thought + to have been + quá khứ phân từ"
+forms = ["to have been"]
+explanation = "Bị động của to have done: nói một việc được cho là đã được làm trước đó, hay gặp trong tin tức: The painting is believed to have been stolen in 1990."
+examples = [
+  { text = "The painting is believed to have been stolen in 1990.", translation = "Bức tranh được cho là đã bị đánh cắp năm 1990." },
+  { text = "He appears to have been misinformed.", translation = "Có vẻ anh ấy đã bị thông tin sai." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "92"
+
+[[grammar]]
+key = "en.c2.having_been_done"
+title = "Having been + V3: sau khi đã được"
+pattern = "Having been + quá khứ phân từ …, chủ ngữ + động từ"
+forms = ["having been"]
+explanation = "Cụm bị động nói việc đã xảy đến với chủ ngữ trước việc ở vế chính: Having been warned, we took extra care (vì đã được cảnh báo, chúng tôi cẩn thận hơn)."
+examples = [
+  { text = "Having been warned about the storm, we stayed indoors.", translation = "Đã được cảnh báo về cơn bão, chúng tôi ở trong nhà." },
+  { text = "Having been rejected twice, she applied again.", translation = "Dù đã bị từ chối hai lần, cô ấy vẫn nộp đơn lần nữa." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "109"
+
+[[grammar]]
+key = "en.c2.subjunctive"
+title = "Thức giả định: It is vital that he be …"
+pattern = "It is vital/essential/important + that + chủ ngữ + động từ nguyên mẫu"
+explanation = "Trong văn trang trọng, sau các tính từ và động từ chỉ sự cần thiết, vế that dùng động từ nguyên mẫu cho mọi ngôi: It is vital that she be informed (không dùng is, không thêm -s)."
+examples = [
+  { text = "It is vital that every employee be informed.", translation = "Điều tối quan trọng là mọi nhân viên đều được thông báo." },
+  { text = "The board demanded that he resign immediately.", translation = "Hội đồng yêu cầu ông ấy từ chức ngay lập tức." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c2.fronting_inversion"
+title = "Đảo ngữ sau trạng ngữ nơi chốn: Here comes …"
+pattern = "Trạng ngữ nơi chốn/hướng + động từ + chủ ngữ (danh từ)"
+explanation = "Khi trạng ngữ chỉ nơi chốn hay hướng đứng đầu câu, động từ có thể đứng trước chủ ngữ là danh từ để tạo hiệu ứng kể chuyện: Down came the rain. Với đại từ thì không đảo: Here it comes."
+examples = [
+  { text = "Here comes the bus.", translation = "Xe buýt đến kìa." },
+  { text = "At the top of the hill stood an old church.", translation = "Trên đỉnh đồi có một ngôi nhà thờ cổ." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c2.concessive_as"
+title = "Tính từ + as + chủ ngữ + động từ: dù … đến đâu"
+pattern = "Tính từ/trạng từ + as/though + chủ ngữ + động từ, …"
+forms = ["as", "though"]
+explanation = "Đưa tính từ lên đầu rồi nối bằng as hoặc though để nói \"dù … đến mấy\": Strange as it may seem, … (nghe có vẻ lạ nhưng…)."
+examples = [
+  { text = "Strange as it may seem, I enjoy doing paperwork.", translation = "Nghe thì lạ nhưng tôi thích làm giấy tờ." },
+  { text = "Hard though he tried, he couldn't open the door.", translation = "Dù cố hết sức, anh ấy vẫn không mở được cửa." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c2.no_matter"
+title = "No matter how / what: dù thế nào"
+pattern = "No matter + how/what/who/where + câu, …"
+forms = ["no matter"]
+explanation = "No matter + từ hỏi nghĩa là \"dù … thế nào đi nữa\", gần nghĩa với however, whatever nhưng nhấn mạnh hơn."
+examples = [
+  { text = "No matter how hard I try, I can't remember his name.", translation = "Dù cố đến đâu, tôi cũng không nhớ nổi tên anh ấy." },
+  { text = "No matter what happens, stay calm.", translation = "Dù có chuyện gì xảy ra, hãy giữ bình tĩnh." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c2.were_to"
+title = "If + were to: giả sử (khó xảy ra)"
+pattern = "If + chủ ngữ + were to + động từ, … would …"
+forms = ["were to"]
+explanation = "Were to làm cho giả định nghe xa vời hoặc lịch sự hơn: If you were to win the lottery, what would you do?"
+examples = [
+  { text = "If you were to win the lottery, what would you do?", translation = "Giả sử bạn trúng xổ số, bạn sẽ làm gì?" },
+  { text = "If the plan were to fail, who would take responsibility?", translation = "Nếu kế hoạch thất bại, ai sẽ chịu trách nhiệm?" },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c2.not_until_inversion"
+title = "Not until / Only when + đảo ngữ"
+pattern = "Not until … / Only when … / Only after … + trợ động từ + chủ ngữ"
+forms = ["not until", "only when", "only after", "only by", "only if", "only then"]
+explanation = "Đưa cụm chỉ thời điểm hay điều kiện có only/not until lên đầu thì vế chính đảo ngữ: Not until I got home did I realise …(mãi đến khi về nhà tôi mới nhận ra)."
+examples = [
+  { text = "Not until I got home did I realise I'd lost my keys.", translation = "Mãi đến khi về nhà tôi mới nhận ra mình mất chìa khóa." },
+  { text = "Only when the rain stopped could we see the mountains.", translation = "Chỉ khi mưa tạnh chúng tôi mới thấy được núi." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c2.absolute_construction"
+title = "Cụm độc lập: Weather permitting, …"
+pattern = "danh từ + phân từ / danh từ + giới từ…, + câu chính"
+explanation = "Một cụm có chủ ngữ riêng và phân từ, không có động từ chia, đứng cạnh câu chính để nêu hoàn cảnh: Weather permitting (nếu thời tiết cho phép), The work done (việc đã xong)."
+examples = [
+  { text = "Weather permitting, we'll have the party outside.", translation = "Nếu thời tiết cho phép, chúng ta sẽ tổ chức tiệc ngoài trời." },
+  { text = "All things considered, it was a successful year.", translation = "Xét mọi mặt, đó là một năm thành công." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c2.nominal_that_clause"
+title = "Mệnh đề That làm chủ ngữ"
+pattern = "That + câu + động từ … / What + câu + động từ …"
+forms = ["that"]
+explanation = "Cả một vế câu có thể làm chủ ngữ, rất trang trọng: That he lied is obvious (việc anh ta nói dối là hiển nhiên). Văn thường thay bằng It is obvious that he lied."
+examples = [
+  { text = "That the plan failed surprised no one.", translation = "Việc kế hoạch thất bại không làm ai ngạc nhiên." },
+  { text = "That she was talented was never in doubt.", translation = "Việc cô ấy có tài chưa bao giờ bị nghi ngờ." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c2.the_adjective"
+title = "The + tính từ chỉ một nhóm người"
+pattern = "the + tính từ (the rich, the elderly, the unemployed)"
+forms = ["the"]
+explanation = "The + tính từ chỉ cả một nhóm người có đặc điểm đó và đi với động từ số nhiều: The elderly need more support (người cao tuổi cần được hỗ trợ nhiều hơn)."
+examples = [
+  { text = "The rich are getting richer.", translation = "Người giàu ngày càng giàu thêm." },
+  { text = "The elderly often feel lonely.", translation = "Người cao tuổi thường cảm thấy cô đơn." },
+]
+source = "deeplingo"
+
+[[grammar]]
+key = "en.c2.so_not_substitution"
+title = "So / not thay cho cả mệnh đề"
+pattern = "think/hope/suppose/be afraid + so / not"
+forms = ["so", "not"]
+explanation = "So và not thay cho cả một vế đã nói trước đó: I think so (tôi nghĩ vậy), I'm afraid not (e là không). Không nói I think it hay I don't hope so."
+examples = [
+  { text = "\"Will it rain?\" \"I hope not.\"", translation = "\"Trời có mưa không?\" \"Mong là không.\"" },
+  { text = "\"Is the shop still open?\" \"I'm afraid not.\"", translation = "\"Cửa hàng còn mở không?\" \"E là không.\"" },
+]
+source = "deeplingo"
+
+# --- Units ---------------------------------------------------------------------------------
+
+[[units]]
+key = "en.c2.u01-formal-letters"
+title = "Thư từ trang trọng"
+topic = "Formal correspondence and hypothetical offers"
+can_do = ["Viết câu điều kiện trang trọng bằng đảo ngữ.", "Hiểu thư từ có Should you …"]
+grammar = ["en.c2.inverted_were", "en.c2.inverted_should"]
+words = [
+  { headword = "position", sense_id = "enwikt:f841d35a1b207fab", gloss = "A situation suitable to perform some action." },
+  { headword = "accept", sense_id = "enwikt:e99c4c08d49f2038", gloss = "To receive, especially with a consent, with favour, or with" },
+  { headword = "postpone", sense_id = "enwikt:25b7be5b4187deb1", gloss = "To delay or put off an event, appointment, etc." },
+  { headword = "contact", sense_id = "enwikt:f844c93bb026add4", gloss = "To establish communication with (something or someone)." },
+]
+
+[[units]]
+key = "en.c2.u02-history-writing"
+title = "Viết về lịch sử"
+topic = "Historical accounts and attributions"
+can_do = ["Nói điều gì được cho là đã xảy ra.", "Nói nhờ ai hay điều gì mà lịch sử đã khác đi."]
+grammar = ["en.c2.were_it_not_for", "en.c2.to_have_been_done"]
+words = [
+  { headword = "collapse", sense_id = "enwikt:aeedef9610e20816", gloss = "To break apart and fall down suddenly; to cave in." },
+  { headword = "steal", sense_id = "enwikt:0797184aa0ad6ab7", gloss = "To take illegally, or without the owner's permission" },
+  { headword = "believe", sense_id = "enwikt:347f708ed30b8aa1", gloss = "To accept as true, particularly without absolute certainty" },
+  { headword = "empire", sense_id = "enwikt:9d6bee2bcf9a439c", gloss = "A political state, often a monarchy, that has achieved a" },
+]
+
+[[units]]
+key = "en.c2.u03-literary-style"
+title = "Văn phong văn chương"
+topic = "Literary description and emphasis"
+can_do = ["Dùng cấu trúc so/too + tính từ + a + danh từ.", "Nhận ra đảo ngữ nơi chốn trong truyện."]
+grammar = ["en.c2.so_adjective_a_noun", "en.c2.fronting_inversion"]
+words = [
+  { headword = "novel", sense_id = "enwikt:678e6edea35b19a7", gloss = "A work of prose fiction, longer than a novella." },
+  { headword = "hill", sense_id = "enwikt:7ad9921691d50497", gloss = "An elevated landmass smaller than a mountain." },
+  { headword = "church", sense_id = "enwikt:7bfb103b632e7803", gloss = "A Christian house of worship; a building where Christian" },
+  { headword = "describe", sense_id = "enwikt:7e47ca61dee88595", gloss = "To represent in words." },
+]
+
+[[units]]
+key = "en.c2.u04-setbacks"
+title = "Vấp ngã và đứng dậy"
+topic = "Setbacks, persistence and formal requirements"
+can_do = ["Kể việc đã trải qua ở dạng bị động trước một hành động khác.", "Nêu yêu cầu trang trọng bằng thức giả định."]
+grammar = ["en.c2.having_been_done", "en.c2.subjunctive"]
+words = [
+  { headword = "reject", sense_id = "enwikt:fa2ccc3ada1574f2", gloss = "To refuse to accept; to forswear." },
+  { headword = "resign", sense_id = "enwikt:320ddf5a673acb4b", gloss = "To voluntarily leave (a job or position), in particular a" },
+  { headword = "vital", sense_id = "enwikt:7f85f651f2dc23c6", gloss = "Necessary to the continuation of life; being the seat of" },
+  { headword = "persist", sense_id = "enwikt:944665debf4add0a", gloss = "To go on stubbornly or resolutely." },
+]
+
+[[units]]
+key = "en.c2.u05-concessions"
+title = "Nhượng bộ"
+topic = "Conceding points in an argument"
+can_do = ["Thừa nhận một điều trái ngược mà vẫn giữ ý mình.", "Nói \"dù thế nào đi nữa\"."]
+grammar = ["en.c2.concessive_as", "en.c2.no_matter"]
+words = [
+  { headword = "admit", sense_id = "enwikt:6517c6ddf8a677a7", gloss = "To concede as true; to acknowledge or assent to, as an" },
+  { headword = "argument", sense_id = "enwikt:79df1364e1caa97f", gloss = "A fact or statement used to support a proposition; a reason." },
+  { headword = "nevertheless", sense_id = "enwikt:928102e6a84deeba", gloss = "In spite of what preceded; yet." },
+  { headword = "calm", sense_id = "enwikt:72f220b79106f634", gloss = "Peaceful, quiet, especially free from anger and anxiety." },
+]
+
+[[units]]
+key = "en.c2.u06-hypotheses"
+title = "Giả thuyết và nhận ra muộn"
+topic = "Remote hypotheses and late realisations"
+can_do = ["Đặt giả thuyết xa vời bằng were to.", "Kể việc mãi sau mới nhận ra."]
+grammar = ["en.c2.were_to", "en.c2.not_until_inversion"]
+words = [
+  { headword = "responsibility", sense_id = "enwikt:b69766b4a81bd751", gloss = "The state of being responsible, accountable, or answerable." },
+  { headword = "hypothesis", sense_id = "enwikt:2fb8a7055d2e25e4", gloss = "A tentative conjecture explaining an observation, phenomenon" },
+  { headword = "awareness", sense_id = "enwikt:9bcef1e306c57e9c", gloss = "The state or level of consciousness where sense data can be" },
+  { headword = "lottery", sense_id = "enwikt:410410116db2c0e8", gloss = "A scheme for the distribution of prizes by lot or chance" },
+]
+
+[[units]]
+key = "en.c2.u07-academic"
+title = "Văn học thuật"
+topic = "Academic and journalistic writing"
+can_do = ["Hiểu cụm độc lập nêu hoàn cảnh.", "Hiểu câu có cả một mệnh đề làm chủ ngữ."]
+grammar = ["en.c2.absolute_construction", "en.c2.nominal_that_clause"]
+words = [
+  { headword = "consider", sense_id = "enwikt:0645ef54365385f5", gloss = "To think about seriously." },
+  { headword = "doubt", sense_id = "enwikt:757ac0d9785acfe3", gloss = "Disbelief or uncertainty (about something); (countable) a" },
+  { headword = "permit", sense_id = "enwikt:e1d59670f1703d79", gloss = "To allow (something) to happen, to give permission for." },
+  { headword = "successful", sense_id = "enwikt:fb8152df8bd1c177", gloss = "Resulting in success; assuring or promoting success" },
+]
+
+[[units]]
+key = "en.c2.u08-society"
+title = "Xã hội"
+topic = "Social groups and short replies in debate"
+can_do = ["Nói về các nhóm người trong xã hội bằng the + tính từ.", "Trả lời ngắn bằng I hope so / I'm afraid not."]
+grammar = ["en.c2.the_adjective", "en.c2.so_not_substitution"]
+words = [
+  { headword = "elderly", sense_id = "enwikt:75879ba95194f626", gloss = "old; having lived for relatively many years." },
+  { headword = "unemployed", sense_id = "enwikt:fa79c6c843d00744", gloss = "Having no job despite being able and willing to work." },
+  { headword = "inequality", sense_id = "enwikt:ace4d9c28133c72b", gloss = "A condition or state (of social, cultural, or legal matters)" },
+  { headword = "lonely", sense_id = "enwikt:b59d8e334b78b282", gloss = "Unhappy due to feeling isolated from contact with other" },
+]

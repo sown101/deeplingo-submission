@@ -1,0 +1,102 @@
+# Web Quality — deterministic PR-required gate.
+#
+# Reliability level: PR-REQUIRED (mandatory checks).
+#   - Job "quality":     install -> typecheck -> unit/component tests -> build
+#   - Job "browser-e2e": deterministic browser specs (fully mocked backend,
+#     all external network aborted; no Supabase, no FastAPI, no YouTube,
+#     no AI provider, no secrets)
+#
+# This workflow intentionally contains NO secrets: the browser specs run
+# against dummy browser-safe env values only. The full integration Product
+# E2E is a separate manual/release-gated workflow (web-product-e2e.yml) and
+# must not be merged into this gate.
+
+name: Web Quality
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "deeplingo_web/**"
+      - ".github/workflows/web-quality.yml"
+  pull_request:
+    paths:
+      - "deeplingo_web/**"
+      - ".github/workflows/web-quality.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: web-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: quality (install, typecheck, test, build)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: deeplingo_web
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: deeplingo_web/package-lock.json
+
+      - name: Clean dependency install (lockfile)
+        run: npm ci
+
+      - name: Typecheck (strict TypeScript)
+        run: npm run typecheck
+
+      - name: Static quality / hooks lint
+        run: npm run lint
+
+      - name: Unit and component tests
+        run: npm test
+
+      - name: Production build
+        run: npm run build
+
+      - name: Production build exposure audit
+        run: npm run audit:build
+
+      - name: Bundle budget (initial JS gzip)
+        run: npm run check:bundle
+
+  browser-e2e:
+    name: browser-e2e (deterministic, mocked)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: deeplingo_web
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: deeplingo_web/package-lock.json
+
+      - name: Clean dependency install (lockfile)
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Deterministic browser specs (no external systems)
+        run: npm run test:e2e:deterministic
+
+      - name: Upload failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-failures-${{ github.run_id }}
+          path: deeplingo_web/test-results/
+          retention-days: 7
+          if-no-files-found: ignore

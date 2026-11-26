@@ -1,0 +1,22 @@
+# --- General ---
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Backend (Python/Flask) ---
+venv/
+**/__pycache__/
+*.py[cod]
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- Impeccable / local agent skills ---
+.claude/agents/
+.claude/settings.local.json
+.claude/skills/
+.github/agents/
+.github/hooks/
+.github/skills/

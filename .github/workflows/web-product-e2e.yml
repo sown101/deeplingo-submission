@@ -1,0 +1,176 @@
+# Web Full Product E2E — external-integration runtime proof.
+#
+# Reliability level: MANUAL / RELEASE-GATED. This proof depends on external,
+# non-deterministic systems (hosted development Supabase, a reachable
+# FastAPI process, YouTube, and the external LLM provider for review-origin
+# generated activities). It is therefore NOT a PR-required check and must
+# not be presented as deterministic CI.
+#
+# Trigger: workflow_dispatch (manual) or workflow_call (from a release
+# pipeline). The workflow fails loudly if required secrets are absent.
+#
+# Secret boundary:
+#   - Every repository secret is mapped ONCE under its E2E_* name, and the
+#     server-side aliases (SUPABASE_URL, SUPABASE_KEY, SUPABASE_SERVICE_ROLE_
+#     KEY, SMOKE_EXPECTED_SUPABASE_PROJECT_REF, AI_*) derive from those same
+#     E2E_* values. The preflight loop validates the E2E_* names, so the
+#     validated names and the consumed names can no longer drift apart.
+#   - The API origin is explicit: E2E_API_ORIGIN (repository variable,
+#     default http://localhost:8000). Nothing guesses a port; the backend is
+#     started on the port parsed from that origin and scripts/e2e_backend_
+#     preflight.mjs validates health + V3 capability + the required RPC
+#     before any learner state exists (BACKEND_RUNTIME_NOT_MIGRATED fails
+#     closed here instead of mid-flow).
+#   - Server-side processes (uvicorn, scripts/e2e_learner.py) receive
+#     SUPABASE_SERVICE_ROLE_KEY via environment variables.
+#   - The BROWSER receives only VITE_SUPABASE_URL, VITE_SUPABASE_PUBLISHABLE_
+#     KEY and VITE_API_BASE_URL (derived from E2E_API_ORIGIN), written to
+#     deeplingo_web/.env.local. The service-role key is never exported as
+#     VITE_*.
+#   - Disposable learner cleanup runs inside the guarded server-side helper
+#     on success AND failure (the helper resolves repository paths itself and
+#     does not depend on the caller's working directory), and never deletes
+#     shared/global content.
+
+name: Web Full Product E2E
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+concurrency:
+  group: web-product-e2e-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  product-e2e:
+    name: product-e2e (real backend, real auth, disposable learner)
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      # --- required repository secrets (single E2E_* mapping) ---
+      E2E_SUPABASE_URL: ${{ secrets.E2E_SUPABASE_URL }}
+      E2E_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.E2E_SUPABASE_PUBLISHABLE_KEY }}
+      E2E_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.E2E_SUPABASE_SERVICE_ROLE_KEY }}
+      E2E_EXPECTED_PROJECT_REF: ${{ secrets.E2E_EXPECTED_PROJECT_REF }}
+      # --- external AI provider used by review-origin generation ---
+      E2E_AI_API_KEY: ${{ secrets.E2E_AI_API_KEY }}
+      E2E_AI_BASE_URL: ${{ secrets.E2E_AI_BASE_URL }}
+      E2E_AI_MODEL_NAME: ${{ secrets.E2E_AI_MODEL_NAME }}
+      E2E_AI_ACTIVITY_GENERATION_MODEL: ${{ secrets.E2E_AI_ACTIVITY_GENERATION_MODEL }}
+      # --- explicit API origin; no port guessing, no fallback probing ---
+      E2E_API_ORIGIN: ${{ vars.E2E_API_ORIGIN || 'http://localhost:8000' }}
+      # --- server-side aliases derived from the SAME E2E_* values ---
+      SUPABASE_URL: ${{ secrets.E2E_SUPABASE_URL }}
+      SUPABASE_KEY: ${{ secrets.E2E_SUPABASE_PUBLISHABLE_KEY }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.E2E_SUPABASE_SERVICE_ROLE_KEY }}
+      SMOKE_EXPECTED_SUPABASE_PROJECT_REF: ${{ secrets.E2E_EXPECTED_PROJECT_REF }}
+      AI_PROVIDER: openrouter
+      AI_BASE_URL: ${{ secrets.E2E_AI_BASE_URL }}
+      AI_API_KEY: ${{ secrets.E2E_AI_API_KEY }}
+      AI_MODEL_NAME: ${{ secrets.E2E_AI_MODEL_NAME }}
+      AI_ACTIVITY_GENERATION_MODEL: ${{ secrets.E2E_AI_ACTIVITY_GENERATION_MODEL }}
+      ENVIRONMENT: development
+      ALLOW_TEST_SEEDING: "true"
+      DEEPLINGO_E2E_PYTHON: python
+    steps:
+      - name: Verify required secrets are configured
+        run: |
+          missing=0
+          for var in E2E_SUPABASE_URL E2E_SUPABASE_PUBLISHABLE_KEY E2E_SUPABASE_SERVICE_ROLE_KEY E2E_EXPECTED_PROJECT_REF E2E_AI_API_KEY E2E_AI_BASE_URL E2E_AI_MODEL_NAME E2E_AI_ACTIVITY_GENERATION_MODEL; do
+            if [ -z "${!var:-}" ]; then
+              echo "::error::Missing repository secret: $var"
+              missing=1
+            fi
+          done
+          if [ -z "$E2E_API_ORIGIN" ]; then
+            echo "::error::E2E_API_ORIGIN is empty"
+            missing=1
+          fi
+          exit $missing
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: deeplingo_web/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install backend dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r backend/requirements.txt
+
+      - name: Clean web dependency install (lockfile)
+        run: npm ci
+        working-directory: deeplingo_web
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+        working-directory: deeplingo_web
+
+      - name: Write browser-safe env (never the service-role key)
+        run: |
+          cat > deeplingo_web/.env.local <<EOF
+          VITE_API_BASE_URL=${E2E_API_ORIGIN%/}/api/v1/v3
+          VITE_SUPABASE_URL=${SUPABASE_URL}
+          VITE_SUPABASE_PUBLISHABLE_KEY=${SUPABASE_KEY}
+          EOF
+
+      - name: Start FastAPI development backend on the explicit API origin
+        run: |
+          API_PORT=$(python -c "import os, urllib.parse as u; p = u.urlparse(os.environ['E2E_API_ORIGIN']); print(p.port or {'http': 80, 'https': 443}[p.scheme])")
+          cd backend
+          nohup python -m uvicorn app.main:app --host 0.0.0.0 --port "$API_PORT" > uvicorn.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -sf "${E2E_API_ORIGIN%/}/health" > /dev/null; then
+              echo "backend healthy on ${E2E_API_ORIGIN}"; exit 0
+            fi
+            sleep 2
+          done
+          echo "::error::FastAPI did not become healthy at ${E2E_API_ORIGIN}"; cat uvicorn.log; exit 1
+
+      - name: Backend capability preflight (read-only, fails closed)
+        run: node scripts/e2e_backend_preflight.mjs
+        working-directory: deeplingo_web
+
+      - name: Start Vite dev server
+        run: |
+          cd deeplingo_web
+          nohup npm run dev > vite.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:5173/ > /dev/null; then
+              echo "vite ready"; exit 0
+            fi
+            sleep 2
+          done
+          echo "::error::Vite did not start"; cat vite.log; exit 1
+
+      - name: Create disposable learner (guarded, no authority seeding)
+        id: learner
+        run: |
+          OUT=$(python deeplingo_web/scripts/e2e_learner.py setup)
+          echo "$OUT"
+          STATE_PATH=$(echo "$OUT" | python -c "import sys,json; print(json.load(sys.stdin)['state_path'])")
+          echo "state_path=$STATE_PATH" >> "$GITHUB_OUTPUT"
+
+      - name: Run full Product E2E (cleanup runs inside, success or failure)
+        run: node scripts/e2e_product_v1.mjs "${{ steps.learner.outputs.state_path }}"
+        working-directory: deeplingo_web
+
+      - name: Upload failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: product-e2e-failures-${{ github.run_id }}
+          path: |
+            deeplingo_web/e2e-failure.png
+            deeplingo_web/vite.log
+            backend/uvicorn.log
+          retention-days: 7
+          if-no-files-found: ignore

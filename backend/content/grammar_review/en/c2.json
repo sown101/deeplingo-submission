@@ -1,0 +1,1911 @@
+{
+ "format": "deeplingo-grammar-bank-v1",
+ "catalogue_source": "deeplingo",
+ "authorship": "ai_draft",
+ "language": "en",
+ "level": "C2",
+ "support_language": "vi",
+ "version": 1,
+ "topics": [
+  {
+   "key": "formal_register",
+   "title": "Văn phong trang trọng và liên kết"
+  },
+  {
+   "key": "precision",
+   "title": "Chính xác, rào đón và hòa hợp"
+  }
+ ],
+ "points": [
+  {
+   "key": "en.c2.inversion_fronting",
+   "title": "Đảo ngữ với so, such và các cụm phủ định",
+   "topic_key": "formal_register",
+   "questions": [
+    {
+     "id": "en.c2.inversion_fronting.01",
+     "prompt": "Under no circumstances ___ the door be opened.",
+     "options": [
+      {
+       "id": "a",
+       "text": "should"
+      },
+      {
+       "id": "b",
+       "text": "might it"
+      },
+      {
+       "id": "c",
+       "text": "do"
+      },
+      {
+       "id": "d",
+       "text": "has"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Under no circumstances + trợ động từ + chủ ngữ: should the door be opened (Dù trong hoàn cảnh nào cũng không được mở cửa)."
+    },
+    {
+     "id": "en.c2.inversion_fronting.02",
+     "prompt": "So great ___ his fear that he couldn't speak.",
+     "options": [
+      {
+       "id": "a",
+       "text": "his was"
+      },
+      {
+       "id": "b",
+       "text": "did"
+      },
+      {
+       "id": "c",
+       "text": "were"
+      },
+      {
+       "id": "d",
+       "text": "was"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "So + tính từ + be + chủ ngữ: So great was his fear (Anh ấy sợ đến mức không nói nên lời)."
+    },
+    {
+     "id": "en.c2.inversion_fronting.03",
+     "prompt": "Such ___ the force of the storm that trees were uprooted.",
+     "options": [
+      {
+       "id": "a",
+       "text": "were"
+      },
+      {
+       "id": "b",
+       "text": "is it"
+      },
+      {
+       "id": "c",
+       "text": "was"
+      },
+      {
+       "id": "d",
+       "text": "did"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Such + be + chủ ngữ: Such was the force (Sức mạnh của cơn bão lớn đến mức cây bị bật gốc)."
+    },
+    {
+     "id": "en.c2.inversion_fronting.04",
+     "prompt": "Only by working hard ___ succeed.",
+     "options": [
+      {
+       "id": "a",
+       "text": "you can"
+      },
+      {
+       "id": "b",
+       "text": "can you"
+      },
+      {
+       "id": "c",
+       "text": "can't you"
+      },
+      {
+       "id": "d",
+       "text": "do you can"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Only by + V-ing ở đầu câu: can you succeed (Chỉ bằng làm việc chăm bạn mới thành công)."
+    },
+    {
+     "id": "en.c2.inversion_fronting.05",
+     "prompt": "On no account ___ luggage be left unattended.",
+     "options": [
+      {
+       "id": "a",
+       "text": "should"
+      },
+      {
+       "id": "b",
+       "text": "must be"
+      },
+      {
+       "id": "c",
+       "text": "is"
+      },
+      {
+       "id": "d",
+       "text": "does"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "On no account + trợ động từ: should luggage be left (Tuyệt đối không được để hành lý không người trông)."
+    },
+    {
+     "id": "en.c2.inversion_fronting.06",
+     "prompt": "In no way ___ responsible for the damage.",
+     "options": [
+      {
+       "id": "a",
+       "text": "I am"
+      },
+      {
+       "id": "b",
+       "text": "I do"
+      },
+      {
+       "id": "c",
+       "text": "do I"
+      },
+      {
+       "id": "d",
+       "text": "am I"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "In no way ở đầu câu: am I responsible (Tôi không chịu trách nhiệm về thiệt hại bằng bất cứ cách nào)."
+    },
+    {
+     "id": "en.c2.inversion_fronting.07",
+     "prompt": "Not a word ___ she say about the incident.",
+     "options": [
+      {
+       "id": "a",
+       "text": "does"
+      },
+      {
+       "id": "b",
+       "text": "has"
+      },
+      {
+       "id": "c",
+       "text": "did"
+      },
+      {
+       "id": "d",
+       "text": "was"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Not a word ở đầu câu: did she say (Cô ấy không nói nửa lời về sự cố)."
+    },
+    {
+     "id": "en.c2.inversion_fronting.08",
+     "prompt": "At no time ___ the staff informed of the change.",
+     "options": [
+      {
+       "id": "a",
+       "text": "was"
+      },
+      {
+       "id": "b",
+       "text": "were"
+      },
+      {
+       "id": "c",
+       "text": "did"
+      },
+      {
+       "id": "d",
+       "text": "have"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "At no time + were + chủ ngữ số nhiều (Nhân viên chưa bao giờ được thông báo về thay đổi)."
+    }
+   ],
+   "lesson": {
+    "summary": "Đặt cụm phủ định hoặc so/such lên đầu câu để nhấn mạnh, kéo theo đảo ngữ.",
+    "rules": [
+     "Under no circumstances / On no account / At no time / In no way + trợ động từ + chủ ngữ.",
+     "So + tính từ + be + chủ ngữ + that...: So great was his fear that he couldn't speak.",
+     "Such + be + chủ ngữ + that...: Such was the force of the storm that trees were uprooted.",
+     "Only by/when/after + cụm ở đầu câu: Only by working hard can you succeed."
+    ],
+    "examples": [
+     {
+      "text": "Under no circumstances should the door be opened.",
+      "meaning": "Dù trong hoàn cảnh nào cũng không được mở cửa."
+     },
+     {
+      "text": "So great was his fear that he couldn't speak.",
+      "meaning": "Anh ấy sợ đến mức không nói nên lời."
+     },
+     {
+      "text": "Only by working hard can you succeed.",
+      "meaning": "Chỉ bằng làm việc chăm chỉ bạn mới thành công."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "Under no circumstances the door should be opened.",
+      "right": "Under no circumstances should the door be opened.",
+      "why": "Sau cụm phủ định ở đầu câu phải đảo trợ động từ."
+     },
+     {
+      "wrong": "Such the force was...",
+      "right": "Such was the force...",
+      "why": "Sau Such đảo be lên trước chủ ngữ."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.c2.formal_connectors",
+   "title": "Từ nối trang trọng: albeit, notwithstanding, whereby, hence",
+   "topic_key": "formal_register",
+   "questions": [
+    {
+     "id": "en.c2.formal_connectors.01",
+     "prompt": "The plan was approved, ___ with some reservations.",
+     "options": [
+      {
+       "id": "a",
+       "text": "despite"
+      },
+      {
+       "id": "b",
+       "text": "albeit"
+      },
+      {
+       "id": "c",
+       "text": "whereas"
+      },
+      {
+       "id": "d",
+       "text": "hence"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "albeit = dù là (Kế hoạch được duyệt, dù có một số băn khoăn)."
+    },
+    {
+     "id": "en.c2.formal_connectors.02",
+     "prompt": "The data were incomplete; ___, no firm conclusion could be drawn.",
+     "options": [
+      {
+       "id": "a",
+       "text": "hence"
+      },
+      {
+       "id": "b",
+       "text": "albeit"
+      },
+      {
+       "id": "c",
+       "text": "whereas"
+      },
+      {
+       "id": "d",
+       "text": "lest"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "hence = do đó (Dữ liệu chưa đầy đủ, do đó không thể kết luận chắc chắn)."
+    },
+    {
+     "id": "en.c2.formal_connectors.03",
+     "prompt": "___ the high cost, the project went ahead.",
+     "options": [
+      {
+       "id": "a",
+       "text": "Albeit"
+      },
+      {
+       "id": "b",
+       "text": "Hence"
+      },
+      {
+       "id": "c",
+       "text": "Whereas"
+      },
+      {
+       "id": "d",
+       "text": "Notwithstanding"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Notwithstanding + danh từ = bất chấp (Bất chấp chi phí cao, dự án vẫn tiến hành)."
+    },
+    {
+     "id": "en.c2.formal_connectors.04",
+     "prompt": "She signed the contract, ___ binding herself to the company for five years.",
+     "options": [
+      {
+       "id": "a",
+       "text": "whereby"
+      },
+      {
+       "id": "b",
+       "text": "hence"
+      },
+      {
+       "id": "c",
+       "text": "thereby"
+      },
+      {
+       "id": "d",
+       "text": "albeit"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "thereby + V-ing chỉ kết quả (Cô ấy ký hợp đồng, qua đó ràng buộc mình với công ty năm năm)."
+    },
+    {
+     "id": "en.c2.formal_connectors.05",
+     "prompt": "The system ___ users can reset passwords is very secure.",
+     "options": [
+      {
+       "id": "a",
+       "text": "thereby"
+      },
+      {
+       "id": "b",
+       "text": "whereby"
+      },
+      {
+       "id": "c",
+       "text": "hence"
+      },
+      {
+       "id": "d",
+       "text": "albeit"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "whereby = theo đó, bằng cách đó (Hệ thống cho phép người dùng đặt lại mật khẩu rất an toàn)."
+    },
+    {
+     "id": "en.c2.formal_connectors.06",
+     "prompt": "The results are reliable ___ they are based on a large sample.",
+     "options": [
+      {
+       "id": "a",
+       "text": "insofar as"
+      },
+      {
+       "id": "b",
+       "text": "albeit"
+      },
+      {
+       "id": "c",
+       "text": "notwithstanding"
+      },
+      {
+       "id": "d",
+       "text": "hence"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "insofar as = trong chừng mực (Kết quả đáng tin trong chừng mực dựa trên mẫu lớn)."
+    },
+    {
+     "id": "en.c2.formal_connectors.07",
+     "prompt": "He spoke quietly, ___ he should wake the baby.",
+     "options": [
+      {
+       "id": "a",
+       "text": "unless"
+      },
+      {
+       "id": "b",
+       "text": "albeit"
+      },
+      {
+       "id": "c",
+       "text": "whereas"
+      },
+      {
+       "id": "d",
+       "text": "lest"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "lest = kẻo, sợ rằng (Anh ấy nói khẽ kẻo đánh thức em bé)."
+    },
+    {
+     "id": "en.c2.formal_connectors.08",
+     "prompt": "___ all his faults, he was a generous man.",
+     "options": [
+      {
+       "id": "a",
+       "text": "Albeit"
+      },
+      {
+       "id": "b",
+       "text": "Hence"
+      },
+      {
+       "id": "c",
+       "text": "For"
+      },
+      {
+       "id": "d",
+       "text": "Whereas"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "For all + danh từ = dù có (Dù có đủ thói xấu, ông ấy vẫn là người hào phóng)."
+    }
+   ],
+   "lesson": {
+    "summary": "Văn viết trang trọng dùng các từ nối cô đọng: albeit, notwithstanding, whereby, thereby, hence, insofar as, lest.",
+    "rules": [
+     "albeit + tính từ/cụm: approved, albeit with reservations (dù là).",
+     "notwithstanding + danh từ: Notwithstanding the high cost (bất chấp).",
+     "whereby: bằng cách đó, theo đó: a system whereby users can reset passwords.",
+     "thereby + V-ing: kết quả: signed the contract, thereby binding herself.",
+     "hence: do đó. insofar as: trong chừng mực. lest + (should) + nguyên mẫu: sợ rằng."
+    ],
+    "examples": [
+     {
+      "text": "The plan was approved, albeit with some reservations.",
+      "meaning": "Kế hoạch được duyệt, dù có vài băn khoăn."
+     },
+     {
+      "text": "Notwithstanding the high cost, the project went ahead.",
+      "meaning": "Bất chấp chi phí cao, dự án vẫn tiến hành."
+     },
+     {
+      "text": "He spoke quietly lest he should wake the baby.",
+      "meaning": "Anh ấy nói khẽ kẻo đánh thức em bé."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "Albeit the high cost, ...",
+      "right": "Notwithstanding the high cost, ...",
+      "why": "albeit đi với tính từ/cụm, không đi với danh từ như despite."
+     },
+     {
+      "wrong": "lest he doesn't wake",
+      "right": "lest he wake",
+      "why": "lest đã mang nghĩa phủ định, không thêm not."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.c2.hedging_modality",
+   "title": "Rào đón và diễn đạt mức độ chắc chắn",
+   "topic_key": "precision",
+   "questions": [
+    {
+     "id": "en.c2.hedging_modality.01",
+     "prompt": "It would ___ that the figures were wrong.",
+     "options": [
+      {
+       "id": "a",
+       "text": "appears"
+      },
+      {
+       "id": "b",
+       "text": "appearing"
+      },
+      {
+       "id": "c",
+       "text": "appear"
+      },
+      {
+       "id": "d",
+       "text": "be appear"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "It would appear that... (Có vẻ như các con số đã sai)."
+    },
+    {
+     "id": "en.c2.hedging_modality.02",
+     "prompt": "The new drug is ___ to reduce side effects.",
+     "options": [
+      {
+       "id": "a",
+       "text": "probably"
+      },
+      {
+       "id": "b",
+       "text": "likely"
+      },
+      {
+       "id": "c",
+       "text": "possibly to"
+      },
+      {
+       "id": "d",
+       "text": "maybe"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "be likely to + nguyên mẫu (Thuốc mới có khả năng giảm tác dụng phụ)."
+    },
+    {
+     "id": "en.c2.hedging_modality.03",
+     "prompt": "Prices ___ to rise in winter.",
+     "options": [
+      {
+       "id": "a",
+       "text": "tend"
+      },
+      {
+       "id": "b",
+       "text": "tends"
+      },
+      {
+       "id": "c",
+       "text": "tending"
+      },
+      {
+       "id": "d",
+       "text": "tendency"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Prices số nhiều: tend to rise (Giá thường có xu hướng tăng vào mùa đông)."
+    },
+    {
+     "id": "en.c2.hedging_modality.04",
+     "prompt": "There seems ___ no clear explanation.",
+     "options": [
+      {
+       "id": "a",
+       "text": "being"
+      },
+      {
+       "id": "b",
+       "text": "is"
+      },
+      {
+       "id": "c",
+       "text": "been"
+      },
+      {
+       "id": "d",
+       "text": "to be"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "seem + to be (Dường như không có lời giải thích rõ ràng)."
+    },
+    {
+     "id": "en.c2.hedging_modality.05",
+     "prompt": "He is ___ to have left the country.",
+     "options": [
+      {
+       "id": "a",
+       "text": "told"
+      },
+      {
+       "id": "b",
+       "text": "spoken"
+      },
+      {
+       "id": "c",
+       "text": "said"
+      },
+      {
+       "id": "d",
+       "text": "talked"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "be said to have + V3 (Người ta nói anh ấy đã rời khỏi đất nước)."
+    },
+    {
+     "id": "en.c2.hedging_modality.06",
+     "prompt": "The results suggest, ___ than prove, a link.",
+     "options": [
+      {
+       "id": "a",
+       "text": "more"
+      },
+      {
+       "id": "b",
+       "text": "rather"
+      },
+      {
+       "id": "c",
+       "text": "instead"
+      },
+      {
+       "id": "d",
+       "text": "better"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "suggest rather than prove (Kết quả gợi ý chứ không chứng minh một mối liên hệ)."
+    },
+    {
+     "id": "en.c2.hedging_modality.07",
+     "prompt": "To a certain ___, the claim is true.",
+     "options": [
+      {
+       "id": "a",
+       "text": "extent"
+      },
+      {
+       "id": "b",
+       "text": "level"
+      },
+      {
+       "id": "c",
+       "text": "amount"
+      },
+      {
+       "id": "d",
+       "text": "size"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "to a certain extent (Ở một chừng mực nào đó, nhận định này đúng)."
+    },
+    {
+     "id": "en.c2.hedging_modality.08",
+     "prompt": "The study ___ to indicate a connection.",
+     "options": [
+      {
+       "id": "a",
+       "text": "appear"
+      },
+      {
+       "id": "b",
+       "text": "appearing"
+      },
+      {
+       "id": "c",
+       "text": "appearance"
+      },
+      {
+       "id": "d",
+       "text": "appears"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "The study appears to + nguyên mẫu (Nghiên cứu dường như cho thấy có mối liên hệ)."
+    }
+   ],
+   "lesson": {
+    "summary": "Văn học thuật tránh khẳng định tuyệt đối bằng các cấu trúc rào đón.",
+    "rules": [
+     "It would appear that..., It seems that..., There seems to be...",
+     "appear/seem/tend/be likely + to + V: The study appears to indicate a link.",
+     "suggest rather than prove; to some extent; to a certain degree.",
+     "be said/thought/reported to + V."
+    ],
+    "examples": [
+     {
+      "text": "It would appear that the figures were wrong.",
+      "meaning": "Có vẻ như các con số đã sai."
+     },
+     {
+      "text": "Prices tend to rise in winter.",
+      "meaning": "Giá thường có xu hướng tăng vào mùa đông."
+     },
+     {
+      "text": "The results suggest, rather than prove, a link.",
+      "meaning": "Kết quả gợi ý chứ không chứng minh một mối liên hệ."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "There seems being no explanation.",
+      "right": "There seems to be no explanation.",
+      "why": "seem + to + nguyên mẫu."
+     },
+     {
+      "wrong": "Prices tends to rise.",
+      "right": "Prices tend to rise.",
+      "why": "Prices số nhiều nên dùng tend."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.c2.formal_conditions",
+   "title": "Điều kiện trang trọng: provided that, lest, on condition that",
+   "topic_key": "formal_register",
+   "questions": [
+    {
+     "id": "en.c2.formal_conditions.01",
+     "prompt": "You may borrow the car ___ you drive carefully.",
+     "options": [
+      {
+       "id": "a",
+       "text": "unless"
+      },
+      {
+       "id": "b",
+       "text": "although"
+      },
+      {
+       "id": "c",
+       "text": "whereas"
+      },
+      {
+       "id": "d",
+       "text": "provided that"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "provided that = với điều kiện (Bạn được mượn xe với điều kiện lái cẩn thận)."
+    },
+    {
+     "id": "en.c2.formal_conditions.02",
+     "prompt": "I'll lend you the money on ___ that you repay it soon.",
+     "options": [
+      {
+       "id": "a",
+       "text": "case"
+      },
+      {
+       "id": "b",
+       "text": "provided"
+      },
+      {
+       "id": "c",
+       "text": "condition"
+      },
+      {
+       "id": "d",
+       "text": "behalf"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "on condition that (Tôi cho bạn mượn tiền với điều kiện trả sớm)."
+    },
+    {
+     "id": "en.c2.formal_conditions.03",
+     "prompt": "She hid the letter ___ anyone should find it.",
+     "options": [
+      {
+       "id": "a",
+       "text": "unless"
+      },
+      {
+       "id": "b",
+       "text": "lest"
+      },
+      {
+       "id": "c",
+       "text": "so"
+      },
+      {
+       "id": "d",
+       "text": "because"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "lest anyone should find it = kẻo ai đó tìm thấy (Cô ấy giấu lá thư kẻo ai đó thấy)."
+    },
+    {
+     "id": "en.c2.formal_conditions.04",
+     "prompt": "___ the fact that he was ill, he attended the meeting.",
+     "options": [
+      {
+       "id": "a",
+       "text": "Despite"
+      },
+      {
+       "id": "b",
+       "text": "Although"
+      },
+      {
+       "id": "c",
+       "text": "Because"
+      },
+      {
+       "id": "d",
+       "text": "Whereas"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Despite the fact that + mệnh đề (Dù ốm, anh ấy vẫn dự họp)."
+    },
+    {
+     "id": "en.c2.formal_conditions.05",
+     "prompt": "As long ___ you are honest, you have nothing to fear.",
+     "options": [
+      {
+       "id": "a",
+       "text": "that"
+      },
+      {
+       "id": "b",
+       "text": "than"
+      },
+      {
+       "id": "c",
+       "text": "so"
+      },
+      {
+       "id": "d",
+       "text": "as"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "as long as = miễn là (Miễn là bạn trung thực, bạn không có gì phải sợ)."
+    },
+    {
+     "id": "en.c2.formal_conditions.06",
+     "prompt": "He was fired on the ___ that he had lied.",
+     "options": [
+      {
+       "id": "a",
+       "text": "cause"
+      },
+      {
+       "id": "b",
+       "text": "reason"
+      },
+      {
+       "id": "c",
+       "text": "grounds"
+      },
+      {
+       "id": "d",
+       "text": "excuse"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "on the grounds that = với lý do (Anh ấy bị sa thải với lý do đã nói dối)."
+    },
+    {
+     "id": "en.c2.formal_conditions.07",
+     "prompt": "They agreed to the deal, ___ that the terms would not change.",
+     "options": [
+      {
+       "id": "a",
+       "text": "although"
+      },
+      {
+       "id": "b",
+       "text": "provided"
+      },
+      {
+       "id": "c",
+       "text": "unless"
+      },
+      {
+       "id": "d",
+       "text": "whereas"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "provided that (Họ đồng ý thỏa thuận, miễn là điều khoản không thay đổi)."
+    },
+    {
+     "id": "en.c2.formal_conditions.08",
+     "prompt": "___ for the rain, we would have had a picnic.",
+     "options": [
+      {
+       "id": "a",
+       "text": "But"
+      },
+      {
+       "id": "b",
+       "text": "Except"
+      },
+      {
+       "id": "c",
+       "text": "Despite"
+      },
+      {
+       "id": "d",
+       "text": "Unless"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "But for + danh từ = nếu không có (Nếu không có mưa thì chúng tôi đã đi dã ngoại)."
+    }
+   ],
+   "lesson": {
+    "summary": "Văn trang trọng dùng provided that, on condition that, as long as, but for, despite the fact that để nêu điều kiện hoặc nhượng bộ.",
+    "rules": [
+     "provided/providing that + mệnh đề = chỉ khi: You may borrow the car provided that you drive carefully.",
+     "on condition that + mệnh đề; as long as + mệnh đề.",
+     "but for + danh từ = nếu không có: But for the rain, we would have had a picnic.",
+     "despite the fact that + mệnh đề; on the grounds that + mệnh đề (lý do)."
+    ],
+    "examples": [
+     {
+      "text": "You may borrow the car provided that you drive carefully.",
+      "meaning": "Bạn được mượn xe với điều kiện lái cẩn thận."
+     },
+     {
+      "text": "But for the rain, we would have had a picnic.",
+      "meaning": "Nếu không có mưa thì chúng tôi đã đi dã ngoại."
+     },
+     {
+      "text": "He was fired on the grounds that he had lied.",
+      "meaning": "Anh ấy bị sa thải với lý do đã nói dối."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "Despite he was ill, he came.",
+      "right": "Despite the fact that he was ill, he came.",
+      "why": "Despite cần danh từ hoặc the fact that."
+     },
+     {
+      "wrong": "As long that you are honest",
+      "right": "As long as you are honest",
+      "why": "as long as là cụm cố định."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.c2.complex_prepositions",
+   "title": "Cụm giới từ phức",
+   "topic_key": "formal_register",
+   "questions": [
+    {
+     "id": "en.c2.complex_prepositions.01",
+     "prompt": "He studied hard ___ a view to getting a scholarship.",
+     "options": [
+      {
+       "id": "a",
+       "text": "with"
+      },
+      {
+       "id": "b",
+       "text": "in"
+      },
+      {
+       "id": "c",
+       "text": "on"
+      },
+      {
+       "id": "d",
+       "text": "for"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "with a view to + V-ing (Anh ấy học chăm nhằm giành học bổng)."
+    },
+    {
+     "id": "en.c2.complex_prepositions.02",
+     "prompt": "In ___ to the main course, we offer a salad.",
+     "options": [
+      {
+       "id": "a",
+       "text": "adding"
+      },
+      {
+       "id": "b",
+       "text": "additional"
+      },
+      {
+       "id": "c",
+       "text": "addict"
+      },
+      {
+       "id": "d",
+       "text": "addition"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "in addition to (Ngoài món chính, chúng tôi còn có salad)."
+    },
+    {
+     "id": "en.c2.complex_prepositions.03",
+     "prompt": "By ___ of hard work, she won the contest.",
+     "options": [
+      {
+       "id": "a",
+       "text": "mean"
+      },
+      {
+       "id": "b",
+       "text": "way"
+      },
+      {
+       "id": "c",
+       "text": "dint"
+      },
+      {
+       "id": "d",
+       "text": "force"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "by dint of = nhờ có (Nhờ làm việc cật lực, cô ấy thắng cuộc thi)."
+    },
+    {
+     "id": "en.c2.complex_prepositions.04",
+     "prompt": "She resigned on the grounds ___ she was unhappy.",
+     "options": [
+      {
+       "id": "a",
+       "text": "of"
+      },
+      {
+       "id": "b",
+       "text": "that"
+      },
+      {
+       "id": "c",
+       "text": "for"
+      },
+      {
+       "id": "d",
+       "text": "what"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "on the grounds that + mệnh đề (Cô ấy từ chức với lý do không hạnh phúc)."
+    },
+    {
+     "id": "en.c2.complex_prepositions.05",
+     "prompt": "In the ___ of an emergency, press the red button.",
+     "options": [
+      {
+       "id": "a",
+       "text": "event"
+      },
+      {
+       "id": "b",
+       "text": "result"
+      },
+      {
+       "id": "c",
+       "text": "time"
+      },
+      {
+       "id": "d",
+       "text": "moment"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "in the event of (Trong trường hợp khẩn cấp, hãy nhấn nút đỏ)."
+    },
+    {
+     "id": "en.c2.complex_prepositions.06",
+     "prompt": "We cancelled the event on ___ of the weather.",
+     "options": [
+      {
+       "id": "a",
+       "text": "view"
+      },
+      {
+       "id": "b",
+       "text": "regard"
+      },
+      {
+       "id": "c",
+       "text": "base"
+      },
+      {
+       "id": "d",
+       "text": "account"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "on account of = vì (Chúng tôi hủy sự kiện vì thời tiết)."
+    },
+    {
+     "id": "en.c2.complex_prepositions.07",
+     "prompt": "With ___ to your question, the answer is no.",
+     "options": [
+      {
+       "id": "a",
+       "text": "concern"
+      },
+      {
+       "id": "b",
+       "text": "relate"
+      },
+      {
+       "id": "c",
+       "text": "regard"
+      },
+      {
+       "id": "d",
+       "text": "attach"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "with regard to = liên quan đến (Về câu hỏi của bạn, câu trả lời là không)."
+    },
+    {
+     "id": "en.c2.complex_prepositions.08",
+     "prompt": "For a man ___ his age, he is remarkably fit.",
+     "options": [
+      {
+       "id": "a",
+       "text": "in"
+      },
+      {
+       "id": "b",
+       "text": "of"
+      },
+      {
+       "id": "c",
+       "text": "at"
+      },
+      {
+       "id": "d",
+       "text": "with"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "for a man of his age (Với một người ở tuổi ông, ông ấy khỏe đáng kinh ngạc)."
+    }
+   ],
+   "lesson": {
+    "summary": "Cụm giới từ phức gồm nhiều từ nhưng hoạt động như một giới từ: with a view to, in addition to, by dint of, on account of.",
+    "rules": [
+     "with a view to + V-ing: nhằm mục đích. in addition to + danh từ/V-ing.",
+     "by dint of + danh từ: nhờ có (sự cố gắng). on account of + danh từ: vì.",
+     "in the event of + danh từ: trong trường hợp.",
+     "with regard to: liên quan đến. For + danh từ + of + tuổi: for a man of his age."
+    ],
+    "examples": [
+     {
+      "text": "He studied hard with a view to getting a scholarship.",
+      "meaning": "Anh ấy học chăm nhằm giành học bổng."
+     },
+     {
+      "text": "By dint of hard work, she won the contest.",
+      "meaning": "Nhờ làm việc cật lực, cô ấy thắng cuộc thi."
+     },
+     {
+      "text": "We cancelled the event on account of the weather.",
+      "meaning": "Chúng tôi hủy sự kiện vì thời tiết."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "with a view to get",
+      "right": "with a view to getting",
+      "why": "to trong cụm này là giới từ, theo sau là V-ing."
+     },
+     {
+      "wrong": "in addition of",
+      "right": "in addition to",
+      "why": "Cụm cố định là in addition to."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.c2.but_for_otherwise",
+   "title": "But for, otherwise và điều kiện rút gọn",
+   "topic_key": "formal_register",
+   "questions": [
+    {
+     "id": "en.c2.but_for_otherwise.01",
+     "prompt": "___ your help, I would have failed.",
+     "options": [
+      {
+       "id": "a",
+       "text": "Except"
+      },
+      {
+       "id": "b",
+       "text": "But for"
+      },
+      {
+       "id": "c",
+       "text": "Despite"
+      },
+      {
+       "id": "d",
+       "text": "Unless"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "But for + danh từ = nếu không có (Nếu không có bạn giúp thì tôi đã thất bại)."
+    },
+    {
+     "id": "en.c2.but_for_otherwise.02",
+     "prompt": "Take the medicine; ___, you will get worse.",
+     "options": [
+      {
+       "id": "a",
+       "text": "otherwise"
+      },
+      {
+       "id": "b",
+       "text": "however"
+      },
+      {
+       "id": "c",
+       "text": "moreover"
+      },
+      {
+       "id": "d",
+       "text": "therefore"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "otherwise = nếu không thì (Hãy uống thuốc, nếu không bạn sẽ nặng hơn)."
+    },
+    {
+     "id": "en.c2.but_for_otherwise.03",
+     "prompt": "If it ___ for the rain, we would be at the beach.",
+     "options": [
+      {
+       "id": "a",
+       "text": "wasn't"
+      },
+      {
+       "id": "b",
+       "text": "hadn't been"
+      },
+      {
+       "id": "c",
+       "text": "isn't"
+      },
+      {
+       "id": "d",
+       "text": "weren't"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "If it weren't for + danh từ (Nếu không có mưa thì giờ chúng tôi đang ở bãi biển)."
+    },
+    {
+     "id": "en.c2.but_for_otherwise.04",
+     "prompt": "Had it ___ been for his advice, I would have made a mistake.",
+     "options": [
+      {
+       "id": "a",
+       "text": "no"
+      },
+      {
+       "id": "b",
+       "text": "never"
+      },
+      {
+       "id": "c",
+       "text": "not"
+      },
+      {
+       "id": "d",
+       "text": "nothing"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Had it not been for (Nếu không có lời khuyên của anh ấy thì tôi đã mắc lỗi)."
+    },
+    {
+     "id": "en.c2.but_for_otherwise.05",
+     "prompt": "___ the traffic, we would have arrived earlier.",
+     "options": [
+      {
+       "id": "a",
+       "text": "Except"
+      },
+      {
+       "id": "b",
+       "text": "But for"
+      },
+      {
+       "id": "c",
+       "text": "Unless"
+      },
+      {
+       "id": "d",
+       "text": "Despite"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "But for + danh từ (Nếu không có tắc đường thì chúng tôi đã đến sớm hơn)."
+    },
+    {
+     "id": "en.c2.but_for_otherwise.06",
+     "prompt": "I'd take the job, ___ the salary were higher.",
+     "options": [
+      {
+       "id": "a",
+       "text": "if"
+      },
+      {
+       "id": "b",
+       "text": "unless"
+      },
+      {
+       "id": "c",
+       "text": "although"
+      },
+      {
+       "id": "d",
+       "text": "whereas"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "if + were cho giả định (Tôi sẽ nhận việc nếu lương cao hơn)."
+    },
+    {
+     "id": "en.c2.but_for_otherwise.07",
+     "prompt": "Unless it ___, we'll go for a walk.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will rain"
+      },
+      {
+       "id": "b",
+       "text": "rained"
+      },
+      {
+       "id": "c",
+       "text": "rain"
+      },
+      {
+       "id": "d",
+       "text": "rains"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "unless + hiện tại đơn (Nếu trời không mưa thì chúng tôi đi dạo)."
+    },
+    {
+     "id": "en.c2.but_for_otherwise.08",
+     "prompt": "Were it not ___ his injury, he would play.",
+     "options": [
+      {
+       "id": "a",
+       "text": "to"
+      },
+      {
+       "id": "b",
+       "text": "by"
+      },
+      {
+       "id": "c",
+       "text": "for"
+      },
+      {
+       "id": "d",
+       "text": "with"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Were it not for + danh từ (Nếu không có chấn thương thì anh ấy đã thi đấu)."
+    }
+   ],
+   "lesson": {
+    "summary": "But for, otherwise, if it weren't for, had it not been for diễn đạt điều kiện 'nếu không có' một cách gọn.",
+    "rules": [
+     "But for + danh từ + would (have): But for your help, I would have failed.",
+     "If it weren't for / Were it not for + danh từ: điều kiện hiện tại.",
+     "If it hadn't been for / Had it not been for + danh từ: điều kiện quá khứ.",
+     "otherwise: nếu không thì: Take the medicine; otherwise, you will get worse.",
+     "unless + hiện tại đơn = if not."
+    ],
+    "examples": [
+     {
+      "text": "But for your help, I would have failed.",
+      "meaning": "Nếu không có sự giúp đỡ của bạn thì tôi đã thất bại."
+     },
+     {
+      "text": "Take the medicine; otherwise, you will get worse.",
+      "meaning": "Hãy uống thuốc, nếu không bạn sẽ nặng hơn."
+     },
+     {
+      "text": "Had it not been for his advice, I would have made a mistake.",
+      "meaning": "Nếu không có lời khuyên của anh ấy thì tôi đã mắc lỗi."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "But for you helped me, ...",
+      "right": "But for your help, ...",
+      "why": "But for đi với danh từ."
+     },
+     {
+      "wrong": "Unless it will rain, we'll go.",
+      "right": "Unless it rains, we'll go.",
+      "why": "Không dùng will sau unless."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.c2.raising_verbs",
+   "title": "Seem, appear, prove, turn out, happen, be bound to",
+   "topic_key": "precision",
+   "questions": [
+    {
+     "id": "en.c2.raising_verbs.01",
+     "prompt": "The plan turned ___ to be a failure.",
+     "options": [
+      {
+       "id": "a",
+       "text": "up"
+      },
+      {
+       "id": "b",
+       "text": "off"
+      },
+      {
+       "id": "c",
+       "text": "out"
+      },
+      {
+       "id": "d",
+       "text": "away"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "turn out to be = hóa ra là (Kế hoạch hóa ra thất bại)."
+    },
+    {
+     "id": "en.c2.raising_verbs.02",
+     "prompt": "She happened ___ the manager at the airport.",
+     "options": [
+      {
+       "id": "a",
+       "text": "meeting"
+      },
+      {
+       "id": "b",
+       "text": "to meet"
+      },
+      {
+       "id": "c",
+       "text": "meet"
+      },
+      {
+       "id": "d",
+       "text": "to meeting"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "happen + to + nguyên mẫu (Cô ấy tình cờ gặp quản lý ở sân bay)."
+    },
+    {
+     "id": "en.c2.raising_verbs.03",
+     "prompt": "He proved ___ the best candidate.",
+     "options": [
+      {
+       "id": "a",
+       "text": "to be"
+      },
+      {
+       "id": "b",
+       "text": "being"
+      },
+      {
+       "id": "c",
+       "text": "be"
+      },
+      {
+       "id": "d",
+       "text": "been"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "prove + to be (Anh ấy hóa ra là ứng viên tốt nhất)."
+    },
+    {
+     "id": "en.c2.raising_verbs.04",
+     "prompt": "The weather appears ___ improving.",
+     "options": [
+      {
+       "id": "a",
+       "text": "being"
+      },
+      {
+       "id": "b",
+       "text": "is"
+      },
+      {
+       "id": "c",
+       "text": "be"
+      },
+      {
+       "id": "d",
+       "text": "to be"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "appear + to be + V-ing (Thời tiết có vẻ đang tốt lên)."
+    },
+    {
+     "id": "en.c2.raising_verbs.05",
+     "prompt": "They seem ___ forgotten our appointment.",
+     "options": [
+      {
+       "id": "a",
+       "text": "having"
+      },
+      {
+       "id": "b",
+       "text": "have"
+      },
+      {
+       "id": "c",
+       "text": "to have"
+      },
+      {
+       "id": "d",
+       "text": "that have"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "seem + to have + V3 (Họ có vẻ đã quên cuộc hẹn của chúng ta)."
+    },
+    {
+     "id": "en.c2.raising_verbs.06",
+     "prompt": "It turned ___ that he was right.",
+     "options": [
+      {
+       "id": "a",
+       "text": "up"
+      },
+      {
+       "id": "b",
+       "text": "out"
+      },
+      {
+       "id": "c",
+       "text": "over"
+      },
+      {
+       "id": "d",
+       "text": "off"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "It turned out that + mệnh đề (Hóa ra anh ấy đúng)."
+    },
+    {
+     "id": "en.c2.raising_verbs.07",
+     "prompt": "He is bound ___ the truth sooner or later.",
+     "options": [
+      {
+       "id": "a",
+       "text": "to discover"
+      },
+      {
+       "id": "b",
+       "text": "discovering"
+      },
+      {
+       "id": "c",
+       "text": "discover"
+      },
+      {
+       "id": "d",
+       "text": "to discovering"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "be bound to + nguyên mẫu (Sớm muộn gì anh ấy cũng phát hiện ra sự thật)."
+    },
+    {
+     "id": "en.c2.raising_verbs.08",
+     "prompt": "The medicine is liable ___ drowsiness.",
+     "options": [
+      {
+       "id": "a",
+       "text": "causing"
+      },
+      {
+       "id": "b",
+       "text": "cause"
+      },
+      {
+       "id": "c",
+       "text": "causes"
+      },
+      {
+       "id": "d",
+       "text": "to cause"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "be liable to + nguyên mẫu (Thuốc này có thể gây buồn ngủ)."
+    }
+   ],
+   "lesson": {
+    "summary": "Một nhóm động từ đi với to + nguyên mẫu để nói về điều có vẻ, hóa ra, tình cờ hoặc chắc chắn xảy ra.",
+    "rules": [
+     "seem/appear/prove/happen/turn out + to + V: The plan turned out to be a failure.",
+     "seem/appear + to have + V3: They seem to have forgotten.",
+     "It turned out that + mệnh đề.",
+     "be bound/liable/apt + to + V: He is bound to find out. The medicine is liable to cause drowsiness."
+    ],
+    "examples": [
+     {
+      "text": "The plan turned out to be a failure.",
+      "meaning": "Kế hoạch hóa ra thất bại."
+     },
+     {
+      "text": "She happened to meet the manager at the airport.",
+      "meaning": "Cô ấy tình cờ gặp quản lý ở sân bay."
+     },
+     {
+      "text": "He is bound to discover the truth sooner or later.",
+      "meaning": "Sớm muộn gì anh ấy cũng phát hiện ra sự thật."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "It turned up that he was right.",
+      "right": "It turned out that he was right.",
+      "why": "turn out nghĩa là hóa ra, không dùng turn up."
+     },
+     {
+      "wrong": "He proved being the best.",
+      "right": "He proved to be the best.",
+      "why": "prove + to be."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.c2.subject_verb_agreement",
+   "title": "Hòa hợp chủ ngữ và động từ trong trường hợp đặc biệt",
+   "topic_key": "precision",
+   "questions": [
+    {
+     "id": "en.c2.subject_verb_agreement.01",
+     "prompt": "The police ___ investigating the case.",
+     "options": [
+      {
+       "id": "a",
+       "text": "is"
+      },
+      {
+       "id": "b",
+       "text": "has been"
+      },
+      {
+       "id": "c",
+       "text": "was"
+      },
+      {
+       "id": "d",
+       "text": "are"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "police dùng động từ số nhiều (Cảnh sát đang điều tra vụ việc)."
+    },
+    {
+     "id": "en.c2.subject_verb_agreement.02",
+     "prompt": "The news ___ very encouraging.",
+     "options": [
+      {
+       "id": "a",
+       "text": "are"
+      },
+      {
+       "id": "b",
+       "text": "were"
+      },
+      {
+       "id": "c",
+       "text": "is"
+      },
+      {
+       "id": "d",
+       "text": "have been"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "news coi là số ít (Tin tức rất đáng khích lệ)."
+    },
+    {
+     "id": "en.c2.subject_verb_agreement.03",
+     "prompt": "A number of students ___ absent today.",
+     "options": [
+      {
+       "id": "a",
+       "text": "is"
+      },
+      {
+       "id": "b",
+       "text": "are"
+      },
+      {
+       "id": "c",
+       "text": "was"
+      },
+      {
+       "id": "d",
+       "text": "has been"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "A number of + danh từ số nhiều + động từ số nhiều (Hôm nay vắng một số học sinh)."
+    },
+    {
+     "id": "en.c2.subject_verb_agreement.04",
+     "prompt": "The number of visitors ___ increased this year.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has"
+      },
+      {
+       "id": "b",
+       "text": "have"
+      },
+      {
+       "id": "c",
+       "text": "are"
+      },
+      {
+       "id": "d",
+       "text": "were"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "The number of + động từ số ít (Số lượng khách tăng trong năm nay)."
+    },
+    {
+     "id": "en.c2.subject_verb_agreement.05",
+     "prompt": "Each of the players ___ given a medal.",
+     "options": [
+      {
+       "id": "a",
+       "text": "were"
+      },
+      {
+       "id": "b",
+       "text": "are"
+      },
+      {
+       "id": "c",
+       "text": "have been"
+      },
+      {
+       "id": "d",
+       "text": "was"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Each of + số nhiều nhưng động từ số ít: was given (Mỗi cầu thủ được tặng một huy chương)."
+    },
+    {
+     "id": "en.c2.subject_verb_agreement.06",
+     "prompt": "Neither the manager nor the employees ___ aware of the change.",
+     "options": [
+      {
+       "id": "a",
+       "text": "was"
+      },
+      {
+       "id": "b",
+       "text": "is"
+      },
+      {
+       "id": "c",
+       "text": "were"
+      },
+      {
+       "id": "d",
+       "text": "has been"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Neither ... nor hợp với danh từ gần nhất (employees): were (Cả quản lý lẫn nhân viên đều không biết)."
+    },
+    {
+     "id": "en.c2.subject_verb_agreement.07",
+     "prompt": "Mathematics ___ my favourite subject.",
+     "options": [
+      {
+       "id": "a",
+       "text": "are"
+      },
+      {
+       "id": "b",
+       "text": "is"
+      },
+      {
+       "id": "c",
+       "text": "were"
+      },
+      {
+       "id": "d",
+       "text": "have been"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Mathematics là danh từ số ít (Toán là môn học yêu thích của tôi)."
+    },
+    {
+     "id": "en.c2.subject_verb_agreement.08",
+     "prompt": "Fifty dollars ___ a lot to pay for a book.",
+     "options": [
+      {
+       "id": "a",
+       "text": "is"
+      },
+      {
+       "id": "b",
+       "text": "are"
+      },
+      {
+       "id": "c",
+       "text": "were"
+      },
+      {
+       "id": "d",
+       "text": "have been"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Số tiền coi như một đơn vị: is (Năm mươi đô là nhiều cho một cuốn sách)."
+    }
+   ],
+   "lesson": {
+    "summary": "Một số danh từ và cấu trúc có quy tắc hòa hợp riêng, không theo hình thức số ít hay số nhiều bề ngoài.",
+    "rules": [
+     "The police, people, cattle: động từ số nhiều. News, mathematics, physics: động từ số ít.",
+     "A number of + danh từ số nhiều: động từ số nhiều. The number of + danh từ: động từ số ít.",
+     "Neither ... nor / Either ... or: động từ hợp với chủ ngữ gần nhất.",
+     "Số tiền, khoảng thời gian coi như một đơn vị: Fifty dollars is a lot.",
+     "Each of + số nhiều: động từ số ít."
+    ],
+    "examples": [
+     {
+      "text": "The police are investigating the case.",
+      "meaning": "Cảnh sát đang điều tra vụ việc."
+     },
+     {
+      "text": "A number of students are absent today.",
+      "meaning": "Hôm nay vắng một số học sinh."
+     },
+     {
+      "text": "Neither the manager nor the employees were aware of the change.",
+      "meaning": "Cả quản lý lẫn nhân viên đều không biết về thay đổi."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "The news are good.",
+      "right": "The news is good.",
+      "why": "news coi là số ít."
+     },
+     {
+      "wrong": "The number of visitors have increased.",
+      "right": "The number of visitors has increased.",
+      "why": "The number of đi với động từ số ít."
+     }
+    ]
+   }
+  }
+ ],
+ "approval": {
+  "reviewer": "owner",
+  "approved_on": "2026-11-02",
+  "content_sha256": "7b670b3aa2fcdd9ae49630cfe0be4bb930d7cab399b79d709e37ed7ff9ce3593",
+  "sample_question_ids": [
+   "en.c2.inversion_fronting.01",
+   "en.c2.formal_connectors.01",
+   "en.c2.hedging_modality.01",
+   "en.c2.formal_conditions.01",
+   "en.c2.complex_prepositions.01",
+   "en.c2.but_for_otherwise.01",
+   "en.c2.raising_verbs.01",
+   "en.c2.subject_verb_agreement.01"
+  ]
+ }
+}

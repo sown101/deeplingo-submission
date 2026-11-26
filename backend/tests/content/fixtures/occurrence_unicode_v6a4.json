@@ -1,0 +1,9 @@
+{
+  "source_text": "café é 日本語 👨‍👩‍👧",
+  "occurrences": [
+    {"text": "café", "start_codepoint": 0, "end_codepoint": 4},
+    {"text": "é", "start_codepoint": 5, "end_codepoint": 7},
+    {"text": "日本語", "start_codepoint": 8, "end_codepoint": 11},
+    {"text": "👨‍👩‍👧", "start_codepoint": 12, "end_codepoint": 17}
+  ]
+}

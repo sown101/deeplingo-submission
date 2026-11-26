@@ -1,0 +1,3797 @@
+{
+ "format": "deeplingo-grammar-bank-v1",
+ "catalogue_source": "deeplingo",
+ "authorship": "ai_draft",
+ "language": "en",
+ "level": "A2",
+ "support_language": "vi",
+ "version": 1,
+ "topics": [
+  {
+   "key": "past",
+   "title": "Quá khứ"
+  },
+  {
+   "key": "future",
+   "title": "Kế hoạch và tương lai"
+  },
+  {
+   "key": "comparison",
+   "title": "So sánh"
+  },
+  {
+   "key": "modals_perfect",
+   "title": "Động từ khuyết thiếu và hiện tại hoàn thành"
+  },
+  {
+   "key": "quantity_links",
+   "title": "Lượng từ, liên từ và mục đích"
+  }
+ ],
+ "points": [
+  {
+   "key": "en.a2.past_simple_regular",
+   "title": "Quá khứ đơn: động từ có quy tắc",
+   "topic_key": "past",
+   "questions": [
+    {
+     "id": "en.a2.past_simple_regular.01",
+     "prompt": "Chọn dạng đúng: Yesterday I ___ my grandmother.",
+     "options": [
+      {
+       "id": "a",
+       "text": "visited"
+      },
+      {
+       "id": "b",
+       "text": "visit"
+      },
+      {
+       "id": "c",
+       "text": "visiting"
+      },
+      {
+       "id": "d",
+       "text": "visits"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Động từ có quy tắc thêm -ed ở quá khứ đơn: visited (Hôm qua tôi đã thăm bà)."
+    },
+    {
+     "id": "en.a2.past_simple_regular.02",
+     "prompt": "She ___ the window and went out.",
+     "options": [
+      {
+       "id": "a",
+       "text": "closeed"
+      },
+      {
+       "id": "b",
+       "text": "closes"
+      },
+      {
+       "id": "c",
+       "text": "closing"
+      },
+      {
+       "id": "d",
+       "text": "closed"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Động từ tận cùng -e chỉ thêm -d: close → closed (Cô ấy đóng cửa sổ rồi đi ra)."
+    },
+    {
+     "id": "en.a2.past_simple_regular.03",
+     "prompt": "They ___ football last Sunday.",
+     "options": [
+      {
+       "id": "a",
+       "text": "playd"
+      },
+      {
+       "id": "b",
+       "text": "play"
+      },
+      {
+       "id": "c",
+       "text": "played"
+      },
+      {
+       "id": "d",
+       "text": "playing"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Nguyên âm + y thì giữ y và thêm -ed: played (Chủ nhật tuần trước họ đã chơi bóng đá)."
+    },
+    {
+     "id": "en.a2.past_simple_regular.04",
+     "prompt": "He ___ hard for the exam last night.",
+     "options": [
+      {
+       "id": "a",
+       "text": "studyed"
+      },
+      {
+       "id": "b",
+       "text": "studied"
+      },
+      {
+       "id": "c",
+       "text": "studying"
+      },
+      {
+       "id": "d",
+       "text": "studys"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Phụ âm + y: bỏ y thêm -ied: study → studied (Tối qua anh ấy học chăm cho kỳ thi)."
+    },
+    {
+     "id": "en.a2.past_simple_regular.05",
+     "prompt": "The bus ___ at the corner.",
+     "options": [
+      {
+       "id": "a",
+       "text": "stopped"
+      },
+      {
+       "id": "b",
+       "text": "stoped"
+      },
+      {
+       "id": "c",
+       "text": "stopping"
+      },
+      {
+       "id": "d",
+       "text": "stops"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Từ ngắn phụ âm–nguyên âm–phụ âm gấp đôi phụ âm cuối: stop → stopped (Xe buýt đã dừng ở góc đường)."
+    },
+    {
+     "id": "en.a2.past_simple_regular.06",
+     "prompt": "We ___ in Da Nang for three days in July.",
+     "options": [
+      {
+       "id": "a",
+       "text": "stayied"
+      },
+      {
+       "id": "b",
+       "text": "stay"
+      },
+      {
+       "id": "c",
+       "text": "staies"
+      },
+      {
+       "id": "d",
+       "text": "stayed"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "stay tận cùng nguyên âm + y nên chỉ thêm -ed: stayed (Chúng tôi ở Đà Nẵng ba ngày hồi tháng Bảy)."
+    },
+    {
+     "id": "en.a2.past_simple_regular.07",
+     "prompt": "My brother ___ to the radio all evening.",
+     "options": [
+      {
+       "id": "a",
+       "text": "listenned"
+      },
+      {
+       "id": "b",
+       "text": "listens"
+      },
+      {
+       "id": "c",
+       "text": "listened"
+      },
+      {
+       "id": "d",
+       "text": "listening"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "listen không gấp đôi n: listened (Anh tôi nghe radio suốt buổi tối)."
+    },
+    {
+     "id": "en.a2.past_simple_regular.08",
+     "prompt": "We ___ a trip to Hue last month.",
+     "options": [
+      {
+       "id": "a",
+       "text": "planed"
+      },
+      {
+       "id": "b",
+       "text": "planned"
+      },
+      {
+       "id": "c",
+       "text": "planning"
+      },
+      {
+       "id": "d",
+       "text": "plans"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "plan có dạng phụ âm–nguyên âm–phụ âm nên gấp đôi n: planned (Tháng trước chúng tôi đã lên kế hoạch đi Huế)."
+    }
+   ],
+   "lesson": {
+    "summary": "Quá khứ đơn kể việc đã xong ở một thời điểm trong quá khứ. Động từ có quy tắc thêm -ed.",
+    "rules": [
+     "Thường thêm -ed: visit → visited, play → played.",
+     "Động từ tận cùng -e chỉ thêm -d: close → closed.",
+     "Phụ âm + y: bỏ y, thêm -ied: study → studied. Nguyên âm + y thì giữ y: play → played.",
+     "Từ ngắn có dạng phụ âm–nguyên âm–phụ âm thì gấp đôi phụ âm cuối: stop → stopped, plan → planned."
+    ],
+    "examples": [
+     {
+      "text": "I visited my grandmother yesterday.",
+      "meaning": "Hôm qua tôi đã thăm bà."
+     },
+     {
+      "text": "She studied for two hours.",
+      "meaning": "Cô ấy đã học hai tiếng."
+     },
+     {
+      "text": "The bus stopped at the corner.",
+      "meaning": "Xe buýt đã dừng ở góc đường."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "She studyed hard.",
+      "right": "She studied hard.",
+      "why": "Phụ âm + y đổi thành -ied."
+     },
+     {
+      "wrong": "We planed a trip.",
+      "right": "We planned a trip.",
+      "why": "plan gấp đôi n trước -ed."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.past_simple_irregular",
+   "title": "Quá khứ đơn: động từ bất quy tắc",
+   "topic_key": "past",
+   "questions": [
+    {
+     "id": "en.a2.past_simple_irregular.01",
+     "prompt": "Last week we ___ a new film.",
+     "options": [
+      {
+       "id": "a",
+       "text": "seed"
+      },
+      {
+       "id": "b",
+       "text": "saw"
+      },
+      {
+       "id": "c",
+       "text": "seen"
+      },
+      {
+       "id": "d",
+       "text": "see"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "see là động từ bất quy tắc: quá khứ đơn là saw (Tuần trước chúng tôi đã xem một bộ phim mới)."
+    },
+    {
+     "id": "en.a2.past_simple_irregular.02",
+     "prompt": "She ___ to school by bike yesterday.",
+     "options": [
+      {
+       "id": "a",
+       "text": "went"
+      },
+      {
+       "id": "b",
+       "text": "goed"
+      },
+      {
+       "id": "c",
+       "text": "gone"
+      },
+      {
+       "id": "d",
+       "text": "go"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "go → went ở quá khứ đơn (Hôm qua cô ấy đi học bằng xe đạp)."
+    },
+    {
+     "id": "en.a2.past_simple_irregular.03",
+     "prompt": "I ___ breakfast at seven this morning.",
+     "options": [
+      {
+       "id": "a",
+       "text": "haved"
+      },
+      {
+       "id": "b",
+       "text": "has"
+      },
+      {
+       "id": "c",
+       "text": "having"
+      },
+      {
+       "id": "d",
+       "text": "had"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "have → had ở quá khứ đơn (Sáng nay tôi ăn sáng lúc bảy giờ)."
+    },
+    {
+     "id": "en.a2.past_simple_irregular.04",
+     "prompt": "He ___ me a present for my birthday.",
+     "options": [
+      {
+       "id": "a",
+       "text": "gived"
+      },
+      {
+       "id": "b",
+       "text": "given"
+      },
+      {
+       "id": "c",
+       "text": "gave"
+      },
+      {
+       "id": "d",
+       "text": "give"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "give → gave ở quá khứ đơn (Anh ấy tặng tôi một món quà sinh nhật)."
+    },
+    {
+     "id": "en.a2.past_simple_irregular.05",
+     "prompt": "They ___ a lot of money last year.",
+     "options": [
+      {
+       "id": "a",
+       "text": "spended"
+      },
+      {
+       "id": "b",
+       "text": "spent"
+      },
+      {
+       "id": "c",
+       "text": "spend"
+      },
+      {
+       "id": "d",
+       "text": "spenting"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "spend → spent ở quá khứ đơn (Năm ngoái họ tiêu rất nhiều tiền)."
+    },
+    {
+     "id": "en.a2.past_simple_irregular.06",
+     "prompt": "We ___ the answer, so we got it right.",
+     "options": [
+      {
+       "id": "a",
+       "text": "knew"
+      },
+      {
+       "id": "b",
+       "text": "knowed"
+      },
+      {
+       "id": "c",
+       "text": "known"
+      },
+      {
+       "id": "d",
+       "text": "know"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "know → knew ở quá khứ đơn (Chúng tôi biết đáp án nên làm đúng)."
+    },
+    {
+     "id": "en.a2.past_simple_irregular.07",
+     "prompt": "I ___ my keys on the bus yesterday.",
+     "options": [
+      {
+       "id": "a",
+       "text": "losed"
+      },
+      {
+       "id": "b",
+       "text": "losted"
+      },
+      {
+       "id": "c",
+       "text": "lose"
+      },
+      {
+       "id": "d",
+       "text": "lost"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "lose → lost ở quá khứ đơn (Hôm qua tôi làm mất chìa khóa trên xe buýt)."
+    },
+    {
+     "id": "en.a2.past_simple_irregular.08",
+     "prompt": "She ___ a beautiful song at the party.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sung"
+      },
+      {
+       "id": "b",
+       "text": "singed"
+      },
+      {
+       "id": "c",
+       "text": "sang"
+      },
+      {
+       "id": "d",
+       "text": "sing"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "sing → sang ở quá khứ đơn; sung là phân từ quá khứ, dùng với have (Cô ấy hát một bài hay ở bữa tiệc)."
+    }
+   ],
+   "lesson": {
+    "summary": "Nhiều động từ thông dụng có dạng quá khứ riêng, không thêm -ed. Phải học thuộc từng từ.",
+    "rules": [
+     "go → went, see → saw, have → had, give → gave.",
+     "spend → spent, lose → lost, know → knew, sing → sang.",
+     "Dạng quá khứ đơn khác dạng phân từ quá khứ ở nhiều từ: see – saw – seen, sing – sang – sung."
+    ],
+    "examples": [
+     {
+      "text": "We saw a new film last week.",
+      "meaning": "Tuần trước chúng tôi đã xem một bộ phim mới."
+     },
+     {
+      "text": "She went to school by bike.",
+      "meaning": "Cô ấy đi học bằng xe đạp."
+     },
+     {
+      "text": "He gave me a present.",
+      "meaning": "Anh ấy đã tặng tôi một món quà."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "She goed to school.",
+      "right": "She went to school.",
+      "why": "go là động từ bất quy tắc: went."
+     },
+     {
+      "wrong": "I seen him yesterday.",
+      "right": "I saw him yesterday.",
+      "why": "Quá khứ đơn dùng saw, không dùng seen."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.past_simple_negatives_questions",
+   "title": "Quá khứ đơn: phủ định và câu hỏi",
+   "topic_key": "past",
+   "questions": [
+    {
+     "id": "en.a2.past_simple_negatives_questions.01",
+     "prompt": "I ___ watch TV last night.",
+     "options": [
+      {
+       "id": "a",
+       "text": "don't"
+      },
+      {
+       "id": "b",
+       "text": "wasn't"
+      },
+      {
+       "id": "c",
+       "text": "didn't"
+      },
+      {
+       "id": "d",
+       "text": "not"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Phủ định quá khứ đơn của động từ thường dùng didn't + nguyên mẫu (Tối qua tôi không xem tivi)."
+    },
+    {
+     "id": "en.a2.past_simple_negatives_questions.02",
+     "prompt": "She didn't ___ the news.",
+     "options": [
+      {
+       "id": "a",
+       "text": "knew"
+      },
+      {
+       "id": "b",
+       "text": "know"
+      },
+      {
+       "id": "c",
+       "text": "knows"
+      },
+      {
+       "id": "d",
+       "text": "known"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Sau didn't động từ ở dạng nguyên mẫu: didn't know (Cô ấy không biết tin đó)."
+    },
+    {
+     "id": "en.a2.past_simple_negatives_questions.03",
+     "prompt": "___ you call him yesterday?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Did"
+      },
+      {
+       "id": "b",
+       "text": "Do"
+      },
+      {
+       "id": "c",
+       "text": "Were"
+      },
+      {
+       "id": "d",
+       "text": "Are"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Câu hỏi quá khứ đơn bắt đầu bằng Did (Hôm qua bạn có gọi cho anh ấy không?)."
+    },
+    {
+     "id": "en.a2.past_simple_negatives_questions.04",
+     "prompt": "Did he ___ to the party?",
+     "options": [
+      {
+       "id": "a",
+       "text": "came"
+      },
+      {
+       "id": "b",
+       "text": "comes"
+      },
+      {
+       "id": "c",
+       "text": "coming"
+      },
+      {
+       "id": "d",
+       "text": "come"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Sau Did + chủ ngữ dùng nguyên mẫu: Did he come? (Anh ấy có đến bữa tiệc không?)."
+    },
+    {
+     "id": "en.a2.past_simple_negatives_questions.05",
+     "prompt": "Where ___ you go on holiday last year?",
+     "options": [
+      {
+       "id": "a",
+       "text": "do"
+      },
+      {
+       "id": "b",
+       "text": "are"
+      },
+      {
+       "id": "c",
+       "text": "did"
+      },
+      {
+       "id": "d",
+       "text": "were"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Câu hỏi có từ để hỏi ở quá khứ đơn: Where did you go...? (Năm ngoái bạn đi nghỉ ở đâu?)."
+    },
+    {
+     "id": "en.a2.past_simple_negatives_questions.06",
+     "prompt": "They ___ at home last night.",
+     "options": [
+      {
+       "id": "a",
+       "text": "didn't"
+      },
+      {
+       "id": "b",
+       "text": "weren't"
+      },
+      {
+       "id": "c",
+       "text": "don't"
+      },
+      {
+       "id": "d",
+       "text": "wasn't"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Động từ be ở quá khứ không dùng did; với they dùng weren't (Tối qua họ không ở nhà)."
+    },
+    {
+     "id": "en.a2.past_simple_negatives_questions.07",
+     "prompt": "A: Did you enjoy the film? B: Yes, I ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "did"
+      },
+      {
+       "id": "b",
+       "text": "was"
+      },
+      {
+       "id": "c",
+       "text": "do"
+      },
+      {
+       "id": "d",
+       "text": "enjoyed"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Trả lời ngắn lặp lại trợ động từ của câu hỏi: Yes, I did (Có, tôi thích)."
+    },
+    {
+     "id": "en.a2.past_simple_negatives_questions.08",
+     "prompt": "What time ___ the train leave yesterday?",
+     "options": [
+      {
+       "id": "a",
+       "text": "does"
+      },
+      {
+       "id": "b",
+       "text": "do"
+      },
+      {
+       "id": "c",
+       "text": "was"
+      },
+      {
+       "id": "d",
+       "text": "did"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Hỏi về quá khứ dùng did + nguyên mẫu: What time did the train leave? (Hôm qua mấy giờ tàu rời đi?)."
+    }
+   ],
+   "lesson": {
+    "summary": "Với động từ thường, quá khứ đơn dùng did để tạo câu phủ định và câu hỏi; động từ chính trở về dạng nguyên mẫu.",
+    "rules": [
+     "Phủ định: S + didn't + V nguyên mẫu: I didn't watch TV.",
+     "Câu hỏi: Did + S + V nguyên mẫu? Did he come?",
+     "Câu hỏi từ để hỏi: Wh- + did + S + V: Where did you go?",
+     "Động từ be không dùng did: was/were, wasn't/weren't."
+    ],
+    "examples": [
+     {
+      "text": "I didn't watch TV last night.",
+      "meaning": "Tối qua tôi không xem tivi."
+     },
+     {
+      "text": "Did you enjoy the film? Yes, I did.",
+      "meaning": "Bạn có thích bộ phim không? Có."
+     },
+     {
+      "text": "They weren't at home.",
+      "meaning": "Họ đã không ở nhà."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "She didn't knew the news.",
+      "right": "She didn't know the news.",
+      "why": "Sau didn't dùng nguyên mẫu."
+     },
+     {
+      "wrong": "Did he came?",
+      "right": "Did he come?",
+      "why": "Sau did dùng nguyên mẫu."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.past_continuous",
+   "title": "Quá khứ tiếp diễn",
+   "topic_key": "past",
+   "questions": [
+    {
+     "id": "en.a2.past_continuous.01",
+     "prompt": "I ___ TV when the phone rang.",
+     "options": [
+      {
+       "id": "a",
+       "text": "watched"
+      },
+      {
+       "id": "b",
+       "text": "watch"
+      },
+      {
+       "id": "c",
+       "text": "am watching"
+      },
+      {
+       "id": "d",
+       "text": "was watching"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Việc đang diễn ra thì bị xen vào dùng quá khứ tiếp diễn: was watching (Tôi đang xem tivi thì điện thoại reo)."
+    },
+    {
+     "id": "en.a2.past_continuous.02",
+     "prompt": "They ___ in the garden when it started to rain.",
+     "options": [
+      {
+       "id": "a",
+       "text": "played"
+      },
+      {
+       "id": "b",
+       "text": "are playing"
+      },
+      {
+       "id": "c",
+       "text": "were playing"
+      },
+      {
+       "id": "d",
+       "text": "was playing"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Chủ ngữ they đi với were: were playing (Họ đang chơi trong vườn thì trời bắt đầu mưa)."
+    },
+    {
+     "id": "en.a2.past_continuous.03",
+     "prompt": "She ___ a shower when I called her, so she didn't answer.",
+     "options": [
+      {
+       "id": "a",
+       "text": "taking"
+      },
+      {
+       "id": "b",
+       "text": "was taking"
+      },
+      {
+       "id": "c",
+       "text": "has taken"
+      },
+      {
+       "id": "d",
+       "text": "takes"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Việc đang diễn ra tại thời điểm trong quá khứ: was taking (Lúc tôi gọi cô ấy đang tắm nên không nghe máy)."
+    },
+    {
+     "id": "en.a2.past_continuous.04",
+     "prompt": "What ___ you doing at 9 p.m. yesterday?",
+     "options": [
+      {
+       "id": "a",
+       "text": "were"
+      },
+      {
+       "id": "b",
+       "text": "was"
+      },
+      {
+       "id": "c",
+       "text": "did"
+      },
+      {
+       "id": "d",
+       "text": "are"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Với you dùng were: What were you doing...? (Chín giờ tối qua bạn đang làm gì?)."
+    },
+    {
+     "id": "en.a2.past_continuous.05",
+     "prompt": "The children ___ while the teacher was talking.",
+     "options": [
+      {
+       "id": "a",
+       "text": "didn't listening"
+      },
+      {
+       "id": "b",
+       "text": "don't listen"
+      },
+      {
+       "id": "c",
+       "text": "wasn't listening"
+      },
+      {
+       "id": "d",
+       "text": "weren't listening"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Phủ định quá khứ tiếp diễn số nhiều: weren't + V-ing (Bọn trẻ không chú ý trong lúc cô giáo nói)."
+    },
+    {
+     "id": "en.a2.past_continuous.06",
+     "prompt": "I saw an accident while I ___ home.",
+     "options": [
+      {
+       "id": "a",
+       "text": "am walking"
+      },
+      {
+       "id": "b",
+       "text": "walking"
+      },
+      {
+       "id": "c",
+       "text": "was walking"
+      },
+      {
+       "id": "d",
+       "text": "have walked"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "while + việc đang diễn ra: was walking (Tôi thấy một vụ tai nạn khi đang đi bộ về nhà)."
+    },
+    {
+     "id": "en.a2.past_continuous.07",
+     "prompt": "___ it raining when you left?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Did"
+      },
+      {
+       "id": "b",
+       "text": "Was"
+      },
+      {
+       "id": "c",
+       "text": "Were"
+      },
+      {
+       "id": "d",
+       "text": "Is"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "it đi với was: Was it raining...? (Lúc bạn đi trời có đang mưa không?)."
+    },
+    {
+     "id": "en.a2.past_continuous.08",
+     "prompt": "While we ___ lunch, the lights went out.",
+     "options": [
+      {
+       "id": "a",
+       "text": "were eating"
+      },
+      {
+       "id": "b",
+       "text": "eating"
+      },
+      {
+       "id": "c",
+       "text": "were eat"
+      },
+      {
+       "id": "d",
+       "text": "have eaten"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Việc đang diễn ra: were eating (Đang ăn trưa thì mất điện)."
+    }
+   ],
+   "lesson": {
+    "summary": "Quá khứ tiếp diễn diễn tả việc đang xảy ra tại một thời điểm trong quá khứ, hoặc việc đang diễn ra thì có việc khác xen vào.",
+    "rules": [
+     "Cấu trúc: was/were + V-ing.",
+     "Thường đi với when và while: I was watching TV when the phone rang.",
+     "Phủ định: wasn't/weren't + V-ing. Câu hỏi: Was/Were + S + V-ing?"
+    ],
+    "examples": [
+     {
+      "text": "I was watching TV when the phone rang.",
+      "meaning": "Tôi đang xem tivi thì điện thoại reo."
+     },
+     {
+      "text": "They were playing in the garden.",
+      "meaning": "Họ đang chơi trong vườn."
+     },
+     {
+      "text": "What were you doing at nine?",
+      "meaning": "Lúc chín giờ bạn đang làm gì?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "They was playing.",
+      "right": "They were playing.",
+      "why": "they đi với were."
+     },
+     {
+      "wrong": "I was watch TV.",
+      "right": "I was watching TV.",
+      "why": "Sau was/were dùng V-ing."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.present_continuous_plans",
+   "title": "Hiện tại tiếp diễn chỉ kế hoạch",
+   "topic_key": "future",
+   "questions": [
+    {
+     "id": "en.a2.present_continuous_plans.01",
+     "prompt": "I ___ my cousin this weekend; we've arranged it.",
+     "options": [
+      {
+       "id": "a",
+       "text": "am meeting"
+      },
+      {
+       "id": "b",
+       "text": "met"
+      },
+      {
+       "id": "c",
+       "text": "have met"
+      },
+      {
+       "id": "d",
+       "text": "meeting"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Kế hoạch đã sắp xếp dùng hiện tại tiếp diễn: am meeting (Cuối tuần này tôi gặp anh họ, đã hẹn rồi)."
+    },
+    {
+     "id": "en.a2.present_continuous_plans.02",
+     "prompt": "We ___ to Da Lat next month. The tickets are booked.",
+     "options": [
+      {
+       "id": "a",
+       "text": "were flying"
+      },
+      {
+       "id": "b",
+       "text": "have flown"
+      },
+      {
+       "id": "c",
+       "text": "flying"
+      },
+      {
+       "id": "d",
+       "text": "are flying"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Vé đã đặt nên dùng are + V-ing (Tháng sau chúng tôi bay đi Đà Lạt, vé đã đặt rồi)."
+    },
+    {
+     "id": "en.a2.present_continuous_plans.03",
+     "prompt": "What ___ you doing tonight?",
+     "options": [
+      {
+       "id": "a",
+       "text": "do"
+      },
+      {
+       "id": "b",
+       "text": "did"
+      },
+      {
+       "id": "c",
+       "text": "are"
+      },
+      {
+       "id": "d",
+       "text": "were"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Hỏi kế hoạch tối nay: What are you doing tonight? (Tối nay bạn làm gì?)."
+    },
+    {
+     "id": "en.a2.present_continuous_plans.04",
+     "prompt": "She ___ a party on Saturday. Everyone is invited.",
+     "options": [
+      {
+       "id": "a",
+       "text": "had"
+      },
+      {
+       "id": "b",
+       "text": "is having"
+      },
+      {
+       "id": "c",
+       "text": "has had"
+      },
+      {
+       "id": "d",
+       "text": "having"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Kế hoạch đã định dùng is + V-ing (Thứ Bảy cô ấy tổ chức tiệc, ai cũng được mời)."
+    },
+    {
+     "id": "en.a2.present_continuous_plans.05",
+     "prompt": "Are you ___ the exam tomorrow?",
+     "options": [
+      {
+       "id": "a",
+       "text": "taking"
+      },
+      {
+       "id": "b",
+       "text": "take"
+      },
+      {
+       "id": "c",
+       "text": "took"
+      },
+      {
+       "id": "d",
+       "text": "taken"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Sau are dùng V-ing: Are you taking the exam tomorrow? (Ngày mai bạn thi à?)."
+    },
+    {
+     "id": "en.a2.present_continuous_plans.06",
+     "prompt": "Tom ___ tonight because he's working late.",
+     "options": [
+      {
+       "id": "a",
+       "text": "didn't come"
+      },
+      {
+       "id": "b",
+       "text": "doesn't coming"
+      },
+      {
+       "id": "c",
+       "text": "not coming"
+      },
+      {
+       "id": "d",
+       "text": "isn't coming"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Phủ định kế hoạch: isn't + V-ing (Tối nay Tom không đến vì làm muộn)."
+    },
+    {
+     "id": "en.a2.present_continuous_plans.07",
+     "prompt": "I'm busy on Friday. I ___ the dentist.",
+     "options": [
+      {
+       "id": "a",
+       "text": "saw"
+      },
+      {
+       "id": "b",
+       "text": "have seen"
+      },
+      {
+       "id": "c",
+       "text": "am seeing"
+      },
+      {
+       "id": "d",
+       "text": "seeing"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Đã có hẹn nên dùng am + V-ing (Thứ Sáu tôi bận, tôi đi khám răng)."
+    },
+    {
+     "id": "en.a2.present_continuous_plans.08",
+     "prompt": "They ___ married next June.",
+     "options": [
+      {
+       "id": "a",
+       "text": "got"
+      },
+      {
+       "id": "b",
+       "text": "are getting"
+      },
+      {
+       "id": "c",
+       "text": "have got"
+      },
+      {
+       "id": "d",
+       "text": "getting"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Kế hoạch đã định: are getting married next June (Tháng Sáu tới họ cưới)."
+    }
+   ],
+   "lesson": {
+    "summary": "Dùng hiện tại tiếp diễn cho kế hoạch gần đã sắp xếp xong, thường có thời gian ở tương lai.",
+    "rules": [
+     "Cấu trúc: am/is/are + V-ing + thời gian tương lai: I'm meeting Ann on Friday.",
+     "Dùng khi đã có sắp xếp cụ thể (đã đặt vé, hẹn trước).",
+     "Câu hỏi: What are you doing tonight?"
+    ],
+    "examples": [
+     {
+      "text": "I'm meeting my cousin this weekend.",
+      "meaning": "Cuối tuần này tôi sẽ gặp anh họ."
+     },
+     {
+      "text": "We're flying to Da Lat next month.",
+      "meaning": "Tháng sau chúng tôi sẽ bay đi Đà Lạt."
+     },
+     {
+      "text": "Tom isn't coming tonight.",
+      "meaning": "Tối nay Tom sẽ không đến."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "I meeted my cousin this weekend.",
+      "right": "I'm meeting my cousin this weekend.",
+      "why": "Kế hoạch tương lai dùng am/is/are + V-ing."
+     },
+     {
+      "wrong": "She is have a party.",
+      "right": "She is having a party.",
+      "why": "Sau is dùng V-ing."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.be_going_to",
+   "title": "Be going to: dự định và dự đoán có dấu hiệu",
+   "topic_key": "future",
+   "questions": [
+    {
+     "id": "en.a2.be_going_to.01",
+     "prompt": "Look at those clouds! It ___ rain.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will to"
+      },
+      {
+       "id": "b",
+       "text": "is going to"
+      },
+      {
+       "id": "c",
+       "text": "goes to"
+      },
+      {
+       "id": "d",
+       "text": "going to"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Có dấu hiệu rõ nên dùng is going to (Nhìn mây kìa! Trời sắp mưa)."
+    },
+    {
+     "id": "en.a2.be_going_to.02",
+     "prompt": "I ___ study medicine. I've decided.",
+     "options": [
+      {
+       "id": "a",
+       "text": "am going to"
+      },
+      {
+       "id": "b",
+       "text": "will going to"
+      },
+      {
+       "id": "c",
+       "text": "go to"
+      },
+      {
+       "id": "d",
+       "text": "am go to"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Dự định đã quyết: am going to + nguyên mẫu (Tôi sẽ học y, tôi đã quyết định)."
+    },
+    {
+     "id": "en.a2.be_going_to.03",
+     "prompt": "We ___ buy a new car next year.",
+     "options": [
+      {
+       "id": "a",
+       "text": "is going to"
+      },
+      {
+       "id": "b",
+       "text": "going to"
+      },
+      {
+       "id": "c",
+       "text": "were going to"
+      },
+      {
+       "id": "d",
+       "text": "are going to"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "we đi với are: are going to buy (Năm sau chúng tôi định mua xe mới)."
+    },
+    {
+     "id": "en.a2.be_going_to.04",
+     "prompt": "___ you going to invite Anna?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Do"
+      },
+      {
+       "id": "b",
+       "text": "Will"
+      },
+      {
+       "id": "c",
+       "text": "Are"
+      },
+      {
+       "id": "d",
+       "text": "Is"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Câu hỏi với going to dùng Are/Is/Am đầu câu: Are you going to...? (Bạn định mời Anna à?)."
+    },
+    {
+     "id": "en.a2.be_going_to.05",
+     "prompt": "She isn't going to ___ the job.",
+     "options": [
+      {
+       "id": "a",
+       "text": "takes"
+      },
+      {
+       "id": "b",
+       "text": "take"
+      },
+      {
+       "id": "c",
+       "text": "taking"
+      },
+      {
+       "id": "d",
+       "text": "took"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Sau going to dùng nguyên mẫu: isn't going to take (Cô ấy sẽ không nhận việc đó)."
+    },
+    {
+     "id": "en.a2.be_going_to.06",
+     "prompt": "What are you going ___ for dinner?",
+     "options": [
+      {
+       "id": "a",
+       "text": "to cook"
+      },
+      {
+       "id": "b",
+       "text": "cook"
+      },
+      {
+       "id": "c",
+       "text": "cooking"
+      },
+      {
+       "id": "d",
+       "text": "to cooking"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "going + to + nguyên mẫu: going to cook (Bữa tối bạn định nấu gì?)."
+    },
+    {
+     "id": "en.a2.be_going_to.07",
+     "prompt": "He's carrying heavy boxes. He ___ fall!",
+     "options": [
+      {
+       "id": "a",
+       "text": "is go to"
+      },
+      {
+       "id": "b",
+       "text": "going to"
+      },
+      {
+       "id": "c",
+       "text": "goes to"
+      },
+      {
+       "id": "d",
+       "text": "is going to"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Thấy dấu hiệu đang xảy ra: is going to fall (Anh ấy bê hộp nặng. Anh ấy sắp ngã!)."
+    },
+    {
+     "id": "en.a2.be_going_to.08",
+     "prompt": "My parents ___ visit us next week.",
+     "options": [
+      {
+       "id": "a",
+       "text": "is going to"
+      },
+      {
+       "id": "b",
+       "text": "are going"
+      },
+      {
+       "id": "c",
+       "text": "are going to"
+      },
+      {
+       "id": "d",
+       "text": "go to"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "parents số nhiều đi với are going to (Tuần sau bố mẹ tôi sẽ đến thăm chúng tôi)."
+    }
+   ],
+   "lesson": {
+    "summary": "Be going to nói về dự định đã quyết, hoặc dự đoán dựa trên dấu hiệu đang thấy.",
+    "rules": [
+     "Cấu trúc: am/is/are + going to + V nguyên mẫu.",
+     "Dự định: I'm going to study medicine.",
+     "Dự đoán có dấu hiệu: Look at those clouds! It's going to rain.",
+     "Phủ định: isn't going to. Câu hỏi: Are you going to...?"
+    ],
+    "examples": [
+     {
+      "text": "I'm going to study medicine.",
+      "meaning": "Tôi định học y."
+     },
+     {
+      "text": "Look at those clouds! It's going to rain.",
+      "meaning": "Nhìn mây kìa! Trời sắp mưa."
+     },
+     {
+      "text": "What are you going to cook?",
+      "meaning": "Bạn định nấu gì?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "I going to study.",
+      "right": "I'm going to study.",
+      "why": "Phải có am/is/are trước going to."
+     },
+     {
+      "wrong": "She is going to takes it.",
+      "right": "She is going to take it.",
+      "why": "Sau going to dùng nguyên mẫu."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.will_future",
+   "title": "Will: quyết định tức thì, lời hứa và dự đoán",
+   "topic_key": "future",
+   "questions": [
+    {
+     "id": "en.a2.will_future.01",
+     "prompt": "It's cold. I think I ___ close the window.",
+     "options": [
+      {
+       "id": "a",
+       "text": "going to"
+      },
+      {
+       "id": "b",
+       "text": "am"
+      },
+      {
+       "id": "c",
+       "text": "will"
+      },
+      {
+       "id": "d",
+       "text": "do"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Quyết định ngay lúc nói dùng will: I will close... (Lạnh quá, tôi nghĩ tôi sẽ đóng cửa sổ)."
+    },
+    {
+     "id": "en.a2.will_future.02",
+     "prompt": "Don't worry. I ___ you with the bags.",
+     "options": [
+      {
+       "id": "a",
+       "text": "helped"
+      },
+      {
+       "id": "b",
+       "text": "will help"
+      },
+      {
+       "id": "c",
+       "text": "helping"
+      },
+      {
+       "id": "d",
+       "text": "helps"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Lời đề nghị giúp đỡ dùng will + nguyên mẫu (Đừng lo, tôi sẽ giúp bạn xách túi)."
+    },
+    {
+     "id": "en.a2.will_future.03",
+     "prompt": "Tomorrow ___ sunny and warm.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will be"
+      },
+      {
+       "id": "b",
+       "text": "will is"
+      },
+      {
+       "id": "c",
+       "text": "will being"
+      },
+      {
+       "id": "d",
+       "text": "is going"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Dự đoán thời tiết: will be (Ngày mai trời nắng và ấm)."
+    },
+    {
+     "id": "en.a2.will_future.04",
+     "prompt": "I ___ forget your birthday!",
+     "options": [
+      {
+       "id": "a",
+       "text": "don't"
+      },
+      {
+       "id": "b",
+       "text": "won't to"
+      },
+      {
+       "id": "c",
+       "text": "willn't"
+      },
+      {
+       "id": "d",
+       "text": "won't"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Lời hứa phủ định: I won't forget (Tôi sẽ không quên sinh nhật bạn)."
+    },
+    {
+     "id": "en.a2.will_future.05",
+     "prompt": "___ you open the door, please?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Are"
+      },
+      {
+       "id": "b",
+       "text": "Do"
+      },
+      {
+       "id": "c",
+       "text": "Will"
+      },
+      {
+       "id": "d",
+       "text": "Does"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Lời nhờ lịch sự: Will you ...? (Bạn mở cửa giúp tôi được không?)."
+    },
+    {
+     "id": "en.a2.will_future.06",
+     "prompt": "I'm sure she ___ the test.",
+     "options": [
+      {
+       "id": "a",
+       "text": "will passes"
+      },
+      {
+       "id": "b",
+       "text": "will pass"
+      },
+      {
+       "id": "c",
+       "text": "is pass"
+      },
+      {
+       "id": "d",
+       "text": "passing"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Dự đoán chắc chắn: will + nguyên mẫu (Tôi chắc cô ấy sẽ đỗ bài kiểm tra)."
+    },
+    {
+     "id": "en.a2.will_future.07",
+     "prompt": "They ___ come to the party; they're too busy.",
+     "options": [
+      {
+       "id": "a",
+       "text": "won't"
+      },
+      {
+       "id": "b",
+       "text": "didn't"
+      },
+      {
+       "id": "c",
+       "text": "aren't"
+      },
+      {
+       "id": "d",
+       "text": "don't to"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Dự đoán phủ định về tương lai: won't come (Họ sẽ không đến bữa tiệc vì quá bận)."
+    },
+    {
+     "id": "en.a2.will_future.08",
+     "prompt": "Maybe it ___ tomorrow.",
+     "options": [
+      {
+       "id": "a",
+       "text": "rain will"
+      },
+      {
+       "id": "b",
+       "text": "will raining"
+      },
+      {
+       "id": "c",
+       "text": "is rain"
+      },
+      {
+       "id": "d",
+       "text": "will rain"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Dự đoán chưa chắc: will + nguyên mẫu (Có thể ngày mai trời sẽ mưa)."
+    }
+   ],
+   "lesson": {
+    "summary": "Will dùng cho quyết định ngay lúc nói, lời hứa, lời đề nghị giúp đỡ và dự đoán không có dấu hiệu cụ thể.",
+    "rules": [
+     "Cấu trúc: will + V nguyên mẫu, không chia theo ngôi.",
+     "Phủ định: will not = won't. Câu hỏi: Will you...?",
+     "Đề nghị, hứa: I'll help you. I won't forget.",
+     "Dự đoán: It will be sunny tomorrow. I think she will pass."
+    ],
+    "examples": [
+     {
+      "text": "It's cold. I'll close the window.",
+      "meaning": "Lạnh quá. Tôi sẽ đóng cửa sổ."
+     },
+     {
+      "text": "I won't forget your birthday.",
+      "meaning": "Tôi sẽ không quên sinh nhật bạn."
+     },
+     {
+      "text": "Will you open the door, please?",
+      "meaning": "Bạn mở cửa giúp tôi được không?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "She will passes the test.",
+      "right": "She will pass the test.",
+      "why": "Sau will dùng nguyên mẫu."
+     },
+     {
+      "wrong": "It will is sunny.",
+      "right": "It will be sunny.",
+      "why": "Sau will dùng be, không dùng is."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.comparatives",
+   "title": "So sánh hơn",
+   "topic_key": "comparison",
+   "questions": [
+    {
+     "id": "en.a2.comparatives.01",
+     "prompt": "This bag is ___ than that one.",
+     "options": [
+      {
+       "id": "a",
+       "text": "cheap"
+      },
+      {
+       "id": "b",
+       "text": "more cheap"
+      },
+      {
+       "id": "c",
+       "text": "cheapest"
+      },
+      {
+       "id": "d",
+       "text": "cheaper"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Tính từ ngắn thêm -er: cheaper than (Cái túi này rẻ hơn cái kia)."
+    },
+    {
+     "id": "en.a2.comparatives.02",
+     "prompt": "My sister is ___ than me.",
+     "options": [
+      {
+       "id": "a",
+       "text": "more tall"
+      },
+      {
+       "id": "b",
+       "text": "tallest"
+      },
+      {
+       "id": "c",
+       "text": "taller"
+      },
+      {
+       "id": "d",
+       "text": "tall"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "tall là tính từ ngắn: taller than (Chị tôi cao hơn tôi)."
+    },
+    {
+     "id": "en.a2.comparatives.03",
+     "prompt": "This book is ___ than the first one.",
+     "options": [
+      {
+       "id": "a",
+       "text": "interestinger"
+      },
+      {
+       "id": "b",
+       "text": "more interesting"
+      },
+      {
+       "id": "c",
+       "text": "most interesting"
+      },
+      {
+       "id": "d",
+       "text": "interesting"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Tính từ dài dùng more: more interesting than (Cuốn này hay hơn cuốn đầu)."
+    },
+    {
+     "id": "en.a2.comparatives.04",
+     "prompt": "Today is ___ than yesterday.",
+     "options": [
+      {
+       "id": "a",
+       "text": "hotter"
+      },
+      {
+       "id": "b",
+       "text": "hoter"
+      },
+      {
+       "id": "c",
+       "text": "more hot"
+      },
+      {
+       "id": "d",
+       "text": "hottest"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "hot gấp đôi t: hotter than (Hôm nay nóng hơn hôm qua)."
+    },
+    {
+     "id": "en.a2.comparatives.05",
+     "prompt": "English is ___ for me than Chinese.",
+     "options": [
+      {
+       "id": "a",
+       "text": "more easy"
+      },
+      {
+       "id": "b",
+       "text": "easy"
+      },
+      {
+       "id": "c",
+       "text": "easiest"
+      },
+      {
+       "id": "d",
+       "text": "easier"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "easy → easier (phụ âm + y đổi thành -ier) (Tiếng Anh dễ với tôi hơn tiếng Trung)."
+    },
+    {
+     "id": "en.a2.comparatives.06",
+     "prompt": "She drives ___ than her brother.",
+     "options": [
+      {
+       "id": "a",
+       "text": "carefuller"
+      },
+      {
+       "id": "b",
+       "text": "more careful"
+      },
+      {
+       "id": "c",
+       "text": "more carefully"
+      },
+      {
+       "id": "d",
+       "text": "most carefully"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Trạng từ đuôi -ly dùng more: more carefully (Cô ấy lái xe cẩn thận hơn anh trai)."
+    },
+    {
+     "id": "en.a2.comparatives.07",
+     "prompt": "My cold is ___ today than yesterday.",
+     "options": [
+      {
+       "id": "a",
+       "text": "badder"
+      },
+      {
+       "id": "b",
+       "text": "worse"
+      },
+      {
+       "id": "c",
+       "text": "more bad"
+      },
+      {
+       "id": "d",
+       "text": "worst"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "bad → worse (bất quy tắc) (Hôm nay tôi cảm nặng hơn hôm qua)."
+    },
+    {
+     "id": "en.a2.comparatives.08",
+     "prompt": "He is ___ his brother.",
+     "options": [
+      {
+       "id": "a",
+       "text": "taller than"
+      },
+      {
+       "id": "b",
+       "text": "taller that"
+      },
+      {
+       "id": "c",
+       "text": "more tall than"
+      },
+      {
+       "id": "d",
+       "text": "tallest than"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "So sánh hơn: tính từ -er + than (Anh ấy cao hơn em trai)."
+    }
+   ],
+   "lesson": {
+    "summary": "So sánh hơn dùng -er với tính từ ngắn và more với tính từ dài, kèm than.",
+    "rules": [
+     "Tính từ ngắn: thêm -er: cheap → cheaper, tall → taller. Gấp đôi phụ âm: hot → hotter. Phụ âm + y: easy → easier.",
+     "Tính từ dài (từ hai âm tiết trở lên, thường): more + tính từ: more interesting.",
+     "Bất quy tắc: good → better, bad → worse.",
+     "Trạng từ đuôi -ly dùng more: more carefully.",
+     "So sánh với than: taller than my brother."
+    ],
+    "examples": [
+     {
+      "text": "This bag is cheaper than that one.",
+      "meaning": "Cái túi này rẻ hơn cái kia."
+     },
+     {
+      "text": "English is easier for me than Chinese.",
+      "meaning": "Tiếng Anh dễ với tôi hơn tiếng Trung."
+     },
+     {
+      "text": "My cold is worse today.",
+      "meaning": "Hôm nay tôi cảm nặng hơn."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "more cheaper",
+      "right": "cheaper",
+      "why": "Không dùng more cùng với -er."
+     },
+     {
+      "wrong": "taller that",
+      "right": "taller than",
+      "why": "Dùng than để so sánh."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.superlatives",
+   "title": "So sánh nhất",
+   "topic_key": "comparison",
+   "questions": [
+    {
+     "id": "en.a2.superlatives.01",
+     "prompt": "Mai is the ___ girl in our class.",
+     "options": [
+      {
+       "id": "a",
+       "text": "tallest"
+      },
+      {
+       "id": "b",
+       "text": "taller"
+      },
+      {
+       "id": "c",
+       "text": "most tall"
+      },
+      {
+       "id": "d",
+       "text": "more tall"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Tính từ ngắn thêm -est: the tallest (Mai là bạn gái cao nhất lớp)."
+    },
+    {
+     "id": "en.a2.superlatives.02",
+     "prompt": "This is the ___ film I have ever seen.",
+     "options": [
+      {
+       "id": "a",
+       "text": "more boring"
+      },
+      {
+       "id": "b",
+       "text": "boringest"
+      },
+      {
+       "id": "c",
+       "text": "boring most"
+      },
+      {
+       "id": "d",
+       "text": "most boring"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Tính từ dài dùng the most: the most boring (Đây là bộ phim chán nhất tôi từng xem)."
+    },
+    {
+     "id": "en.a2.superlatives.03",
+     "prompt": "Which is the ___ season in your country?",
+     "options": [
+      {
+       "id": "a",
+       "text": "hoter"
+      },
+      {
+       "id": "b",
+       "text": "most hot"
+      },
+      {
+       "id": "c",
+       "text": "hottest"
+      },
+      {
+       "id": "d",
+       "text": "hotest"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "hot gấp đôi t: the hottest (Mùa nào nóng nhất ở nước bạn?)."
+    },
+    {
+     "id": "en.a2.superlatives.04",
+     "prompt": "It was the ___ day of my life.",
+     "options": [
+      {
+       "id": "a",
+       "text": "most happy"
+      },
+      {
+       "id": "b",
+       "text": "happiest"
+      },
+      {
+       "id": "c",
+       "text": "happyest"
+      },
+      {
+       "id": "d",
+       "text": "more happy"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "happy → happiest (y đổi thành i) (Đó là ngày hạnh phúc nhất đời tôi)."
+    },
+    {
+     "id": "en.a2.superlatives.05",
+     "prompt": "He is the ___ player in the team.",
+     "options": [
+      {
+       "id": "a",
+       "text": "best"
+      },
+      {
+       "id": "b",
+       "text": "goodest"
+      },
+      {
+       "id": "c",
+       "text": "most good"
+      },
+      {
+       "id": "d",
+       "text": "better"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "good → the best (bất quy tắc) (Anh ấy là cầu thủ giỏi nhất đội)."
+    },
+    {
+     "id": "en.a2.superlatives.06",
+     "prompt": "That was the ___ meal we had on the trip.",
+     "options": [
+      {
+       "id": "a",
+       "text": "baddest"
+      },
+      {
+       "id": "b",
+       "text": "most bad"
+      },
+      {
+       "id": "c",
+       "text": "worse"
+      },
+      {
+       "id": "d",
+       "text": "worst"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "bad → the worst (bất quy tắc) (Đó là bữa ăn tệ nhất trong chuyến đi)."
+    },
+    {
+     "id": "en.a2.superlatives.07",
+     "prompt": "Ha Noi is one of the ___ cities in Vietnam.",
+     "options": [
+      {
+       "id": "a",
+       "text": "bigest"
+      },
+      {
+       "id": "b",
+       "text": "most big"
+      },
+      {
+       "id": "c",
+       "text": "biggest"
+      },
+      {
+       "id": "d",
+       "text": "bigger"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "big gấp đôi g: the biggest (Hà Nội là một trong những thành phố lớn nhất Việt Nam)."
+    },
+    {
+     "id": "en.a2.superlatives.08",
+     "prompt": "She speaks the ___ of all of us.",
+     "options": [
+      {
+       "id": "a",
+       "text": "more clearly"
+      },
+      {
+       "id": "b",
+       "text": "most clearly"
+      },
+      {
+       "id": "c",
+       "text": "clearliest"
+      },
+      {
+       "id": "d",
+       "text": "most clear"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Trạng từ -ly dùng the most: the most clearly (Cô ấy nói rõ ràng nhất trong chúng tôi)."
+    }
+   ],
+   "lesson": {
+    "summary": "So sánh nhất chỉ người hoặc vật vượt trội nhất trong một nhóm, đi với the.",
+    "rules": [
+     "Tính từ ngắn: the + -est: the tallest, the hottest (gấp đôi phụ âm), the happiest.",
+     "Tính từ dài: the most + tính từ: the most boring.",
+     "Bất quy tắc: good → the best, bad → the worst.",
+     "Thường kèm in/of: the tallest girl in the class."
+    ],
+    "examples": [
+     {
+      "text": "Mai is the tallest girl in our class.",
+      "meaning": "Mai là bạn gái cao nhất lớp."
+     },
+     {
+      "text": "This is the most boring film I have seen.",
+      "meaning": "Đây là bộ phim chán nhất tôi từng xem."
+     },
+     {
+      "text": "He is the best player in the team.",
+      "meaning": "Anh ấy là cầu thủ giỏi nhất đội."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "the most tall",
+      "right": "the tallest",
+      "why": "Tính từ ngắn dùng -est."
+     },
+     {
+      "wrong": "the goodest",
+      "right": "the best",
+      "why": "good là bất quy tắc."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.as_as",
+   "title": "So sánh bằng: as ... as",
+   "topic_key": "comparison",
+   "questions": [
+    {
+     "id": "en.a2.as_as.01",
+     "prompt": "My phone is ___ expensive as yours.",
+     "options": [
+      {
+       "id": "a",
+       "text": "than"
+      },
+      {
+       "id": "b",
+       "text": "as"
+      },
+      {
+       "id": "c",
+       "text": "more"
+      },
+      {
+       "id": "d",
+       "text": "very"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "So sánh bằng dùng as + tính từ + as (Điện thoại tôi đắt bằng điện thoại bạn)."
+    },
+    {
+     "id": "en.a2.as_as.02",
+     "prompt": "She is as tall ___ her father.",
+     "options": [
+      {
+       "id": "a",
+       "text": "as"
+      },
+      {
+       "id": "b",
+       "text": "than"
+      },
+      {
+       "id": "c",
+       "text": "like"
+      },
+      {
+       "id": "d",
+       "text": "that"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Cấu trúc as tall as (Cô ấy cao bằng bố)."
+    },
+    {
+     "id": "en.a2.as_as.03",
+     "prompt": "This test isn't ___ difficult as the last one.",
+     "options": [
+      {
+       "id": "a",
+       "text": "more"
+      },
+      {
+       "id": "b",
+       "text": "than"
+      },
+      {
+       "id": "c",
+       "text": "too"
+      },
+      {
+       "id": "d",
+       "text": "as"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Phủ định so sánh bằng: not as ... as (Bài này không khó bằng bài trước)."
+    },
+    {
+     "id": "en.a2.as_as.04",
+     "prompt": "He runs as ___ as a professional.",
+     "options": [
+      {
+       "id": "a",
+       "text": "faster"
+      },
+      {
+       "id": "b",
+       "text": "fastly"
+      },
+      {
+       "id": "c",
+       "text": "fast"
+      },
+      {
+       "id": "d",
+       "text": "more fast"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Giữa hai as dùng dạng gốc: as fast as (Anh ấy chạy nhanh như vận động viên chuyên nghiệp)."
+    },
+    {
+     "id": "en.a2.as_as.05",
+     "prompt": "Is Hue as big ___ Da Nang?",
+     "options": [
+      {
+       "id": "a",
+       "text": "than"
+      },
+      {
+       "id": "b",
+       "text": "as"
+      },
+      {
+       "id": "c",
+       "text": "that"
+      },
+      {
+       "id": "d",
+       "text": "then"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Cấu trúc as big as (Huế có lớn bằng Đà Nẵng không?)."
+    },
+    {
+     "id": "en.a2.as_as.06",
+     "prompt": "I'm not as young ___ I used to be.",
+     "options": [
+      {
+       "id": "a",
+       "text": "as"
+      },
+      {
+       "id": "b",
+       "text": "than"
+      },
+      {
+       "id": "c",
+       "text": "so"
+      },
+      {
+       "id": "d",
+       "text": "then"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "not as ... as: I'm not as young as I used to be (Tôi không còn trẻ như xưa)."
+    },
+    {
+     "id": "en.a2.as_as.07",
+     "prompt": "Tom is the same age ___ me.",
+     "options": [
+      {
+       "id": "a",
+       "text": "than"
+      },
+      {
+       "id": "b",
+       "text": "like"
+      },
+      {
+       "id": "c",
+       "text": "that"
+      },
+      {
+       "id": "d",
+       "text": "as"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "the same ... as (Tom bằng tuổi tôi)."
+    },
+    {
+     "id": "en.a2.as_as.08",
+     "prompt": "Their house is nearly as ___ as ours.",
+     "options": [
+      {
+       "id": "a",
+       "text": "bigger"
+      },
+      {
+       "id": "b",
+       "text": "biggest"
+      },
+      {
+       "id": "c",
+       "text": "big"
+      },
+      {
+       "id": "d",
+       "text": "bigly"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Giữa hai as dùng dạng gốc: as big as (Nhà họ gần lớn bằng nhà chúng tôi)."
+    }
+   ],
+   "lesson": {
+    "summary": "As ... as nói hai thứ giống nhau về một mặt nào đó; not as ... as nói thứ nhất kém hơn.",
+    "rules": [
+     "Khẳng định: as + tính từ/trạng từ + as: as tall as her father.",
+     "Phủ định: not as ... as: not as difficult as the last one.",
+     "Nói giống nhau: the same age as me.",
+     "Giữa hai as dùng dạng gốc của tính từ, không thêm -er: as big as, không phải as bigger as."
+    ],
+    "examples": [
+     {
+      "text": "My phone is as expensive as yours.",
+      "meaning": "Điện thoại tôi đắt bằng điện thoại bạn."
+     },
+     {
+      "text": "This test isn't as difficult as the last one.",
+      "meaning": "Bài kiểm tra này không khó bằng bài trước."
+     },
+     {
+      "text": "Tom is the same age as me.",
+      "meaning": "Tom bằng tuổi tôi."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "as bigger as",
+      "right": "as big as",
+      "why": "Giữa hai as dùng dạng gốc."
+     },
+     {
+      "wrong": "as tall than",
+      "right": "as tall as",
+      "why": "Phải là as ... as."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.can_could",
+   "title": "Can và could: khả năng, xin phép, nhờ vả",
+   "topic_key": "modals_perfect",
+   "questions": [
+    {
+     "id": "en.a2.can_could.01",
+     "prompt": "I ___ swim when I was five.",
+     "options": [
+      {
+       "id": "a",
+       "text": "can"
+      },
+      {
+       "id": "b",
+       "text": "may"
+      },
+      {
+       "id": "c",
+       "text": "could"
+      },
+      {
+       "id": "d",
+       "text": "must"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Khả năng trong quá khứ dùng could (Hồi năm tuổi tôi đã biết bơi)."
+    },
+    {
+     "id": "en.a2.can_could.02",
+     "prompt": "___ you speak Chinese?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Are"
+      },
+      {
+       "id": "b",
+       "text": "Can"
+      },
+      {
+       "id": "c",
+       "text": "Will"
+      },
+      {
+       "id": "d",
+       "text": "Must"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Hỏi khả năng: Can you ...? (Bạn nói được tiếng Trung không?)."
+    },
+    {
+     "id": "en.a2.can_could.03",
+     "prompt": "She can't ___ the answer.",
+     "options": [
+      {
+       "id": "a",
+       "text": "find"
+      },
+      {
+       "id": "b",
+       "text": "finds"
+      },
+      {
+       "id": "c",
+       "text": "to find"
+      },
+      {
+       "id": "d",
+       "text": "finding"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Sau can't dùng nguyên mẫu: can't find (Cô ấy không tìm ra đáp án)."
+    },
+    {
+     "id": "en.a2.can_could.04",
+     "prompt": "___ I open the window, please?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Do"
+      },
+      {
+       "id": "b",
+       "text": "Am"
+      },
+      {
+       "id": "c",
+       "text": "Are"
+      },
+      {
+       "id": "d",
+       "text": "Could"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Xin phép lịch sự: Could I ...? (Cho tôi mở cửa sổ được không?)."
+    },
+    {
+     "id": "en.a2.can_could.05",
+     "prompt": "He ___ drive a car when he was fifteen.",
+     "options": [
+      {
+       "id": "a",
+       "text": "can't"
+      },
+      {
+       "id": "b",
+       "text": "doesn't can"
+      },
+      {
+       "id": "c",
+       "text": "couldn't"
+      },
+      {
+       "id": "d",
+       "text": "wasn't can"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Quá khứ phủ định của can là couldn't (Hồi mười lăm tuổi anh ấy chưa lái được ô tô)."
+    },
+    {
+     "id": "en.a2.can_could.06",
+     "prompt": "Excuse me, ___ you tell me the way to the station?",
+     "options": [
+      {
+       "id": "a",
+       "text": "do"
+      },
+      {
+       "id": "b",
+       "text": "could"
+      },
+      {
+       "id": "c",
+       "text": "would to"
+      },
+      {
+       "id": "d",
+       "text": "are"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Nhờ lịch sự: Could you ...? (Xin lỗi, bạn chỉ giúp tôi đường ra ga được không?)."
+    },
+    {
+     "id": "en.a2.can_could.07",
+     "prompt": "I ___ come to your party tomorrow. I'm sorry.",
+     "options": [
+      {
+       "id": "a",
+       "text": "can't"
+      },
+      {
+       "id": "b",
+       "text": "don't can"
+      },
+      {
+       "id": "c",
+       "text": "not can"
+      },
+      {
+       "id": "d",
+       "text": "didn't can"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Phủ định khả năng hiện tại: can't (Mai tôi không đến bữa tiệc của bạn được, xin lỗi)."
+    },
+    {
+     "id": "en.a2.can_could.08",
+     "prompt": "Birds ___ fly, but penguins can't.",
+     "options": [
+      {
+       "id": "a",
+       "text": "cans"
+      },
+      {
+       "id": "b",
+       "text": "are"
+      },
+      {
+       "id": "c",
+       "text": "does"
+      },
+      {
+       "id": "d",
+       "text": "can"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "can không thêm -s: Birds can fly (Chim bay được, chim cánh cụt thì không)."
+    }
+   ],
+   "lesson": {
+    "summary": "Can nói khả năng hiện tại; could nói khả năng trong quá khứ và dùng để nhờ hoặc xin phép lịch sự.",
+    "rules": [
+     "Can/could + V nguyên mẫu, không thêm -s hay to.",
+     "Khả năng quá khứ: could / couldn't: I could swim when I was five.",
+     "Xin phép, nhờ lịch sự: Can I...? Could you...? May I...?",
+     "Phủ định: can't, couldn't. Không nói don't can."
+    ],
+    "examples": [
+     {
+      "text": "I could swim when I was five.",
+      "meaning": "Hồi năm tuổi tôi đã biết bơi."
+     },
+     {
+      "text": "Could you tell me the way to the station?",
+      "meaning": "Bạn chỉ giúp tôi đường ra ga được không?"
+     },
+     {
+      "text": "Birds can fly, but penguins can't.",
+      "meaning": "Chim bay được, nhưng chim cánh cụt thì không."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "She can finds it.",
+      "right": "She can find it.",
+      "why": "Sau can dùng nguyên mẫu."
+     },
+     {
+      "wrong": "I don't can come.",
+      "right": "I can't come.",
+      "why": "Phủ định của can là can't."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.should_must_have_to",
+   "title": "Should, must, have to và mustn't",
+   "topic_key": "modals_perfect",
+   "questions": [
+    {
+     "id": "en.a2.should_must_have_to.01",
+     "prompt": "You look tired. You ___ go to bed early.",
+     "options": [
+      {
+       "id": "a",
+       "text": "should to"
+      },
+      {
+       "id": "b",
+       "text": "must to"
+      },
+      {
+       "id": "c",
+       "text": "are should"
+      },
+      {
+       "id": "d",
+       "text": "should"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Lời khuyên dùng should + nguyên mẫu (Trông bạn mệt. Bạn nên đi ngủ sớm)."
+    },
+    {
+     "id": "en.a2.should_must_have_to.02",
+     "prompt": "Children ___ wear a seat belt in the car. It's the law.",
+     "options": [
+      {
+       "id": "a",
+       "text": "should to"
+      },
+      {
+       "id": "b",
+       "text": "musts"
+      },
+      {
+       "id": "c",
+       "text": "must"
+      },
+      {
+       "id": "d",
+       "text": "are must"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Luật bắt buộc dùng must (Trẻ em phải thắt dây an toàn trong xe, đó là luật)."
+    },
+    {
+     "id": "en.a2.should_must_have_to.03",
+     "prompt": "You ___ smoke in the hospital. It's forbidden.",
+     "options": [
+      {
+       "id": "a",
+       "text": "don't have to"
+      },
+      {
+       "id": "b",
+       "text": "mustn't"
+      },
+      {
+       "id": "c",
+       "text": "shouldn't to"
+      },
+      {
+       "id": "d",
+       "text": "needn't to"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "mustn't là cấm; don't have to chỉ là không cần (Bạn không được hút thuốc trong bệnh viện)."
+    },
+    {
+     "id": "en.a2.should_must_have_to.04",
+     "prompt": "You ___ bring a gift. It's not necessary.",
+     "options": [
+      {
+       "id": "a",
+       "text": "don't have to"
+      },
+      {
+       "id": "b",
+       "text": "mustn't"
+      },
+      {
+       "id": "c",
+       "text": "can't"
+      },
+      {
+       "id": "d",
+       "text": "shouldn't"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Không cần thiết: don't have to (Bạn không cần mang quà, không bắt buộc)."
+    },
+    {
+     "id": "en.a2.should_must_have_to.05",
+     "prompt": "I ___ get up early tomorrow; I have a flight at six.",
+     "options": [
+      {
+       "id": "a",
+       "text": "must to"
+      },
+      {
+       "id": "b",
+       "text": "should to"
+      },
+      {
+       "id": "c",
+       "text": "has to"
+      },
+      {
+       "id": "d",
+       "text": "have to"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Việc bắt buộc theo hoàn cảnh: have to (Ngày mai tôi phải dậy sớm, tôi có chuyến bay lúc sáu giờ)."
+    },
+    {
+     "id": "en.a2.should_must_have_to.06",
+     "prompt": "She ___ see a doctor. She looks ill.",
+     "options": [
+      {
+       "id": "a",
+       "text": "musts"
+      },
+      {
+       "id": "b",
+       "text": "shoulds"
+      },
+      {
+       "id": "c",
+       "text": "should"
+      },
+      {
+       "id": "d",
+       "text": "should to"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "should không thêm -s hay to (Cô ấy nên đi khám, trông cô ấy ốm)."
+    },
+    {
+     "id": "en.a2.should_must_have_to.07",
+     "prompt": "We ___ finish the report today. The boss needs it.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has to"
+      },
+      {
+       "id": "b",
+       "text": "have to"
+      },
+      {
+       "id": "c",
+       "text": "must to"
+      },
+      {
+       "id": "d",
+       "text": "having to"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "we đi với have to (Hôm nay chúng tôi phải hoàn thành báo cáo, sếp cần)."
+    },
+    {
+     "id": "en.a2.should_must_have_to.08",
+     "prompt": "He ___ wear a uniform at his school.",
+     "options": [
+      {
+       "id": "a",
+       "text": "has to"
+      },
+      {
+       "id": "b",
+       "text": "have to"
+      },
+      {
+       "id": "c",
+       "text": "must to"
+      },
+      {
+       "id": "d",
+       "text": "haves to"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "he/she/it đi với has to (Ở trường anh ấy phải mặc đồng phục)."
+    }
+   ],
+   "lesson": {
+    "summary": "Should là lời khuyên; must và have to là bắt buộc; mustn't là cấm; don't have to là không cần.",
+    "rules": [
+     "Lời khuyên: should + nguyên mẫu: You should go to bed early.",
+     "Bắt buộc: must, hoặc have to / has to (has với he, she, it).",
+     "Cấm: mustn't. Không cần thiết: don't have to / doesn't have to.",
+     "Không dùng to sau should và must."
+    ],
+    "examples": [
+     {
+      "text": "You should go to bed early.",
+      "meaning": "Bạn nên đi ngủ sớm."
+     },
+     {
+      "text": "You mustn't smoke here.",
+      "meaning": "Bạn không được hút thuốc ở đây."
+     },
+     {
+      "text": "You don't have to bring a gift.",
+      "meaning": "Bạn không cần mang quà."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "You must to go.",
+      "right": "You must go.",
+      "why": "must không đi với to."
+     },
+     {
+      "wrong": "He have to wear a uniform.",
+      "right": "He has to wear a uniform.",
+      "why": "he đi với has to."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.present_perfect_experience",
+   "title": "Hiện tại hoàn thành: kinh nghiệm",
+   "topic_key": "modals_perfect",
+   "questions": [
+    {
+     "id": "en.a2.present_perfect_experience.01",
+     "prompt": "I have ___ to Japan twice.",
+     "options": [
+      {
+       "id": "a",
+       "text": "been"
+      },
+      {
+       "id": "b",
+       "text": "be"
+      },
+      {
+       "id": "c",
+       "text": "was"
+      },
+      {
+       "id": "d",
+       "text": "going"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Hiện tại hoàn thành: have been to (Tôi đã đến Nhật hai lần)."
+    },
+    {
+     "id": "en.a2.present_perfect_experience.02",
+     "prompt": "She ___ never eaten sushi.",
+     "options": [
+      {
+       "id": "a",
+       "text": "have"
+      },
+      {
+       "id": "b",
+       "text": "is"
+      },
+      {
+       "id": "c",
+       "text": "did"
+      },
+      {
+       "id": "d",
+       "text": "has"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "she đi với has: has never eaten (Cô ấy chưa bao giờ ăn sushi)."
+    },
+    {
+     "id": "en.a2.present_perfect_experience.03",
+     "prompt": "Have you ever ___ a horse?",
+     "options": [
+      {
+       "id": "a",
+       "text": "rode"
+      },
+      {
+       "id": "b",
+       "text": "ride"
+      },
+      {
+       "id": "c",
+       "text": "ridden"
+      },
+      {
+       "id": "d",
+       "text": "riding"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Sau have dùng phân từ quá khứ: ridden (Bạn đã bao giờ cưỡi ngựa chưa?)."
+    },
+    {
+     "id": "en.a2.present_perfect_experience.04",
+     "prompt": "We ___ this film three times.",
+     "options": [
+      {
+       "id": "a",
+       "text": "saw"
+      },
+      {
+       "id": "b",
+       "text": "have seen"
+      },
+      {
+       "id": "c",
+       "text": "have saw"
+      },
+      {
+       "id": "d",
+       "text": "seen"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Không có mốc thời gian cụ thể: have seen (Chúng tôi đã xem phim này ba lần)."
+    },
+    {
+     "id": "en.a2.present_perfect_experience.05",
+     "prompt": "He has ___ his keys, so he can't open the door.",
+     "options": [
+      {
+       "id": "a",
+       "text": "lost"
+      },
+      {
+       "id": "b",
+       "text": "lose"
+      },
+      {
+       "id": "c",
+       "text": "losed"
+      },
+      {
+       "id": "d",
+       "text": "losing"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Phân từ quá khứ của lose là lost (Anh ấy làm mất chìa khóa nên không mở được cửa)."
+    },
+    {
+     "id": "en.a2.present_perfect_experience.06",
+     "prompt": "I ___ ever been so tired.",
+     "options": [
+      {
+       "id": "a",
+       "text": "didn't"
+      },
+      {
+       "id": "b",
+       "text": "don't"
+      },
+      {
+       "id": "c",
+       "text": "wasn't"
+      },
+      {
+       "id": "d",
+       "text": "haven't"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Phủ định hiện tại hoàn thành: haven't ever been (Tôi chưa bao giờ mệt đến vậy)."
+    },
+    {
+     "id": "en.a2.present_perfect_experience.07",
+     "prompt": "Has she ___ her homework yet?",
+     "options": [
+      {
+       "id": "a",
+       "text": "finish"
+      },
+      {
+       "id": "b",
+       "text": "finishing"
+      },
+      {
+       "id": "c",
+       "text": "finished"
+      },
+      {
+       "id": "d",
+       "text": "finishes"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Has + chủ ngữ + phân từ quá khứ: Has she finished...? (Cô ấy đã làm xong bài tập chưa?)."
+    },
+    {
+     "id": "en.a2.present_perfect_experience.08",
+     "prompt": "They have lived here ___ 2019.",
+     "options": [
+      {
+       "id": "a",
+       "text": "for"
+      },
+      {
+       "id": "b",
+       "text": "since"
+      },
+      {
+       "id": "c",
+       "text": "from"
+      },
+      {
+       "id": "d",
+       "text": "during"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "since + mốc thời gian (2019) (Họ sống ở đây từ năm 2019)."
+    }
+   ],
+   "lesson": {
+    "summary": "Hiện tại hoàn thành nói về trải nghiệm hoặc việc đã xảy ra mà không nói rõ thời điểm.",
+    "rules": [
+     "Cấu trúc: have/has + phân từ quá khứ (V3): I have been to Japan.",
+     "Dùng ever (từng) và never (chưa bao giờ) với kinh nghiệm: Have you ever ridden a horse?",
+     "since + mốc thời gian, for + khoảng thời gian: since 2019, for five years.",
+     "Không dùng khi nói rõ thời điểm quá khứ (yesterday, last year): dùng quá khứ đơn."
+    ],
+    "examples": [
+     {
+      "text": "I have been to Japan twice.",
+      "meaning": "Tôi đã đến Nhật hai lần."
+     },
+     {
+      "text": "She has never eaten sushi.",
+      "meaning": "Cô ấy chưa bao giờ ăn sushi."
+     },
+     {
+      "text": "They have lived here since 2019.",
+      "meaning": "Họ sống ở đây từ năm 2019."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "I have went to Japan.",
+      "right": "I have been to Japan.",
+      "why": "Sau have dùng phân từ quá khứ, không dùng went."
+     },
+     {
+      "wrong": "She have never eaten.",
+      "right": "She has never eaten.",
+      "why": "she đi với has."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.quantifiers",
+   "title": "Lượng từ: much, many, a lot of, a few, a little",
+   "topic_key": "quantity_links",
+   "questions": [
+    {
+     "id": "en.a2.quantifiers.01",
+     "prompt": "How ___ people came to the party?",
+     "options": [
+      {
+       "id": "a",
+       "text": "much"
+      },
+      {
+       "id": "b",
+       "text": "many"
+      },
+      {
+       "id": "c",
+       "text": "little"
+      },
+      {
+       "id": "d",
+       "text": "a few"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "people đếm được số nhiều: How many people...? (Có bao nhiêu người đến bữa tiệc?)."
+    },
+    {
+     "id": "en.a2.quantifiers.02",
+     "prompt": "There isn't ___ milk in the fridge.",
+     "options": [
+      {
+       "id": "a",
+       "text": "much"
+      },
+      {
+       "id": "b",
+       "text": "many"
+      },
+      {
+       "id": "c",
+       "text": "a few"
+      },
+      {
+       "id": "d",
+       "text": "few"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "milk không đếm được, câu phủ định dùng much (Trong tủ lạnh không còn nhiều sữa)."
+    },
+    {
+     "id": "en.a2.quantifiers.03",
+     "prompt": "I have ___ friends in this city, so I'm not lonely.",
+     "options": [
+      {
+       "id": "a",
+       "text": "much"
+      },
+      {
+       "id": "b",
+       "text": "a little"
+      },
+      {
+       "id": "c",
+       "text": "little"
+      },
+      {
+       "id": "d",
+       "text": "a lot of"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Nghĩa là có nhiều bạn: a lot of friends (Tôi có nhiều bạn ở thành phố này nên không cô đơn)."
+    },
+    {
+     "id": "en.a2.quantifiers.04",
+     "prompt": "Can you give me ___ water, please?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a few"
+      },
+      {
+       "id": "b",
+       "text": "many"
+      },
+      {
+       "id": "c",
+       "text": "a little"
+      },
+      {
+       "id": "d",
+       "text": "few"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "water không đếm được: a little water (Cho tôi xin một chút nước)."
+    },
+    {
+     "id": "en.a2.quantifiers.05",
+     "prompt": "We have ___ time. Hurry up!",
+     "options": [
+      {
+       "id": "a",
+       "text": "a few"
+      },
+      {
+       "id": "b",
+       "text": "little"
+      },
+      {
+       "id": "c",
+       "text": "many"
+      },
+      {
+       "id": "d",
+       "text": "few"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Nghĩa là gần như không còn thời gian: little time (Chúng ta còn rất ít thời gian. Nhanh lên!)."
+    },
+    {
+     "id": "en.a2.quantifiers.06",
+     "prompt": "She has ___ close friends, but they are very kind.",
+     "options": [
+      {
+       "id": "a",
+       "text": "a few"
+      },
+      {
+       "id": "b",
+       "text": "a little"
+      },
+      {
+       "id": "c",
+       "text": "much"
+      },
+      {
+       "id": "d",
+       "text": "little"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "friends đếm được, nghĩa tích cực: a few friends (Cô ấy có vài người bạn thân, và họ rất tốt)."
+    },
+    {
+     "id": "en.a2.quantifiers.07",
+     "prompt": "How ___ does this jacket cost?",
+     "options": [
+      {
+       "id": "a",
+       "text": "many"
+      },
+      {
+       "id": "b",
+       "text": "long"
+      },
+      {
+       "id": "c",
+       "text": "far"
+      },
+      {
+       "id": "d",
+       "text": "much"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Hỏi giá dùng How much (Cái áo khoác này giá bao nhiêu?)."
+    },
+    {
+     "id": "en.a2.quantifiers.08",
+     "prompt": "There are ___ cars on the road at night.",
+     "options": [
+      {
+       "id": "a",
+       "text": "not much"
+      },
+      {
+       "id": "b",
+       "text": "few of"
+      },
+      {
+       "id": "c",
+       "text": "not many"
+      },
+      {
+       "id": "d",
+       "text": "too little"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "cars đếm được, phủ định dùng not many (Ban đêm trên đường không có nhiều ô tô)."
+    }
+   ],
+   "lesson": {
+    "summary": "Chọn lượng từ theo danh từ đếm được hay không đếm được, và theo nghĩa đủ hay thiếu.",
+    "rules": [
+     "Đếm được số nhiều: many, a few (một vài, đủ), few (rất ít, thiếu).",
+     "Không đếm được: much, a little (một chút, đủ), little (rất ít, thiếu).",
+     "a lot of dùng cho cả hai loại, thường trong câu khẳng định.",
+     "much và many hay dùng trong câu phủ định và câu hỏi: How many people? How much milk?"
+    ],
+    "examples": [
+     {
+      "text": "How many people came to the party?",
+      "meaning": "Có bao nhiêu người đến bữa tiệc?"
+     },
+     {
+      "text": "There isn't much milk in the fridge.",
+      "meaning": "Trong tủ lạnh không còn nhiều sữa."
+     },
+     {
+      "text": "Can you give me a little water?",
+      "meaning": "Cho tôi xin một chút nước được không?"
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "How much people?",
+      "right": "How many people?",
+      "why": "people đếm được nên dùng many."
+     },
+     {
+      "wrong": "a few water",
+      "right": "a little water",
+      "why": "water không đếm được nên dùng a little."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.linking_words",
+   "title": "Liên từ: and, but, so, because, or",
+   "topic_key": "quantity_links",
+   "questions": [
+    {
+     "id": "en.a2.linking_words.01",
+     "prompt": "I was tired, ___ I went to bed early.",
+     "options": [
+      {
+       "id": "a",
+       "text": "because"
+      },
+      {
+       "id": "b",
+       "text": "but"
+      },
+      {
+       "id": "c",
+       "text": "so"
+      },
+      {
+       "id": "d",
+       "text": "or"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "so dẫn đến kết quả (Tôi mệt nên đi ngủ sớm)."
+    },
+    {
+     "id": "en.a2.linking_words.02",
+     "prompt": "I went to bed early ___ I was tired.",
+     "options": [
+      {
+       "id": "a",
+       "text": "so"
+      },
+      {
+       "id": "b",
+       "text": "because"
+      },
+      {
+       "id": "c",
+       "text": "but"
+      },
+      {
+       "id": "d",
+       "text": "or"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "because dẫn đến lý do (Tôi đi ngủ sớm vì tôi mệt)."
+    },
+    {
+     "id": "en.a2.linking_words.03",
+     "prompt": "I like tea, ___ I don't like coffee.",
+     "options": [
+      {
+       "id": "a",
+       "text": "but"
+      },
+      {
+       "id": "b",
+       "text": "so"
+      },
+      {
+       "id": "c",
+       "text": "because"
+      },
+      {
+       "id": "d",
+       "text": "or"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "but nối hai ý đối lập (Tôi thích trà nhưng không thích cà phê)."
+    },
+    {
+     "id": "en.a2.linking_words.04",
+     "prompt": "Would you like tea ___ coffee?",
+     "options": [
+      {
+       "id": "a",
+       "text": "but"
+      },
+      {
+       "id": "b",
+       "text": "so"
+      },
+      {
+       "id": "c",
+       "text": "because"
+      },
+      {
+       "id": "d",
+       "text": "or"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "or dùng khi hỏi lựa chọn (Bạn muốn trà hay cà phê?)."
+    },
+    {
+     "id": "en.a2.linking_words.05",
+     "prompt": "She was ill, ___ she went to school.",
+     "options": [
+      {
+       "id": "a",
+       "text": "so"
+      },
+      {
+       "id": "b",
+       "text": "because"
+      },
+      {
+       "id": "c",
+       "text": "but"
+      },
+      {
+       "id": "d",
+       "text": "or"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Hai ý trái với dự đoán: but (Cô ấy ốm nhưng vẫn đi học)."
+    },
+    {
+     "id": "en.a2.linking_words.06",
+     "prompt": "He studied hard ___ he passed the exam.",
+     "options": [
+      {
+       "id": "a",
+       "text": "because"
+      },
+      {
+       "id": "b",
+       "text": "so"
+      },
+      {
+       "id": "c",
+       "text": "but"
+      },
+      {
+       "id": "d",
+       "text": "or"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Kết quả của việc học chăm: so (Anh ấy học chăm nên đã đỗ kỳ thi)."
+    },
+    {
+     "id": "en.a2.linking_words.07",
+     "prompt": "We stayed home ___ it was raining.",
+     "options": [
+      {
+       "id": "a",
+       "text": "because"
+      },
+      {
+       "id": "b",
+       "text": "so"
+      },
+      {
+       "id": "c",
+       "text": "but"
+      },
+      {
+       "id": "d",
+       "text": "or"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Lý do ở nhà: because (Chúng tôi ở nhà vì trời mưa)."
+    },
+    {
+     "id": "en.a2.linking_words.08",
+     "prompt": "I can play the guitar ___ the piano.",
+     "options": [
+      {
+       "id": "a",
+       "text": "but"
+      },
+      {
+       "id": "b",
+       "text": "so"
+      },
+      {
+       "id": "c",
+       "text": "because"
+      },
+      {
+       "id": "d",
+       "text": "and"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Thêm ý cùng hướng: and (Tôi chơi được guitar và piano)."
+    }
+   ],
+   "lesson": {
+    "summary": "Liên từ nối ý: and thêm ý, but đối lập, so chỉ kết quả, because chỉ lý do, or chỉ lựa chọn.",
+    "rules": [
+     "and: nối hai ý cùng hướng. but: ý đối lập.",
+     "so + kết quả: I was tired, so I went to bed.",
+     "because + lý do: I went to bed because I was tired.",
+     "or: lựa chọn: tea or coffee?"
+    ],
+    "examples": [
+     {
+      "text": "I was tired, so I went to bed early.",
+      "meaning": "Tôi mệt nên đi ngủ sớm."
+     },
+     {
+      "text": "I went to bed early because I was tired.",
+      "meaning": "Tôi đi ngủ sớm vì tôi mệt."
+     },
+     {
+      "text": "I like tea, but I don't like coffee.",
+      "meaning": "Tôi thích trà nhưng không thích cà phê."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "I was tired, because I went to bed early.",
+      "right": "I was tired, so I went to bed early.",
+      "why": "Kết quả đi sau so, lý do đi sau because."
+     },
+     {
+      "wrong": "Would you like tea and coffee?",
+      "right": "Would you like tea or coffee?",
+      "why": "Hỏi lựa chọn dùng or."
+     }
+    ]
+   }
+  },
+  {
+   "key": "en.a2.to_infinitive",
+   "title": "To + động từ: mục đích và sau want, decide",
+   "topic_key": "quantity_links",
+   "questions": [
+    {
+     "id": "en.a2.to_infinitive.01",
+     "prompt": "I went to the market ___ some fruit.",
+     "options": [
+      {
+       "id": "a",
+       "text": "buy"
+      },
+      {
+       "id": "b",
+       "text": "for buy"
+      },
+      {
+       "id": "c",
+       "text": "buying"
+      },
+      {
+       "id": "d",
+       "text": "to buy"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "Mục đích dùng to + nguyên mẫu (Tôi ra chợ để mua ít trái cây)."
+    },
+    {
+     "id": "en.a2.to_infinitive.02",
+     "prompt": "She wants ___ a doctor.",
+     "options": [
+      {
+       "id": "a",
+       "text": "be"
+      },
+      {
+       "id": "b",
+       "text": "being"
+      },
+      {
+       "id": "c",
+       "text": "to be"
+      },
+      {
+       "id": "d",
+       "text": "for be"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Sau want dùng to + nguyên mẫu (Cô ấy muốn làm bác sĩ)."
+    },
+    {
+     "id": "en.a2.to_infinitive.03",
+     "prompt": "He called me ___ about the meeting.",
+     "options": [
+      {
+       "id": "a",
+       "text": "for ask"
+      },
+      {
+       "id": "b",
+       "text": "to ask"
+      },
+      {
+       "id": "c",
+       "text": "asking"
+      },
+      {
+       "id": "d",
+       "text": "ask"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "Mục đích gọi điện: to ask (Anh ấy gọi tôi để hỏi về cuộc họp)."
+    },
+    {
+     "id": "en.a2.to_infinitive.04",
+     "prompt": "We use a map ___ the way.",
+     "options": [
+      {
+       "id": "a",
+       "text": "to find"
+      },
+      {
+       "id": "b",
+       "text": "for find"
+      },
+      {
+       "id": "c",
+       "text": "find"
+      },
+      {
+       "id": "d",
+       "text": "finding"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Mục đích: to find (Chúng tôi dùng bản đồ để tìm đường)."
+    },
+    {
+     "id": "en.a2.to_infinitive.05",
+     "prompt": "Do you want ___ with us?",
+     "options": [
+      {
+       "id": "a",
+       "text": "come"
+      },
+      {
+       "id": "b",
+       "text": "coming"
+      },
+      {
+       "id": "c",
+       "text": "for come"
+      },
+      {
+       "id": "d",
+       "text": "to come"
+      }
+     ],
+     "correct_option_id": "d",
+     "explanation": "want + to + nguyên mẫu (Bạn có muốn đi cùng chúng tôi không?)."
+    },
+    {
+     "id": "en.a2.to_infinitive.06",
+     "prompt": "I came here ___ English.",
+     "options": [
+      {
+       "id": "a",
+       "text": "for study"
+      },
+      {
+       "id": "b",
+       "text": "study"
+      },
+      {
+       "id": "c",
+       "text": "to study"
+      },
+      {
+       "id": "d",
+       "text": "studied"
+      }
+     ],
+     "correct_option_id": "c",
+     "explanation": "Mục đích đến đây: to study (Tôi đến đây để học tiếng Anh)."
+    },
+    {
+     "id": "en.a2.to_infinitive.07",
+     "prompt": "They decided ___ the trip.",
+     "options": [
+      {
+       "id": "a",
+       "text": "cancel"
+      },
+      {
+       "id": "b",
+       "text": "to cancel"
+      },
+      {
+       "id": "c",
+       "text": "cancelling"
+      },
+      {
+       "id": "d",
+       "text": "for cancel"
+      }
+     ],
+     "correct_option_id": "b",
+     "explanation": "decide + to + nguyên mẫu (Họ quyết định hủy chuyến đi)."
+    },
+    {
+     "id": "en.a2.to_infinitive.08",
+     "prompt": "She saves money ___ a new phone.",
+     "options": [
+      {
+       "id": "a",
+       "text": "to buy"
+      },
+      {
+       "id": "b",
+       "text": "for buy"
+      },
+      {
+       "id": "c",
+       "text": "buying"
+      },
+      {
+       "id": "d",
+       "text": "buy"
+      }
+     ],
+     "correct_option_id": "a",
+     "explanation": "Mục đích tiết kiệm: to buy (Cô ấy tiết kiệm tiền để mua điện thoại mới)."
+    }
+   ],
+   "lesson": {
+    "summary": "To + nguyên mẫu chỉ mục đích (để làm gì) và đi sau một số động từ như want, decide, need.",
+    "rules": [
+     "Mục đích: to + V: I went to the market to buy fruit.",
+     "Sau want, decide, need, hope, plan: to + V: She wants to be a doctor.",
+     "Không dùng for + động từ để chỉ mục đích: to buy, không phải for buy."
+    ],
+    "examples": [
+     {
+      "text": "I went to the market to buy some fruit.",
+      "meaning": "Tôi ra chợ để mua ít trái cây."
+     },
+     {
+      "text": "She wants to be a doctor.",
+      "meaning": "Cô ấy muốn làm bác sĩ."
+     },
+     {
+      "text": "They decided to cancel the trip.",
+      "meaning": "Họ quyết định hủy chuyến đi."
+     }
+    ],
+    "mistakes": [
+     {
+      "wrong": "I went there for buy fruit.",
+      "right": "I went there to buy fruit.",
+      "why": "Mục đích dùng to + nguyên mẫu."
+     },
+     {
+      "wrong": "She wants be a doctor.",
+      "right": "She wants to be a doctor.",
+      "why": "Sau want cần to."
+     }
+    ]
+   }
+  }
+ ],
+ "approval": {
+  "reviewer": "owner",
+  "approved_on": "2026-11-02",
+  "content_sha256": "f564769160eacb599ca3b02603bdf656f29e9fef31c0772df621e80593ee3d04",
+  "sample_question_ids": [
+   "en.a2.past_simple_regular.01",
+   "en.a2.past_simple_irregular.01",
+   "en.a2.past_simple_negatives_questions.01",
+   "en.a2.past_continuous.01",
+   "en.a2.present_continuous_plans.01",
+   "en.a2.be_going_to.01",
+   "en.a2.will_future.01",
+   "en.a2.comparatives.01",
+   "en.a2.superlatives.01",
+   "en.a2.as_as.01",
+   "en.a2.can_could.01",
+   "en.a2.should_must_have_to.01",
+   "en.a2.present_perfect_experience.01",
+   "en.a2.quantifiers.01",
+   "en.a2.linking_words.01",
+   "en.a2.to_infinitive.01"
+  ]
+ }
+}

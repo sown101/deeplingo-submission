@@ -1,0 +1,199 @@
+/* The Notebook shelf and the ready-made set page. Every class starts with shelf-. */
+.shelf-page, .shelf-portal {
+  --shelf-new: var(--danger);
+  --shelf-recognised: var(--accent);
+  --shelf-recalled: color-mix(in oklch, var(--accent) 50%, var(--success));
+  --shelf-hint: var(--success);
+  --shelf-own: var(--success-text);
+  --shelf-learning: var(--shelf-recalled);
+  --shelf-can-use: var(--success-text);
+  --shelf-paused: var(--blue-strong);
+}
+.shelf-page { width: 100%; display: flex; flex-direction: column; gap: 12px; }
+
+/* The shared nb- pieces assume bare buttons; zero specificity so they still win. */
+:where(.shelf-page, .shelf-portal) :where(button) { border: 0; background: none; padding: 0; cursor: pointer; color: inherit; font: inherit; }
+:where(.shelf-page, .shelf-portal) :where(p, ul) { margin: 0; }
+:where(.shelf-page, .shelf-portal) :where(ul) { padding: 0; list-style: none; }
+:where(.shelf-page, .shelf-portal) :where(:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
+.shelf-portal .nb-modal:focus { outline: none; }
+
+.shelf-grid { display: grid; grid-template-columns: 390px minmax(0, 1fr); gap: 12px; align-items: start; }
+.shelf-col { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.shelf-card { padding: 16px; border-radius: 24px; background: var(--card); }
+.shelf-muted { color: var(--label-2); font-size: 14px; }
+
+/* Chart */
+.shelf-chart-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.shelf-page h2.shelf-chart-title { margin: 0; font: 600 19px/1.2 var(--font-sans); }
+.shelf-chart-title em { font-style: normal; color: var(--blue-text); }
+.shelf-viewtog { margin: 0; }
+.shelf-viewtog svg { width: 15px; height: 15px; }
+.shelf-chart-loading { height: 250px; }
+.shelf-bars { display: grid; grid-template-columns: repeat(5, 1fr); align-items: end; gap: 10px; height: 150px; }
+.shelf-bar { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; gap: 6px; font-size: 15px; }
+.shelf-bar i { display: block; flex: none; width: 100%; max-width: 48px; height: calc((100% - 28px) * var(--shelf-h)); min-height: 3px; border-radius: 12px 12px 4px 4px; background: var(--shelf-new); transition: height .24s cubic-bezier(.2, .8, .2, 1); }
+.shelf-bar[data-level="1"] i { background: var(--shelf-recognised); }
+.shelf-bar[data-level="2"] i { background: var(--shelf-recalled); }
+.shelf-bar[data-level="3"] i { background: var(--shelf-hint); }
+.shelf-bar[data-level="4"] i { background: var(--shelf-own); }
+.shelf-bar:hover i { opacity: .85; }
+.shelf-bar-labels { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 8px 0 12px; padding-top: 8px; border-top: 1px solid var(--separator); text-align: center; color: var(--label-2); font-size: 12px; }
+.shelf-donut { display: grid; grid-template-columns: 130px 1fr; align-items: center; gap: 20px; margin-bottom: 14px; }
+.shelf-ring { position: relative; width: 130px; height: 130px; border-radius: 50%; background: var(--nb-tile); }
+.shelf-ring::after { content: ""; position: absolute; inset: 18px; border-radius: 50%; background: var(--card); }
+.shelf-ring div { position: absolute; inset: 0; z-index: 1; display: grid; place-content: center; text-align: center; font: 600 20px/1.1 var(--font-sans); }
+.shelf-ring small { font: 400 12px/1 var(--font-sans); color: var(--label-3); }
+.shelf-legend { display: grid; gap: 8px; font-size: 15px; }
+.shelf-legend div { display: flex; align-items: center; gap: 8px; }
+.shelf-legend b { display: grid; place-items: center; min-width: 32px; height: 22px; padding: 0 6px; border-radius: 99px; color: var(--label); font-size: 12px; font-weight: 600; }
+.shelf-legend b[data-tone="learning"] { background: color-mix(in srgb, var(--shelf-learning) 32%, var(--card)); }
+.shelf-legend b[data-tone="can-use"] { background: color-mix(in srgb, var(--shelf-can-use) 32%, var(--card)); }
+.shelf-legend b[data-tone="paused"] { background: color-mix(in srgb, var(--shelf-paused) 32%, var(--card)); }
+.shelf-legend b[data-tone="known"] { background: var(--nb-tile); } /* not practised yet: the ring's empty colour */
+.shelf-due { display: flex; align-items: center; gap: 6px; width: 100%; min-height: 50px; padding: 0 14px; border-radius: 16px; font-size: 15px; }
+.shelf-page .shelf-due { background: var(--blue-strong); color: var(--on-blue); }
+.shelf-due b { font-size: 24px; font-weight: 700; }
+.shelf-page .shelf-due .dl-mascot-art { width: 40px; height: 40px; margin-left: auto; }
+.shelf-page .shelf-due:disabled { background: var(--label-3); cursor: default; }
+
+/* Left column cards */
+.shelf-banner { position: relative; display: flex; align-items: flex-end; justify-content: space-between; min-height: 118px; padding: 12px; border-radius: 20px; background: linear-gradient(115deg, color-mix(in srgb, var(--blue-strong) 72%, var(--label)), var(--blue-strong)); overflow: hidden; text-decoration: none; }
+.shelf-page .shelf-banner, .shelf-banner strong { color: var(--on-blue); }
+.shelf-banner strong { position: relative; font-weight: 600; font-size: 15px; }
+.shelf-page .shelf-banner .dl-mascot-art { position: absolute; right: 16px; top: 4px; width: 84px; height: 84px; }
+.shelf-banner__go { position: relative; padding: 6px 14px; border-radius: 99px; background: var(--danger-text); color: var(--on-blue); font-size: 13px; font-weight: 600; }
+.shelf-promo { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 20px; background: var(--card); color: var(--label); text-decoration: none; }
+.shelf-promo > svg { flex: none; margin-left: auto; color: var(--label-2); }
+.shelf-promo__art { display: grid; place-items: center; flex: none; width: 64px; height: 64px; border-radius: 16px; background: var(--blue-tint); color: var(--blue-text); }
+.shelf-promo__art svg { width: 28px; height: 28px; }
+.shelf-promo__text { min-width: 0; }
+.shelf-promo strong { display: block; font-weight: 600; font-size: 15px; }
+.shelf-promo small { color: var(--label-2); font-size: 13px; }
+
+/* Right column */
+.shelf-bar-top { display: flex; align-items: center; justify-content: space-between; min-height: 52px; }
+.shelf-create { display: inline-flex; align-items: center; gap: 8px; min-height: 52px; padding: 0 24px; border-radius: 20px; font-weight: 500; font-size: 17px; }
+.shelf-page .shelf-create { background: var(--blue-tint); color: var(--blue-text); padding: 0 24px; }
+.shelf-page .shelf-sort { background: var(--card); }
+.shelf-page .shelf-pop-title { margin: 0; font: 500 16px/1.3 var(--font-sans); }
+.shelf-sec { display: flex; flex-direction: column; gap: 12px; }
+.shelf-page .shelf-sec.shelf-group { gap: 12px; }
+.shelf-sec-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.shelf-page h2.shelf-title, .shelf-page .shelf-group h2.shelf-title { margin: 0; font: 500 18px/1.3 var(--font-sans); }
+.shelf-more { color: var(--label-2); font-weight: 500; }
+.shelf-tiles { display: grid; grid-auto-flow: column; grid-auto-columns: 240px; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+.shelf-tiles--two { grid-template-rows: repeat(2, auto); }
+.shelf-tiles > li { position: relative; min-width: 0; }
+.shelf-tile { display: flex; flex-direction: column; justify-content: space-between; gap: 8px; min-height: 75px; padding: 12px; border-radius: 16px; background: var(--nb-tile); color: var(--label); text-decoration: none; transition: background-color .15s; }
+.shelf-tile:hover { background: var(--nb-tile2); }
+.shelf-tile strong { font-weight: 500; font-size: 16px; color: var(--label); padding-right: 18px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.shelf-tile small { display: flex; align-items: center; gap: 4px; color: var(--label-2); font-size: 13px; }
+.shelf-tile small svg { width: 13px; height: 13px; }
+.shelf-kebab { position: absolute; right: 6px; top: 6px; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; color: var(--label-2); }
+.shelf-kebab svg { transform: rotate(90deg); }
+.shelf-kebab:hover { background: var(--card); }
+/* The older tile look from app.css stays out of the new shelf. */
+.shelf-page .notebook-tile, .shelf-page .notebook-tile:hover, .shelf-page .notebook-tile:active { min-height: 0; padding: 0; box-shadow: none; transform: none; transition: none; }
+.shelf-page .notebook-tile > a { align-items: stretch; }
+.shelf-page .notebook-tile > a::after { content: none; }
+.shelf-empty { display: grid; place-items: center; gap: 8px; color: var(--label-2); text-align: center; }
+.shelf-page .shelf-empty .dl-mascot-art { width: 110px; height: 110px; }
+
+/* Menus and dialogs */
+.shelf-menu.nb-popover { position: fixed; right: auto; }
+.shelf-form { display: flex; flex-direction: column; gap: 12px; }
+.shelf-inline-form { display: flex; gap: 8px; align-items: center; }
+.shelf-portal input.shelf-input:not([type="checkbox"]):not([type="radio"]) { width: 100%; min-width: 0; min-height: 40px; border: 0; border-radius: 14px; background: var(--nb-tile); padding: 8px 14px; font-size: 14px; color: var(--label); box-shadow: none; }
+.shelf-portal input.shelf-input:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.shelf-inline-form input.shelf-input { flex: 1; }
+.shelf-portal .shelf-search { background: var(--nb-tile); }
+.shelf-portal .shelf-search:focus-within { outline: 2px solid var(--focus); outline-offset: 2px; }
+.shelf-portal input.shelf-search__input:not([type="checkbox"]):not([type="radio"]) { flex: 1; min-width: 0; min-height: 0; border: 0; padding: 0; background: transparent; box-shadow: none; outline: 0; font-size: 15px; color: var(--label); }
+.shelf-pitem { color: var(--label); text-decoration: none; }
+
+/* Word set page */
+.shelf-set-head { position: relative; display: flex; flex-direction: column; align-items: center; gap: 4px; min-height: 92px; padding-top: 12px; }
+.shelf-back { position: absolute; left: 0; top: 12px; display: inline-flex; align-items: center; gap: 6px; min-height: var(--touch-min); padding: 0 14px; border-radius: 99px; background: var(--card); color: var(--label); font-size: 15px; text-decoration: none; }
+.shelf-back svg { width: 16px; height: 16px; }
+.shelf-page h1.shelf-set-name { margin: 0; font: 500 24px/1.3 var(--font-sans); text-align: center; overflow-wrap: anywhere; padding-inline: 96px; }
+.shelf-set-meta { display: inline-flex; align-items: center; gap: 4px; color: var(--label-2); font-size: 13px; }
+.shelf-set-meta svg { width: 13px; height: 13px; }
+.shelf-report { display: flex; flex-direction: column; gap: 6px; font-size: 15px; }
+.shelf-list-bar { display: flex; align-items: center; gap: 8px; min-height: 40px; margin-bottom: 10px; }
+.shelf-push { margin-left: auto; }
+.shelf-words { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.shelf-skel-title { width: 180px; height: 28px; margin-top: 8px; }
+.shelf-skel-card { height: 96px; border-radius: 20px; }
+.shelf-word { display: flex; gap: 10px; width: 100%; height: 100%; padding: 10px 12px; border-radius: 18px; background: var(--nb-tile); text-align: left; min-width: 0; transition: background-color .15s; }
+.shelf-page .shelf-word { padding: 10px 12px; }
+.shelf-page button.shelf-word { background: var(--nb-tile); }
+.shelf-page button.shelf-word:hover { background: var(--nb-tile2); }
+.shelf-page button.shelf-word.on { background: var(--blue-tint); }
+.shelf-word__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.shelf-pick { flex: none; display: grid; place-items: center; width: 22px; height: 22px; margin-top: 8px; border-radius: 50%; border: 2px solid var(--label-3); color: transparent; }
+.shelf-pick svg { width: 13px; height: 13px; }
+.shelf-word.on .shelf-pick, .shelf-pick.on { background: var(--blue-strong); border-color: var(--blue-strong); color: var(--on-blue); }
+.shelf-pick--small { width: 18px; height: 18px; margin-top: 0; }
+.shelf-term { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px; font: 500 20px/1.25 var(--font-hanzi); color: var(--label); }
+.shelf-term small { font: 400 15px/1 var(--font-hanzi); color: var(--label-2); }
+.shelf-reading { color: var(--label-2); font-size: 12px; }
+.shelf-meaning { font-size: 14px; line-height: 1.3; color: var(--label); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
+.shelf-pager { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 14px; color: var(--label-2); font-size: 13px; }
+.shelf-pager .nb-btn { color: var(--label); font-size: 15px; }
+.shelf-floatbar { position: fixed; z-index: 26; left: 50%; bottom: 20px; transform: translateX(-50%); display: flex; gap: 8px; padding: 10px; border-radius: 22px; background: var(--card); box-shadow: var(--shadow-float); }
+.shelf-floatbar button { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 22px; border-radius: 99px; font-weight: 500; white-space: nowrap; }
+.shelf-page .shelf-floatbar button { background: var(--blue-strong); color: var(--on-blue); padding: 0 22px; }
+.shelf-page .shelf-floatbar button:disabled { opacity: .45; cursor: default; }
+
+@media (max-width: 699px) {
+  .shelf-grid { grid-template-columns: minmax(0, 1fr); }
+  .shelf-grid > :last-child { order: -1; }
+  .shelf-tiles { grid-auto-columns: minmax(150px, 46%); }
+  .shelf-set-head { align-items: flex-start; padding-top: 52px; min-height: 0; }
+  .shelf-page h1.shelf-set-name { font-size: 22px; padding-inline: 0; text-align: left; }
+  .shelf-words { grid-template-columns: minmax(0, 1fr); }
+  .shelf-floatbar { bottom: calc(var(--space-4) + var(--tabbar-h) + var(--space-1)); width: calc(100% - 24px); }
+  .shelf-floatbar button { flex: 1; justify-content: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shelf-bar i, .shelf-tile, .shelf-word { transition: none; }
+  .shelf-portal.nb-in .nb-modal { animation: none; }
+}
+
+/* Grammar tab: the same shelf, with grammar points in place of notebooks. */
+.gram-levels { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+.shelf-page .gram-levels button { min-height: 32px; padding: 0 14px; border-radius: 99px; background: var(--nb-tile); color: var(--label-2); font: 600 13px/1 var(--font-sans); }
+.shelf-page .gram-levels button[aria-pressed="true"] { background: var(--blue-strong); color: var(--on-blue); }
+.gram-count { color: var(--label-3); font: 500 13px/1 var(--font-sans); font-variant-numeric: tabular-nums; }
+.gram-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 8px; margin: 0; padding: 0; list-style: none; }
+.gram-tiles > li { min-width: 0; animation: dl-rise var(--dur-nav) var(--spring-nav) backwards; }
+.shelf-page button.gram-tile { position: relative; width: 100%; height: 100%; overflow: hidden; text-align: left; background: var(--nb-tile); }
+.shelf-page button.gram-tile:hover { background: var(--nb-tile2); }
+.gram-tile strong { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.gram-tile small { color: var(--label-3); }
+.gram-tile.done small { color: var(--label-2); }
+.gram-tile i { position: absolute; left: 0; bottom: 0; height: 3px; width: calc(var(--gram-right) * 100%); background: var(--blue-strong); border-radius: 0 3px 3px 0; transition: width var(--dur-nav) var(--spring-nav); }
+.gram-practice .grammar-question { padding: 0; background: transparent; box-shadow: none; border: 0; }
+.gram-practice .grammar-option { background: var(--nb-tile); border-color: transparent; border-radius: 16px; }
+.gram-lesson { font-size: 15px; line-height: 1.45; }
+.gram-lesson > p { margin: 0; }
+.gram-lesson h3 { margin: 8px 0 0; font: 600 14px/1.3 var(--font-sans); color: var(--label-3); text-transform: uppercase; letter-spacing: .03em; }
+.gram-lesson ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+.gram-lesson .gram-examples { padding: 0; list-style: none; }
+.gram-examples li { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; background: var(--nb-tile); }
+.gram-examples span { color: var(--label-3); font-size: 14px; }
+
+/* A grammar question in the Grammar tab; the server grades it. */
+.grammar-options .grammar-option[data-result="correct"] { animation:dl-answer-right var(--dur-nav) var(--spring-tap); }
+.grammar-options .grammar-option[data-result="incorrect"] { animation:dl-answer-wrong 360ms var(--ease-out); }
+.grammar-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--space-1); padding:0; margin:0; border:0; }
+.grammar-options legend { margin-bottom:var(--space-2); font:400 15px/20px var(--font-sans); color:var(--label-3); }
+.grammar-options .grammar-option { display:flex; align-items:center; gap:var(--space-1); padding:var(--space-2); min-height:calc(var(--space-6) + var(--space-1)); border:1px solid var(--border-control); border-radius:var(--radius-md); color:var(--label); font:400 17px/24px var(--font-sans); cursor:pointer; }
+.grammar-option:has(:checked) { background:var(--blue-tint); border-color:var(--blue-strong); }
+.grammar-options .grammar-option[data-result="correct"] { background:var(--success-tint); border-color:var(--success); }
+.grammar-options .grammar-option[data-result="incorrect"] { background:var(--danger-tint); border-color:var(--danger); }
+.grammar-option input { accent-color:var(--blue-strong); }
+.grammar-question > p:not(.small) { font:600 22px/28px var(--font-display); }
+.grammar-feedback { padding:var(--space-2); border-radius:var(--radius-md); background:var(--fill); }

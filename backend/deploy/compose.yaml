@@ -1,0 +1,89 @@
+# Single-host topology: API, one Linux prefork worker, one separate Beat,
+# Redis (internal only) and Caddy for HTTPS. Secrets stay outside the repo:
+#   docker compose -f backend/deploy/compose.yaml --env-file <runtime>/deploy.env up -d
+# See deploy.env.example and docs/runbooks/content-worker.md.
+name: deeplingo
+
+x-backend: &backend
+  image: ${BACKEND_IMAGE:?Set BACKEND_IMAGE in deploy.env}
+  env_file: ${DEEPLINGO_ENV_FILE:?Set DEEPLINGO_ENV_FILE in deploy.env}
+  environment:
+    # The broker is always the internal Redis below, whatever the env file says.
+    REDIS_URL: redis://redis:6379/0
+  restart: unless-stopped
+  # SEC-02: bound runaway process/thread creation. Memory limits wait for measured usage.
+  pids_limit: 512
+  logging:
+    driver: json-file
+    options:
+      max-size: "10m"
+      max-file: "3"
+  depends_on:
+    redis:
+      condition: service_healthy
+
+services:
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  # Only enabled for L2 analysis. Raw text must never enter the persistent broker above.
+  speaking-text:
+    image: redis:7-alpine
+    profiles: ["speaking-analysis"]
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--maxmemory", "128mb", "--maxmemory-policy", "noeviction"]
+    restart: unless-stopped
+    tmpfs: ["/data"]
+
+  api:
+    <<: *backend
+    command: ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 10s
+
+  worker:
+    <<: *backend
+    # Canonical launcher: prefork, concurrency 2, prefetch 1, one queue.
+    command: ["python", "-m", "scripts.content.run_content_worker"]
+    # Longer than the 1800s hard task limit so a drain can finish.
+    stop_grace_period: 1900s
+
+  beat:
+    <<: *backend
+    # Exactly one Beat, separate from the worker.
+    command: ["celery", "-A", "app.bootstrap.worker:celery_app", "beat", "--loglevel=INFO", "--schedule=/state/celerybeat-schedule"]
+    volumes:
+      - beat_state:/state
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      API_HOSTNAME: ${API_HOSTNAME:?Set API_HOSTNAME in deploy.env}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  redis_data:
+  beat_state:
+  caddy_data:
+  caddy_config:

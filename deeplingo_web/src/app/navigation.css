@@ -1,0 +1,98 @@
+/* Nav.dc.html geometry with the existing fifth notebook destination. */
+.dl-app > .topbar { position:absolute; z-index:10; top:var(--space-2); left:var(--space-4); right:var(--space-4); display:grid; grid-template-columns:256px 1fr 256px; border:0; box-shadow:inset 0 0 0 1px var(--glass-edge),var(--shadow-float); height:var(--topbar-h); margin:0; padding:0 var(--space-2); gap:0; }
+.dl-app .topbar .brand { position:relative; width:max-content; padding-left:var(--space-5); font:700 17px/22px var(--font-display); }
+.dl-app .topbar .brand::before { content:""; position:absolute; left:0; width:var(--space-4); height:var(--space-4); border-radius:var(--radius-pill); background:var(--card) url("../design/assets/otter-idle.png") center -3px / 54px 54px no-repeat; }
+.dl-app .topbar .dl-brand-mascot { display:none; }
+.dl-app .topnav-wrap { min-width:0; justify-content:center; }
+.dl-app .topnav { display:flex; align-items:center; height:var(--topbar-h); gap:2px; padding:0; border:0; border-radius:var(--radius-pill); box-shadow:none; background:transparent; }
+.dl-app .topnav a { display:flex; align-items:center; justify-content:center; gap:6px; position:relative; height:40px; min-height:40px; padding:0 14px; border-radius:var(--radius-pill); color:var(--label); font:500 15px/20px var(--font-sans); }
+.dl-app .topnav a { transition:color var(--dur-quick) var(--ease-out); }
+.dl-app .topnav a.active { color:var(--blue-text); }
+.dl-app .topnav a.active svg:not([stroke]) { fill-opacity:1; }
+.dl-app .topnav { position:relative; isolation:isolate; }
+.dl-app .topnav-pill { position:absolute; z-index:-1; left:0; top:var(--pill-y,0); width:var(--pill-w,0); height:var(--pill-h,0); border-radius:var(--radius-pill); background:var(--blue-tint); transform:translateX(var(--pill-x,0)); transition:transform var(--dur-collapse) var(--spring-nav), width var(--dur-collapse) var(--spring-nav); }
+.dl-app .topnav a svg { width:18px; height:18px; }
+.dl-app .topbar > .dl-btn { position:absolute; left:auto; right:60px; top:var(--space-half); display:grid; place-items:center; width:var(--touch-min); height:var(--touch-min); min-width:0; min-height:0; padding:0; font-size:0; border:0; box-shadow:none; background:transparent; color:var(--label-3); }
+.dl-app .topbar > .dl-btn::before { content:""; width:20px; height:20px; background:currentColor; mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4v16h6M14 8l4 4-4 4M8 12h10" fill="none" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>') center / contain no-repeat; }
+
+.dl-app .content { max-width:1760px; margin:0 auto; padding:108px clamp(var(--space-3), 6vw, 128px) 136px; }
+.dl-app .topnav a::after { content:""; position:absolute; inset:-2px 0; }
+.dl-app .topnav a.active { font-weight:600; }
+
+
+/* AgentDock from agent1.html: 448px bar, 384px panel, 40% phone sheet. */
+.dl-app .agent-launcher { position:fixed; z-index:25; left:auto; right:var(--space-3); bottom:var(--space-3); transform:none; width:auto; max-width:min(360px, calc(100% - var(--space-4))); height:var(--agentbar-h); display:flex; align-items:center; gap:var(--space-1); padding:0 var(--space-half) 0 var(--space-1); border:0; border-radius:var(--radius-pill); background:var(--glass); color:var(--label); box-shadow:inset 0 0 0 1px var(--glass-edge),var(--shadow-float); backdrop-filter:blur(var(--blur-glass)); }
+.dl-app.agent-is-open .agent-launcher { display:none; }
+.dl-app:has(.shelf-floatbar, .nbp-float) .agent-launcher { display:none; } /* a selection bar takes the launcher's place; Tata stays in the navigation */
+.dl-app .ag-open { flex:1; min-width:0; display:flex; align-items:center; gap:var(--space-1); min-height:var(--touch-min); border:0; background:transparent; color:inherit; font:inherit; text-align:left; padding:0; text-decoration:none; }
+.dl-app .agent-face { position:relative; flex:none; display:block; overflow:hidden; width:var(--mascot-icon); height:var(--mascot-icon); border-radius:var(--radius-pill); background:var(--card); }
+.dl-app .agent-face .dl-dock-mascot { position:absolute; width:68px; height:68px; max-width:none; left:-14px; top:-4px; object-fit:contain; }
+.dl-app .agent-panel { position:fixed; z-index:30; top:calc(var(--space-2) + var(--topbar-h) + var(--space-2)); right:var(--space-3); bottom:var(--space-3); width:calc(var(--space-8) * 6); margin:0; max-height:none; min-width:0; overflow:auto; padding:var(--space-3) var(--space-3) var(--space-4); border:0; border-radius:var(--radius-xl); background:var(--card-raised); color:var(--label); box-shadow:var(--shadow-dialog); display:flex; flex-direction:column; gap:var(--space-2); animation:agent-in var(--dur-nav) var(--spring-nav) both; }
+.dl-app .agent-panel .dl-sheet__grip { display:none; }
+.dl-app .ag-head { display:flex; align-items:center; gap:var(--space-1); }
+.dl-app .ag-heading { flex:1; min-width:0; display:flex; flex-direction:column; gap:var(--space-half); }
+.dl-app .ag-heading strong { font:600 17px/22px var(--font-sans); }
+.dl-app .ag-heading > span { font:400 13px/18px var(--font-sans); color:var(--label-3); }
+.dl-app .ag-head .dl-icon-btn { flex:none; color:var(--label); text-decoration:none; }
+.dl-app .ag-choices { display:flex; flex-wrap:wrap; gap:var(--space-1); }
+.dl-app .ag-choices .dl-chip { text-decoration:none; cursor:pointer; }
+.dl-app .agent-panel .companion-layout { display:flex; flex-direction:column; min-height:0; gap:var(--space-2); }
+.dl-app .agent-panel .companion-thread { flex:0 1 auto; padding:0; margin:0; border:0; background:transparent; }
+.dl-app .agent-panel .companion-log:empty { display:none; }
+.dl-app .agent-panel .companion-stage { flex:none; padding:0; margin:0; border:0; box-shadow:none; background:transparent; }
+.dl-app .agent-panel .conversation-mascot { display:none; }
+.dl-app .agent-panel .companion-controls { gap:var(--space-1); }
+.dl-app .agent-panel .companion-conversation[data-phase="ready"] .companion-layout { display:none; }
+@keyframes agent-in { from { transform:translateX(var(--space-6)); opacity:0; } to { transform:none; opacity:1; } }
+@media (max-width:1199px) {
+ .dl-app .content { padding:100px var(--space-3) 136px; }
+ .dl-app > .topbar { left:var(--space-3); right:var(--space-3); display:flex; justify-content:center; border:0; background:transparent; box-shadow:none; backdrop-filter:none; }
+ .dl-app .topbar .brand { display:none; }
+ .dl-app .topnav { padding-inline:6px; background:var(--glass); box-shadow:inset 0 0 0 1px var(--glass-edge),var(--shadow-float); backdrop-filter:blur(var(--blur-glass)); }
+}
+@media (max-width:699px) {
+ .dl-app .content { padding:var(--space-2) var(--space-2) 184px; }
+ .dl-app > .topbar { position:static; display:flex; flex-direction:row; align-items:center; justify-content:space-between; height:auto; min-height:var(--touch-min); margin:0; padding:var(--space-1) var(--space-2) 0; background:transparent; box-shadow:none; backdrop-filter:none; }
+ .dl-app .topbar .brand { display:flex; order:0; }
+ .dl-app .topnav-wrap { position:fixed; z-index:20; left:var(--space-2); right:var(--space-2); bottom:var(--space-4); width:auto; margin:0; }
+ .dl-app .topnav { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); width:100%; height:var(--tabbar-h); padding:6px; gap:var(--space-half); border-radius:var(--radius-xl); }
+ .dl-app .topnav a { flex-direction:column; gap:2px; height:100%; min-height:var(--touch-min); padding:0; border-radius:26px; font:600 11px/13px var(--font-sans); }
+ .dl-app .topnav a::after { display:none; }
+ .home-design .topbar > .dl-btn { right:var(--space-2); top:var(--space-1); }
+ .dl-app .topnav-pill { border-radius:26px; }
+ /* Scrolling down shrinks the bar to Tata's face so it stops covering the page; scrolling up brings it back. */
+ .dl-app .agent-launcher { left:auto; right:var(--space-2); bottom:calc(var(--space-4) + var(--tabbar-h) + var(--space-1)); width:auto; max-width:calc(100vw - var(--space-4)); overflow:hidden; transition:width var(--dur-collapse) var(--spring-nav); }
+ .dl-app .agent-launcher .dl-agent__txt { white-space:nowrap; transition:opacity var(--dur-quick) var(--ease-out); }
+ .dl-app.agent-compact .agent-launcher { width:var(--agentbar-h); }
+ .dl-app.agent-compact .agent-launcher .dl-agent__txt { opacity:0; }
+ .dl-app.agent-compact .agent-launcher > .dl-icon-btn { display:none; }
+ .dl-app .agent-panel { top:auto; bottom:0; left:0; right:0; width:100%; min-height:40dvh; max-height:calc(100dvh - var(--space-2)); border-radius:var(--radius-xl) var(--radius-xl) 0 0; padding:var(--space-1) var(--space-3) var(--space-4); animation:agent-up var(--dur-nav) var(--spring-nav) both; }
+ .dl-app .agent-panel .dl-sheet__grip { display:block; flex:none; }
+}
+@keyframes agent-up { from { transform:translateY(100%); } to { transform:none; } }
+.dl-app .account-menu { position:relative; justify-self:end; }
+.dl-app .account-trigger { background:var(--blue-tint); color:var(--label); }
+.dl-app .account-menu [role="menu"] { position:absolute; top:calc(var(--touch-min) + var(--space-1)); right:0; width:calc(var(--space-8) * 3 + var(--space-3)); display:flex; flex-direction:column; gap:var(--space-half); padding:var(--space-1); margin:0; border-radius:var(--radius-lg); background:var(--card-raised); box-shadow:var(--shadow-dialog); }
+.dl-app .account-menu [role="menuitem"] { display:flex; align-items:center; gap:var(--space-2); min-height:var(--touch-min); padding:var(--space-1) var(--space-2); border:0; border-radius:var(--radius-sm); background:transparent; color:var(--label); text-decoration:none; font:400 17px/24px var(--font-sans); cursor:pointer; text-align:left; }
+.dl-app .account-menu [role="menuitem"]:hover, .dl-app .account-menu [role="menuitem"]:focus-visible { background:var(--fill); }
+.dl-app .account-menu button[role="menuitem"] { color:var(--danger-text); }
+@media (min-width:700px) {
+ .dl-app > .topbar { left:50%; right:auto; transform:translateX(-50%); width:min(calc(100% - var(--space-6)),960px); display:grid; grid-template-columns:auto minmax(0,1fr) var(--touch-min); gap:var(--space-2); background:var(--glass); box-shadow:inset 0 0 0 1px var(--glass-edge),var(--shadow-float); backdrop-filter:blur(var(--blur-glass)); }
+ .dl-app .topnav-wrap { grid-column:2; }
+ .dl-app .account-menu { grid-column:3; }
+ .dl-app .topnav { justify-content:center; background:transparent; box-shadow:none; backdrop-filter:none; }
+ .dl-app .topnav a { min-width:var(--touch-min); padding-inline:var(--space-1); }
+ .dl-app .topnav .nav-label { display:inline; }
+}
+@media (min-width:700px) and (max-width:999px) {
+ .dl-app > .topbar { grid-template-columns:minmax(0,1fr) var(--touch-min); }
+ .dl-app .topnav-wrap { grid-column:1; }
+ .dl-app .account-menu { grid-column:2; }
+ .dl-app .topbar .brand { display:none; }
+}
+@media (min-width:1000px) { .dl-app .topbar .brand { display:flex; } }
+@media (max-width:699px) {
+ .dl-app .account-menu { position:relative; top:auto; right:auto; order:1; }
+}
+@media (prefers-reduced-motion:reduce) { .dl-app .agent-panel { animation:none; } }
+@media (max-width:699px) { .dl-app .topnav a svg { width:24px; height:24px; } }

@@ -1,0 +1,330 @@
+; Backend boundary contracts. Run: venv/Scripts/lint-imports
+; Also enforced by test/test_architecture_boundaries.py in the normal suite.
+; There are no exceptions: every contract holds for the whole application.
+
+[importlinter]
+root_package = app
+include_external_packages = True
+; Type-only back-edges (if TYPE_CHECKING) are allowed by the module DAG; runtime imports are not.
+exclude_type_checking_imports = True
+
+; --- Technical packages -----------------------------------------------------------
+
+[importlinter:contract:platform-knows-no-business]
+name = Platform never imports business modules, kernel or composition
+type = forbidden
+source_modules =
+    app.platform
+forbidden_modules =
+    app.modules
+    app.kernel
+    app.bootstrap
+
+[importlinter:contract:kernel-is-a-leaf]
+name = Shared kernel imports nothing from the application
+type = forbidden
+source_modules =
+    app.kernel
+forbidden_modules =
+    app.modules
+    app.platform
+    app.bootstrap
+
+[importlinter:contract:only-entrypoints-import-bootstrap]
+name = Only module api/worker entrypoints import bootstrap
+type = forbidden
+source_modules =
+    app.platform
+    app.kernel
+    app.modules.*.domain
+    app.modules.*.application
+    app.modules.*.infrastructure
+    app.modules.*.contracts
+forbidden_modules =
+    app.bootstrap
+allow_indirect_imports = true
+
+; --- Layers inside every module --------------------------------------------------
+
+[importlinter:contract:module-layers]
+name = Module layers: api | worker | infrastructure -> application -> domain
+type = layers
+containers =
+    app.modules.activity
+    app.modules.content
+    app.modules.identity
+    app.modules.learner
+    app.modules.learning
+    app.modules.review
+    app.modules.practice
+    app.modules.progress
+layers =
+    (api) | (worker) | (infrastructure)
+    (application)
+    (domain)
+exhaustive = true
+exhaustive_ignores =
+    contracts
+; By design, entrypoints reach infrastructure only through the composition root.
+ignore_imports =
+    app.modules.*.api.** -> app.bootstrap.wiring.**
+    app.modules.*.worker.** -> app.bootstrap.wiring.**
+unmatched_ignore_imports_alerting = none
+
+[importlinter:contract:domain-purity]
+name = Domain imports no frameworks, vendors, platform or composition
+type = forbidden
+source_modules =
+    app.modules.*.domain
+forbidden_modules =
+    fastapi
+    starlette
+    supabase
+    httpx
+    requests
+    openai
+    celery
+    billiard
+    redis
+    fsrs
+    jwt
+    google
+    youtube_transcript_api
+    app.platform
+    app.bootstrap
+allow_indirect_imports = true
+
+[importlinter:contract:application-purity]
+name = Application imports no frameworks, vendor SDKs, settings or composition
+type = forbidden
+source_modules =
+    app.modules.*.application
+forbidden_modules =
+    fastapi
+    starlette
+    supabase
+    httpx
+    requests
+    openai
+    celery
+    billiard
+    redis
+    fsrs
+    jwt
+    google
+    youtube_transcript_api
+    app.platform.config
+    app.platform.supabase
+    app.platform.celery
+    app.platform.llm.openai_compatible
+    app.bootstrap
+allow_indirect_imports = true
+
+[importlinter:contract:contracts-are-thin]
+name = Module contracts expose only their own domain/application
+type = forbidden
+source_modules =
+    app.modules.*.contracts
+forbidden_modules =
+    app.modules.*.infrastructure
+    app.modules.*.api
+    app.modules.*.worker
+    app.platform
+    app.bootstrap
+allow_indirect_imports = true
+
+; --- Module privacy: other code uses only contracts (and bootstrap wires internals) ---
+
+[importlinter:contract:identity-private]
+name = identity internals are private (public: contracts; api.dependencies for API layers)
+type = protected
+protected_modules =
+    app.modules.identity.domain
+    app.modules.identity.application
+    app.modules.identity.infrastructure
+allowed_importers =
+    app.modules.identity
+    app.bootstrap
+
+[importlinter:contract:identity-http-auth-surface]
+name = identity HTTP auth dependencies are used only by API layers
+type = protected
+protected_modules =
+    app.modules.identity.api
+allowed_importers =
+    app.modules.identity
+    app.modules.*.api
+    app.bootstrap
+
+[importlinter:contract:content-private]
+name = content internals are private (public: contracts)
+type = protected
+protected_modules =
+    app.modules.content.domain
+    app.modules.content.application
+    app.modules.content.infrastructure
+    app.modules.content.api
+    app.modules.content.worker
+allowed_importers =
+    app.modules.content
+    app.bootstrap
+
+[importlinter:contract:learner-private]
+name = learner internals are private (public: contracts)
+type = protected
+protected_modules =
+    app.modules.learner.domain
+    app.modules.learner.application
+    app.modules.learner.infrastructure
+    app.modules.learner.api
+allowed_importers =
+    app.modules.learner
+    app.bootstrap
+
+[importlinter:contract:activity-private]
+name = activity internals are private (public: contracts)
+type = protected
+protected_modules =
+    app.modules.activity.domain
+    app.modules.activity.application
+    app.modules.activity.infrastructure
+    app.modules.activity.api
+allowed_importers =
+    app.modules.activity
+    app.bootstrap
+
+[importlinter:contract:learning-private]
+name = learning internals are private (public: contracts)
+type = protected
+protected_modules =
+    app.modules.learning.domain
+    app.modules.learning.application
+    app.modules.learning.infrastructure
+    app.modules.learning.api
+allowed_importers =
+    app.modules.learning
+    app.bootstrap
+
+[importlinter:contract:review-private]
+name = review internals are private (public: contracts)
+type = protected
+protected_modules =
+    app.modules.review.domain
+    app.modules.review.application
+    app.modules.review.infrastructure
+allowed_importers =
+    app.modules.review
+    app.bootstrap
+
+[importlinter:contract:practice-private]
+name = practice internals are private (public: contracts)
+type = protected
+protected_modules =
+    app.modules.practice.domain
+    app.modules.practice.application
+    app.modules.practice.infrastructure
+    app.modules.practice.api
+allowed_importers =
+    app.modules.practice
+    app.bootstrap
+
+[importlinter:contract:progress-private]
+name = progress internals are private (public: contracts)
+type = protected
+protected_modules =
+    app.modules.progress.domain
+    app.modules.progress.application
+    app.modules.progress.infrastructure
+    app.modules.progress.api
+allowed_importers =
+    app.modules.progress
+    app.bootstrap
+
+; --- Module DAG for published values ------------------------------
+; identity, kernel -> activity -> content -> learner -> learning -> review -> practice -> progress.
+; A module's domain and contracts never import (directly or transitively, at
+; runtime) a module above it.
+
+[importlinter:contract:dag-identity]
+name = DAG: identity values depend on no business module
+type = forbidden
+source_modules =
+    app.modules.identity.domain
+    app.modules.identity.contracts
+forbidden_modules =
+    app.modules.activity
+    app.modules.content
+    app.modules.learner
+    app.modules.learning
+    app.modules.review
+    app.modules.practice
+    app.modules.progress
+
+[importlinter:contract:dag-activity]
+name = DAG: activity values depend on no business module
+type = forbidden
+source_modules =
+    app.modules.activity.domain
+    app.modules.activity.contracts
+forbidden_modules =
+    app.modules.content
+    app.modules.learner
+    app.modules.learning
+    app.modules.review
+    app.modules.practice
+    app.modules.progress
+
+[importlinter:contract:dag-content]
+name = DAG: content values never depend on learner/learning/review
+type = forbidden
+source_modules =
+    app.modules.content.domain
+    app.modules.content.contracts
+forbidden_modules =
+    app.modules.learner
+    app.modules.learning
+    app.modules.review
+    app.modules.practice
+    app.modules.progress
+
+[importlinter:contract:dag-learner]
+name = DAG: learner values never depend on learning/review
+type = forbidden
+source_modules =
+    app.modules.learner.domain
+    app.modules.learner.contracts
+forbidden_modules =
+    app.modules.learning
+    app.modules.review
+    app.modules.practice
+    app.modules.progress
+
+[importlinter:contract:dag-learning]
+name = DAG: learning values never depend on review
+type = forbidden
+source_modules =
+    app.modules.learning.domain
+    app.modules.learning.contracts
+forbidden_modules =
+    app.modules.review
+    app.modules.practice
+    app.modules.progress
+
+[importlinter:contract:dag-review]
+name = DAG: review values never depend on practice
+type = forbidden
+source_modules =
+    app.modules.review.domain
+    app.modules.review.contracts
+forbidden_modules =
+    app.modules.practice
+    app.modules.progress
+
+[importlinter:contract:dag-practice]
+name = DAG: practice values never depend on progress
+type = forbidden
+source_modules =
+    app.modules.practice.domain
+    app.modules.practice.contracts
+forbidden_modules =
+    app.modules.progress

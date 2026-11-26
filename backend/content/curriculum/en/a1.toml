@@ -1,0 +1,536 @@
+# DRAFT (2026-10-15, extended 2026-11-07): drafted by the AI, awaiting the owner's review.
+# Grammar items come from the CEFR-J Grammar Profile 20180315 (Tono Laboratory, TUFS; used with
+# citation); explanations and examples are written by DeepLingo. Word senses come from the dictionary data.
+format = "deeplingo-curriculum-v1"
+language = "en"
+framework = "CEFR"
+level = "A1"
+version = 1
+title = "Tiếng Anh A1: Người mới bắt đầu"
+
+# --- Grammar -------------------------------------------------------------------------------
+
+[[grammar]]
+key = "en.be_present"
+title = "Động từ to be: am / is / are"
+pattern = "I am … / You are … / He/She is …"
+forms = ["am", "is", "are", "'m", "'re", "'s"]
+explanation = "To be nghĩa là \"là\" hoặc \"ở\". Dùng am với I, is với he, she, it và một người hay vật, are với you, we, they. Khi nói thường rút gọn: I'm, you're, she's."
+examples = [
+  { text = "I am Lan.", translation = "Tôi là Lan." },
+  { text = "She is my friend.", translation = "Cô ấy là bạn của tôi." },
+  { text = "We are happy.", translation = "Chúng tôi vui." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "58"
+
+[[grammar]]
+key = "en.possessive_adjectives"
+title = "Từ chỉ sở hữu: my, your, his, her"
+pattern = "my / your / his / her / our / their + danh từ"
+forms = ["my", "your", "his", "her", "its", "our", "their"]
+explanation = "Đặt trước danh từ để nói vật hay người đó thuộc về ai: my (của tôi), your (của bạn), his (của anh ấy), her (của cô ấy). Không thêm \"the\" phía trước."
+examples = [
+  { text = "My name is Minh.", translation = "Tên tôi là Minh." },
+  { text = "What is your name?", translation = "Tên bạn là gì?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "6"
+
+[[grammar]]
+key = "en.where_question"
+title = "Hỏi nơi chốn với Where"
+pattern = "Where + be/do + chủ ngữ …?"
+forms = ["where"]
+explanation = "Where nghĩa là \"ở đâu\". Đặt Where ở đầu câu, rồi đến be hoặc do, rồi chủ ngữ. Câu hỏi quen thuộc nhất là Where are you from? (Bạn đến từ đâu?)."
+examples = [
+  { text = "Where are you from?", translation = "Bạn đến từ đâu?" },
+  { text = "Where do you live?", translation = "Bạn sống ở đâu?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "245"
+
+[[grammar]]
+key = "en.be_questions"
+title = "Câu hỏi có/không với to be"
+pattern = "Am I / Are you / Is he … ?"
+forms = ["am", "is", "are"]
+explanation = "Muốn hỏi có/không, đưa am, is, are lên trước chủ ngữ. Trả lời ngắn: Yes, I am. / No, I'm not."
+examples = [
+  { text = "Are you a student?", translation = "Bạn là học sinh phải không?" },
+  { text = "Is she from Hanoi?", translation = "Cô ấy đến từ Hà Nội phải không?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "58-2"
+
+[[grammar]]
+key = "en.this_that"
+title = "This is / That is"
+pattern = "This is … / That is …"
+forms = ["this", "that"]
+explanation = "This dùng cho người hoặc vật ở gần, that cho người hoặc vật ở xa. This is … rất hay dùng để giới thiệu người khác."
+examples = [
+  { text = "This is my mother.", translation = "Đây là mẹ tôi." },
+  { text = "That is my house.", translation = "Kia là nhà tôi." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "8"
+
+[[grammar]]
+key = "en.articles_a_an"
+title = "Mạo từ a / an"
+pattern = "a + phụ âm / an + nguyên âm"
+forms = ["a", "an"]
+explanation = "A hoặc an đứng trước một danh từ số ít đếm được, nghĩa là \"một\". Dùng an khi từ sau bắt đầu bằng âm nguyên âm (a, e, i, o, u): an apple, an hour."
+examples = [
+  { text = "I have a brother.", translation = "Tôi có một anh trai." },
+  { text = "She is an only child.", translation = "Cô ấy là con một." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "13"
+
+[[grammar]]
+key = "en.how_old"
+title = "Hỏi tuổi với How old"
+pattern = "How old + be + chủ ngữ? — chủ ngữ + be + số (years old)."
+forms = ["how old"]
+explanation = "How old nghĩa là \"bao nhiêu tuổi\". Trả lời bằng số tuổi, có thể thêm years old ở cuối."
+examples = [
+  { text = "How old are you?", translation = "Bạn bao nhiêu tuổi?" },
+  { text = "I am twenty years old.", translation = "Tôi hai mươi tuổi." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "247"
+
+[[grammar]]
+key = "en.present_simple"
+title = "Thì hiện tại đơn: việc thường làm"
+pattern = "I/You/We/They + động từ nguyên mẫu"
+explanation = "Dùng để nói thói quen hoặc việc lặp lại hằng ngày. Với I, you, we, they giữ nguyên động từ: I work, they eat."
+examples = [
+  { text = "I get up at six.", translation = "Tôi dậy lúc sáu giờ." },
+  { text = "We eat breakfast at home.", translation = "Chúng tôi ăn sáng ở nhà." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "59"
+
+[[grammar]]
+key = "en.frequency_adverbs"
+title = "Trạng từ tần suất: always, usually, sometimes"
+pattern = "chủ ngữ + always/usually/often/sometimes + động từ"
+forms = ["always", "usually", "often", "sometimes", "never"]
+explanation = "Cho biết bạn làm việc gì thường xuyên đến mức nào: always (luôn luôn), usually (thường), often (hay), sometimes (thỉnh thoảng). Đặt trước động từ chính."
+examples = [
+  { text = "I usually go to work early.", translation = "Tôi thường đi làm sớm." },
+  { text = "She sometimes eats lunch late.", translation = "Thỉnh thoảng cô ấy ăn trưa muộn." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "32"
+
+[[grammar]]
+key = "en.do_questions"
+title = "Câu hỏi với Do"
+pattern = "Do + you/they + động từ …? — Yes, I do. / No, I don't."
+forms = ["do", "does"]
+explanation = "Với thì hiện tại đơn, muốn hỏi có/không thì thêm Do ở đầu câu và giữ nguyên động từ. Trả lời ngắn bằng do hoặc don't."
+examples = [
+  { text = "Do you like coffee?", translation = "Bạn có thích cà phê không?" },
+  { text = "Do they eat rice every day?", translation = "Họ có ăn cơm mỗi ngày không?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "59-2"
+
+[[grammar]]
+key = "en.like_ing"
+title = "Like + V-ing: thích làm gì"
+pattern = "like + động từ thêm -ing"
+forms = ["like", "likes"]
+explanation = "Sau like (thích) có thể dùng một danh từ, hoặc một động từ thêm -ing để nói thích làm việc gì."
+examples = [
+  { text = "I like drinking tea.", translation = "Tôi thích uống trà." },
+  { text = "He likes cooking.", translation = "Anh ấy thích nấu ăn." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "112"
+
+[[grammar]]
+key = "en.there_is_are"
+title = "There is / There are"
+pattern = "There is + danh từ số ít / There are + danh từ số nhiều"
+forms = ["there"]
+explanation = "Dùng để nói ở đâu đó \"có\" cái gì. There is cho một thứ, there are cho nhiều thứ."
+examples = [
+  { text = "There is a bed in my room.", translation = "Trong phòng tôi có một cái giường." },
+  { text = "There are two chairs in the kitchen.", translation = "Trong bếp có hai cái ghế." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "146"
+
+[[grammar]]
+key = "en.place_prepositions"
+title = "Giới từ chỉ nơi chốn: in, on, under, next to"
+pattern = "in / on / under / next to + nơi chốn"
+forms = ["in", "on", "under", "next to", "behind", "between"]
+explanation = "In là ở trong, on là ở trên (chạm mặt), under là ở dưới, next to là ở cạnh. Đặt trước danh từ chỉ nơi chốn."
+examples = [
+  { text = "The book is on the table.", translation = "Quyển sách ở trên bàn." },
+  { text = "The garden is next to the house.", translation = "Khu vườn ở cạnh ngôi nhà." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "21"
+
+[[grammar]]
+key = "en.when_question"
+title = "Hỏi thời gian với When / What time"
+pattern = "When/What time + do/does + chủ ngữ + động từ?"
+forms = ["when", "what time"]
+explanation = "When nghĩa là \"khi nào\", What time nghĩa là \"mấy giờ\". Trả lời với at + giờ (at seven) hoặc on + thứ (on Monday)."
+examples = [
+  { text = "What time do you get up?", translation = "Bạn dậy lúc mấy giờ?" },
+  { text = "When is your birthday?", translation = "Sinh nhật bạn khi nào?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "236"
+
+[[grammar]]
+key = "en.present_simple_third_person"
+title = "Hiện tại đơn với he / she: thêm -s"
+pattern = "He/She/It + động từ thêm -s/-es"
+explanation = "Khi chủ ngữ là he, she, it hoặc một người, động từ thêm -s (works, plays) hoặc -es (watches, goes). Đây là lỗi người mới học hay quên."
+examples = [
+  { text = "She works on Monday.", translation = "Cô ấy làm việc vào thứ Hai." },
+  { text = "He watches TV every evening.", translation = "Anh ấy xem tivi mỗi tối." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "60"
+
+[[grammar]]
+key = "en.these_those"
+title = "These / Those"
+pattern = "These are … / Those are …"
+forms = ["these", "those"]
+explanation = "These là số nhiều của this (những cái này, ở gần), those là số nhiều của that (những cái kia, ở xa). Đi với are."
+examples = [
+  { text = "These shoes are expensive.", translation = "Đôi giày này đắt." },
+  { text = "Those shirts are nice.", translation = "Mấy cái áo kia đẹp." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "9"
+
+[[grammar]]
+key = "en.can_i"
+title = "Xin phép, nhờ vả với Can I …?"
+pattern = "Can I + động từ …?"
+forms = ["can i"]
+explanation = "Can I …? dùng để xin phép hoặc nhờ một cách lịch sự, rất hay gặp khi đi mua sắm. Thêm please cho lịch sự hơn."
+examples = [
+  { text = "Can I pay by card?", translation = "Tôi trả bằng thẻ được không?" },
+  { text = "Can I see that dress, please?", translation = "Cho tôi xem chiếc váy kia được không?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "253"
+
+[[grammar]]
+key = "en.can_ability"
+title = "Can: có thể, biết làm gì"
+pattern = "chủ ngữ + can / can't + động từ nguyên mẫu"
+forms = ["can", "can't", "cannot"]
+explanation = "Can nói về khả năng: biết hoặc có thể làm gì. Động từ sau can giữ nguyên, không thêm -s. Phủ định là can't."
+examples = [
+  { text = "I can swim.", translation = "Tôi biết bơi." },
+  { text = "She can't play football.", translation = "Cô ấy không biết đá bóng." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "123"
+
+[[grammar]]
+key = "en.lets"
+title = "Let's: rủ cùng làm"
+pattern = "Let's + động từ nguyên mẫu"
+forms = ["let's", "let us"]
+explanation = "Let's (= let us) dùng để rủ người khác cùng làm một việc, giống \"Mình cùng … nhé\"."
+examples = [
+  { text = "Let's watch a film.", translation = "Mình cùng xem phim nhé." },
+  { text = "Let's play football this weekend.", translation = "Cuối tuần này mình đá bóng nhé." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "120"
+
+[[grammar]]
+key = "en.object_pronouns"
+title = "Đại từ tân ngữ: me, him, her, us, them"
+pattern = "động từ/giới từ + me / you / him / her / it / us / them"
+forms = ["me", "him", "her", "us", "them"]
+explanation = "Sau động từ hoặc giới từ, dùng me, him, her, us, them thay cho I, he, she, we, they: She likes me (không nói She likes I)."
+examples = [
+  { text = "Can you help me?", translation = "Bạn giúp tôi được không?" },
+  { text = "I see them every day.", translation = "Ngày nào tôi cũng gặp họ." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "7"
+
+[[grammar]]
+key = "en.present_progressive"
+title = "Thì hiện tại tiếp diễn: đang làm gì"
+pattern = "am/is/are + động từ -ing"
+forms = ["am", "is", "are", "'m", "'re", "'s"]
+explanation = "Dùng để nói việc đang diễn ra ngay lúc nói: I am cooking (tôi đang nấu ăn). Hỏi thì đưa am, is, are lên trước: What are you doing?"
+examples = [
+  { text = "I'm watching TV now.", translation = "Bây giờ tôi đang xem TV." },
+  { text = "What are you doing?", translation = "Bạn đang làm gì vậy?" },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "61"
+
+[[grammar]]
+key = "en.comparative_er"
+title = "So sánh hơn với -er: bigger, older"
+pattern = "tính từ ngắn + -er + than"
+forms = ["than"]
+explanation = "Với tính từ ngắn, thêm -er để nói \"hơn\", rồi dùng than trước vật được so sánh: My brother is taller than me. Một số từ đặc biệt: good → better, bad → worse."
+examples = [
+  { text = "My brother is taller than me.", translation = "Anh tôi cao hơn tôi." },
+  { text = "Today is colder than yesterday.", translation = "Hôm nay lạnh hơn hôm qua." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "38"
+
+[[grammar]]
+key = "en.superlative_est"
+title = "So sánh nhất với -est: the biggest"
+pattern = "the + tính từ ngắn + -est"
+forms = ["the"]
+explanation = "Với tính từ ngắn, nói \"nhất\" bằng the + tính từ thêm -est: the tallest (cao nhất). Từ đặc biệt: good → the best, bad → the worst."
+examples = [
+  { text = "She is the youngest in my family.", translation = "Cô ấy nhỏ tuổi nhất nhà tôi." },
+  { text = "This is the best cake in town.", translation = "Đây là cái bánh ngon nhất thị trấn." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "40"
+
+[[grammar]]
+key = "en.what_why_how"
+title = "Câu hỏi với What, Why, How"
+pattern = "What / Why / How + be/do + chủ ngữ …?"
+forms = ["what", "why", "how"]
+explanation = "What hỏi cái gì, Why hỏi tại sao (trả lời bằng Because …), How hỏi thế nào. Đặt từ hỏi ở đầu câu, rồi đến be hoặc do, rồi chủ ngữ."
+examples = [
+  { text = "What is your phone number?", translation = "Số điện thoại của bạn là gì?" },
+  { text = "Why are you sad? — Because I'm tired.", translation = "Sao bạn buồn? — Vì tôi mệt." },
+]
+source = "cefrj-grammar-profile-20180315"
+source_ref = "239"
+
+# --- Units ---------------------------------------------------------------------------------
+
+[[units]]
+key = "en.a1.u01-greetings"
+title = "Chào hỏi và giới thiệu"
+topic = "Greetings and introducing yourself"
+can_do = ["Chào hỏi, cảm ơn và xin lỗi đơn giản.", "Nói tên mình và hỏi tên người khác."]
+grammar = ["en.be_present", "en.possessive_adjectives"]
+words = [
+  { headword = "hello", sense_id = "enwikt:a996d9e78ade314d", gloss = "A greeting (salutation)" },
+  { headword = "goodbye", sense_id = "enwikt:e938a8df7742ace8", gloss = "Farewell" },
+  { headword = "name", sense_id = "enwikt:e3a68981a9ccfde5", gloss = "Any nounal word or phrase" },
+  { headword = "nice", sense_id = "enwikt:41501ba86b8f428c", gloss = "Pleasant, satisfactory" },
+  { headword = "meet", sense_id = "enwikt:93c5a8af976f7895", gloss = "To get acquainted with someone" },
+  { headword = "thank", sense_id = "enwikt:0319fd043805561f", gloss = "To express appreciation" },
+  { headword = "please", sense_id = "enwikt:116c0433283d3993", gloss = "Used to make a polite request" },
+  { headword = "yes", sense_id = "enwikt:b50a32842cfcdc94", gloss = "Used to show agreement" },
+  { headword = "sorry", sense_id = "enwikt:e0e0131e3b03a7ce", gloss = "Regretful or apologetic" },
+  { headword = "morning", sense_id = "enwikt:8b224fa20cceb9f4", gloss = "The early part of the day" },
+]
+
+[[units]]
+key = "en.a1.u02-where-from"
+title = "Bạn đến từ đâu?"
+topic = "Countries, cities and where you live"
+can_do = ["Nói mình đến từ đâu và sống ở đâu.", "Hỏi người khác đến từ đâu."]
+grammar = ["en.where_question", "en.be_questions"]
+words = [
+  { headword = "country", sense_id = "enwikt:a93a8c6a21c66f2c", gloss = "The territory of a nation" },
+  { headword = "city", sense_id = "enwikt:794fc3aa307eb3b6", gloss = "A large settlement" },
+  { headword = "live", sense_id = "enwikt:1ac282e15d29c048", gloss = "To have permanent residence" },
+  { headword = "speak", sense_id = "enwikt:9cff746f62517c08", gloss = "To be able to communicate in a language" },
+  { headword = "language", sense_id = "enwikt:eda1416739d3134a", gloss = "A body of words" },
+  { headword = "from", sense_id = "enwikt:84d607ffea28b630", gloss = "Used to indicate source or provenance" },
+  { headword = "where", sense_id = "enwikt:ddcb883d8d15babc", gloss = "In, at or to what place" },
+  { headword = "people", sense_id = "enwikt:73debcbd702c832d", gloss = "Persons forming or belonging" },
+  { headword = "world", sense_id = "enwikt:49cb290671ae2e9d", gloss = "The Earth" },
+]
+
+[[units]]
+key = "en.a1.u03-family"
+title = "Gia đình tôi"
+topic = "Family members"
+can_do = ["Giới thiệu các thành viên trong gia đình.", "Nói mình có anh chị em hay không."]
+grammar = ["en.this_that", "en.articles_a_an"]
+words = [
+  { headword = "family", sense_id = "enwikt:8fb6390f3ed4a4f0", gloss = "A group of people who are closely related" },
+  { headword = "mother", sense_id = "enwikt:72ca9aff3315b61f", gloss = "A female parent" },
+  { headword = "father", sense_id = "enwikt:d939d959f57f3c4a", gloss = "A male parent" },
+  { headword = "brother", sense_id = "enwikt:fd0792925dc0dd2e", gloss = "Son of the same parents" },
+  { headword = "sister", sense_id = "enwikt:9540046e2afb7d53", gloss = "A daughter of the same parents" },
+  { headword = "son", sense_id = "enwikt:b69ddf779a3a79a3", gloss = "One's male offspring" },
+  { headword = "daughter", sense_id = "enwikt:fcf01cd00bbde618", gloss = "One’s female offspring" },
+  { headword = "child", sense_id = "enwikt:20cc4b456aba256c", gloss = "A person who has not yet reached adulthood" },
+  { headword = "husband", sense_id = "enwikt:de3bfd31d5871006", gloss = "A man in a marriage" },
+  { headword = "wife", sense_id = "enwikt:2450d507057dc22a", gloss = "A married woman" },
+]
+
+[[units]]
+key = "en.a1.u04-numbers-age"
+title = "Số đếm và tuổi"
+topic = "Numbers, age and birthdays"
+can_do = ["Đếm và nói số nhỏ.", "Hỏi và nói tuổi."]
+grammar = ["en.how_old", "en.what_why_how"]
+words = [
+  { headword = "one", sense_id = "enwikt:846131778134de26", gloss = "The number represented by the Arabic numeral 1" },
+  { headword = "two", sense_id = "enwikt:25604d10370c6b32", gloss = "A numerical value equal to 2" },
+  { headword = "three", sense_id = "enwikt:21d59f99ac49ee20", gloss = "A numerical value equal to 3" },
+  { headword = "ten", sense_id = "enwikt:b7cd853999740630", gloss = "The number occurring after nine" },
+  { headword = "twenty", sense_id = "enwikt:b4d62264e7689d22", gloss = "The cardinal number 20" },
+  { headword = "old", sense_id = "enwikt:d74855a85af13316", gloss = "Of a living being" },
+  { headword = "young", sense_id = "enwikt:dbc35ab2d3b01c27", gloss = "In the early part of growth or life" },
+  { headword = "year", sense_id = "enwikt:de880cfb88d99b3e", gloss = "A period of time" },
+  { headword = "birthday", sense_id = "enwikt:6a990e4f64ab5d57", gloss = "The anniversary of the day" },
+]
+
+[[units]]
+key = "en.a1.u05-daily-routine"
+title = "Một ngày của tôi"
+topic = "Daily routine"
+can_do = ["Kể những việc mình làm mỗi ngày.", "Nói mình làm việc gì thường xuyên đến mức nào."]
+grammar = ["en.present_simple", "en.frequency_adverbs"]
+words = [
+  { headword = "get up", sense_id = "enwikt:fd82349ea140df71", gloss = "To rise from one's bed" },
+  { headword = "breakfast", sense_id = "enwikt:5e698dd34520c6fa", gloss = "The first meal of the day" },
+  { headword = "lunch", sense_id = "enwikt:4dda7cc55a7ab486", gloss = "A light meal usually eaten around midday" },
+  { headword = "dinner", sense_id = "enwikt:c07b68cd012b685a", gloss = "The main meal of the day" },
+  { headword = "work", sense_id = "enwikt:9ea237fcfe80fdbd", gloss = "To do a specific task" },
+  { headword = "school", sense_id = "enwikt:13e7bc6f02e80108", gloss = "An institution dedicated to teaching" },
+  { headword = "early", sense_id = "enwikt:2db80e33d4de78be", gloss = "At a time in advance" },
+  { headword = "late", sense_id = "enwikt:590942b0de53ca1a", gloss = "Not arriving or occurring until after" },
+  { headword = "day", sense_id = "enwikt:81f5fc8c3465d587", gloss = "A period of time equal or almost equal to a full day-night cycle" },
+  { headword = "every", sense_id = "enwikt:d9e3add72c55c03f", gloss = "All of a countable group" },
+]
+
+[[units]]
+key = "en.a1.u06-food-drink"
+title = "Đồ ăn và thức uống"
+topic = "Food and drink you like"
+can_do = ["Nói mình thích và không thích ăn uống gì.", "Hỏi người khác có thích món gì không."]
+grammar = ["en.do_questions", "en.like_ing"]
+words = [
+  { headword = "food", sense_id = "enwikt:f8dac791354e2996", gloss = "Any solid substance" },
+  { headword = "eat", sense_id = "enwikt:06ad407f4f761b52", gloss = "To consume (something solid" },
+  { headword = "drink", sense_id = "enwikt:90c91589f3e27749", gloss = "To consume (a liquid)" },
+  { headword = "water", sense_id = "enwikt:62950ca8cd60932e", gloss = "The liquid form of this substance" },
+  { headword = "rice", sense_id = "enwikt:3d6911c99f5f7c44", gloss = "The seeds of this plant used as food" },
+  { headword = "coffee", sense_id = "enwikt:203570e2e80401c6", gloss = "A beverage made by infusing the beans" },
+  { headword = "tea", sense_id = "enwikt:03fe18c506b35a65", gloss = "The drink made by infusing" },
+  { headword = "bread", sense_id = "enwikt:50023836ede8a8a9", gloss = "A foodstuff made by baking dough" },
+  { headword = "hungry", sense_id = "enwikt:3efcb4fb2a76cc97", gloss = "Affected by hunger" },
+  { headword = "like", sense_id = "enwikt:a6152d01a29d06c8", gloss = "To enjoy, be pleased by" },
+]
+
+[[units]]
+key = "en.a1.u07-home"
+title = "Nhà của tôi"
+topic = "Rooms and things at home"
+can_do = ["Kể trong nhà có những phòng và đồ vật gì.", "Nói đồ vật ở đâu."]
+grammar = ["en.there_is_are", "en.place_prepositions"]
+words = [
+  { headword = "house", sense_id = "enwikt:0dac0efdae470144", gloss = "A structure built or serving as an abode" },
+  { headword = "room", sense_id = "enwikt:d922ab918ef5f0c1", gloss = "A separate part of a building" },
+  { headword = "kitchen", sense_id = "enwikt:454531557320df24", gloss = "A room or area for preparing food" },
+  { headword = "bedroom", sense_id = "enwikt:3410c31614d753e8", gloss = "A room in a house" },
+  { headword = "bed", sense_id = "enwikt:23dad33e9a47efe1", gloss = "A piece of furniture" },
+  { headword = "table", sense_id = "enwikt:e567f9e31977b7a8", gloss = "An item of furniture with a flat top" },
+  { headword = "chair", sense_id = "enwikt:fd6b1018a5caf244", gloss = "An item of furniture used to sit on" },
+  { headword = "door", sense_id = "enwikt:e0727881c9a50363", gloss = "A portal of entry" },
+  { headword = "window", sense_id = "enwikt:82acb85f649f4bdd", gloss = "An opening, usually covered" },
+  { headword = "garden", sense_id = "enwikt:d1cbb4487bf8cc2a", gloss = "An outdoor area containing" },
+]
+
+[[units]]
+key = "en.a1.u08-time-days"
+title = "Thời gian và các ngày trong tuần"
+topic = "Telling the time and days of the week"
+can_do = ["Hỏi và nói giờ, nói các ngày trong tuần.", "Kể ai đó làm gì vào ngày nào."]
+grammar = ["en.when_question", "en.present_simple_third_person"]
+words = [
+  { headword = "today", sense_id = "enwikt:1019396b503a0e07", gloss = "On the current day" },
+  { headword = "tomorrow", sense_id = "enwikt:793a693858fca663", gloss = "On the day after the present day" },
+  { headword = "yesterday", sense_id = "enwikt:c6aaeb9343f194cd", gloss = "On the day before today" },
+  { headword = "week", sense_id = "enwikt:c6b4aea64149da6b", gloss = "Any period of seven consecutive days" },
+  { headword = "Monday", sense_id = "enwikt:ae0da15d85ba8669", gloss = "The second day of the week" },
+  { headword = "Sunday", sense_id = "enwikt:7c20d1511d858b65", gloss = "The first day of the week" },
+  { headword = "hour", sense_id = "enwikt:a4f8a9b3f8787e66", gloss = "A unit of time of one twenty-fourth of a day" },
+  { headword = "minute", sense_id = "enwikt:fb77c205c3a672c9", gloss = "A unit of time which is one sixtieth" },
+  { headword = "clock", sense_id = "enwikt:228d681dcece3c68", gloss = "A chronometer" },
+  { headword = "time", sense_id = "enwikt:388333d123e70fea", gloss = "A particular moment or hour" },
+]
+
+[[units]]
+key = "en.a1.u09-shopping"
+title = "Đi mua sắm"
+topic = "Shopping for clothes"
+can_do = ["Hỏi giá và nói món đồ đắt hay rẻ.", "Nhờ xem hoặc mua một món đồ một cách lịch sự."]
+grammar = ["en.these_those", "en.can_i"]
+words = [
+  { headword = "buy", sense_id = "enwikt:406ede193823bcb5", gloss = "To obtain (something) in exchange for money" },
+  { headword = "shop", sense_id = "enwikt:5bff180f903a2042", gloss = "An establishment that sells goods" },
+  { headword = "money", sense_id = "enwikt:0ccf6e9d32d9d2cd", gloss = "A generally accepted means of exchange" },
+  { headword = "expensive", sense_id = "enwikt:417c61438ead49a5", gloss = "Having a high price or cost" },
+  { headword = "price", sense_id = "enwikt:fa09799225358d2a", gloss = "The cost required to gain possession" },
+  { headword = "pay", sense_id = "enwikt:48b1d054e234bce2", gloss = "To give money" },
+  { headword = "shirt", sense_id = "enwikt:99a9f58fe4027ef6", gloss = "An article of clothing" },
+  { headword = "shoe", sense_id = "enwikt:2858415e6707562b", gloss = "A protective covering for the foot" },
+  { headword = "dress", sense_id = "enwikt:ad8fd800e2c2584a", gloss = "An item of clothing" },
+]
+
+[[units]]
+key = "en.a1.u10-free-time"
+title = "Thời gian rảnh"
+topic = "Hobbies and free time"
+can_do = ["Kể sở thích và những việc mình biết làm.", "Rủ bạn cùng làm một việc vào cuối tuần."]
+grammar = ["en.can_ability", "en.lets"]
+words = [
+  { headword = "play", sense_id = "enwikt:dfc9db88cf86666c", gloss = "To perform in (a sport)" },
+  { headword = "music", sense_id = "enwikt:3a422946c93e3834", gloss = "A series of sounds organized in time" },
+  { headword = "sport", sense_id = "enwikt:f62b2e0daff3e42a", gloss = "Any activity that uses physical exertion" },
+  { headword = "football", sense_id = "enwikt:2c95b6aca96e3803", gloss = "A sport played on foot" },
+  { headword = "read", sense_id = "enwikt:f70e51ed414e5b93", gloss = "To look at and interpret letters" },
+  { headword = "book", sense_id = "enwikt:f2f8aeaacfab646f", gloss = "A collection of sheets of paper" },
+  { headword = "watch", sense_id = "enwikt:b7cdca394411d9e7", gloss = "To look at, see, or view" },
+  { headword = "swim", sense_id = "enwikt:f50338ed45ef43f8", gloss = "To move through the water" },
+  { headword = "weekend", sense_id = "enwikt:56dd5acfb2d8877a", gloss = "The break in the working week" },
+]
+
+[[units]]
+key = "en.a1.u11-right-now"
+title = "Bây giờ đang làm gì?"
+topic = "What people are doing now"
+can_do = ["Nói mình và người khác đang làm gì.", "Nói về người khác bằng me, him, her, them."]
+grammar = ["en.present_progressive", "en.object_pronouns"]
+words = [
+  { headword = "now", sense_id = "enwikt:9e09422791a095d0", gloss = "At the present time." },
+  { headword = "cook", sense_id = "enwikt:e5ec95d9228ccfd3", gloss = "To prepare food for eating, typically by heating it" },
+  { headword = "call", sense_id = "enwikt:0db263aa0a3e08d4", gloss = "To contact by telephone." },
+  { headword = "listen", sense_id = "enwikt:5596a48bce3489c1", gloss = "To use one's sense of hearing and auditory cognition in an" },
+]
+
+[[units]]
+key = "en.a1.u12-comparing"
+title = "Ai cao hơn?"
+topic = "Comparing people and things"
+can_do = ["So sánh hai người hoặc hai vật.", "Nói ai, cái gì là nhất."]
+grammar = ["en.comparative_er", "en.superlative_est"]
+words = [
+  { headword = "tall", sense_id = "enwikt:021c7ff4afca2263", gloss = "Having great vertical extent (usually reckoned from the" },
+  { headword = "big", sense_id = "enwikt:9d9ca81aeaac44bc", gloss = "Of great size, large." },
+  { headword = "small", sense_id = "enwikt:4bf1699a48b767ba", gloss = "Not large or big; insignificant; few in number." },
+  { headword = "fast", sense_id = "enwikt:28836a9676ab4cd5", gloss = "Moving with great speed, or capable of doing so; swift" },
+]
